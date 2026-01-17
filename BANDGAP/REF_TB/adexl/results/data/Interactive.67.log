@@ -1,0 +1,28 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jan 15 12:55:35 2026 
+Best design point: 1
+Design specs: 
+	BANDGAP:REF_TB:1	corner	Nominal - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.4m
+	V550		549.8m
+	I4X		-127.7n
+	I1X		-31.95n
+Design parameters: 
+	CL2		3p
+	VREF_PULSE		0
+	CL		150f
+	IBIAS		200n
+	UNIT_RES		20K
+	VDD		1.2
+	VDD_PULSE		0
+	PD		0
+	PD_PULSE		1.2
+
+Interactive.67
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.67 completed. 
+Current time: Thu Jan 15 12:55:38 2026 

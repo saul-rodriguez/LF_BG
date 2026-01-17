@@ -1,0 +1,21 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Nov  1 20:34:20 2025 
+Best design point: 1
+Design specs: 
+	COR	corner	MOS_BJT_0 - 
+	COR	corner	MOS_BJT_1 - 
+	COR	corner	MOS_BJT_2 - 
+	COR	corner	MOS_BJT_3 - 
+	COR	corner	MOS_BJT_4 - 
+	COR	corner	MOS_BJT_5 - 
+	COR	corner	MOS_BJT_6 - 
+	COR	corner	MOS_BJT_7 - 
+	COR	corner	Nominal - 
+Design parameters: 
+
+Interactive.58
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.58 completed. 
+Current time: Sat Nov  1 20:34:44 2025 

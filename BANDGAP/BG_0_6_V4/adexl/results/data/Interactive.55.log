@@ -1,0 +1,29 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Nov  1 20:25:29 2025 
+Best design point: 1
+Design specs: 
+	COR	corner	MOS_BJT_RES_0 - 
+	COR	corner	MOS_BJT_RES_1 - 
+	COR	corner	MOS_BJT_RES_2 - 
+	COR	corner	MOS_BJT_RES_3 - 
+	COR	corner	MOS_BJT_RES_4 - 
+	COR	corner	MOS_BJT_RES_5 - 
+	COR	corner	MOS_BJT_RES_6 - 
+	COR	corner	MOS_BJT_RES_7 - 
+	COR	corner	MOS_BJT_RES_8 - 
+	COR	corner	MOS_BJT_RES_9 - 
+	COR	corner	MOS_BJT_RES_10 - 
+	COR	corner	MOS_BJT_RES_11 - 
+	COR	corner	MOS_BJT_RES_12 - 
+	COR	corner	MOS_BJT_RES_13 - 
+	COR	corner	MOS_BJT_RES_14 - 
+	COR	corner	MOS_BJT_RES_15 - 
+	COR	corner	Nominal - 
+Design parameters: 
+
+Interactive.55
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.55 completed. 
+Current time: Sat Nov  1 20:26:05 2025 

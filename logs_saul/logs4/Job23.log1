@@ -1,0 +1,101 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = BANDGAP
+	Cell         = REF_GEN_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = OP_none_Interactive.14
+	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14.rdb
+	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP
+	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
+	Project Dir  = /home/saul/simulation
+	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (18 1) on testbench [ OP ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var CL = "150f"
+Setting var CL2 = "3p"
+Setting var CONF_BG_SL_TRIM = "3"
+Setting var CONF_BG_TRIM = "5"
+Setting var CONF_LDO_SEL = "0"
+Setting var CONF_LVDS_SEL = "0"
+Setting var CONF_REF_TRIM = "3"
+Setting var EN = "1.2"
+Setting var EN_PULSE = "0"
+Setting var PD = "1.2"
+Setting var PD_PULSE = "0"
+Setting var VDD = "1.2"
+Setting var VDD_PULSE = "0"
+Setting var temperature = "50.0"
+Setting temp(T) = 50.0
+
+*Info*    Netlist Directory =
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP
+
+
+*Info*    Creating Netlist for Point ID (18 1)
+
+generate netlist...
+Begin Incremental Netlisting Jan 17 09:51:03 2026
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.0/1/OP/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Jan 17 09:51:03 2026
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ OP ] for Point ID (18 1).
+
+Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (18 1) on testbench [ OP ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

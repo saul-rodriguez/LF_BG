@@ -1,0 +1,476 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jan 15 13:12:44 2026 
+Best design point: 1
+Design specs: 
+	BANDGAP:REF_TB:1	corner	C0_0 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.8m
+	V550		549.9m
+	I4X		-136.3n
+	I1X		-34.1n
+	BANDGAP:REF_TB:1	corner	C0_1 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.4m
+	V550		549.6m
+	I4X		-113.8n
+	I1X		-28.55n
+	BANDGAP:REF_TB:1	corner	C0_2 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.6m
+	V550		550m
+	I4X		-107.5n
+	I1X		-26.89n
+	BANDGAP:REF_TB:1	corner	C0_3 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.8m
+	V550		550.2m
+	I4X		-87.77n
+	I1X		-22.14n
+	BANDGAP:REF_TB:1	corner	C0_4 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.8m
+	I4X		-146.4n
+	I1X		-36.63n
+	BANDGAP:REF_TB:1	corner	C0_5 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.6m
+	V550		549.6m
+	I4X		-136.9n
+	I1X		-34.25n
+	BANDGAP:REF_TB:1	corner	C0_6 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		550m
+	I4X		-114n
+	I1X		-28.5n
+	BANDGAP:REF_TB:1	corner	C0_7 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.9m
+	V550		550m
+	I4X		-102.5n
+	I1X		-25.65n
+	BANDGAP:REF_TB:1	corner	C0_8 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.8m
+	V550		549.9m
+	I4X		-130n
+	I1X		-32.52n
+	BANDGAP:REF_TB:1	corner	C0_9 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.7m
+	V550		549.6m
+	I4X		-113n
+	I1X		-28.35n
+	BANDGAP:REF_TB:1	corner	C0_10 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		1
+	V550		550m
+	I4X		-107.2n
+	I1X		-26.81n
+	BANDGAP:REF_TB:1	corner	C0_11 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		996.5m
+	V550		550.1m
+	I4X		-87.84n
+	I1X		-22.12n
+	BANDGAP:REF_TB:1	corner	C0_12 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.8m
+	I4X		-140.4n
+	I1X		-35.11n
+	BANDGAP:REF_TB:1	corner	C0_13 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.6m
+	V550		549.6m
+	I4X		-136.5n
+	I1X		-34.16n
+	BANDGAP:REF_TB:1	corner	C0_14 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.9m
+	V550		549.9m
+	I4X		-113.6n
+	I1X		-28.42n
+	BANDGAP:REF_TB:1	corner	C0_15 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.2m
+	V550		549.9m
+	I4X		-102.6n
+	I1X		-25.67n
+	BANDGAP:REF_TB:1	corner	C0_16 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.6m
+	V550		549.8m
+	I4X		-179.9n
+	I1X		-45.01n
+	BANDGAP:REF_TB:1	corner	C0_17 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.4m
+	V550		549.1m
+	I4X		-154.9n
+	I1X		-38.87n
+	BANDGAP:REF_TB:1	corner	C0_18 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.9m
+	I4X		-142.4n
+	I1X		-35.63n
+	BANDGAP:REF_TB:1	corner	C0_19 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.9m
+	V550		549.6m
+	I4X		-119.3n
+	I1X		-30.08n
+	BANDGAP:REF_TB:1	corner	C0_20 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.7m
+	I4X		-192.7n
+	I1X		-48.21n
+	BANDGAP:REF_TB:1	corner	C0_21 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.2m
+	V550		549.3m
+	I4X		-181.8n
+	I1X		-45.5n
+	BANDGAP:REF_TB:1	corner	C0_22 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.8m
+	I4X		-150.7n
+	I1X		-37.7n
+	BANDGAP:REF_TB:1	corner	C0_23 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.6m
+	V550		549.6m
+	I4X		-136.7n
+	I1X		-34.22n
+	BANDGAP:REF_TB:1	corner	C0_24 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.6m
+	V550		549.8m
+	I4X		-170.1n
+	I1X		-42.55n
+	BANDGAP:REF_TB:1	corner	C0_25 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.7m
+	V550		549.1m
+	I4X		-153.6n
+	I1X		-38.55n
+	BANDGAP:REF_TB:1	corner	C0_26 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.9m
+	I4X		-141.9n
+	I1X		-35.51n
+	BANDGAP:REF_TB:1	corner	C0_27 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		996.4m
+	V550		549.6m
+	I4X		-119.2n
+	I1X		-30.02n
+	BANDGAP:REF_TB:1	corner	C0_28 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.7m
+	I4X		-183.4n
+	I1X		-45.9n
+	BANDGAP:REF_TB:1	corner	C0_29 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.2m
+	V550		549.3m
+	I4X		-181.1n
+	I1X		-45.33n
+	BANDGAP:REF_TB:1	corner	C0_30 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.8m
+	I4X		-150.2n
+	I1X		-37.58n
+	BANDGAP:REF_TB:1	corner	C0_31 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.8m
+	V550		549.6m
+	I4X		-136.8n
+	I1X		-34.22n
+	BANDGAP:REF_TB:1	corner	C0_32 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.8m
+	V550		549.9m
+	I4X		-136.3n
+	I1X		-34.1n
+	BANDGAP:REF_TB:1	corner	C0_33 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.4m
+	V550		549.6m
+	I4X		-113.8n
+	I1X		-28.55n
+	BANDGAP:REF_TB:1	corner	C0_34 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.6m
+	V550		550m
+	I4X		-107.5n
+	I1X		-26.89n
+	BANDGAP:REF_TB:1	corner	C0_35 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.8m
+	V550		550.2m
+	I4X		-87.77n
+	I1X		-22.14n
+	BANDGAP:REF_TB:1	corner	C0_36 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.8m
+	I4X		-146.4n
+	I1X		-36.63n
+	BANDGAP:REF_TB:1	corner	C0_37 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.6m
+	V550		549.6m
+	I4X		-136.9n
+	I1X		-34.25n
+	BANDGAP:REF_TB:1	corner	C0_38 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		550m
+	I4X		-114n
+	I1X		-28.5n
+	BANDGAP:REF_TB:1	corner	C0_39 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.9m
+	V550		550m
+	I4X		-102.5n
+	I1X		-25.65n
+	BANDGAP:REF_TB:1	corner	C0_40 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.8m
+	V550		549.9m
+	I4X		-130n
+	I1X		-32.52n
+	BANDGAP:REF_TB:1	corner	C0_41 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.7m
+	V550		549.6m
+	I4X		-113n
+	I1X		-28.35n
+	BANDGAP:REF_TB:1	corner	C0_42 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		1
+	V550		550m
+	I4X		-107.2n
+	I1X		-26.81n
+	BANDGAP:REF_TB:1	corner	C0_43 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		996.5m
+	V550		550.1m
+	I4X		-87.84n
+	I1X		-22.12n
+	BANDGAP:REF_TB:1	corner	C0_44 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.8m
+	I4X		-140.4n
+	I1X		-35.11n
+	BANDGAP:REF_TB:1	corner	C0_45 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.6m
+	V550		549.6m
+	I4X		-136.5n
+	I1X		-34.16n
+	BANDGAP:REF_TB:1	corner	C0_46 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.9m
+	V550		549.9m
+	I4X		-113.6n
+	I1X		-28.42n
+	BANDGAP:REF_TB:1	corner	C0_47 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.2m
+	V550		549.9m
+	I4X		-102.6n
+	I1X		-25.67n
+	BANDGAP:REF_TB:1	corner	C0_48 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.6m
+	V550		549.8m
+	I4X		-179.9n
+	I1X		-45.01n
+	BANDGAP:REF_TB:1	corner	C0_49 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.4m
+	V550		549.1m
+	I4X		-154.9n
+	I1X		-38.87n
+	BANDGAP:REF_TB:1	corner	C0_50 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.9m
+	I4X		-142.4n
+	I1X		-35.63n
+	BANDGAP:REF_TB:1	corner	C0_51 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.9m
+	V550		549.6m
+	I4X		-119.3n
+	I1X		-30.08n
+	BANDGAP:REF_TB:1	corner	C0_52 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.7m
+	I4X		-192.7n
+	I1X		-48.21n
+	BANDGAP:REF_TB:1	corner	C0_53 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.2m
+	V550		549.3m
+	I4X		-181.8n
+	I1X		-45.5n
+	BANDGAP:REF_TB:1	corner	C0_54 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.8m
+	I4X		-150.7n
+	I1X		-37.7n
+	BANDGAP:REF_TB:1	corner	C0_55 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.6m
+	V550		549.6m
+	I4X		-136.7n
+	I1X		-34.22n
+	BANDGAP:REF_TB:1	corner	C0_56 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.6m
+	V550		549.8m
+	I4X		-170.1n
+	I1X		-42.55n
+	BANDGAP:REF_TB:1	corner	C0_57 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		995.7m
+	V550		549.1m
+	I4X		-153.6n
+	I1X		-38.55n
+	BANDGAP:REF_TB:1	corner	C0_58 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.9m
+	I4X		-141.9n
+	I1X		-35.51n
+	BANDGAP:REF_TB:1	corner	C0_59 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		996.4m
+	V550		549.6m
+	I4X		-119.2n
+	I1X		-30.02n
+	BANDGAP:REF_TB:1	corner	C0_60 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.5m
+	V550		549.7m
+	I4X		-183.4n
+	I1X		-45.9n
+	BANDGAP:REF_TB:1	corner	C0_61 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.2m
+	V550		549.3m
+	I4X		-181.1n
+	I1X		-45.33n
+	BANDGAP:REF_TB:1	corner	C0_62 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		999.7m
+	V550		549.8m
+	I4X		-150.2n
+	I1X		-37.58n
+	BANDGAP:REF_TB:1	corner	C0_63 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		998.8m
+	V550		549.6m
+	I4X		-136.8n
+	I1X		-34.22n
+	BANDGAP:REF_TB:1	corner	Nominal - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.681u
+	V550		3.196u
+	I4X		-71.19f
+	I1X		-17.82f
+Design parameters: 
+	CL2		3p
+	VREF_PULSE		0
+	CL		150f
+	IBIAS		200n
+	UNIT_RES		20K
+	VDD		0
+	VDD_PULSE		1.2
+	PD		0
+	PD_PULSE		0
+
+Interactive.69
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.69 completed. 
+Current time: Thu Jan 15 13:13:03 2026 

@@ -1,0 +1,21 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Oct 12 22:10:33 2025 
+Best design point: 1
+Design specs: 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_0 - 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_1 - 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_2 - 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_3 - 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_4 - 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_5 - 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_6 - 
+	BANDGAP:BG_0_8_V2:1	corner	MOS_BJT_7 - 
+	BANDGAP:BG_0_8_V2:1	corner	Nominal - 
+Design parameters: 
+
+Interactive.21
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.21 completed. 
+Current time: Sun Oct 12 22:11:02 2025 

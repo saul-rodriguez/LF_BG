@@ -1,0 +1,29 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Nov  2 07:19:46 2025 
+Best design point: 1
+Design specs: 
+	START_UP	corner	MOS_RES_0 - 
+	START_UP	corner	MOS_RES_1 - 
+	START_UP	corner	MOS_RES_2 - 
+	START_UP	corner	MOS_RES_3 - 
+	START_UP	corner	MOS_RES_4 - 
+	START_UP	corner	MOS_RES_5 - 
+	START_UP	corner	MOS_RES_6 - 
+	START_UP	corner	MOS_RES_7 - 
+	START_UP	corner	MOS_RES_8 - 
+	START_UP	corner	MOS_RES_9 - 
+	START_UP	corner	MOS_RES_10 - 
+	START_UP	corner	MOS_RES_11 - 
+	START_UP	corner	MOS_RES_12 - 
+	START_UP	corner	MOS_RES_13 - 
+	START_UP	corner	MOS_RES_14 - 
+	START_UP	corner	MOS_RES_15 - 
+	START_UP	corner	Nominal - 
+Design parameters: 
+
+Interactive.35
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.35 completed. 
+Current time: Sun Nov  2 07:20:04 2025 

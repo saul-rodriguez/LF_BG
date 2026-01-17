@@ -1,0 +1,18 @@
+Corner,MOS_BJT_RES,MOS_BJT_RES_TEMP,MOS_BJT_RES_VDD,MOS,MOS_BJT
+Enable,f,f,f,f,f
+Temperature,,-40 85,,,
+Tags,,,,,
+VDD,,,1.08 1.32,,
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t 1v2hvt_ss 1v2hvt_ff 1v2hvt_fs 1v2hvt_sf,t 1v2hvt_ss 1v2hvt_ff 1v2hvt_fs 1v2hvt_sf,t 1v2hvt_ss 1v2hvt_ff 1v2hvt_fs 1v2hvt_sf,t 1v2hvt_ss 1v2hvt_ff 1v2hvt_fs 1v2hvt_sf,t 1v2hvt_ss 1v2hvt_ff 1v2hvt_fs 1v2hvt_sf
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t 3v3rvt_tt,t 3v3rvt_tt,t 3v3rvt_tt,t 3v3rvt_tt,t 3v3rvt_tt
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t res_max res_min,t res_max res_min,t res_max res_min,t res_typ,t res_typ
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t bjt_fast bjt_slow,t bjt_fast bjt_slow,t bjt_fast bjt_slow,t bjt_typ,t bjt_fast bjt_slow
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t dio_typ,t dio_typ,t dio_typ,t dio_typ,t dio_typ
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t mim_typ,t mim_typ,t mim_typ,t mim_typ,t mim_typ
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t cvnm2m3_typ,t cvnm2m3_typ,t cvnm2m3_typ,t cvnm2m3_typ,t cvnm2m3_typ
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t cvnm2m4_typ,t cvnm2m4_typ,t cvnm2m4_typ,t cvnm2m4_typ,t cvnm2m4_typ
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t nvar1v2hvt_typ,t nvar1v2hvt_typ,t nvar1v2hvt_typ,t nvar1v2hvt_typ,t nvar1v2hvt_typ
+Modelfile::/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs,t nvar3v3rvt_typ,t nvar3v3rvt_typ,t nvar3v3rvt_typ,t nvar3v3rvt_typ,t nvar3v3rvt_typ
+f Test::BANDGAP:BG_TB:1,t,t,t,t,t
+f Test::Op,t,t,t,t,t
+t Test::Trans,t,t,t,t,t

@@ -1,0 +1,46 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Nov  2 07:27:00 2025 
+Best design point: 1
+Design specs: 
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_0 - 
+	i("/R0/PLUS" ?result "dcOp")		33.56n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_1 - 
+	i("/R0/PLUS" ?result "dcOp")		59.26n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_2 - 
+	i("/R0/PLUS" ?result "dcOp")		33.42n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_3 - 
+	i("/R0/PLUS" ?result "dcOp")		50.78n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_4 - 
+	i("/R0/PLUS" ?result "dcOp")		33.78n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_5 - 
+	i("/R0/PLUS" ?result "dcOp")		53.54n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_6 - 
+	i("/R0/PLUS" ?result "dcOp")		33.21n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_7 - 
+	i("/R0/PLUS" ?result "dcOp")		51.78n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_8 - 
+	i("/R0/PLUS" ?result "dcOp")		44.37n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_9 - 
+	i("/R0/PLUS" ?result "dcOp")		72.76n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_10 - 
+	i("/R0/PLUS" ?result "dcOp")		43.88n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_11 - 
+	i("/R0/PLUS" ?result "dcOp")		67.5n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_12 - 
+	i("/R0/PLUS" ?result "dcOp")		44.71n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_13 - 
+	i("/R0/PLUS" ?result "dcOp")		69.43n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_14 - 
+	i("/R0/PLUS" ?result "dcOp")		43.6n
+	BANDGAP:CONSTANT_GM_TB:1	corner	MOS_RES_15 - 
+	i("/R0/PLUS" ?result "dcOp")		68.46n
+	BANDGAP:CONSTANT_GM_TB:1	corner	Nominal - 
+	i("/R0/PLUS" ?result "dcOp")		52.96n
+Design parameters: 
+
+Interactive.37
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.37 completed. 
+Current time: Sun Nov  2 07:27:31 2025 

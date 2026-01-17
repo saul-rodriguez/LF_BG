@@ -1,0 +1,252 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jan 15 13:14:34 2026 
+Best design point: 1
+Design specs: 
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_0 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		8.118u
+	V550		6.437u
+	I4X		-295.4f
+	I1X		-69.38f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_1 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		4.11u
+	V550		4.086u
+	I4X		-75.35f
+	I1X		-19.23f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_2 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		9.988u
+	V550		7.9u
+	I4X		-282.1f
+	I1X		-51.64f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_3 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		9.176u
+	V550		8.04u
+	I4X		-163.5f
+	I1X		-40.94f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_4 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.294u
+	V550		2.512u
+	I4X		-145.2f
+	I1X		-33.84f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_5 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		42.1n
+	V550		54.7n
+	I4X		-806a
+	I1X		-212.8a
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_6 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		4.576u
+	V550		3.356u
+	I4X		-178.5f
+	I1X		-31.91f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_7 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		339.9n
+	V550		323.7n
+	I4X		-3.212f
+	I1X		-810.9a
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_8 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		6.16u
+	V550		4.884u
+	I4X		-295.4f
+	I1X		-69.38f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_9 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.358u
+	V550		3.24u
+	I4X		-75.35f
+	I1X		-19.23f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_10 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		7.579u
+	V550		5.994u
+	I4X		-282.1f
+	I1X		-51.64f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_11 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		7.031u
+	V550		6.142u
+	I4X		-163.5f
+	I1X		-40.94f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_12 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		2.5u
+	V550		1.906u
+	I4X		-145.2f
+	I1X		-33.84f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_13 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		37.2n
+	V550		44.5n
+	I4X		-806a
+	I1X		-212.8a
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_14 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.472u
+	V550		2.546u
+	I4X		-178.5f
+	I1X		-31.91f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_15 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		270.3n
+	V550		252.5n
+	I4X		-3.212f
+	I1X		-810.9a
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_16 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		8.118u
+	V550		6.437u
+	I4X		-295.4f
+	I1X		-69.38f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_17 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		4.11u
+	V550		4.086u
+	I4X		-75.35f
+	I1X		-19.23f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_18 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		9.988u
+	V550		7.9u
+	I4X		-282.1f
+	I1X		-51.64f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_19 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		9.176u
+	V550		8.04u
+	I4X		-163.5f
+	I1X		-40.94f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_20 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.294u
+	V550		2.512u
+	I4X		-145.2f
+	I1X		-33.84f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_21 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		42.1n
+	V550		54.7n
+	I4X		-806a
+	I1X		-212.8a
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_22 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		4.576u
+	V550		3.356u
+	I4X		-178.5f
+	I1X		-31.91f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_23 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		339.9n
+	V550		323.7n
+	I4X		-3.212f
+	I1X		-810.9a
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_24 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		6.16u
+	V550		4.884u
+	I4X		-295.4f
+	I1X		-69.38f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_25 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.358u
+	V550		3.24u
+	I4X		-75.35f
+	I1X		-19.23f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_26 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		7.579u
+	V550		5.994u
+	I4X		-282.1f
+	I1X		-51.64f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_27 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		7.031u
+	V550		6.142u
+	I4X		-163.5f
+	I1X		-40.94f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_28 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		2.5u
+	V550		1.906u
+	I4X		-145.2f
+	I1X		-33.84f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_29 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		37.2n
+	V550		44.5n
+	I4X		-806a
+	I1X		-212.8a
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_30 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.472u
+	V550		2.546u
+	I4X		-178.5f
+	I1X		-31.91f
+	BANDGAP:REF_TB:1	corner	MOS_RES_CAP_TEMP_31 - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		270.3n
+	V550		252.5n
+	I4X		-3.212f
+	I1X		-810.9a
+	BANDGAP:REF_TB:1	corner	Nominal - 
+	Poles		Error	No
+	Zeros		Error	No
+	V1000		3.681u
+	V550		3.196u
+	I4X		-71.19f
+	I1X		-17.82f
+Design parameters: 
+	CL2		3p
+	VREF_PULSE		0
+	CL		150f
+	IBIAS		200n
+	UNIT_RES		20K
+	VDD		0
+	VDD_PULSE		1.2
+	PD		0
+	PD_PULSE		0
+
+Interactive.70
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.70 completed. 
+Current time: Thu Jan 15 13:14:43 2026 

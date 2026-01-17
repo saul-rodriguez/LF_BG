@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Dec  5 18:13:39 2025 
+Best design point: 1
+Design specs: 
+	Corner_test	corner	C0_0 - 
+	VTH		214.2m
+	Corner_test	corner	C0_1 - 
+	VTH		578.2m
+	Corner_test	corner	C0_2 - 
+	VTH		560.1m
+	Corner_test	corner	C0_3 - 
+	VTH		232.4m
+	Corner_test	corner	Nominal - 
+	VTH		397m
+Design parameters: 
+
+Interactive.4
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.4 completed. 
+Current time: Fri Dec  5 18:14:05 2025 

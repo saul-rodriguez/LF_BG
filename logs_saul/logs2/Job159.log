@@ -1,0 +1,46 @@
+\# Program start time:     UTC 2025.10.14 15:21:50.359
+\# Local time: UTC (UTC+00:00) 2025.10.14 15:21:50.359
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEZBv6X9wxTKyAu_dRvf85K_74483 -mpshost 33371@b35621b5a0f6 -davinciService DaVinciService_74677_1760445194 -log /home/saul/projects/LF_BG/logs_saul/logs2/Job159.log -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.b35621b5a0f6_74677 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 159
+\# Host name (type):	b35621b5a0f6 (x86_64)
+\# Operating system:	Linux 6.10.14-linuxkit #1 SMP PREEMPT_DYNAMIC Tue Apr 15 16:05:22 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5876 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        862 MB
+\# Available memory:	     22,732 MB
+\# System memory:	     28,093 MB
+\# Maximum memory size:	     27,352 MB
+\# Max mem available:	     22,853 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,681 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	b35621b5a0f6:/home/saul/projects/LF_BG
+\# Process Id:		25649
+\# Container Id:	EZBv6X9wxTKyAu_dRvf85K
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.

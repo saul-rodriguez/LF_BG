@@ -1,0 +1,37 @@
+// VerilogA for BANDGAP, dec3_8, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module dec3_8L(out);
+output [7:0] out;
+voltage [7:0] out;
+
+parameter real vdda = 1.2;
+parameter real gnda = 0;
+
+parameter integer code = 0;
+genvar i;
+
+real dout[7:0];
+
+analog begin
+
+//Output is Low logic 
+	for(i=0;i<8;i=i+1) begin
+    		if(code != i) begin
+         	dout[i]=vdda;
+         end	else begin
+          	dout[i]=gnda;
+      	end
+	end
+
+
+	for (i=0; i<8; i=i+1) begin
+	    V(out[i]) <+ transition(dout[i],0,0);
+	end
+end
+
+
+endmodule
+

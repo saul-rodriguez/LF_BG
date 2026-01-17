@@ -1,0 +1,47 @@
+simulator( 'spectre )
+hostMode( 'distributed )
+
+design(	 "/home/saul/simulation/MOS_BIAS/spectre/schematic/netlist/netlist")
+resultsDir( "/home/saul/simulation/MOS_BIAS/spectre/schematic" )
+modelFile( 
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "1v2hvt_tt")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "3v3rvt_tt")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "res_typ")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "bjt_typ")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "dio_typ")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "mim_typ")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "cvnm2m3_typ")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "cvnm2m4_typ")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "nvar1v2hvt_typ")
+    '("/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs" "nvar3v3rvt_typ")
+)
+analysis('dc ?saveOppoint t  )
+desVar(	  "IDS1" 0.1u	)
+desVar(	  "IDS2" 2u	)
+desVar(	  "L1" 1u	)
+desVar(	  "L2" 2u	)
+desVar(	  "NF1" 10	)
+desVar(	  "NF2" 20	)
+desVar(	  "VDS1" 0.3	)
+desVar(	  "VDS2" 0.6	)
+desVar(	  "W1" 4u	)
+desVar(	  "W2" 8u	)
+desVar(	  "WF2" "W2*NF2"	)
+desVar(	  "WF1" "W1*NF1"	)
+envOption(
+	'analysisOrder  list("dc") 
+)
+temp( 27 ) 
+;run()
+;run()
+
+jobList = nil
+
+; starting first job
+jobList = append1( jobList run( ?host "950e82c38b16" ) )
+
+; wait for all the jobs to complete
+wait((append1 last(jobList) nil))
+
+gm1 = pv("M0" "gm" ?result "dcOpInfo")
+plot( gm ?expr '( "gm1" ) )

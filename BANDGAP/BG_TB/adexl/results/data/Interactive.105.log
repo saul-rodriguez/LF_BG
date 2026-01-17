@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jan 15 17:18:46 2026 
+Best design point: 1
+Design specs: 
+	Trans	corner	Nominal - 
+Design parameters: 
+	VDD		0
+	VDD_PULSE		1.32
+	PD		0
+	PD_PULSE		1.32
+
+Interactive.105
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.105 completed. 
+Current time: Thu Jan 15 17:18:49 2026 

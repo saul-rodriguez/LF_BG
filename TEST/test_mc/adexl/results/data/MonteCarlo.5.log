@@ -1,0 +1,24 @@
+Starting Monte Carlo Sampling...
+
+Current time: Fri Dec  5 18:05:30 2025 
+
+Variation: Mismatch
+Sampling Method: Low-Discrepancy Sequence
+Seed: 
+
+MonteCarlo.5
+Number of points completed: 20
+Number of simulation errors: 0
+MonteCarlo.5 completed. 
+Current time: Fri Dec  5 18:05:44 2025 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 1
+MC_test	Nominal - 
+	VTH:	Yield	100%
+		Min 0.506887	Max 0.544847	Mean 0.524952	Number of errors 0
+
+MC_test
+	Overall Yield	100%	Number of points passed	20	Total number of points	20
+
+Estimated yield = 100% (20/20), 0 errors
+Estimated yield (No opregions) = 100% (20/20)

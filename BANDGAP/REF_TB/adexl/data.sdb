@@ -1,0 +1,4307 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="0">C0
+				<vars>
+					<var>temperature
+						<value>-40 85</value>
+					</var>
+					<var>VDD
+						<value>1.08 1.32</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">lf11is.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"res_max" "res_min"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:2
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"mim_max" "mim_min"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:3
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"cvnm2m3_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:4
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"cvnm2m4_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:5
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"dio_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:6
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"bjt_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:7
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"nvar1v2hvt_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:8
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"3v3rvt_tt"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:9
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"nvar3v3rvt_typ"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">MOS_RES_CAP_TEMP
+				<vars>
+					<var>temperature
+						<value>-40 85</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">lf11is.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"res_max" "res_min"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:2
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"mim_max" "mim_min"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:3
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"cvnm2m3_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:4
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"cvnm2m4_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:5
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"dio_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:6
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"bjt_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:7
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"nvar1v2hvt_typ"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:8
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"3v3rvt_tt"</modelsection>
+					</model>
+					<model enabled="1">lf11is.scs:9
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+						<modelsection>"nvar3v3rvt_typ"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Monte Carlo Sampling</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">BANDGAP:REF_TB:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>REF_TB</value>
+					</option>
+					<option>lib
+						<value>BANDGAP</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>BANDGAP:REF_TB:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>REF_TB</value>
+					</option>
+					<option>lib
+						<value>BANDGAP</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>spectre_state1</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>V1000
+						<evalType>point</evalType>
+					</output>
+					<output>V550
+						<evalType>point</evalType>
+					</output>
+					<output>I4X
+						<evalType>point</evalType>
+					</output>
+					<output>I1X
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+			</test>
+		</tests>
+		<vars>
+			<var>CL2
+				<value>3p</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VREF_PULSE
+				<value>10m</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CL
+				<value>150f</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>IBIAS
+				<value>200n</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>UNIT_RES
+				<value>20k</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>1.2</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD_PULSE
+				<value>0</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>PD
+				<value>1.2</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>PD_PULSE
+				<value>0</value>
+				<dependentTests>
+					<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>distributedplot_enabled
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>histogramtype
+				<value>pass/fail</value>
+			</plottingoption>
+			<plottingoption>histogrambins
+				<value>10</value>
+			</plottingoption>
+			<plottingoption>showhistogramdensity
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>showhistogramdeviation
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>showhistogrampercentmarkers
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>showhistogrampoints
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>histogramqqplot
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>additionalcalcs
+				<value>yes</value>
+			</plottingoption>
+		</plottingoptions>
+		<jobpolicyname>ADE XL Default</jobpolicyname>
+		<runoptions>
+			<mode>Monte Carlo Sampling
+				<runoption>mcmethod
+					<value>all</value>
+				</runoption>
+				<runoption>mcnumpoints
+					<value>200</value>
+				</runoption>
+				<runoption>mcnumbins
+					<value></value>
+				</runoption>
+				<runoption>mcStopEarly
+					<value>0</value>
+				</runoption>
+				<runoption>mcStopMethod
+					<value>Significance Test</value>
+				</runoption>
+				<runoption>samplingmode
+					<value>lds</value>
+				</runoption>
+				<runoption>saveprocess
+					<value>0</value>
+				</runoption>
+				<runoption>savemismatch
+					<value>0</value>
+				</runoption>
+				<runoption>parasiticanalysis
+					<value>0</value>
+				</runoption>
+				<runoption>mcreferencepoint
+					<value>0</value>
+				</runoption>
+				<runoption>donominal
+					<value>1</value>
+				</runoption>
+				<runoption>saveallplots
+					<value>1</value>
+				</runoption>
+				<runoption>montecarloseed
+					<value></value>
+				</runoption>
+				<runoption>mcstartingrunnumber
+					<value></value>
+				</runoption>
+				<runoption>dumpParamMode
+					<value>no</value>
+				</runoption>
+			</mode>
+		</runoptions>
+		<allcornersenabled>1</allcornersenabled>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.66
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_Interactive.66</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 12:54:38 2026</timestamp>
+			<uuid>{90001a23-cb54-4ef3-b3d9-774bd78bbdf5}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.66.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.66.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_125438793</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/Interactive.66</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/Interactive.66</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.66.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.66.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.67
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_Interactive.67</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 12:55:35 2026</timestamp>
+			<uuid>{a7801469-29df-448e-9f99-cc2bbfa7e952}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.67.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.67.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_125535294</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/Interactive.67</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/Interactive.67</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.67.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.67.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.68
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_Interactive.68</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 12:58:05 2026</timestamp>
+			<uuid>{010a4ebe-750c-4251-b7f4-6f3fcb72a571}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.68.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.68.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_125805224</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/Interactive.68</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/Interactive.68</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.68.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.68.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.69
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_Interactive.69</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 13:12:43 2026</timestamp>
+			<uuid>{0b4f377f-542c-43b4-98aa-634ef5c07c57}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.69.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.69.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_131243586</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/Interactive.69</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/Interactive.69</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.69.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.69.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.70
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_Interactive.70</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 13:14:33 2026</timestamp>
+			<uuid>{3cbf3e4c-c13f-4c3a-832c-14c6dce53df9}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.70.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.70.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_131433682</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/Interactive.70</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/Interactive.70</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.70.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.70.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.71
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_Interactive.71</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 13:17:05 2026</timestamp>
+			<uuid>{16521247-a75a-451b-a47f-0ed3a468a9fc}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.71.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.71.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_131705462</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/Interactive.71</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/Interactive.71</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/Interactive.71.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.71.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_MonteCarlo.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 13:21:43 2026</timestamp>
+			<uuid>{74a134f7-22b9-41fe-8bc5-541a3f4e9b90}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_132143396</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.0</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_MonteCarlo.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 17:24:17 2026</timestamp>
+			<uuid>{00c93e3e-39f1-448d-8f4c-32b54d6e1430}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_172417679</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.1</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_MonteCarlo.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 17:28:59 2026</timestamp>
+			<uuid>{175d753c-729b-4b15-924a-b5d1ed6245de}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_172859697</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.2</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+							<var>VDD
+								<value>1.08 1.32</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MOS_RES_CAP_TEMP
+						<vars>
+							<var>temperature
+								<value>-40 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">lf11is.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"1v2hvt_ff" "1v2hvt_fs" "1v2hvt_sf" "1v2hvt_ss"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"res_max" "res_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"mim_max" "mim_min"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:3
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m3_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:4
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"cvnm2m4_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:5
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"dio_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:6
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"bjt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:7
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar1v2hvt_typ"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:8
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"3v3rvt_tt"</modelsection>
+							</model>
+							<model enabled="1">lf11is.scs:9
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/models/spectre/lf11is.scs</modelfile>
+								<modelsection>"nvar3v3rvt_typ"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">BANDGAP:REF_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>BANDGAP:REF_TB:1_spectre_state1_MonteCarlo.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>REF_TB</value>
+							</option>
+							<option>lib
+								<value>BANDGAP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V1000
+								<evalType>point</evalType>
+							</output>
+							<output>V550
+								<evalType>point</evalType>
+							</output>
+							<output>I4X
+								<evalType>point</evalType>
+							</output>
+							<output>I1X
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>CL2
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF_PULSE
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IBIAS
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>UNIT_RES
+						<value>20k</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD
+						<value>1.2</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>PD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">BANDGAP:REF_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>additionalcalcs
+						<value>yes</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>1</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 17:30:39 2026</timestamp>
+			<uuid>{05ba35f5-2fc4-463a-8030-59504c4d5c7a}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_173039352</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.3</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_TB/adexl/results/data/MonteCarlo.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

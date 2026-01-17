@@ -1,0 +1,5 @@
+#!/bin/sh
+cd /home/saul/projects/LF_BG
+virtuoso -noautostart -mpssession "virtuosoEMVvGxGB7ZRrMnUSVD7D9I_85887" -mpshost "52359@b35621b5a0f6" -davinciService "DaVinciService_86088_1762026781" -log '/home/saul/projects/LF_BG/logs_saul/logs3/Job0.log'  -licenseLockFileName '/home/saul/projects/LF_BG/.tmp_saul/.b35621b5a0f6_86088'  -interactiveA -interactiveE -interactiveRTT -axlChildIdFlag 0 1>/dev/null  2>/dev/null 
+exit $?
+

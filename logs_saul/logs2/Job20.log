@@ -1,0 +1,2559 @@
+\# Program start time:     UTC 2025.10.13 19:42:53.846
+\# Local time: UTC (UTC+00:00) 2025.10.13 19:42:53.846
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEtvj7mR6fvb_jLPj5re4RI_24630 -mpshost 53269@b35621b5a0f6 -davinciService DaVinciService_24825_1760383502 -log /home/saul/projects/LF_BG/logs_saul/logs2/Job20.log -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.b35621b5a0f6_24825 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 20
+\# Host name (type):	b35621b5a0f6 (x86_64)
+\# Operating system:	Linux 6.10.14-linuxkit #1 SMP PREEMPT_DYNAMIC Tue Apr 15 16:05:22 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:8329 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,089 MB
+\# Available memory:	     23,566 MB
+\# System memory:	     28,093 MB
+\# Maximum memory size:	     27,125 MB
+\# Max mem available:	     23,686 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,681 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	b35621b5a0f6:/home/saul/projects/LF_BG
+\# Process Id:		30364
+\# Container Id:	Etvj7mR6fvb_jLPj5re4RI
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEtvj7mR6fvb_jLPj5re4RI_24630, host=53269@b35621b5a0f6). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 30364 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [19:42:53.512449] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# Memory report: using         273 MB, process size 1,963 MB at UTC 2025.10.13 19:42:58.523
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o 
+\o ----------------          LFoundry            ----------------
+\o ----------------    Initializing LF11IS PDK    ----------------
+\o ----------------        Version 1.3.2         ----------------
+\o ----------------        Option 6metal         ----------------
+\o *LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+\o *LF-INFO* lf11is libInit.il loaded successfully. 
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting HSpice models                 done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: PDF reader "evince" found: /bin/evince.
+\o *LF-INFO* .cdsinit: Creating LF11IS PDK menus              done
+\o *LF-INFO* .cdsinit: Loading LF11IS display.drf             done
+\o *LF-INFO* .cdsinit: Setting PVS setup trigger      done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
+\o *LF-INFO* .cdsinit: Loading Layout Utilities              done
+\o *LF-INFO* .cdsinit: Opening library manager 				  done
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 30364' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = COR_spectre_state1_Interactive.37
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\# Memory report: using         373 MB, process size 2,066 MB at UTC 2025.10.13 19:43:01.151
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 1) on testbench [ COR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [19:43:02.296881] Periodic Lic check successful
+\# [19:43:02.296883] Feature usage summary:
+\o Begin Incremental Netlisting Oct 13 19:43:02 2025
+\o End netlisting Oct 13 19:43:02 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Available memory:         21,184 MB at UTC 2025.10.13 19:43:05.366
+\# Memory report: Maximum memory size now 21,620 MB at UTC 2025.10.13 19:43:05.366
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2025.10.13 19:43:05.366
+\o 
+\o *Info*    Running simulation on testbench [ COR ] for Point ID (9 1).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Memory report: Maximum memory size now 20,626 MB at UTC 2025.10.13 19:43:14.894
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 1) on testbench [ COR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 16) on testbench [ COR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/16/COR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/16/COR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 19:43:16 2025
+\o End netlisting Oct 13 19:43:16 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ COR ] for Point ID (9 16).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/16/COR/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 16) on testbench [ COR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 21,061 MB at UTC 2025.10.13 19:43:34.894
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.3
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.3.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.3/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (10 29) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.3/29/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.3/29/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (10 29)
+\o 
+\o generate netlist...
+\o Initializing the control file using cp:
+\o     cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.3/29/MC/groupRunDataDir/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Oct 13 19:47:25 2025
+\o Loading json.cxt 
+\o End netlisting Oct 13 19:47:25 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:  306
+\o 
+\o 	Elapsed time:          1.0s (306.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Memory report: using         473 MB, process size 2,366 MB at UTC 2025.10.13 19:47:26.450
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (10 29).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.3/29/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 19:47:26 2025
+\o End netlisting Oct 13 19:47:26 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,510 MB at UTC 2025.10.13 19:47:33.891
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'29' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 29) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'30' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 30) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'31' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 31) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'32' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 32) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'33' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 33) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'34' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 34) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'35' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 35) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 21,122 MB at UTC 2025.10.13 19:48:32.401
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.4
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.4.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.4/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (11 36) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.4/36/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.4/36/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (11 36)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 19:52:30 2025
+\o End netlisting Oct 13 19:52:30 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          1.0s (35.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (11 36).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.4/36/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 19:52:31 2025
+\o End netlisting Oct 13 19:52:31 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,311 MB at UTC 2025.10.13 19:52:42.342
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'36' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 36) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'37' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 37) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'38' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 38) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'39' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 39) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'40' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 40) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'41' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 41) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\e *Error* Not a valid waveform.
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)' returned 'nil' for point:'42' test:'MC'
+\o 	Expression:'histogram2D(value(VS("/VREF") 50) 5 "standard" "both" nil)'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 42) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 20,946 MB at UTC 2025.10.13 19:53:41.889
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.5
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.5.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.5/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 22) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.5/22/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.5/22/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 19:58:13 2025
+\o End netlisting Oct 13 19:58:13 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (12 22).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.5/22/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 19:58:14 2025
+\o End netlisting Oct 13 19:58:14 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,208 MB at UTC 2025.10.13 19:58:21.886
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 22) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 23) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 24) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 25) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 26) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 27) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 28) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 20,723 MB at UTC 2025.10.13 19:59:11.560
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.6
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.6.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.6/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 22) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.6/22/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.6/22/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:03:06 2025
+\o End netlisting Oct 13 20:03:06 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (13 22).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.6/22/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:03:07 2025
+\o End netlisting Oct 13 20:03:07 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 22) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 19,996 MB at UTC 2025.10.13 20:03:21.884
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 23) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 24) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 25) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 26) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 27) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 28) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 20,620 MB at UTC 2025.10.13 20:04:11.882
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.7
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.7.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.7/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (14 22) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.7/22/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.7/22/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (14 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:06:01 2025
+\o End netlisting Oct 13 20:06:01 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (14 22).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.7/22/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:06:02 2025
+\o End netlisting Oct 13 20:06:02 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 19,864 MB at UTC 2025.10.13 20:06:10.882
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (14 22) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (14 23) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (14 24) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (14 25) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (14 26) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (14 27) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         19,252 MB at UTC 2025.10.13 20:06:50.882
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (14 28) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 20,414 MB at UTC 2025.10.13 20:07:00.882
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.8
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.8.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.8/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (15 36) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.8/36/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.8/36/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (15 36)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:08:37 2025
+\o End netlisting Oct 13 20:08:37 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (15 36).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.8/36/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:08:38 2025
+\o End netlisting Oct 13 20:08:38 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\# Memory report: using         575 MB, process size 2,468 MB at UTC 2025.10.13 20:08:39.083
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 19,636 MB at UTC 2025.10.13 20:08:50.834
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (15 36) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (15 37) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (15 38) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (15 39) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (15 40) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (15 41) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (15 42) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 20,263 MB at UTC 2025.10.13 20:09:41.013
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.9
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.9.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.9/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (16 50) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.9/50/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.9/50/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (16 50)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:11:49 2025
+\o End netlisting Oct 13 20:11:49 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (16 50).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.9/50/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:11:50 2025
+\o End netlisting Oct 13 20:11:50 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 19,412 MB at UTC 2025.10.13 20:11:59.880
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (16 50) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,987 MB at UTC 2025.10.13 20:12:49.880
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.10
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.10.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.10/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (17 8) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.10/8/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.10/8/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (17 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:16:01 2025
+\o End netlisting Oct 13 20:16:01 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (17 8).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.10/8/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:16:02 2025
+\o End netlisting Oct 13 20:16:02 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 19,376 MB at UTC 2025.10.13 20:16:09.878
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 8) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 9) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 10) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 11) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 12) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 13) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 14) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,872 MB at UTC 2025.10.13 20:16:59.878
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.11
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.11.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.11/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 22) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.11/22/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.11/22/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:19:39 2025
+\o End netlisting Oct 13 20:19:39 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (18 22).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.11/22/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:19:40 2025
+\o End netlisting Oct 13 20:19:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 19,197 MB at UTC 2025.10.13 20:19:49.876
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 22) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 23) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 24) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 25) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 26) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 27) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 28) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,797 MB at UTC 2025.10.13 20:20:39.221
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.12
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.12.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.12/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (19 50) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.12/50/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.12/50/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (19 50)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:22:28 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:22:28 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          1.0s (35.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (19 50).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.12/50/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:22:29 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:22:29 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 18,992 MB at UTC 2025.10.13 20:22:37.874
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 50) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,620 MB at UTC 2025.10.13 20:23:27.873
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.13
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.13.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.13/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (20 1) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.13/1/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.13/1/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (20 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:25:13 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:25:13 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   35
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (20 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.13/1/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:25:17 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:25:17 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 18,831 MB at UTC 2025.10.13 20:25:26.873
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 1) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 2) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 3) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 4) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 5) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 6) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 7) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,553 MB at UTC 2025.10.13 20:26:18.942
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.14
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.14.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.14/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (21 22) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.14/22/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.14/22/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (21 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:28:39 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:28:39 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (21 22).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.14/22/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:28:40 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:28:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 18,828 MB at UTC 2025.10.13 20:28:47.871
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 22) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 23) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 24) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 25) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 26) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 27) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 28) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,322 MB at UTC 2025.10.13 20:29:38.870
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.15
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.15.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.15/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (22 1) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.15/1/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.15/1/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (22 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:31:32 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:31:32 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\# Memory report: using         679 MB, process size 2,572 MB at UTC 2025.10.13 20:31:33.319
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (22 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.15/1/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:31:36 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:31:36 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 18,815 MB at UTC 2025.10.13 20:31:38.869
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 1) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 2) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 3) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 4) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 5) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 6) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 7) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,302 MB at UTC 2025.10.13 20:32:38.869
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.16
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.16.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.16/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (23 22) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.16/22/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.16/22/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (23 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:36:02 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:36:02 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (23 22).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.16/22/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:36:03 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:36:03 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 18,691 MB at UTC 2025.10.13 20:36:08.867
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 22) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 23) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 24) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 25) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 26) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 27) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 28) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,189 MB at UTC 2025.10.13 20:37:08.866
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = BG_0_6_V1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = MC_BANDGAP:BG_0_8_V2:1:1_state_MonteCarlo.17
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.17.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.17/1/MC
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_0_6_V1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (24 36) on testbench [ MC ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.17/36/MC/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.17/36/MC/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (24 36)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:39:10 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:39:10 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (24 36).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/MonteCarlo.17/36/MC/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 13 20:39:11 2025
+\o WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/BG_0_6_V1/adexl/results/data/Interactive.37/1/COR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+\o Ensure that you have the write permission for the mentioned file.
+\o 
+\o End netlisting Oct 13 20:39:11 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 18,550 MB at UTC 2025.10.13 20:39:17.865
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 36) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 37) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 38) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 39) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 40) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 41) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 42) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 19,078 MB at UTC 2025.10.13 20:40:16.864
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.

@@ -1,0 +1,12 @@
+# File Created by  at Sun Nov  2 19:49:44 2025
+# assisted by CdsLibEditor
+## PDK specific entries do not touch --
+INCLUDE $LF11IS_HOME/tools/setup/cds.lib
+## END PDK specific entries do not touch --
+
+INCLUDE $IUSHOME/tools/inca/files/cds.lib
+
+DEFINE BANDGAP ./BANDGAP
+DEFINE CHARACTERIZATION ./CHARACTERIZATION
+DEFINE trim_res_tb /home/saul/projects/LF_BG/trim_res_tb
+DEFINE TEST /home/saul/projects/LF_BG/TEST

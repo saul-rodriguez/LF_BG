@@ -1,0 +1,115 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jan 15 16:44:11 2026 
+Best design point: 1
+Design specs: 
+	Op	corner	MOS_BJT_RES_VDD_0 - 
+	VDC("/I0/STARTUP_REF")		363.4m
+	VDC("/VREF")		594.8m
+	Op	corner	MOS_BJT_RES_VDD_1 - 
+	VDC("/I0/STARTUP_REF")		369.4m
+	VDC("/VREF")		595.1m
+	Op	corner	MOS_BJT_RES_VDD_2 - 
+	VDC("/I0/STARTUP_REF")		291m
+	VDC("/VREF")		596.5m
+	Op	corner	MOS_BJT_RES_VDD_3 - 
+	VDC("/I0/STARTUP_REF")		296.3m
+	VDC("/VREF")		597.1m
+	Op	corner	MOS_BJT_RES_VDD_4 - 
+	VDC("/I0/STARTUP_REF")		292.8m
+	VDC("/VREF")		596.9m
+	Op	corner	MOS_BJT_RES_VDD_5 - 
+	VDC("/I0/STARTUP_REF")		297m
+	VDC("/VREF")		597.5m
+	Op	corner	MOS_BJT_RES_VDD_6 - 
+	VDC("/I0/STARTUP_REF")		361.8m
+	VDC("/VREF")		594m
+	Op	corner	MOS_BJT_RES_VDD_7 - 
+	VDC("/I0/STARTUP_REF")		367.7m
+	VDC("/VREF")		594.2m
+	Op	corner	MOS_BJT_RES_VDD_8 - 
+	VDC("/I0/STARTUP_REF")		376.6m
+	VDC("/VREF")		602m
+	Op	corner	MOS_BJT_RES_VDD_9 - 
+	VDC("/I0/STARTUP_REF")		383.3m
+	VDC("/VREF")		602.4m
+	Op	corner	MOS_BJT_RES_VDD_10 - 
+	VDC("/I0/STARTUP_REF")		303.5m
+	VDC("/VREF")		603.3m
+	Op	corner	MOS_BJT_RES_VDD_11 - 
+	VDC("/I0/STARTUP_REF")		308.3m
+	VDC("/VREF")		603.8m
+	Op	corner	MOS_BJT_RES_VDD_12 - 
+	VDC("/I0/STARTUP_REF")		305.3m
+	VDC("/VREF")		603.6m
+	Op	corner	MOS_BJT_RES_VDD_13 - 
+	VDC("/I0/STARTUP_REF")		309.8m
+	VDC("/VREF")		604.2m
+	Op	corner	MOS_BJT_RES_VDD_14 - 
+	VDC("/I0/STARTUP_REF")		375.1m
+	VDC("/VREF")		601.4m
+	Op	corner	MOS_BJT_RES_VDD_15 - 
+	VDC("/I0/STARTUP_REF")		381.4m
+	VDC("/VREF")		601.6m
+	Op	corner	MOS_BJT_RES_VDD_16 - 
+	VDC("/I0/STARTUP_REF")		363.4m
+	VDC("/VREF")		601.1m
+	Op	corner	MOS_BJT_RES_VDD_17 - 
+	VDC("/I0/STARTUP_REF")		369.4m
+	VDC("/VREF")		601.4m
+	Op	corner	MOS_BJT_RES_VDD_18 - 
+	VDC("/I0/STARTUP_REF")		291m
+	VDC("/VREF")		602.8m
+	Op	corner	MOS_BJT_RES_VDD_19 - 
+	VDC("/I0/STARTUP_REF")		296.3m
+	VDC("/VREF")		603.4m
+	Op	corner	MOS_BJT_RES_VDD_20 - 
+	VDC("/I0/STARTUP_REF")		292.8m
+	VDC("/VREF")		603.2m
+	Op	corner	MOS_BJT_RES_VDD_21 - 
+	VDC("/I0/STARTUP_REF")		297m
+	VDC("/VREF")		603.7m
+	Op	corner	MOS_BJT_RES_VDD_22 - 
+	VDC("/I0/STARTUP_REF")		361.8m
+	VDC("/VREF")		600.3m
+	Op	corner	MOS_BJT_RES_VDD_23 - 
+	VDC("/I0/STARTUP_REF")		367.7m
+	VDC("/VREF")		600.5m
+	Op	corner	MOS_BJT_RES_VDD_24 - 
+	VDC("/I0/STARTUP_REF")		376.6m
+	VDC("/VREF")		608.3m
+	Op	corner	MOS_BJT_RES_VDD_25 - 
+	VDC("/I0/STARTUP_REF")		383.3m
+	VDC("/VREF")		608.7m
+	Op	corner	MOS_BJT_RES_VDD_26 - 
+	VDC("/I0/STARTUP_REF")		303.5m
+	VDC("/VREF")		609.5m
+	Op	corner	MOS_BJT_RES_VDD_27 - 
+	VDC("/I0/STARTUP_REF")		308.3m
+	VDC("/VREF")		610.1m
+	Op	corner	MOS_BJT_RES_VDD_28 - 
+	VDC("/I0/STARTUP_REF")		305.3m
+	VDC("/VREF")		609.9m
+	Op	corner	MOS_BJT_RES_VDD_29 - 
+	VDC("/I0/STARTUP_REF")		309.8m
+	VDC("/VREF")		610.5m
+	Op	corner	MOS_BJT_RES_VDD_30 - 
+	VDC("/I0/STARTUP_REF")		375.1m
+	VDC("/VREF")		607.6m
+	Op	corner	MOS_BJT_RES_VDD_31 - 
+	VDC("/I0/STARTUP_REF")		381.4m
+	VDC("/VREF")		607.9m
+	Op	corner	Nominal - 
+	VDC("/I0/STARTUP_REF")		335.3m
+	VDC("/VREF")		601m
+Design parameters: 
+	VDD		1.2
+	VDD_PULSE		0
+	PD		0
+	PD_PULSE		0
+
+Interactive.103
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.103 completed. 
+Current time: Thu Jan 15 16:44:25 2026 

@@ -1,0 +1,4334 @@
+\# Program start time:     UTC 2026.01.15 21:01:52.410
+\# Local time: UTC (UTC+00:00) 2026.01.15 21:01:52.410
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEOoW1DdSN-99-usU81_XgL_171283 -mpshost 46631@edatools -davinciService DaVinciService_171479_1768510014 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job16.log1 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_171479 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 16
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 6.14.0-37-generic #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:7138 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,257 MB
+\# Available memory:	     62,623 MB
+\# System memory:	     72,240 MB
+\# Maximum memory size:	     71,103 MB
+\# Max mem available:	     62,743 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,680 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	edatools:/home/saul/projects/LF_BG
+\# Process Id:		177072
+\# Container Id:	EOoW1DdSN-99-usU81_XgL
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEOoW1DdSN-99-usU81_XgL_171283, host=46631@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 177072 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [21:01:52.512345] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o 
+\o ----------------          LFoundry            ----------------
+\o ----------------    Initializing LF11IS PDK    ----------------
+\o ----------------        Version 1.3.2         ----------------
+\o ----------------        Option 6metal         ----------------
+\o *LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+\o *LF-INFO* lf11is libInit.il loaded successfully. 
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting HSpice models                 done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: PDF reader "evince" found: /bin/evince.
+\# Memory report: using         275 MB, process size 1,966 MB at UTC 2026.01.15 21:01:54.058
+\o *LF-INFO* .cdsinit: Creating LF11IS PDK menus              done
+\o *LF-INFO* .cdsinit: Loading LF11IS display.drf             done
+\o *LF-INFO* .cdsinit: Setting PVS setup trigger      done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
+\o *LF-INFO* .cdsinit: Loading Layout Utilities              done
+\o *LF-INFO* .cdsinit: Opening library manager 				  done
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 177072' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TRAN_DC_OP:1_state_Interactive.7
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl/results/data/Interactive.7.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/1/TRAN
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 1) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "1.2"
+\o Setting var VDD = "0"
+\o Setting var VDD_PULSE = "1.2"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/1/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/1/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [21:01:55.315960] Periodic Lic check successful
+\# [21:01:55.315961] Feature usage summary:
+\o Begin Incremental Netlisting Jan 15 21:01:55 2026
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\o End netlisting Jan 15 21:01:55 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 1).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/1/TRAN/psf.
+\o compose simulator input file...
+\# Memory report: using         438 MB, process size 2,281 MB at UTC 2026.01.15 21:01:56.082
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 1) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 2) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/2/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/2/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:01:58 2026
+\o End netlisting Jan 15 21:01:58 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 2).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/2/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 2) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 3) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/3/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/3/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:00 2026
+\o End netlisting Jan 15 21:02:00 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 3).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/3/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Available memory:         62,127 MB at UTC 2026.01.15 21:02:02.276
+\# Memory report: Maximum memory size now 62,597 MB at UTC 2026.01.15 21:02:02.276
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.15 21:02:02.276
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 3) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 4) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/4/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/4/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:02 2026
+\o End netlisting Jan 15 21:02:02 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 4).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/4/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 4) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 5) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/5/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/5/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:05 2026
+\o End netlisting Jan 15 21:02:05 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 5).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/5/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 5) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 6) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/6/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/6/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:07 2026
+\o End netlisting Jan 15 21:02:07 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 6).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/6/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 6) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 7) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/7/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/7/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:09 2026
+\o End netlisting Jan 15 21:02:09 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 7).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/7/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 7) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 8) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/8/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/8/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:11 2026
+\o End netlisting Jan 15 21:02:11 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 8).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/8/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 8) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 9) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/9/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/9/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:14 2026
+\o End netlisting Jan 15 21:02:14 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7 9).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/9/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 9) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 10) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/10/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/10/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:16 2026
+\o End netlisting Jan 15 21:02:16 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           10).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/10/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 10) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 11) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/11/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/11/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:18 2026
+\o End netlisting Jan 15 21:02:18 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           11).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/11/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 11) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 12) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/12/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/12/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:20 2026
+\o End netlisting Jan 15 21:02:20 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           12).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/12/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 12) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 13) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/13/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/13/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 13)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:23 2026
+\o End netlisting Jan 15 21:02:23 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           13).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/13/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 13) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 14) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/14/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/14/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:25 2026
+\o End netlisting Jan 15 21:02:25 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           14).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/14/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 14) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 15) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/15/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/15/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:27 2026
+\o End netlisting Jan 15 21:02:27 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           15).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/15/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 15) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 16) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/16/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/16/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:29 2026
+\o End netlisting Jan 15 21:02:30 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           16).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/16/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 16) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 17) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/17/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/17/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:32 2026
+\o End netlisting Jan 15 21:02:32 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           17).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/17/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 17) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 18) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/18/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/18/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 18)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:34 2026
+\o End netlisting Jan 15 21:02:34 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           18).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/18/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 18) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 19) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/19/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/19/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 19)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:36 2026
+\o End netlisting Jan 15 21:02:36 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           19).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/19/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 19) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 20) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/20/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/20/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:38 2026
+\o End netlisting Jan 15 21:02:38 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           20).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/20/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 20) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 21) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/21/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/21/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 21)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:41 2026
+\o End netlisting Jan 15 21:02:41 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           21).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/21/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 21) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 22) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/22/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/22/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:43 2026
+\o End netlisting Jan 15 21:02:43 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           22).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/22/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 22) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 23) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/23/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/23/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 23)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:45 2026
+\o End netlisting Jan 15 21:02:45 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           23).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/23/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 23) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 24) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/24/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/24/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 24)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:47 2026
+\o End netlisting Jan 15 21:02:47 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           24).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/24/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 24) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 25) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/25/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/25/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 25)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:50 2026
+\o End netlisting Jan 15 21:02:50 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           25).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/25/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 25) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 26) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/26/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/26/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 26)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:52 2026
+\o End netlisting Jan 15 21:02:52 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           26).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/26/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 26) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 27) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/27/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/27/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 27)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:54 2026
+\o End netlisting Jan 15 21:02:54 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           27).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/27/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 27) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 28) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/28/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/28/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 28)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:56 2026
+\o End netlisting Jan 15 21:02:56 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           28).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/28/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 28) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 29) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/29/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/29/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 29)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:02:59 2026
+\o End netlisting Jan 15 21:02:59 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           29).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/29/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 29) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 30) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/30/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/30/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 30)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:03:01 2026
+\o End netlisting Jan 15 21:03:01 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           30).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/30/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 30) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 31) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/31/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/31/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 31)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:03:03 2026
+\o End netlisting Jan 15 21:03:03 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           31).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/31/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 31) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 32) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/32/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/32/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 32)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:03:06 2026
+\o End netlisting Jan 15 21:03:06 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           32).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/32/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 32) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (7 33) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/33/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/33/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (7 33)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:03:08 2026
+\o End netlisting Jan 15 21:03:08 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (7
+\o           33).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.7/33/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (7 33) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TRAN_DC_OP:1_state_Interactive.8
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl/results/data/Interactive.8.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/1/TRAN
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 1) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "1.2"
+\o Setting var VDD = "0"
+\o Setting var VDD_PULSE = "1.2"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/1/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/1/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:04:47 2026
+\o Loading json.cxt 
+\o End netlisting Jan 15 21:04:47 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   38
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8 1).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/1/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 1) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 2) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/2/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/2/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:04:49 2026
+\o End netlisting Jan 15 21:04:49 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8 2).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/2/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 61,281 MB at UTC 2026.01.15 21:04:51.192
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 2) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 7) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/7/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/7/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:04:52 2026
+\o End netlisting Jan 15 21:04:52 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8 7).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/7/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: using         542 MB, process size 2,435 MB at UTC 2026.01.15 21:05:00.739
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 7) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 12) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/12/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/12/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:05:01 2026
+\o End netlisting Jan 15 21:05:01 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8
+\o           12).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/12/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 12) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 17) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/17/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/17/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:05:10 2026
+\o End netlisting Jan 15 21:05:10 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8
+\o           17).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/17/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 17) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 21) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/21/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/21/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 21)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:05:18 2026
+\o End netlisting Jan 15 21:05:18 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8
+\o           21).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/21/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 21) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 26) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/26/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/26/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 26)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:05:26 2026
+\o End netlisting Jan 15 21:05:26 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8
+\o           26).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/26/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 26) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 32) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/32/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/32/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (8 32)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:05:34 2026
+\o End netlisting Jan 15 21:05:34 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (8
+\o           32).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.8/32/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 32) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TRAN_DC_OP:1_state_Interactive.9
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl/results/data/Interactive.9.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/1/TRAN
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 5) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "1.2"
+\o Setting var VDD = "0"
+\o Setting var VDD_PULSE = "1.2"
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/5/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/5/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:08:38 2026
+\o End netlisting Jan 15 21:08:38 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (9 5).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/5/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'5' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'5' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'5' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'5' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'5' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 5) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 8) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/8/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/8/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:08:47 2026
+\o End netlisting Jan 15 21:08:47 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (9 8).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/8/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'8' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'8' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'8' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'8' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'8' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 8) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 14) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/14/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/14/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:08:56 2026
+\o End netlisting Jan 15 21:08:56 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (9
+\o           14).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/14/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'14' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'14' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'14' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'14' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'14' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 14) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 20) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/20/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/20/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:09:04 2026
+\o End netlisting Jan 15 21:09:04 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (9
+\o           20).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/20/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'20' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'20' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'20' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'20' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'20' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 20) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 25) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/25/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/25/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 25)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:09:12 2026
+\o End netlisting Jan 15 21:09:12 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (9
+\o           25).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/25/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'25' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'25' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'25' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'25' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'25' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 25) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 29) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/29/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/29/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 29)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:09:20 2026
+\o End netlisting Jan 15 21:09:20 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (9
+\o           29).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/Interactive.9/29/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'29' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'29' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'29' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'29' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'29' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 29) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TRAN_DC_OP:1_state_MonteCarlo.0
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl/results/data/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/MonteCarlo.0/1/TRAN
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (10 121) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "1.2"
+\o Setting var VDD = "0"
+\o Setting var VDD_PULSE = "1.2"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/MonteCarlo.0/121/TRAN/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/MonteCarlo.0/121/TRAN/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (10 121)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:10:42 2026
+\o End netlisting Jan 15 21:10:42 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
+\o           121).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN/adexl/results/data/MonteCarlo.0/121/TRAN/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 15 21:10:42 2026
+\o End netlisting Jan 15 21:10:42 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'121' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'121' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'121' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'121' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'121' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 121) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'122' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'122' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'122' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'122' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'122' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 122) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'123' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'123' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'123' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'123' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'123' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 123) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'124' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'124' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'124' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'124' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'124' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 124) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'125' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'125' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'125' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'125' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'125' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 125) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'126' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'126' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'126' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'126' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'126' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 126) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'127' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'127' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'127' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'127' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'127' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 127) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'128' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'128' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'128' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'128' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'128' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 128) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'129' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'129' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'129' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'129' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'129' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 129) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'130' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'130' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'130' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'130' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'130' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 130) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'131' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'131' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'131' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'131' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'131' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 131) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'132' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'132' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'132' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'132' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'132' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 132) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'133' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'133' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'133' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'133' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'133' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 133) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 60,074 MB at UTC 2026.01.15 21:15:41.553
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'134' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'134' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'134' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'134' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'134' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 134) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'135' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'135' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'135' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'135' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'135' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 135) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'136' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'136' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'136' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'136' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'136' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 136) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'137' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'137' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'137' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'137' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'137' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 137) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         643 MB, process size 2,535 MB at UTC 2026.01.15 21:17:13.116
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'138' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'138' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'138' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'138' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'138' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 138) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'139' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'139' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'139' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'139' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'139' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 139) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'140' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'140' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'140' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'140' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'140' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 140) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'141' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'141' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'141' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'141' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'141' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 141) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'142' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'142' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'142' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'142' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'142' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 142) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'143' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'143' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'143' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'143' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'143' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 143) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'144' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'144' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'144' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'144' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'144' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 144) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'145' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'145' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'145' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'145' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'145' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 145) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'146' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'146' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'146' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'146' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'146' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 146) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'147' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'147' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'147' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'147' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'147' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 147) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'148' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'148' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'148' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'148' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'148' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 148) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'149' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'149' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'149' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'149' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'149' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 149) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'150' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'150' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'150' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'150' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'150' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 150) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'151' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'151' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'151' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'151' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'151' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 151) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'152' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'152' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'152' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'152' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'152' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 152) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'153' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'153' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'153' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'153' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'153' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 153) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'154' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'154' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'154' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'154' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'154' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 154) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'155' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'155' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'155' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'155' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'155' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 155) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'156' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'156' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'156' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'156' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'156' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 156) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'157' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'157' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'157' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'157' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'157' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 157) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'158' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'158' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'158' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'158' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'158' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 158) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'159' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'159' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'159' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'159' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'159' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 159) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'GM_bias_out' returned 'nil' for point:'160' test:'TRAN'
+\o 	Expression:'VDC("/BIAS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_32nA' returned 'nil' for point:'160' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Curr_128nA' returned 'nil' for point:'160' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'160' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'Bandgap_Ref' returned 'nil' for point:'160' test:'TRAN'
+\o 	Expression:'VDC("/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 160) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [21:31:05.050322] Cdslmd servers:3000@lic08.ug.kth.se
+\# [21:31:05.050344] Feature usage summary:
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

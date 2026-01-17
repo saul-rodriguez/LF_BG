@@ -1,0 +1,42 @@
+Starting Monte Carlo Sampling...
+
+Current time: Thu Jan 15 13:21:43 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 
+
+MonteCarlo.0
+Number of points completed: 200
+Number of simulation errors: 0
+MonteCarlo.0 completed. 
+Current time: Thu Jan 15 13:22:23 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 7
+BANDGAP:REF_TB:1	Nominal - 
+	I1X:	Yield	100%
+		Min -3.95188e-08	Max -2.80976e-08	Mean -3.20528e-08	Number of errors 0
+BANDGAP:REF_TB:1	Nominal - 
+	I4X:	Yield	100%
+		Min -1.57023e-07	Max -1.12582e-07	Mean -1.28048e-07	Number of errors 0
+BANDGAP:REF_TB:1	Nominal - 
+	Poles:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 200
+BANDGAP:REF_TB:1	Nominal - 
+	V/V /V0; xf dB20(V/V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+BANDGAP:REF_TB:1	Nominal - 
+	V1000:	Yield	100%
+		Min 0.996603	Max 1.00294	Mean 0.999335	Number of errors 0
+BANDGAP:REF_TB:1	Nominal - 
+	V550:	Yield	100%
+		Min 0.54897	Max 0.550768	Mean 0.549787	Number of errors 0
+BANDGAP:REF_TB:1	Nominal - 
+	Zeros:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 200
+
+BANDGAP:REF_TB:1
+	Overall Yield	100%	Number of points passed	200	Total number of points	200
+
+Estimated yield = 100% (200/200), 200 errors
+Estimated yield (No opregions) = 100% (200/200)

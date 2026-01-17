@@ -1,0 +1,30 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
+\o Sub version:		sub-version  s364 
+\o Arguments:		-cdslib /home/saul/projects/LF_BG/cds.lib -mpssession virtuosoE1SiitHG6tkqxwgmD-RKMK_5416 -mpshost 42017@b35621b5a0f6 -mpsversion 6.18 
+\o Working Directory:	b35621b5a0f6:/home/saul/projects/LF_BG
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1629 314 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(1969 211 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 36 0)
+\o Active cell: 36 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1969 211 500 474))
+\a nrListItemRename(cdsLibEditor->mainTable, 36 0 "CHARACTERIZATION")
+\a nrListItemAction(cdsLibEditor->mainTable 36 1)
+\o Active cell: 36 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 36 1 "./CHARACTERIZATION")
+\a nrListItemAction(cdsLibEditor->mainTable 37 0)
+\o Active cell: 37 0 ""
+\a nrListItemAction(cdsLibEditor->mainTable 35 1)
+\o Active cell: 35 1 "/home/saul/projects/LF_BG/BANDGAP"
+\a nrListItemRename(cdsLibEditor->mainTable, 35 1 "./BANDGAP")
+\a nrListItemAction(cdsLibEditor->mainTable 36 0)
+\o Active cell: 36 0 "CHARACTERIZATION"
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

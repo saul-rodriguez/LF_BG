@@ -1,0 +1,91 @@
+;; PDK specific entries do not touch --
+
+LF11IS_HOME = getShellEnvVar( "LF11IS_HOME" )
+
+defun( LFinitDisplayError ( t_banner t_errorMsg )
+;; display a dialog box message about LF11IS_HOME failure.
+    when( t_errorMsg
+        warn( t_errorMsg )
+        hiDisplayAppDBox(
+            ?name           'LF11IS_HOME_error
+            ?dboxBanner     t_banner
+            ?dboxText       t_errorMsg
+            ?dialogType     hicErrorDialog
+            ?dialogStyle    'modal
+            ?buttonLayout   'Close
+        )
+    )
+) ;; close defun
+
+;; getting LF11IS_HOME directory
+if( !LF11IS_HOME || LF11IS_HOME == "" then
+  LFinitDisplayError(
+    "LF11IS_HOME Error"
+    strcat( 
+      "Environment variable LF11IS_HOME not set.\n" 
+      "This will result in an incomplete customization for LF11ISC.\n" 
+    )
+  )
+else
+  if( !isDir( LF11IS_HOME ) then
+    LFinitDisplayError(
+      "LF11IS_HOME Error"
+      strcat( 
+	"Environment variable LF11IS_HOME is not a directory.\n"
+	"This will result in an incomplete customization for LF11ISC.\n" 
+      )
+    )
+  else
+    if( !isReadable( LF11IS_HOME ) then
+      LFinitDisplayError( 
+        "LF11IS_HOME Error"
+	strcat( 
+	  "Directory LF11IS_HOME is not readable.\n"
+	  "This will result in an incomplete customization for LF11ISC.\n" 
+	)
+      )
+    else
+      loadi( strcat( LF11IS_HOME "/tools/setup/.cdsinit" ) )
+    ) ;; close unless isReadable   
+  ) ;; close if isDir
+) ;; close if getShellEnvVar
+
+;;) ;; close let
+
+;; END PDK specific entries do not touch --
+
+;; PDK ADDONs specific entries do not touch --
+let(
+	(
+		(addon_list getShellEnvVar("LF11IS_ADDON"))
+		addon_path
+	)
+	addon_list=getShellEnvVar("LF11IS_ADDON")
+	when(addon_list
+		foreach(addon parseString(addon_list ":")
+			addon_path=strcat(addon "/tools/setup/.cdsinit")
+			if(isFile(addon_path) then
+				printf("*LF-INFO* %s loading \n" addon_path)
+				loadi(addon_path)
+			else
+				printf("*LF-WARN* %s is not avaliable \n" addon_path)
+			);if
+		);foreach
+	);when
+)
+;; END PDK ADDONs specific entries do not touch --
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;  opening the library manager
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+let((b_openLibManger)
+b_openLibManger=t
+if( b_openLibManger then
+	 ddsOpenLibManager( )
+	 printf( "*LF-INFO* .cdsinit: Opening library manager 				  done\n" )
+else
+	 printf( "*LF-INFO* .cdsinit: Opening library manager 			  skipped\n" )
+) ;; close if b_openLibManger
+)
