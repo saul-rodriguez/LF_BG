@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.14
-	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14.rdb
-	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP
+	State Name   = OP_none_Interactive.33
+	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33.rdb
+	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33/1/OP
 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
@@ -28,7 +28,7 @@
 
 
 
-*Info*    Run start for Point ID (18 1) on testbench [ OP ].
+*Info*    Run start for Point ID (11 1) on testbench [ OP ].
 
 Resetting statistical vars
 
@@ -37,7 +37,7 @@ Resetting statistical vars
 Setting var CL = "150f"
 Setting var CL2 = "3p"
 Setting var CONF_BG_SL_TRIM = "3"
-Setting var CONF_BG_TRIM = "5"
+Setting var CONF_BG_TRIM = "3"
 Setting var CONF_LDO_SEL = "0"
 Setting var CONF_LVDS_SEL = "0"
 Setting var CONF_REF_TRIM = "3"
@@ -51,31 +51,46 @@ Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP/netlist
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33/1/OP/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33/1/OP
 
 
-*Info*    Creating Netlist for Point ID (18 1)
+*Info*    Creating Netlist for Point ID (11 1)
 
 generate netlist...
-Begin Incremental Netlisting Jan 17 09:51:03 2026
-WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.0/1/OP/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Begin Incremental Netlisting Jan 17 14:56:17 2026
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.22/1/OP/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
 Ensure that you have the write permission for the mentioned file.
 
-End netlisting Jan 17 09:51:03 2026
+WARNING (ADE-6003): Terminal "PD", specified in the CDF termOrder, does not exist
+           in the cell-view "BANDGAP" "BG_TRIM_3" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Jan 17 14:56:17 2026
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:   50
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 2
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ OP ] for Point ID (18 1).
+*Info*    Running simulation on testbench [ OP ] for Point ID (11 1).
 
-Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14/1/OP/psf.
+Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33/1/OP/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -90,7 +105,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (18 1) on testbench [ OP ].
+*Info*    Run complete for Point ID (11 1) on testbench [ OP ].
 
 
 

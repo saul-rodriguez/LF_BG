@@ -1,0 +1,27 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Jan 17 15:00:33 2026 
+Best design point: 1
+Design specs: 
+	TRAN	corner	Nominal - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+Design parameters: 
+	CL		150f
+	CL2		3p
+	CONF_BG_SL_TRIM		3
+	CONF_BG_TRIM		3
+	CONF_REF_TRIM		3
+	CONF_LVDS_SEL		0
+	PD		1.2
+	PD_PULSE		0
+	CONF_LDO_SEL		0
+
+Interactive.35
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.35 completed. 
+Current time: Sat Jan 17 15:00:37 2026 

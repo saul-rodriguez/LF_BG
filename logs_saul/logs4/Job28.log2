@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.01.16 08:52:04.133
-\# Local time: UTC (UTC+00:00) 2026.01.16 08:52:04.133
+\# Program start time:     UTC 2026.01.17 22:46:34.325
+\# Local time: UTC (UTC+00:00) 2026.01.17 22:46:34.325
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoE1rognVmv4ER_AtqQnHusJ_219394 -mpshost 58501@edatools -davinciService DaVinciService_219590_1768543923 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job28.log2 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_219590 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 28
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEOD32kq0j5xgfNO8ben2UI_350927 -mpshost 51605@edatools -davinciService DaVinciService_351123_1768687726 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job28.log2 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_351123 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 28
 \# Host name (type):	edatools (x86_64)
 \# Operating system:	Linux 6.14.0-37-generic #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:8877 (1024x868)
+\# X display name (WxH):	:7899 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	      1,168 MB
-\# Available memory:	     58,527 MB
+\# Initial sbrk value:	        770 MB
+\# Available memory:	     61,219 MB
 \# System memory:	     72,240 MB
-\# Maximum memory size:	     71,191 MB
-\# Max mem available:	     58,646 MB
+\# Maximum memory size:	     71,589 MB
+\# Max mem available:	     61,338 MB
 \# Initial memory used:	        120 MB
 \#        process size:	      1,680 MB
 \# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
@@ -30,8 +30,8 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	edatools:/home/saul/projects/LF_BG
-\# Process Id:		240183
-\# Container Id:	E1rognVmv4ER_AtqQnHusJ
+\# Process Id:		400371
+\# Container Id:	EOD32kq0j5xgfNO8ben2UI
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -75,12 +75,13 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuosoE1rognVmv4ER_AtqQnHusJ_219394, host=58501@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEOD32kq0j5xgfNO8ben2UI_350927, host=51605@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 240183 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 400371 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [08:52:04.512409] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# [22:46:34.512425] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# Memory report: using         272 MB, process size 1,963 MB at UTC 2026.01.17 22:46:36.029
 \w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \o 
@@ -119,11 +120,10 @@
 \p > 
 \w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
 \# Loading perfDiag...
-\# Memory report: using         278 MB, process size 1,971 MB at UTC 2026.01.16 08:52:06.062
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
 \w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
 \w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 240183' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 400371' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \o Loading vqp.cxt 
@@ -138,9 +138,9 @@
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.10
-\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10.rdb
-\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/1/TRAN
+\o 	State Name   = OP_none_MonteCarlo.0
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0/1/OP
 \o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
 \o 	Project Dir  = /home/saul/simulation
 \o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
@@ -154,6 +154,7 @@
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
 \o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\# Memory report: using         372 MB, process size 2,065 MB at UTC 2026.01.17 22:46:37.009
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading msgHandler.cxt 
@@ -169,7 +170,7 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (10 4) on testbench [ TRAN ].
+\o *Info*    Run start for Point ID (2 1) on testbench [ OP ].
 \o 
 \o Resetting statistical vars
 \o 
@@ -182,34 +183,54 @@
 \o Setting var CONF_LDO_SEL = "0"
 \o Setting var CONF_LVDS_SEL = "0"
 \o Setting var CONF_REF_TRIM = "3"
-\o Setting var EN = "0"
-\o Setting var EN_PULSE = "1.2"
+\o Setting var EN = "1.2"
+\o Setting var EN_PULSE = "0"
 \o Setting var PD = "1.2"
 \o Setting var PD_PULSE = "0"
-\o Setting var VDD = "0"
-\o Setting var VDD_PULSE = "1.2"
-\o Setting var temperature = "-40"
-\o Setting temp(T) = -40
+\o Setting var VDD = "1.2"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/4/TRAN/netlist
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0/1/OP/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/4/TRAN
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0/1/OP/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (10 4)
+\o *Info*    Creating Netlist for Point ID (2 1)
 \o 
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
-\# [08:52:07.310360] Periodic Lic check successful
-\# [08:52:07.310361] Feature usage summary:
-\o Begin Incremental Netlisting Jan 16 08:52:07 2026
-\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
-\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
-\o End netlisting Jan 16 08:52:07 2026
+\# [22:46:37.077497] Periodic Lic check successful
+\# [22:46:37.077498] Feature usage summary:
+\o Begin Incremental Netlisting Jan 17 22:46:37 2026
+\o End netlisting Jan 17 22:46:37 2026
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -217,10 +238,18 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
-\o           4).
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (2 1).
 \o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/4/TRAN/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0/1/OP/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 17 22:46:37 2026
+\o End netlisting Jan 17 22:46:38 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -230,509 +259,375 @@
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
 \o Loading paraplot.cxt 
-\# Memory report: using         458 MB, process size 2,351 MB at UTC 2026.01.16 08:52:08.404
+\# Memory report: using         476 MB, process size 2,369 MB at UTC 2026.01.17 22:46:41.217
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Available memory:         59,133 MB at UTC 2026.01.17 22:46:44.243
+\# Memory report: Maximum memory size now 59,609 MB at UTC 2026.01.17 22:46:44.243
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.17 22:46:44.243
+\o 
+\o *Info*    Run complete for Point ID (2 1) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 2) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 3) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 4) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 5) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 6) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 7) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 8) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 9) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 10) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 11) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 12) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 13) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 14) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 15) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 16) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 17) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 18) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 19) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 20) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 21) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 22) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 23) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 24) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 25) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 26) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 27) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 28) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 29) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         577 MB, process size 2,470 MB at UTC 2026.01.17 22:49:09.059
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 30) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 31) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 32) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 33) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 34) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 35) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 36) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 37) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 38) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
-\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'4' test:'TRAN'
-\o 	Expression:'IDC("/R5/PLUS")'.
-\o Ensure that the definition of output is correct.
 \o 
-\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'4' test:'TRAN'
-\o 	Expression:'VDC("/V550")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'4' test:'TRAN'
-\o 	Expression:'VDC("/I8/VREF")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'4' test:'TRAN'
-\o 	Expression:'IDC("/R8/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'4' test:'TRAN'
-\o 	Expression:'VDC("/V1000")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o 
-\o *Info*    Run complete for Point ID (10 4) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (2 39) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (10 9) on testbench [ TRAN ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var temperature = "85"
-\o Setting temp(T) = 85
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/9/TRAN/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/9/TRAN
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (10 9)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 16 08:52:10 2026
-\o End netlisting Jan 16 08:52:10 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
-\o           9).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/9/TRAN/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
-\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'9' test:'TRAN'
-\o 	Expression:'IDC("/R5/PLUS")'.
-\o Ensure that the definition of output is correct.
 \o 
-\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'9' test:'TRAN'
-\o 	Expression:'VDC("/V550")'.
-\o Ensure that the definition of output is correct.
+\o *Info*    Run complete for Point ID (2 40) on testbench [ OP ].
 \o 
-\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'9' test:'TRAN'
-\o 	Expression:'VDC("/I8/VREF")'.
-\o Ensure that the definition of output is correct.
 \o 
-\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'9' test:'TRAN'
-\o 	Expression:'IDC("/R8/PLUS")'.
-\o Ensure that the definition of output is correct.
 \o 
-\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'9' test:'TRAN'
-\o 	Expression:'VDC("/V1000")'.
-\o Ensure that the definition of output is correct.
 \o 
 \o 
-\o *Info*    Run complete for Point ID (10 9) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (10 13) on testbench [ TRAN ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/13/TRAN/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/13/TRAN
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (10 13)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 16 08:52:12 2026
-\o End netlisting Jan 16 08:52:12 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
-\o           13).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/13/TRAN/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'13' test:'TRAN'
-\o 	Expression:'IDC("/R5/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'13' test:'TRAN'
-\o 	Expression:'VDC("/V550")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'13' test:'TRAN'
-\o 	Expression:'VDC("/I8/VREF")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'13' test:'TRAN'
-\o 	Expression:'IDC("/R8/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'13' test:'TRAN'
-\o 	Expression:'VDC("/V1000")'.
-\o Ensure that the definition of output is correct.
-\o 
-\# Available memory:         56,731 MB at UTC 2026.01.16 08:52:14.155
-\# Memory report: Maximum memory size now 57,204 MB at UTC 2026.01.16 08:52:14.155
-\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.16 08:52:14.155
-\o 
-\o *Info*    Run complete for Point ID (10 13) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (10 18) on testbench [ TRAN ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var temperature = "-40"
-\o Setting temp(T) = -40
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/18/TRAN/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/18/TRAN
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (10 18)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 16 08:52:14 2026
-\o End netlisting Jan 16 08:52:14 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
-\o           18).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/18/TRAN/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'18' test:'TRAN'
-\o 	Expression:'IDC("/R5/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'18' test:'TRAN'
-\o 	Expression:'VDC("/V550")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'18' test:'TRAN'
-\o 	Expression:'VDC("/I8/VREF")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'18' test:'TRAN'
-\o 	Expression:'IDC("/R8/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'18' test:'TRAN'
-\o 	Expression:'VDC("/V1000")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o 
-\o *Info*    Run complete for Point ID (10 18) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (10 24) on testbench [ TRAN ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/24/TRAN/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/24/TRAN
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (10 24)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 16 08:52:16 2026
-\o End netlisting Jan 16 08:52:16 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
-\o           24).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/24/TRAN/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'24' test:'TRAN'
-\o 	Expression:'IDC("/R5/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'24' test:'TRAN'
-\o 	Expression:'VDC("/V550")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'24' test:'TRAN'
-\o 	Expression:'VDC("/I8/VREF")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'24' test:'TRAN'
-\o 	Expression:'IDC("/R8/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'24' test:'TRAN'
-\o 	Expression:'VDC("/V1000")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o 
-\o *Info*    Run complete for Point ID (10 24) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (10 29) on testbench [ TRAN ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var temperature = "85"
-\o Setting temp(T) = 85
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/29/TRAN/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/29/TRAN
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (10 29)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 16 08:52:18 2026
-\o End netlisting Jan 16 08:52:18 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
-\o           29).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/29/TRAN/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'29' test:'TRAN'
-\o 	Expression:'IDC("/R5/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'29' test:'TRAN'
-\o 	Expression:'VDC("/V550")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'29' test:'TRAN'
-\o 	Expression:'VDC("/I8/VREF")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'29' test:'TRAN'
-\o 	Expression:'IDC("/R8/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'29' test:'TRAN'
-\o 	Expression:'VDC("/V1000")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o 
-\o *Info*    Run complete for Point ID (10 29) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (10 33) on testbench [ TRAN ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/33/TRAN/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/33/TRAN
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (10 33)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 16 08:52:20 2026
-\o End netlisting Jan 16 08:52:20 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (10
-\o           33).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.10/33/TRAN/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'33' test:'TRAN'
-\o 	Expression:'IDC("/R5/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'33' test:'TRAN'
-\o 	Expression:'VDC("/V550")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'33' test:'TRAN'
-\o 	Expression:'VDC("/I8/VREF")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'33' test:'TRAN'
-\o 	Expression:'IDC("/R8/PLUS")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'33' test:'TRAN'
-\o 	Expression:'VDC("/V1000")'.
-\o Ensure that the definition of output is correct.
-\o 
-\o 
-\o *Info*    Run complete for Point ID (10 33) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
-\# Lic Summary:
-\# [08:53:27.421106] Cdslmd servers:3000@lic08.ug.kth.se
-\# [08:53:27.421128] Feature usage summary:
-\# Memory report: on exit            487 MB, process size 2,379 MB at UTC 2026.01.16 08:53:27.945
-\# Memory report: peak usage         487 MB, process size 2,379 MB

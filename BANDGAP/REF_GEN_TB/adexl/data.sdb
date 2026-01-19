@@ -666,7 +666,7 @@
 					<value>all</value>
 				</runoption>
 				<runoption>mcnumpoints
-					<value>1</value>
+					<value>200</value>
 				</runoption>
 				<runoption>mcnumbins
 					<value></value>
@@ -702,7 +702,7 @@
 					<value></value>
 				</runoption>
 				<runoption>mcstartingrunnumber
-					<value>58</value>
+					<value></value>
 				</runoption>
 				<runoption>dumpParamMode
 					<value>no</value>
@@ -711,7 +711,7 @@
 		</runoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.12
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.30
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1144,7 +1144,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.12</value>
+								<value>OP_none_Interactive.30</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1218,7 +1218,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.12</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.30</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1423,26 +1423,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:50:26 2026</timestamp>
-			<uuid>{e290532f-11b7-4b79-ae56-ba17b25d6304}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.12.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.12.rdb</simresults>
+			<timestamp>Jan 17 14:50:35 2026</timestamp>
+			<uuid>{b0398926-2219-491b-9dab-1290a670634a}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.30.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.30.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095026538</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.12</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.12</simdir>
+			<localpsfdir>/tmp/edatools_saul_145035684</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.30</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.30</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.12.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.12.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.30.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.30.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.13
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.31
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1875,7 +1875,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.13</value>
+								<value>OP_none_Interactive.31</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1949,7 +1949,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.13</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.31</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2001,7 +2001,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_BG_TRIM
-						<value>4</value>
+						<value>3</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -2154,26 +2154,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:50:47 2026</timestamp>
-			<uuid>{ecff2ed5-50dc-4d47-86d1-04e681fd55e2}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.13.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.13.rdb</simresults>
+			<timestamp>Jan 17 14:52:24 2026</timestamp>
+			<uuid>{df0fe046-eb8c-4c37-867e-2c224b6fc6a3}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.31.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.31.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095047878</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.13</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.13</simdir>
+			<localpsfdir>/tmp/edatools_saul_145224194</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.31</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.31</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.13.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.13.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.31.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.31.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.14
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.32
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -2606,7 +2606,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.14</value>
+								<value>OP_none_Interactive.32</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -2680,7 +2680,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.14</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.32</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2732,7 +2732,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_BG_TRIM
-						<value>5</value>
+						<value>3</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -2885,26 +2885,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:51:01 2026</timestamp>
-			<uuid>{f4b6cdc8-d385-474b-9fe2-5d04d739f520}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.14.rdb</simresults>
+			<timestamp>Jan 17 14:53:25 2026</timestamp>
+			<uuid>{28fdfa58-2895-443a-80c3-2ea008860e39}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.32.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.32.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095101966</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14</simdir>
+			<localpsfdir>/tmp/edatools_saul_145325282</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.32</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.32</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.14.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.14.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.32.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.32.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.15
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.33
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -3337,7 +3337,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.15</value>
+								<value>OP_none_Interactive.33</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -3411,7 +3411,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.15</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.33</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3463,7 +3463,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_BG_TRIM
-						<value>6</value>
+						<value>3</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -3616,26 +3616,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:51:28 2026</timestamp>
-			<uuid>{8c8563d1-5d42-4135-94ea-6d7fa3c64258}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.15.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.15.rdb</simresults>
+			<timestamp>Jan 17 14:56:16 2026</timestamp>
+			<uuid>{c8dbcaf8-f5a5-4a05-96ad-aadf8f3b7969}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.33.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095128503</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.15</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.15</simdir>
+			<localpsfdir>/tmp/edatools_saul_145616440</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.15.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.15.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.33.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.33.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.16
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.34
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -4068,7 +4068,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.16</value>
+								<value>OP_none_Interactive.34</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -4142,7 +4142,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.16</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.34</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -4194,7 +4194,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_BG_TRIM
-						<value>4</value>
+						<value>3</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -4347,26 +4347,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:52:14 2026</timestamp>
-			<uuid>{2d9a8524-aec1-4f24-bb77-0fee573f21b2}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.16.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.16.rdb</simresults>
+			<timestamp>Jan 17 14:58:04 2026</timestamp>
+			<uuid>{6ad41049-3d31-4e20-946d-499d5eaa945b}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.34.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.34.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095214672</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.16</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.16</simdir>
+			<localpsfdir>/tmp/edatools_saul_145804793</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.34</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.34</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.16.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.16.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.34.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.34.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.17
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.35
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -4799,7 +4799,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.17</value>
+								<value>OP_none_Interactive.35</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -4873,7 +4873,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.17</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.35</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -5024,7 +5024,7 @@
 				</plottingoptions>
 				<jobpolicyname>ADE XL Default</jobpolicyname>
 				<disabledtests>
-					<test>TRAN</test>
+					<test>OP</test>
 				</disabledtests>
 				<allcornersenabled>1</allcornersenabled>
 				<runoptions>
@@ -5078,26 +5078,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:56:25 2026</timestamp>
-			<uuid>{dea51403-dd95-4edf-a7c1-82f8d8422b37}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.17.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.17.rdb</simresults>
+			<timestamp>Jan 17 15:00:33 2026</timestamp>
+			<uuid>{161d36e2-5f37-4ccf-87f1-9c6ffd958656}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.35.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.35.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095625115</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.17</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.17</simdir>
+			<localpsfdir>/tmp/edatools_saul_150033106</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.35</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.35</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.17.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.17.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.35.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.35.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.18
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.36
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -5530,7 +5530,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.18</value>
+								<value>OP_none_Interactive.36</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -5604,7 +5604,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.18</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.36</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -5663,7 +5663,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_REF_TRIM
-						<value>4</value>
+						<value>3</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -5809,26 +5809,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:56:50 2026</timestamp>
-			<uuid>{0e94cbb5-9cad-4273-8b6a-7f727d074425}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.18.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.18.rdb</simresults>
+			<timestamp>Jan 17 22:36:46 2026</timestamp>
+			<uuid>{d2001cbc-eec0-4f82-9e77-d99e1b5bdac6}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.36.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.36.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095650884</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.18</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.18</simdir>
+			<localpsfdir>/tmp/edatools_saul_223646305</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.36</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.36</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.18.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.18.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.36.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.36.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.19
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.37
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -5896,7 +5896,7 @@
 							</model>
 						</models>
 					</corner>
-					<corner enabled="0">MOS_BJT_RES_TEMP
+					<corner enabled="1">MOS_BJT_RES_TEMP
 						<vars>
 							<var>temperature
 								<value>-40 85</value>
@@ -6261,7 +6261,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.19</value>
+								<value>OP_none_Interactive.37</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -6335,7 +6335,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.19</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.37</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -6394,7 +6394,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_REF_TRIM
-						<value>7</value>
+						<value>3</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -6540,26 +6540,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:57:43 2026</timestamp>
-			<uuid>{80fe8c4f-d578-4c20-b25a-097d2747b839}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.19.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.19.rdb</simresults>
+			<timestamp>Jan 17 22:37:56 2026</timestamp>
+			<uuid>{3eb134f6-110b-45ef-b719-45ae4b43f69b}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.37.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095743491</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.19</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.19</simdir>
+			<localpsfdir>/tmp/edatools_saul_223756183</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.19.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.19.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.37.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.20
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.0
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -6970,7 +6970,7 @@
 						<icontype></icontype>
 					</extension>
 				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<currentmode>Monte Carlo Sampling</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
 					<test enabled="1">OP
@@ -6992,7 +6992,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.20</value>
+								<value>OP_none_MonteCarlo.0</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -7066,7 +7066,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.20</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_MonteCarlo.0</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -7125,7 +7125,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_REF_TRIM
-						<value>4</value>
+						<value>3</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -7226,7 +7226,7 @@
 							<value>all</value>
 						</runoption>
 						<runoption>mcnumpoints
-							<value>1</value>
+							<value>200</value>
 						</runoption>
 						<runoption>mcnumbins
 							<value></value>
@@ -7262,7 +7262,7 @@
 							<value></value>
 						</runoption>
 						<runoption>mcstartingrunnumber
-							<value>58</value>
+							<value></value>
 						</runoption>
 						<runoption>dumpParamMode
 							<value>no</value>
@@ -7271,26 +7271,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 09:58:31 2026</timestamp>
-			<uuid>{328ce2a8-5cfb-4b62-aa9a-dc2eb03df480}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.20.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.20.rdb</simresults>
+			<timestamp>Jan 17 22:46:32 2026</timestamp>
+			<uuid>{8e371acd-7efa-4378-9cc2-70e4c4eaa527}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_095831138</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.20</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.20</simdir>
+			<localpsfdir>/tmp/edatools_saul_224632555</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.20.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.20.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.21
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.38
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -7723,7 +7723,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.21</value>
+								<value>OP_none_Interactive.38</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -7797,7 +7797,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.21</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.38</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -7957,7 +7957,7 @@
 							<value>all</value>
 						</runoption>
 						<runoption>mcnumpoints
-							<value>1</value>
+							<value>200</value>
 						</runoption>
 						<runoption>mcnumbins
 							<value></value>
@@ -7993,7 +7993,7 @@
 							<value></value>
 						</runoption>
 						<runoption>mcstartingrunnumber
-							<value>58</value>
+							<value></value>
 						</runoption>
 						<runoption>dumpParamMode
 							<value>no</value>
@@ -8002,22 +8002,22 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 17 10:14:28 2026</timestamp>
-			<uuid>{3d411d56-6b27-401a-b6f0-743d64f4fa6f}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.21.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.21.rdb</simresults>
+			<timestamp>Jan 19 08:17:40 2026</timestamp>
+			<uuid>{97232f30-c613-4e92-af1b-73d86da8a72e}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.38.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.38.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_101428675</localpsfdir>
-			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.21</psfdir>
-			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.21</simdir>
+			<localpsfdir>/tmp/edatools_saul_081740404</localpsfdir>
+			<psfdir>/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.38</psfdir>
+			<simdir>$AXL_PROJECT_DIR/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.38</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.21.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.21.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.38.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.38.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

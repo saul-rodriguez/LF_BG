@@ -103,7 +103,7 @@ analysis(xf fields dec) "30"
 analysis(xf fields designVar) ""
 analysis(xf fields dev) ""
 analysis(xf fields deviceParam) ""
-analysis(xf fields enable) (nil)
+analysis(xf fields enable) (t)
 analysis(xf fields freq) ""
 analysis(xf fields incrType) "Logarithmic"
 analysis(xf fields lin) ""
