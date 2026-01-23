@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.01.22 13:34:20.875
-\# Local time: UTC (UTC+00:00) 2026.01.22 13:34:20.875
+\# Program start time:     UTC 2026.01.22 13:34:20.960
+\# Local time: UTC (UTC+00:00) 2026.01.22 13:34:20.960
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoExkUHxe46GUO0IfEFlnGHL_478283 -mpshost 47417@edatools -davinciService DaVinciService_478478_1769087031 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job7.log2 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_478478 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 7
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoExkUHxe46GUO0IfEFlnGHL_478283 -mpshost 47417@edatools -davinciService DaVinciService_478478_1769087031 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job8.log4 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_478478 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 8
 \# Host name (type):	edatools (x86_64)
 \# Operating system:	Linux 6.14.0-37-generic #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:7251 (1024x868)
+\# X display name (WxH):	:3455 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        989 MB
-\# Available memory:	     58,493 MB
+\# Initial sbrk value:	      1,129 MB
+\# Available memory:	     58,439 MB
 \# System memory:	     72,240 MB
-\# Maximum memory size:	     71,371 MB
-\# Max mem available:	     58,612 MB
+\# Maximum memory size:	     71,230 MB
+\# Max mem available:	     58,559 MB
 \# Initial memory used:	        120 MB
 \#        process size:	      1,680 MB
 \# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	edatools:/home/saul/projects/LF_BG
-\# Process Id:		481050
+\# Process Id:		481057
 \# Container Id:	ExkUHxe46GUO0IfEFlnGHL
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
@@ -69,7 +69,7 @@
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
-\# Memory report: using         251 MB, process size 1,937 MB at UTC 2026.01.22 13:34:22.011
+\# Memory report: using         251 MB, process size 1,937 MB at UTC 2026.01.22 13:34:22.078
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
@@ -78,7 +78,7 @@
 \o Loading lp.cxt 
 \o INFO (ELI-00302) Connecting to parent process (session=virtuosoExkUHxe46GUO0IfEFlnGHL_478283, host=47417@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 481050 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 481057 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
 \# [13:34:20.512361] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
@@ -123,7 +123,7 @@
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
 \w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
 \w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 481050' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 481057' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \o Loading vqp.cxt 
@@ -151,9 +151,9 @@
 \w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \o Loading spectrei.cxt 
+\# Memory report: using         352 MB, process size 2,045 MB at UTC 2026.01.22 13:34:23.022
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
-\# Memory report: using         366 MB, process size 2,059 MB at UTC 2026.01.22 13:34:23.180
 \o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
@@ -170,7 +170,7 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (2 81) on testbench [ OP ].
+\o *Info*    Run start for Point ID (2 121) on testbench [ OP ].
 \o 
 \o Resetting statistical vars
 \o 
@@ -193,14 +193,14 @@
 \o Setting temp(T) = 50.0
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/81/OP/groupRunDataDir/netlist
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/121/OP/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/81/OP/groupRunDataDir
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/121/OP/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (2 81)
+\o *Info*    Creating Netlist for Point ID (2 121)
 \o 
 \w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
 \w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
@@ -227,22 +227,22 @@
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
-\# [13:34:23.445409] Periodic Lic check successful
-\# [13:34:23.445410] Feature usage summary:
-\o Begin Incremental Netlisting Jan 22 13:34:23 2026
+\# [13:34:24.029008] Periodic Lic check successful
+\# [13:34:24.029009] Feature usage summary:
+\o Begin Incremental Netlisting Jan 22 13:34:24 2026
 \o End netlisting Jan 22 13:34:24 2026
 \o 
 \o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   1.0s
+\o 	Time taken to compare the design with netlist:   0.0s
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ OP ] for Point ID (2 81).
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (2 121).
 \o 
 \o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
 \o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/81/OP/groupRunDataDir/psf.
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/121/OP/groupRunDataDir/psf.
 \o generate netlist...
 \o Begin Incremental Netlisting Jan 22 13:34:24 2026
 \o End netlisting Jan 22 13:34:24 2026
@@ -259,32 +259,23 @@
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
 \o Loading paraplot.cxt 
-\# Memory report: using         477 MB, process size 2,370 MB at UTC 2026.01.22 13:34:26.051
+\# Memory report: using         461 MB, process size 2,353 MB at UTC 2026.01.22 13:34:25.553
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 81) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 121) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\# Available memory:         56,575 MB at UTC 2026.01.22 13:34:32.120
-\# Memory report: Maximum memory size now 57,054 MB at UTC 2026.01.22 13:34:32.120
-\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.22 13:34:32.120
+\# Available memory:         56,575 MB at UTC 2026.01.22 13:34:31.844
+\# Memory report: Maximum memory size now 57,054 MB at UTC 2026.01.22 13:34:31.845
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.22 13:34:31.845
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 82) on testbench [ OP ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 83) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 122) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -293,7 +284,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 84) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 123) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -302,7 +293,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 85) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 124) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -311,7 +302,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 86) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 125) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -320,7 +311,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 87) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 126) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -329,7 +320,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 88) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 127) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -338,7 +329,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 89) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 128) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -347,7 +338,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 90) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 129) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -356,7 +347,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 91) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 130) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -365,7 +356,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 92) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 131) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -374,7 +365,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 93) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 132) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -383,7 +374,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 94) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 133) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -392,7 +383,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 95) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 134) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -401,7 +392,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 96) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 135) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -410,7 +401,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 97) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 136) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -419,17 +410,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 98) on testbench [ OP ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Memory report: Maximum memory size now 55,736 MB at UTC 2026.01.22 13:35:31.216
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 99) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 137) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -438,7 +419,17 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 100) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 138) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 55,769 MB at UTC 2026.01.22 13:35:32.116
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 139) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -447,7 +438,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 101) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 140) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -456,7 +447,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 102) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 141) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -465,7 +456,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 103) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 142) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -474,7 +465,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 104) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 143) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -483,7 +474,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 105) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 144) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -492,7 +483,17 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 106) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 145) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         564 MB, process size 2,457 MB at UTC 2026.01.22 13:35:57.147
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 146) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -501,7 +502,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 107) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 147) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -510,7 +511,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 108) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 148) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -519,7 +520,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 109) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 149) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -528,17 +529,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 110) on testbench [ OP ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Memory report: using         580 MB, process size 2,473 MB at UTC 2026.01.22 13:36:16.054
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 111) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 150) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -547,7 +538,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 112) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 151) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -556,7 +547,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 113) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 152) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -565,7 +556,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 114) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 153) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -574,7 +565,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 115) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 154) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -583,7 +574,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 116) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 155) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -592,7 +583,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 117) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 156) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -601,7 +592,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 118) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 157) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -610,7 +601,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 119) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 158) on testbench [ OP ].
 \o 
 \o 
 \o 
@@ -622,13 +613,23 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 120) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (2 159) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 160) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
 \o *Info*    Monte Carlo Simulation completed successfully...
+\o Job 8 timed out after no activity in 300 seconds.
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.

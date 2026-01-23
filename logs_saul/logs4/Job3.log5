@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = BANDGAP
-	Cell         = BG_TB
+	Cell         = REF_GEN_TB
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Op_BANDGAP:BG_TB:1:1_state_Interactive.107
-	Results DB   = /home/saul/projects/LF_BG/BANDGAP/BG_TB/adexl/results/data/Interactive.107.rdb
-	Results Dir  = /home/saul/simulation/BANDGAP/BG_TB/adexl/results/data/Interactive.107/1/Op
-	Results Loc  = /home/saul/simulation/BANDGAP/BG_TB/adexl/results/data
+	State Name   = OP_none_Interactive.40
+	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40.rdb
+	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP
+	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
-	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/BG_TB/adexl
+	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
 	File Encoding = 0
 
 
@@ -28,13 +28,22 @@
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [ Op ].
+*Info*    Run start for Point ID (1 1) on testbench [ OP ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var PD = "0"
+Setting var CL = "150f"
+Setting var CL2 = "3p"
+Setting var CONF_BG_SL_TRIM = "3"
+Setting var CONF_BG_TRIM = "3"
+Setting var CONF_LDO_SEL = "0"
+Setting var CONF_LVDS_SEL = "0"
+Setting var CONF_REF_TRIM = "3"
+Setting var EN = "1.2"
+Setting var EN_PULSE = "0"
+Setting var PD = "1.2"
 Setting var PD_PULSE = "0"
 Setting var VDD = "1.2"
 Setting var VDD_PULSE = "0"
@@ -42,28 +51,44 @@ Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/BANDGAP/BG_TB/adexl/results/data/Interactive.107/1/Op/netlist
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/BANDGAP/BG_TB/adexl/results/data/Interactive.107/1/Op
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP
 
 
 *Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Jan 17 22:09:54 2026
-End netlisting Jan 17 22:09:54 2026
+Begin Incremental Netlisting Jan 22 13:05:03 2026
+WARNING (ADE-6003): Terminal "PD", specified in the CDF termOrder, does not exist
+           in the cell-view "BANDGAP" "BG_TRIM_4" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+Loading json.cxt 
+End netlisting Jan 22 13:05:03 2026
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:   52
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 2
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ Op ] for Point ID (1 1).
+*Info*    Running simulation on testbench [ OP ] for Point ID (1 1).
 
-Delete psf data in /home/saul/simulation/BANDGAP/BG_TB/adexl/results/data/Interactive.107/1/Op/psf.
+Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -78,7 +103,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (1 1) on testbench [ Op ].
+*Info*    Run complete for Point ID (1 1) on testbench [ OP ].
 
 
 
