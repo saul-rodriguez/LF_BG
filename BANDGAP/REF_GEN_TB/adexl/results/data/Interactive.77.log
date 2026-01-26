@@ -1,0 +1,219 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Jan 26 13:00:54 2026 
+Best design point: 1
+Design specs: 
+	TRAN	corner	MOS_BJT_RES_TEMP_0 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_1 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_2 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_3 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_4 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_5 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_6 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_7 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_8 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_9 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_10 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_11 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_12 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_13 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_14 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_15 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_16 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_17 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_18 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_19 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_20 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_21 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_22 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_23 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_24 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_25 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_26 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_27 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_28 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_29 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_30 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	MOS_BJT_RES_TEMP_31 - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+	TRAN	corner	Nominal - 
+	V1000		Error	No
+	V550		Error	No
+	I32nA		Error	No
+	I128nA		Error	No
+	BangapRef		Error	No
+Design parameters: 
+	CL		150f
+	CL2		3p
+	CONF_BG_SL_TRIM		3
+	CONF_BG_TRIM		3
+	CONF_REF_TRIM		3
+	CONF_LVDS_SEL		0
+	PD		1.2
+	PD_PULSE		1.2
+	CONF_LDO_SEL		0
+
+Interactive.77
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.77 completed. 
+Current time: Mon Jan 26 13:01:33 2026 

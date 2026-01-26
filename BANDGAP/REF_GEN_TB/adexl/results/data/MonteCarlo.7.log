@@ -1,0 +1,36 @@
+Starting Monte Carlo Sampling...
+
+Current time: Mon Jan 26 14:27:31 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 
+
+MonteCarlo.7
+Number of points completed: 200
+Number of simulation errors: 0
+MonteCarlo.7 completed. 
+Current time: Mon Jan 26 14:28:56 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 5
+TRAN	Nominal - 
+	BangapRef:	Yield	100%
+		Min 0.590907	Max 0.613783	Mean 0.600777	Number of errors 0
+TRAN	Nominal - 
+	I128nA:	Yield	100%
+		Min 1.13644e-07	Max 1.60772e-07	Mean 1.28425e-07	Number of errors 0
+TRAN	Nominal - 
+	I32nA:	Yield	100%
+		Min 2.77987e-08	Max 4.10377e-08	Mean 3.21638e-08	Number of errors 0
+TRAN	Nominal - 
+	V1000:	Yield	100%
+		Min 0.986288	Max 1.02277	Mean 1.0007	Number of errors 0
+TRAN	Nominal - 
+	V550:	Yield	100%
+		Min 0.541715	Max 0.562672	Mean 0.550544	Number of errors 0
+
+TRAN
+	Overall Yield	100%	Number of points passed	200	Total number of points	200
+
+Estimated yield = 100% (200/200), 0 errors
+Estimated yield (No opregions) = 100% (200/200)

@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.01.17 22:37:57.927
-\# Local time: UTC (UTC+00:00) 2026.01.17 22:37:57.927
+\# Program start time:     UTC 2026.01.26 12:23:43.942
+\# Local time: UTC (UTC+00:00) 2026.01.26 12:23:43.942
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEOD32kq0j5xgfNO8ben2UI_350927 -mpshost 51605@edatools -davinciService DaVinciService_351123_1768687726 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job25.log2 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_351123 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 25
-\# Host name (type):	edatools (x86_64)
-\# Operating system:	Linux 6.14.0-37-generic #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEbJTD4lqnxZtKOmr92PD7I_397389 -mpshost 46089@ees_research_saul -davinciService DaVinciService_397583_1769421812 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job25.log2 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.ees_research_saul_397583 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 25
+\# Host name (type):	ees_research_saul (x86_64)
+\# Operating system:	Linux 5.15.0-161-generic #171-Ubuntu SMP Sat Oct 11 08:17:01 UTC 2025
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:3141 (1024x868)
+\# X display name (WxH):	:7701 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,20 +18,20 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        983 MB
-\# Available memory:	     60,888 MB
-\# System memory:	     72,240 MB
-\# Maximum memory size:	     71,376 MB
-\# Max mem available:	     61,007 MB
-\# Initial memory used:	        120 MB
-\#        process size:	      1,680 MB
-\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Initial sbrk value:	      1,202 MB
+\# Available memory:	  2,778,538 MB
+\# System memory:	  3,104,513 MB
+\# Maximum memory size:	  3,103,432 MB
+\# Max mem available:	  2,778,659 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,681 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		saul
-\o Working Directory:	edatools:/home/saul/projects/LF_BG
-\# Process Id:		395304
-\# Container Id:	EOD32kq0j5xgfNO8ben2UI
+\o Working Directory:	ees_research_saul:/home/saul/projects/LF_BG
+\# Process Id:		437796
+\# Container Id:	EbJTD4lqnxZtKOmr92PD7I
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -51,6 +51,7 @@
 \o Loading pvsui.cxt
 \o Loading wireEdit.cxt 
 \o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
 \o Loading xlUI.cxt 
 \o Loading auCore.cxt 
 \o Loading vhdl.cxt 
@@ -68,20 +69,20 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
+\# Memory report: using         234 MB, process size 1,882 MB at UTC 2026.01.26 12:23:46.335
 \o Loading adexl.cxt 
-\# Memory report: using         250 MB, process size 1,936 MB at UTC 2026.01.17 22:37:59.052
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEOD32kq0j5xgfNO8ben2UI_350927, host=51605@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEbJTD4lqnxZtKOmr92PD7I_397389, host=46089@ees_research_saul). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 395304 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 437796 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [22:37:57.512465] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# [12:23:43.512377] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
 \w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \o 
@@ -123,7 +124,7 @@
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
 \w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
 \w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 395304' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 437796' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \o Loading vqp.cxt 
@@ -138,9 +139,9 @@
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = OP_none_Interactive.37
-\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37.rdb
-\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/3/OP
+\o 	State Name   = OP_none_MonteCarlo.1
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/1/OP
 \o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
 \o 	Project Dir  = /home/saul/simulation
 \o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
@@ -151,9 +152,9 @@
 \w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \o Loading spectrei.cxt 
+\# Memory report: using         352 MB, process size 2,045 MB at UTC 2026.01.26 12:23:49.340
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
-\# Memory report: using         369 MB, process size 2,062 MB at UTC 2026.01.17 22:38:00.224
 \o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
@@ -170,7 +171,7 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (1 4) on testbench [ OP ].
+\o *Info*    Run start for Point ID (10 81) on testbench [ OP ].
 \o 
 \o Resetting statistical vars
 \o 
@@ -186,31 +187,52 @@
 \o Setting var EN = "1.2"
 \o Setting var EN_PULSE = "0"
 \o Setting var PD = "1.2"
-\o Setting var PD_PULSE = "0"
+\o Setting var PD_PULSE = "1.2"
+\o Setting var TT = "1u"
 \o Setting var VDD = "1.2"
 \o Setting var VDD_PULSE = "0"
-\o Setting var temperature = "-40"
-\o Setting temp(T) = -40
+\o Setting var temperature = "85.0"
+\o Setting temp(T) = 85.0
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/4/OP/netlist
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/81/OP/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/4/OP
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/81/OP/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (1 4)
+\o *Info*    Creating Netlist for Point ID (10 81)
 \o 
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
-\# [22:38:00.170058] Periodic Lic check successful
-\# [22:38:00.170059] Feature usage summary:
-\o Begin Incremental Netlisting Jan 17 22:38:00 2026
-\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
-\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
-\o End netlisting Jan 17 22:38:00 2026
+\# [12:23:52.130289] Periodic Lic check successful
+\# [12:23:52.130291] Feature usage summary:
+\o Begin Incremental Netlisting Jan 26 12:23:52 2026
+\o End netlisting Jan 26 12:23:52 2026
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -218,10 +240,22 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ OP ] for Point ID (1 4).
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (10 81).
 \o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/4/OP/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.1/81/OP/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 26 12:23:53 2026
+\o End netlisting Jan 26 12:23:53 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
 \o compose simulator input file...
+\# Available memory:      2,778,319 MB at UTC 2026.01.26 12:23:54.212
+\# Memory report: Maximum memory size now 2,778,763 MB at UTC 2026.01.26 12:23:54.212
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.01.26 12:23:54.213
 \o       ...successful.
 \o start simulator if needed...
 \o       ...successful.
@@ -230,310 +264,373 @@
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
 \o Loading paraplot.cxt 
+\# Memory report: using         463 MB, process size 2,355 MB at UTC 2026.01.26 12:23:56.883
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 81) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 82) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 83) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 84) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 85) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 86) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 87) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 88) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 89) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 90) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 91) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 92) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 93) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 94) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 95) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 96) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 97) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 98) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 99) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 100) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 101) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 102) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 103) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 104) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         564 MB, process size 2,456 MB at UTC 2026.01.26 12:24:40.184
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 105) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 106) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 107) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (1 4) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (10 108) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (1 10) on testbench [ OP ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/10/OP/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/10/OP
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (1 10)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 17 22:38:02 2026
-\o End netlisting Jan 17 22:38:02 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ OP ] for Point ID (1 10).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/10/OP/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\# Memory report: using         473 MB, process size 2,365 MB at UTC 2026.01.17 22:38:03.415
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (1 10) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (10 109) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (1 15) on testbench [ OP ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var temperature = "85"
-\o Setting temp(T) = 85
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/15/OP/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/15/OP
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (1 15)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 17 22:38:04 2026
-\o End netlisting Jan 17 22:38:04 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ OP ] for Point ID (1 15).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/15/OP/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (1 15) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (10 110) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (1 20) on testbench [ OP ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var temperature = "-40"
-\o Setting temp(T) = -40
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/20/OP/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/20/OP
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (1 20)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 17 22:38:05 2026
-\o End netlisting Jan 17 22:38:05 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ OP ] for Point ID (1 20).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/20/OP/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (1 20) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (10 111) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (1 25) on testbench [ OP ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var temperature = "85"
-\o Setting temp(T) = 85
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/25/OP/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/25/OP
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (1 25)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 17 22:38:07 2026
-\o End netlisting Jan 17 22:38:07 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ OP ] for Point ID (1 25).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/25/OP/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\# Available memory:         59,171 MB at UTC 2026.01.17 22:38:08.208
-\# Memory report: Maximum memory size now 59,651 MB at UTC 2026.01.17 22:38:08.209
-\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.17 22:38:08.209
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (1 25) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (10 112) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (1 30) on testbench [ OP ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var temperature = "-40"
-\o Setting temp(T) = -40
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/30/OP/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/30/OP
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (1 30)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 17 22:38:08 2026
-\o End netlisting Jan 17 22:38:08 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ OP ] for Point ID (1 30).
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.37/30/OP/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (1 30) on testbench [ OP ].
+\o *Info*    Run complete for Point ID (10 113) on testbench [ OP ].
 \o 
 \o 
 \o 
 \o 
 \o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 114) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 115) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 116) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 117) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 118) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 119) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 120) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Job 25 timed out after no activity in 300 seconds.
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
-\# Lic Summary:
-\# [22:43:12.044938] Cdslmd servers:3000@lic08.ug.kth.se
-\# [22:43:12.044947] Feature usage summary:
-\# Memory report: on exit            485 MB, process size 2,377 MB at UTC 2026.01.17 22:43:12.569
-\# Memory report: peak usage         485 MB, process size 2,377 MB

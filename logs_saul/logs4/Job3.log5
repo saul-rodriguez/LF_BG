@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.40
-	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40.rdb
-	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP
+	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.68
+	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.68.rdb
+	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.68/1/TRAN
 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
@@ -28,7 +28,7 @@
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [ OP ].
+*Info*    Run start for Point ID (1 1) on testbench [ TRAN ].
 
 Resetting statistical vars
 
@@ -41,54 +41,41 @@ Setting var CONF_BG_TRIM = "3"
 Setting var CONF_LDO_SEL = "0"
 Setting var CONF_LVDS_SEL = "0"
 Setting var CONF_REF_TRIM = "3"
-Setting var EN = "1.2"
-Setting var EN_PULSE = "0"
+Setting var EN = "0"
+Setting var EN_PULSE = "1.2"
 Setting var PD = "1.2"
-Setting var PD_PULSE = "0"
-Setting var VDD = "1.2"
-Setting var VDD_PULSE = "0"
+Setting var PD_PULSE = "1.2"
+Setting var VDD = "0"
+Setting var VDD_PULSE = "1.2"
 Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP/netlist
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.68/1/TRAN/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP
+          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.68/1/TRAN
 
 
 *Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Jan 22 13:05:03 2026
-WARNING (ADE-6003): Terminal "PD", specified in the CDF termOrder, does not exist
-           in the cell-view "BANDGAP" "BG_TRIM_4" "schematic"
-WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
-           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
-           be ignored. The terminals in the cellView will be netlisted in the alphabetical
-           order of their names. Eliminate the mismatch if you want the CDF termOrder
-           property to be used for netlisting.
-           To edit CDF of a cell, 
-           i) Open CIW->Tools->CDF->Edit.
-           ii) Select Library Name & Cell Name.
-           iii) Click on the Edit button in the simulation information section of the
-                Edit CDF window.
-Loading json.cxt 
-End netlisting Jan 22 13:05:03 2026
+Begin Incremental Netlisting Jan 26 10:07:25 2026
+End netlisting Jan 26 10:07:25 2026
 
 Netlisting Statistics:
-	Number of components:   52
+	Number of components:  106
 
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 2
+	Elapsed time:          1.0s (106.00/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ OP ] for Point ID (1 1).
+*Info*    Running simulation on testbench [ TRAN ] for Point ID (1 1).
 
-Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.40/1/OP/psf.
+Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.68/1/TRAN/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -102,8 +89,33 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+ERROR (ADEXL-2709): Evaluation of output 'I32nA' returned 'nil' for point:'1' test:'TRAN'
+	Expression:'IDC("/R5/PLUS")'.
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (1 1) on testbench [ OP ].
+ERROR (ADEXL-2709): Evaluation of output 'V550' returned 'nil' for point:'1' test:'TRAN'
+	Expression:'VDC("/V550")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'1' test:'TRAN'
+	Expression:'VDC("/I8/VREF")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'I128nA' returned 'nil' for point:'1' test:'TRAN'
+	Expression:'IDC("/R8/PLUS")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'V1000' returned 'nil' for point:'1' test:'TRAN'
+	Expression:'VDC("/V1000")'.
+Ensure that the definition of output is correct.
+
+ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
+
+*Info*    Run complete for Point ID (1 1) on testbench [ TRAN ].
 
 
 

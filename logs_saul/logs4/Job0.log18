@@ -1,0 +1,772 @@
+\# Program start time:     UTC 2026.01.26 10:03:37.932
+\# Local time: UTC (UTC+00:00) 2026.01.26 10:03:37.932
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEbJTD4lqnxZtKOmr92PD7I_397389 -mpshost 46089@ees_research_saul -davinciService DaVinciService_397583_1769421812 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job0.log18 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.ees_research_saul_397583 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
+\# Host name (type):	ees_research_saul (x86_64)
+\# Operating system:	Linux 5.15.0-161-generic #171-Ubuntu SMP Sat Oct 11 08:17:01 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:7026 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        949 MB
+\# Available memory:	  2,776,876 MB
+\# System memory:	  3,104,513 MB
+\# Maximum memory size:	  3,103,685 MB
+\# Max mem available:	  2,776,997 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,681 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	ees_research_saul:/home/saul/projects/LF_BG
+\# Process Id:		398141
+\# Container Id:	EbJTD4lqnxZtKOmr92PD7I
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         252 MB, process size 1,937 MB at UTC 2026.01.26 10:03:42.171
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEbJTD4lqnxZtKOmr92PD7I_397389, host=46089@ees_research_saul). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 398141 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 2 seconds.
+\# [10:03:39.512385] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o 
+\o ----------------          LFoundry            ----------------
+\o ----------------    Initializing LF11IS PDK    ----------------
+\o ----------------        Version 1.3.2         ----------------
+\o ----------------        Option 6metal         ----------------
+\o *LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+\o *LF-INFO* lf11is libInit.il loaded successfully. 
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting HSpice models                 done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: PDF reader "evince" found: /bin/evince.
+\o *LF-INFO* .cdsinit: Creating LF11IS PDK menus              done
+\o *LF-INFO* .cdsinit: Loading LF11IS display.drf             done
+\o *LF-INFO* .cdsinit: Setting PVS setup trigger      done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
+\o *LF-INFO* .cdsinit: Loading Layout Utilities              done
+\o *LF-INFO* .cdsinit: Opening library manager 				  done
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 398141' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\# Available memory:      2,777,061 MB at UTC 2026.01.26 10:03:49.519
+\# Memory report: Maximum memory size now 2,777,357 MB at UTC 2026.01.26 10:03:49.519
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.01.26 10:03:49.519
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.69
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/1/TRAN
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o Loading spectrei.cxt 
+\# Memory report: using         360 MB, process size 2,053 MB at UTC 2026.01.26 10:08:12.377
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "0"
+\o Setting var EN_PULSE = "1.2"
+\o Setting var PD = "1.2"
+\o Setting var PD_PULSE = "1.2"
+\o Setting var VDD = "0"
+\o Setting var VDD_PULSE = "1.2"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/1/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/1/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [10:08:14.194600] periodic Lic check successful
+\# [10:08:14.194602] Feature usage summary:
+\o Begin Incremental Netlisting Jan 26 10:08:14 2026
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\o End netlisting Jan 26 10:08:15 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (2 1).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/1/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: using         460 MB, process size 2,352 MB at UTC 2026.01.26 10:08:18.069
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'1' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'1' test:'TRAN'
+\o 	Expression:'VDC("/V550")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'1' test:'TRAN'
+\o 	Expression:'VDC("/I8/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'1' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'1' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (2 1) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 6) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/6/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/6/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 26 10:08:26 2026
+\o End netlisting Jan 26 10:08:26 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (2 6).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/6/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'6' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'6' test:'TRAN'
+\o 	Expression:'VDC("/V550")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'6' test:'TRAN'
+\o 	Expression:'VDC("/I8/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'6' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'6' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (2 6) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 11) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/11/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/11/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 26 10:08:36 2026
+\o End netlisting Jan 26 10:08:37 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (2
+\o           11).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/11/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'11' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'11' test:'TRAN'
+\o 	Expression:'VDC("/V550")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'11' test:'TRAN'
+\o 	Expression:'VDC("/I8/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'11' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'11' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (2 11) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 16) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/16/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/16/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 26 10:08:47 2026
+\o End netlisting Jan 26 10:08:48 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (2
+\o           16).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/16/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'16' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'16' test:'TRAN'
+\o 	Expression:'VDC("/V550")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'16' test:'TRAN'
+\o 	Expression:'VDC("/I8/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'16' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'16' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (2 16) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 21) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/21/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/21/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 21)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 26 10:08:57 2026
+\o End netlisting Jan 26 10:08:58 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (2
+\o           21).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/21/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'21' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'21' test:'TRAN'
+\o 	Expression:'VDC("/V550")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'21' test:'TRAN'
+\o 	Expression:'VDC("/I8/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'21' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'21' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (2 21) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 26) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/26/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/26/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 26)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 26 10:09:06 2026
+\o End netlisting Jan 26 10:09:07 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (2
+\o           26).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/26/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'26' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'26' test:'TRAN'
+\o 	Expression:'VDC("/V550")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'26' test:'TRAN'
+\o 	Expression:'VDC("/I8/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'26' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'26' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (2 26) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 32) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/32/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/32/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 32)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jan 26 10:09:16 2026
+\o End netlisting Jan 26 10:09:16 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (2
+\o           32).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.69/32/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I32nA' returned 'nil' for point:'32' test:'TRAN'
+\o 	Expression:'IDC("/R5/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V550' returned 'nil' for point:'32' test:'TRAN'
+\o 	Expression:'VDC("/V550")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'BangapRef' returned 'nil' for point:'32' test:'TRAN'
+\o 	Expression:'VDC("/I8/VREF")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'I128nA' returned 'nil' for point:'32' test:'TRAN'
+\o 	Expression:'IDC("/R8/PLUS")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (ADE-2709): Evaluation of output 'V1000' returned 'nil' for point:'32' test:'TRAN'
+\o 	Expression:'VDC("/V1000")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (2 32) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
