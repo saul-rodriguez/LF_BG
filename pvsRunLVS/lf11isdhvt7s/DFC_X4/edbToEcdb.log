@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : DFC_X4_487495.db
+ECDB dir        : ./
+Top Cell        : DFC_X4
+CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/svdb/DFC_X4.net
+Layer map file  : /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/svdb/DFC_X4.ecdbmap
+Text map file   : /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/svdb/DFC_X4.ports
+Dependency map  : DFC_X4.lmap.perc
+Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/svdb/DFC_X4.lvsfile
+Float net file  : .DFC_X4.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : DFC_X4_487495

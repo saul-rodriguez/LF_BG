@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"lf11isdhvt7s"
+logFile	"/home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4"
+strmFile	"/home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/DFC_X4.gds"
+strmVersion	5
+techLib	"lf11is"
+topCell	"DFC_X4"
+view	"layout"

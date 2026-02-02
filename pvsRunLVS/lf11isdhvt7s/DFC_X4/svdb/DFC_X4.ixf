@@ -1,0 +1,48 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary DFC_X4
+# XXXX: End of header.
+% MP 4 MP 4
+% MN 4 MN 4
+% DFC_X4 7 DFC_X4 7
+0 M24 0 MXMavD2_15  
+0 M23 0 MXMavD2_14  
+0 M25 0 MXMavD2_16  
+0 M26 0 MXMavD2_17  
+0 M27 0 MXMavD2_18  
+0 M29 0 MXMavD2_20  
+0 M30 0 MXMavD2_21  
+0 M2 0 MXMavD1_14  
+0 M3 0 MXMavD1_15  
+0 M4 0 MXMavD1_16  
+0 M5 0 MXMavD1_17  
+0 M6 0 MXMavD1_18  
+0 M8 0 MXMavD1_20  
+0 M9 0 MXMavD1_21  
+0 M12 0 MXMavD1_3  
+0 M11 0 MXMavD1_2  
+0 M32 0 MXMavD2_2  
+0 M33 0 MXMavD2_3  
+0 M31 0 MXMavD2_1  
+0 M10 0 MXMavD1_1  
+0 M21 0 MXMavD2_12  
+0 M0 0 MXMavD1_12  
+0 M22 0 MXMavD2_13  
+0 M1 0 MXMavD1_13  
+0 M28 0 MXMavD2_19  
+0 M7 0 MXMavD1_19  
+0 M35 0 MXMavD2_4==3 X
+0 M37 0 MXMavD2_4==4 X
+0 M36 0 MXMavD2_4  
+0 M34 0 MXMavD2_4==2  
+0 M13 0 MXMavD1_4==3  
+0 M15 0 MXMavD1_4==4  
+0 M14 0 MXMavD1_4 X
+0 M16 0 MXMavD1_4==2 X
+0 M41 0 MXMavD2_8==3 X
+0 M40 0 MXMavD2_8==4  
+0 M38 0 MXMavD2_8  
+0 M39 0 MXMavD2_8==2 X
+0 M20 0 MXMavD1_8==3 X
+0 M19 0 MXMavD1_8==4  
+0 M17 0 MXMavD1_8  
+0 M18 0 MXMavD1_8==2 X

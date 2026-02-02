@@ -1,0 +1,19 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.2
+LoginName                      lakarlss
+HostName                       40377@ees_research_lakarlss
+ProcessIdentifier              2552830
+ProcessCreationTime_UTC        1765274032
+ProcessCreationTime_Readable   Tue Dec  9 09:53:52 2025 UTC
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /media/shares/si3_common/lars/Si3/DTF/layout/layout.oa.cdslck
+TimeEditLocked                 Thu Jan 22 13:54:11 2026 UTC
+ProcessScopeIdentifier         ExB-KBZqTwvthkZbL-VMrJ
+ExpirationTime_UTC             1769176451
+ExpirationTime_Readable        Fri Jan 23 13:54:11 2026 UTC

@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+lf11isdhvt7s/DFC_X4/schematic DFC_X4
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

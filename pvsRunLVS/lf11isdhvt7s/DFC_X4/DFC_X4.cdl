@@ -1,0 +1,67 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  lf11isdhvt7s
+* Top Cell Name: DFC_X4
+* View Name:     schematic
+* Netlisted on:  Jan 28 05:38:53 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: lf11isdhvt7s
+* Cell Name:    DFC_X4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT DFC_X4 CDN CP D Q QN
+*.PININFO CDN:I CP:I D:I Q:O QN:O
+MXMavD2_15 avC10 D avS367 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_1 vdd! avC14 avC15 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_2 avC14 CDN vdd! vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_3 vdd! avC13 avC14 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_12 vdd! CP avC8 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_13 avC12 avC8 vdd! vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_14 avS367 avC12 vdd! vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_16 avC9 avC8 avC10 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_17 vdd! avC11 avC9 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_18 vdd! CDN avC9 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_19 avC11 avC10 vdd! vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_20 avC13 avC8 avC11 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_21 avC15 avC12 avC13 vdd! pmos1v2hvt W=4.8e-07 L=1.1e-07 m=1 nf=1
+MXMavD2_4 Q avC14 vdd! vdd! pmos1v2hvt W=9e-07 L=1.1e-07 m=4 nf=1
+MXMavD2_8 QN avC15 vdd! vdd! pmos1v2hvt W=9e-07 L=1.1e-07 m=4 nf=1
+MXMavD1_1 gnd! avC14 avC15 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_2 avS350 CDN gnd! gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_3 avC14 avC13 avS350 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_12 gnd! CP avC8 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_13 avC12 avC8 gnd! gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_14 avS341 avC8 gnd! gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_15 avC10 D avS341 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_16 avS343 avC12 avC10 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_17 avS344 avC11 avS343 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_18 gnd! CDN avS344 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_19 avC11 avC10 gnd! gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_20 avC13 avC12 avC11 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_21 avC15 avC8 avC13 gnd! nmos1v2hvt W=3e-07 L=1.1e-07 m=1 nf=1
+MXMavD1_4 Q avC14 gnd! gnd! nmos1v2hvt W=6e-07 L=1.1e-07 m=4 nf=1
+MXMavD1_8 QN avC15 gnd! gnd! nmos1v2hvt W=6e-07 L=1.1e-07 m=4 nf=1
+.ENDS
+

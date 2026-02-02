@@ -1,0 +1,24 @@
+//
+//  Rule file generated on Wed Jan 28 22:04:32 2026
+//  by Calibre Interactive v2022.4_16.8    Mon Oct 3 17:12:31 PDT 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "test_trim.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "test_trim"
+
+DRC RESULTS DATABASE "test_trim.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "test_trim.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/calibre/6metal/drc/calibre.drc"

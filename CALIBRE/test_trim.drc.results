@@ -1,0 +1,226 @@
+test_trim 1000
+VI3.01
+2 2 4 Jan 28 22:04:33 2026                     
+VI3.01 { @ VIA3 must be 0.19 x 0.19 
+  waiver = OR noDRC SEALRINGmark
+  CMACRO VIA_WIDTH VIA3 0.19 waiver
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5640 3535
+5730 3535
+5730 3620
+5640 3620
+p 2 4
+5730 3620
+5755 3620
+5755 3660
+5730 3660
+VI3.02
+2 2 3 Jan 28 22:04:33 2026                     
+VI3.02 { @ VIA3 spacing < 0.20 
+  CMACRO SPACING VIA3 0.20 noDRC
+}
+p 1 3
+CN test_trim c 1 0 0 1 0 0 0
+5640 3620
+5730 3620
+5730 3660
+p 2 3
+5730 3535
+5755 3620
+5730 3620
+ME1.01
+1 1 6 Jan 28 22:04:33 2026                     
+ME1.01 { @ METAL1 width < 0.15 
+  waiver = OR noDRC MCEL
+  waiver1 = OR waiver YMUXmark
+  waiver2 = OR waiver1 PXL
+  CMACRO MINWIDTH METAL1 0.15 waiver2
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5635 3630
+5685 3630
+5685 3875
+5635 3875
+ME1.02.a
+1 1 4 Jan 28 22:04:33 2026                     
+ME1.02.a { @ METAL1 space to METAL1 when parallel run length <= 1 MUST BE 0.12 otherwise 0.15 
+  waiver = OR noDRC PXL
+  CMACRO METAL_SPACING_MAIN METAL1 0.12 0.15 1 waiver
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5630 3510
+5635 3630
+5635 3875
+5630 3995
+ME1.02.b
+1 1 3 Jan 28 22:04:33 2026                     
+ME1.02.b { @ METAL1 spacing < 0.25 for lines with width > 1.80 
+  CMACRO WIDE_METAL_SPACING METAL1 1.80 0.25 0.24 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5630 3380
+5635 3630
+5635 3875
+5630 4125
+ME1.06
+1 1 4 Jan 28 22:04:33 2026                     
+ME1.06 { @ METAL1 area < 0.10 
+  waiver = OR noDRC SRAMmark
+  CMACRO MINAREA METAL1 0.10 waiver
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5635 3630
+5685 3630
+5685 3875
+5635 3875
+VI3.05.ab
+2 2 4 Jan 28 22:04:33 2026                     
+VI3.05.ab { @ METAL3 enclosure VIA3 < 0.04 and METAL3 enclosure VIA3 on two opposite sides < 0.06 
+  waiver = OR noDRC SEALRINGmark
+  CMACRO VIA_METAL_ENCLOSURE VIA3 METAL3 0.04 0.06 0.04 0.06 waiver
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5640 3535
+5730 3535
+5730 3620
+5640 3620
+p 2 4
+5730 3620
+5755 3620
+5755 3660
+5730 3660
+VI3.10
+2 2 3 Jan 28 22:04:33 2026                     
+VI3.10 { @ VIA3 must be inside METAL4 
+  CMACRO MUST_OVERLAP VIA3 METAL4 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5640 3535
+5730 3535
+5730 3620
+5640 3620
+p 2 4
+5730 3620
+5755 3620
+5755 3660
+5730 3660
+ME4.04.ab
+2 2 4 Jan 28 22:04:34 2026                     
+ME4.04.ab { @ METAL4 enclosure VIA3 < 0.005 and METAL4 enclosure VIA3 on two opposite sides < 0.06 
+  waiver = OR noDRC SEALRINGmark
+  CMACRO VIA_METAL_OVERLAP VIA3 METAL4 0.005 0.06 0.005 0.06 waiver
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+5640 3535
+5730 3535
+5730 3620
+5640 3620
+p 2 4
+5730 3620
+5755 3620
+5755 3660
+5730 3660
+DIF.10
+1 1 3 Jan 28 22:04:34 2026                     
+DIF.10 { @ DIFFDENSITY minimum density (window 100umx100um) < 0.25 
+  CMACRO MINDENSITY DIFFDENSITY CHIP 0.25 100 50 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+POL.12
+1 1 3 Jan 28 22:04:34 2026                     
+POL.12 { @ POLYGDENSITY minimum density (window 100umx100um) < 0.15 
+  CMACRO MINDENSITY POLYGDENSITY CHIP 0.15 100 50 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+ME2.11
+1 1 3 Jan 28 22:04:34 2026                     
+ME2.11 { @ METAL2DENSITY minimum density (window 100umx100um) < 0.30 
+  CMACRO MINDENSITY METAL2DENSITY CHIP 0.30 100 50 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+ME3.11
+1 1 3 Jan 28 22:04:34 2026                     
+ME3.11 { @ METAL3DENSITY minimum density (window 100umx100um) < 0.30 
+  CMACRO MINDENSITY METAL3DENSITY CHIP 0.30 100 50 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+ME4.11
+1 1 3 Jan 28 22:04:34 2026                     
+ME4.11 { @ METAL4DENSITY minimum density (window 100umx100um) < 0.30 
+  CMACRO MINDENSITY METAL4DENSITY CHIP 0.30 100 50 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+ME5.11
+1 1 3 Jan 28 22:04:34 2026                     
+ME5.11 { @ METAL5DENSITY minimum density (window 100umx100um) < 0.30 
+  CMACRO MINDENSITY METAL5DENSITY CHIP 0.30 100 50 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+MEF.11
+1 1 3 Jan 28 22:04:34 2026                     
+MEF.11 { @ METALFDENSITY minimum density (window 400umx400um) < 0.30 
+  CMACRO MINDENSITY METALFDENSITY CHIP 0.30 400 200  noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+ME1.12
+1 1 3 Jan 28 22:04:34 2026                     
+ME1.12 { @ METAL1DENSITY maximum density (window 100umx100um) > 0.80 
+  CMACRO MAXDENSITY METAL1DENSITY CHIP 0.80 100 50 noDRC
+}
+p 1 4
+CN test_trim c 1 0 0 1 0 0 0
+2860 1695
+5755 1695
+5755 5520
+2860 5520
+DENSITY_RDBS
+0 0 2 Jan 28 22:04:34 2026
+Calibre_DRC_Density.results 8
+slotxArea.rdb 0
+NET_AREA_RATIO_RDBS
+0 0 1 Jan 28 22:04:34 2026
+ANTENNA.rdb 0

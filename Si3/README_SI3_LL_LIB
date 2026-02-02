@@ -1,0 +1,46 @@
+V0.2
+
+Added DTF and deleted LS and LSN
+
+V0.1
+
+This file describes the low-leakage stadard cell library developed for Si3 using lf11. There are 24 cells at schematic, layout, and symbol level. The cells are DRC/LVS checked.
+
+Library name: Si3
+
+
+Data from lf11isdhv7s library:
+
+Width	INV_X1		1.2
+Width	FILLCELL_X1	0.4
+
+
+Height of all cells: 2.8
+
+
+Name Si3	Name LF11 ?	Width	Width(INV_X1)	Width(FILLCELL_X1)		
+AN2		AND2_X1 	2.4 	2		6
+BU1		BUF_X1		2.0	1.667		5
+BU2		BUF_X2		3.2	2.667		8
+DL5		dEL_1N_x10?	17.2	14.333		43
+DNR		?		7.2	6		18
+DNRS		?		7.2	6		18
+DNSS		?		9.6	8		24
+DR		?		7.2	6		18
+DRS		?		9.2	7.667		23
+DS		?		7.6	6.333		19
+DSS		?		9.6	8		24
+IN		?		1.2	1		3
+IN2		?		1.2	1		3
+LS		?		?	?		? no layout
+LSN		?		?	?		? no layout
+MX2		?		2.4	2		6
+NA2		?		1.6	1.333		4
+NA3		?		2	1.667		5
+NO2		?		1.6	1.333		4
+NO3		?		2	1.667		5
+OR2		?		2	1.667		5
+TH		?		1.2	1		3
+TL		?		1.2	1		3
+XO2		?		2.4	2		6
+DTF		?					? no layout

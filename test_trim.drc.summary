@@ -1,0 +1,62 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Wed Jan 28 22:01:53 2026
+Calibre Version:           v2022.4_16.8    Mon Oct 3 17:12:27 PDT 2022
+Rule File Pathname:        _calibre.lvs_
+Rule File Title:           LF11IS
+Layout System:             GDS
+Layout Path(s):            test_trim.calibre.db
+Layout Primary Cell:       test_trim
+Current Directory:         /home/saul/projects/LF_BG
+User Name:                 saul
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      test_trim.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       test_trim.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER PSUB2 .......... TOTAL Original Geometry Count = 0 (0)
+LAYER NW3V3 .......... TOTAL Original Geometry Count = 0 (0)
+LAYER NW1V2 .......... TOTAL Original Geometry Count = 0 (0)
+LAYER SEALRINGmark ... TOTAL Original Geometry Count = 0 (0)
+LAYER DNW ............ TOTAL Original Geometry Count = 0 (0)
+LAYER DIFF ........... TOTAL Original Geometry Count = 0 (0)
+LAYER PPLUS .......... TOTAL Original Geometry Count = 0 (0)
+LAYER RESmark ........ TOTAL Original Geometry Count = 0 (0)
+LAYER POLYG .......... TOTAL Original Geometry Count = 0 (0)
+LAYER ARRAYPW ........ TOTAL Original Geometry Count = 0 (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK FLOATING_PWELL ..... NOT EXECUTED
+RULECHECK FLOATING_PWELL2 .... TOTAL Result Count = 0 (0)
+RULECHECK FLOATING_NWELL ..... NOT EXECUTED
+RULECHECK FLOATING_PSUB ...... NOT EXECUTED
+RULECHECK FLOATING_PSUBISO ... NOT EXECUTED
+RULECHECK FLOATING_DNW ....... NOT EXECUTED
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS (BY CELL)
+---
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 0 (0)
+TOTAL DRC RuleChecks Executed:   1
+TOTAL DRC Results Generated:     0 (0)

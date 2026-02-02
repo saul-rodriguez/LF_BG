@@ -1,4 +1,4 @@
-# File Created by  at Sun Nov  2 19:49:44 2025
+# File Created by  at Wed Jan 28 05:24:28 2026
 # assisted by CdsLibEditor
 ## PDK specific entries do not touch --
 INCLUDE $LF11IS_HOME/tools/setup/cds.lib
@@ -10,3 +10,4 @@ DEFINE BANDGAP ./BANDGAP
 DEFINE CHARACTERIZATION ./CHARACTERIZATION
 DEFINE trim_res_tb /home/saul/projects/LF_BG/trim_res_tb
 DEFINE TEST /home/saul/projects/LF_BG/TEST
+DEFINE Si3 ./Si3

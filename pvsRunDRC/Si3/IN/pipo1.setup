@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"Si3"
+logFile	"/home/saul/projects/LF_BG/pvsRunDRC/Si3/IN/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/saul/projects/LF_BG/pvsRunDRC/Si3/IN"
+strmFile	"/home/saul/projects/LF_BG/pvsRunDRC/Si3/IN/IN.gds"
+strmVersion	5
+techLib	"lf11is"
+topCell	"IN"
+view	"layout"

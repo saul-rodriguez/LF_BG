@@ -1,0 +1,35 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.11-s045
+#####  NVN Run Start                 :   Wed Jan 28 05:38:59 2026
+#####  ERC Summary File              :   DFC_X4.sum
+#####  Extraction Report File        :   DFC_X4.rep
+#####  Comparison Report File        :   DFC_X4.rep.cls
+#####  Top Cell                      :   DFC_X4  <vs>  DFC_X4
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   lf11isdhvt7s DFC_X4 layout
+#####  Schematic File                :   /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/DFC_X4.cdl (cdl)
+#####  Rules File                    :   /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/.config.rul
+#####                                :   /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/.technology.rul
+#####  Pin Swap File                 :   DFC_X4.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 1s - (1s)
+#####  Extraction Peak Memory Usage  :   24.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   271.75MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 1s - (1s)                 
+#####  LVS Total Peak Memory Usage   :   271.75MB
+#####  
+##############################################################################################################
+
+

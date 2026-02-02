@@ -1,0 +1,10 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary DFC_X4
+% DFC_X4 7
+1 gnd!
+2 vdd!
+3 QN
+5 Q
+13 CDN
+14 D
+15 CP

@@ -112,15 +112,27 @@ export PATH=$PATH:$INNOVUS/tools/bin/64bit:$INNOVUS/tools/bin
 export EDIHOME=$INNOVUS
 export CDS_ENABLE_EXP_PCELL=TRUE
 
+###################
+# CALIBRE DRC/LVS #
+###################
+#export CALIBRE_HOME=/opt/tools/mentor/CALIBRE_2024.4/aok_cal_2024.4_12.9
+#export CALIBRE_HOME=/opt/tools/mentor/CALIBRE_2023.4_17/aok_cal_2023.4_17.10
+export CALIBRE_HOME=/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8
+export USE_CALIBRE_VCO=aoi
+export PATH="${PATH}:${CALIBRE_HOME}/bin"
+alias help_mg_cal='${CALIBRE_HOME}/bin/mgcdocs'
+
 ############
 # Licenses #
 ############
 
 # Cadence license
-export LM_LICENSE_FILE=3000@lic08.ug.kth.se
+#export LM_LICENSE_FILE=3000@lic08.ug.kth.se
+# Cadence license
+export LM_LICENSE_FILE=3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
 
 # Mentor license (Calibre)
-export MGLS_LICENSE_FILE=1727@lic02.ug.kth.se
+#export MGLS_LICENSE_FILE=1727@lic02.ug.kth.se
 
 
 ##

@@ -1,0 +1,59 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : DFC_X4                                       *
+* Netlisted  : Wed Jan 28 05:38:57 2026                     *
+* PVS Version: 24.11-s045 Mon Jan 27 22:18:54 PST 2025      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(nmos1v2hvt) NMOS1V2HVT NDIFF(D) NGATE(G) NDIFF(S) PW1V2(B)
+*.DEVTMPLT 1 MP(pmos1v2hvt) PMOS1V2HVT PDIFF(D) PGATE(G) PDIFF(S) NW1V2(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: DFC_X4                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt DFC_X4 13 15 14 5 3 1 2
+** N=20 EP=7 FDC=42
+M0 1 15 12 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=1.02e-13 AS=9e-14 PD=9.8e-07 PS=9e-07 m=1 $X=375 $Y=390 $dt=0
+M1 8 12 1 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=9e-14 AS=1.02e-13 PD=9e-07 PS=9.8e-07 m=1 $X=825 $Y=390 $dt=0
+M2 17 12 1 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=6e-14 AS=9e-14 PD=7e-07 PS=9e-07 m=1 $X=1685 $Y=630 $dt=0
+M3 10 14 17 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=1.02e-13 AS=6e-14 PD=9.8e-07 PS=7e-07 m=1 $X=1995 $Y=630 $dt=0
+M4 18 8 10 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=6.3e-14 AS=1.02e-13 PD=7.2e-07 PS=9.8e-07 m=1 $X=2445 $Y=630 $dt=0
+M5 16 9 18 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=2.362e-13 AS=6.3e-14 PD=2.28e-06 PS=7.2e-07 m=1 $X=2765 $Y=630 $dt=0
+M6 1 13 16 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=1.47e-13 AS=2.362e-13 PD=1.28e-06 PS=2.28e-06 m=1 $X=3785 $Y=630 $dt=0
+M7 9 10 1 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=1.47e-13 AS=1.47e-13 PD=1.28e-06 PS=1.28e-06 m=1 $X=4385 $Y=630 $dt=0
+M8 7 8 9 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=1.155e-13 AS=1.47e-13 PD=1.07e-06 PS=1.28e-06 m=1 $X=4985 $Y=630 $dt=0
+M9 4 12 7 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=1.545e-13 AS=1.155e-13 PD=1.33e-06 PS=1.07e-06 m=1 $X=5480 $Y=630 $dt=0
+M10 1 6 4 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=1.47e-13 AS=1.545e-13 PD=1.28e-06 PS=1.33e-06 m=1 $X=6105 $Y=630 $dt=0
+M11 19 13 1 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=5.25e-14 AS=1.47e-13 PD=6.5e-07 PS=1.28e-06 m=1 $X=6705 $Y=630 $dt=0
+M12 6 7 19 1 nmos1v2hvt L=1.1e-07 W=3e-07 AD=9.75e-14 AS=5.25e-14 PD=9.5e-07 PS=6.5e-07 m=1 $X=6990 $Y=630 $dt=0
+M13 5 6 1 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=2.04e-13 AS=1.8e-13 PD=1.28e-06 PS=1.2e-06 m=1 $X=7965 $Y=390 $dt=0
+M14 1 6 5 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=2.04e-13 AS=2.04e-13 PD=1.28e-06 PS=1.28e-06 m=1 $X=8415 $Y=390 $dt=0
+M15 5 6 1 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=2.04e-13 AS=2.04e-13 PD=1.28e-06 PS=1.28e-06 m=1 $X=8865 $Y=390 $dt=0
+M16 1 6 5 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=2.04e-13 AS=2.04e-13 PD=1.28e-06 PS=1.28e-06 m=1 $X=9315 $Y=390 $dt=0
+M17 3 4 1 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=2.04e-13 AS=2.04e-13 PD=1.28e-06 PS=1.28e-06 m=1 $X=9765 $Y=390 $dt=0
+M18 1 4 3 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=2.04e-13 AS=2.04e-13 PD=1.28e-06 PS=1.28e-06 m=1 $X=10215 $Y=390 $dt=0
+M19 3 4 1 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=2.04e-13 AS=2.04e-13 PD=1.28e-06 PS=1.28e-06 m=1 $X=10665 $Y=390 $dt=0
+M20 1 4 3 1 nmos1v2hvt L=1.1e-07 W=6e-07 AD=1.8e-13 AS=2.04e-13 PD=1.2e-06 PS=1.28e-06 m=1 $X=11115 $Y=390 $dt=0
+M21 2 15 12 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=1.632e-13 AS=1.44e-13 PD=1.16e-06 PS=1.08e-06 m=1 $X=375 $Y=1920 $dt=1
+M22 8 12 2 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=1.44e-13 AS=1.632e-13 PD=1.08e-06 PS=1.16e-06 m=1 $X=825 $Y=1920 $dt=1
+M23 20 8 2 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=9.6e-14 AS=1.44e-13 PD=8.8e-07 PS=1.08e-06 m=1 $X=1685 $Y=1690 $dt=1
+M24 10 14 20 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=1.632e-13 AS=9.6e-14 PD=1.16e-06 PS=8.8e-07 m=1 $X=1995 $Y=1690 $dt=1
+M25 11 12 10 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=2.4e-13 AS=1.632e-13 PD=1.76e-06 PS=1.16e-06 m=1 $X=2445 $Y=1690 $dt=1
+M26 2 9 11 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=1.884e-13 AS=2.4e-13 PD=1.32e-06 PS=1.76e-06 m=1 $X=2955 $Y=1930 $dt=1
+M27 2 13 11 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=1.92e-13 AS=1.44e-13 PD=1.28e-06 PS=1.08e-06 m=1 $X=3875 $Y=1690 $dt=1
+M28 9 10 2 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=1.944e-13 AS=1.92e-13 PD=1.29e-06 PS=1.28e-06 m=1 $X=4385 $Y=1690 $dt=1
+M29 7 12 9 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=3.096e-13 AS=1.944e-13 PD=1.77e-06 PS=1.29e-06 m=1 $X=4900 $Y=1690 $dt=1
+M30 4 8 7 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=1.632e-13 AS=3.096e-13 PD=1.16e-06 PS=1.77e-06 m=1 $X=5655 $Y=1690 $dt=1
+M31 2 6 4 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=2.885e-13 AS=1.632e-13 PD=1.87e-06 PS=1.16e-06 m=1 $X=6105 $Y=1690 $dt=1
+M32 6 13 2 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=3.287e-13 AS=2.885e-13 PD=2.23e-06 PS=1.87e-06 m=1 $X=6705 $Y=1690 $dt=1
+M33 2 7 6 2 pmos1v2hvt L=1.1e-07 W=4.8e-07 AD=4.044e-13 AS=3.287e-13 PD=2.48e-06 PS=2.23e-06 m=1 $X=7275 $Y=1930 $dt=1
+M34 5 6 2 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=3.06e-13 AS=4.044e-13 PD=1.58e-06 PS=2.06e-06 m=1 $X=7965 $Y=1510 $dt=1
+M35 2 6 5 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=3.06e-13 AS=3.06e-13 PD=1.58e-06 PS=1.58e-06 m=1 $X=8415 $Y=1510 $dt=1
+M36 5 6 2 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=3.06e-13 AS=3.06e-13 PD=1.58e-06 PS=1.58e-06 m=1 $X=8865 $Y=1510 $dt=1
+M37 2 6 5 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=3.06e-13 AS=3.06e-13 PD=1.58e-06 PS=1.58e-06 m=1 $X=9315 $Y=1510 $dt=1
+M38 3 4 2 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=3.06e-13 AS=3.06e-13 PD=1.58e-06 PS=1.58e-06 m=1 $X=9765 $Y=1510 $dt=1
+M39 2 4 3 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=3.06e-13 AS=3.06e-13 PD=1.58e-06 PS=1.58e-06 m=1 $X=10215 $Y=1510 $dt=1
+M40 3 4 2 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=3.06e-13 AS=3.06e-13 PD=1.58e-06 PS=1.58e-06 m=1 $X=10665 $Y=1510 $dt=1
+M41 2 4 3 2 pmos1v2hvt L=1.1e-07 W=9e-07 AD=2.7e-13 AS=3.06e-13 PD=1.5e-06 PS=1.58e-06 m=1 $X=11115 $Y=1510 $dt=1
+.ends DFC_X4

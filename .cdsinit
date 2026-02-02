@@ -89,3 +89,5 @@ else
 	 printf( "*LF-INFO* .cdsinit: Opening library manager 			  skipped\n" )
 ) ;; close if b_openLibManger
 )
+
+load( strcat( getShellEnvVar("CALIBRE_HOME") "/lib/calibre.skl" ))

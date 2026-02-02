@@ -1,0 +1,35 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : DFC_X4.rep
+ERC Summary File         : DFC_X4.sum
+LVS Comparison Report    : DFC_X4.rep.cls
+LVS Softchk Report       : DFC_X4.softchk
+Layout Name              : /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/DFC_X4.gds ("DFC_X4")
+User Name                : saul
+Creation Time            : Wed Jan 28 05:38:57 2026
+Current directory        : /home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4
+PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK NW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK NW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK ARRAYPW -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUB -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUBISO -TYPE UPPER   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "DFC_X4"
