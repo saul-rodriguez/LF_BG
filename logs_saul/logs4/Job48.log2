@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.01.26 14:27:34.837
-\# Local time: UTC (UTC+00:00) 2026.01.26 14:27:34.837
+\# Program start time:     UTC 2026.02.24 18:11:02.876
+\# Local time: UTC (UTC+00:00) 2026.02.24 18:11:02.876
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEbJTD4lqnxZtKOmr92PD7I_397389 -mpshost 46089@ees_research_saul -davinciService DaVinciService_397583_1769421812 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job48.log2 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.ees_research_saul_397583 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 48
-\# Host name (type):	ees_research_saul (x86_64)
-\# Operating system:	Linux 5.15.0-161-generic #171-Ubuntu SMP Sat Oct 11 08:17:01 UTC 2025
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoE39FkS50ZtkB68MpWhWm1L_465 -mpshost 49481@edatools -davinciService DaVinciService_661_1771942088 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job48.log2 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_661 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 48
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:5544 (1024x868)
+\# X display name (WxH):	:1698 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,20 +18,20 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	      1,172 MB
-\# Available memory:	  2,777,529 MB
-\# System memory:	  3,104,513 MB
-\# Maximum memory size:	  3,103,461 MB
-\# Max mem available:	  2,777,650 MB
-\# Initial memory used:	        121 MB
-\#        process size:	      1,681 MB
-\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Initial sbrk value:	        843 MB
+\# Available memory:	     60,420 MB
+\# System memory:	     72,238 MB
+\# Maximum memory size:	     71,515 MB
+\# Max mem available:	     60,539 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,680 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		saul
-\o Working Directory:	ees_research_saul:/home/saul/projects/LF_BG
-\# Process Id:		465903
-\# Container Id:	EbJTD4lqnxZtKOmr92PD7I
+\o Working Directory:	edatools:/home/saul/projects/LF_BG
+\# Process Id:		53213
+\# Container Id:	E39FkS50ZtkB68MpWhWm1L
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -51,9 +51,10 @@
 \o Loading pvsui.cxt
 \o Loading wireEdit.cxt 
 \o Loading pte2.cxt 
-\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
 \o Loading xlUI.cxt 
 \o Loading auCore.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
 \o Loading vhdl.cxt 
 \o Loading seismic.cxt 
 \o Loading ci.cxt 
@@ -61,28 +62,26 @@
 \o Loading oasis.cxt 
 \o Loading analog.cxt 
 \o Loading asimenv.cxt 
-\o Loading dal.cxt 
-\o Loading awv.cxt 
 \o Loading socket.cxt 
 \o Loading par.cxt 
 \o Loading alvs.cxt 
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         235 MB, process size 1,920 MB at UTC 2026.01.26 14:27:37.068
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
 \o Loading cpf.cxt 
+\# Memory report: using         254 MB, process size 1,940 MB at UTC 2026.02.24 18:11:04.025
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEbJTD4lqnxZtKOmr92PD7I_397389, host=46089@ees_research_saul). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoE39FkS50ZtkB68MpWhWm1L_465, host=49481@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 465903 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 53213 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [14:27:34.512425] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# [18:11:02.445290] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
 \w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \o 
@@ -115,6 +114,7 @@
 \o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
 \o *LF-INFO* .cdsinit: Loading Layout Utilities              done
 \o *LF-INFO* .cdsinit: Opening library manager 				  done
+\e *Error* load: can't access file - "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl"
 \o *Info*    Client has finished starting ... 
 \o 
 \o Loading vdsil.cxt 
@@ -124,7 +124,7 @@
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
 \w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
 \w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 465903' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 53213' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \o Loading vqp.cxt 
@@ -139,9 +139,9 @@
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_MonteCarlo.7
-\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.7.rdb
-\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.7/121/TRAN
+\o 	State Name   = OP_BG_OP:1_state_MonteCarlo.3
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.3.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.3/1/OP_BG
 \o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
 \o 	Project Dir  = /home/saul/simulation
 \o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
@@ -152,9 +152,9 @@
 \w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \o Loading spectrei.cxt 
-\# Memory report: using         337 MB, process size 2,029 MB at UTC 2026.01.26 14:27:39.175
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
+\# Memory report: using         366 MB, process size 2,059 MB at UTC 2026.02.24 18:11:05.177
 \o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
@@ -171,7 +171,7 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (18 161) on testbench [ TRAN ].
+\o *Info*    Run start for Point ID (19 121) on testbench [ OP_BG ].
 \o 
 \o Resetting statistical vars
 \o 
@@ -186,23 +186,23 @@
 \o Setting var CONF_REF_TRIM = "3"
 \o Setting var EN = "1.2"
 \o Setting var EN_PULSE = "0"
-\o Setting var PD = "1.2"
-\o Setting var PD_PULSE = "1.2"
-\o Setting var TT = "1n"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
 \o Setting var VDD = "1.2"
-\o Setting var VDD_PULSE = "100m"
-\o Setting var temperature = "50.0"
-\o Setting temp(T) = 50.0
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "50C"
+\o Setting temp(T) = 50C
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.7/161/TRAN/groupRunDataDir/netlist
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.3/121/OP_BG/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.7/161/TRAN/groupRunDataDir
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.3/121/OP_BG/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (18 161)
+\o *Info*    Creating Netlist for Point ID (19 121)
 \o 
 \w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
 \w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
@@ -229,27 +229,28 @@
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
-\# [14:27:43.055354] Periodic Lic check successful
-\# [14:27:43.055360] Feature usage summary:
-\o Begin Incremental Netlisting Jan 26 14:27:43 2026
-\o End netlisting Jan 26 14:27:43 2026
+\# [18:11:05.404784] Periodic Lic check successful
+\# [18:11:05.404785] Feature usage summary:
+\o Begin Incremental Netlisting Feb 24 18:11:05 2026
+\o End netlisting Feb 24 18:11:06 2026
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   1.0s
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
-\# Memory report: using         444 MB, process size 2,286 MB at UTC 2026.01.26 14:27:44.514
 \o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (18
-\o           161).
+\o *Info*    Running simulation on testbench [ OP_BG ] for Point ID (19
+\o           121).
 \o 
 \o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
 \o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.7/161/TRAN/groupRunDataDir/psf.
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.3/121/OP_BG/groupRunDataDir/psf.
+\w *WARNING* asiiEvalDesignValList: problem with variable temp temperature.
+\w 
 \o generate netlist...
-\o Begin Incremental Netlisting Jan 26 14:27:44 2026
-\o End netlisting Jan 26 14:27:44 2026
+\o Begin Incremental Netlisting Feb 24 18:11:06 2026
+\o End netlisting Feb 24 18:11:06 2026
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -262,23 +263,14 @@
 \o To view the simulator output, right-click on the test name, result 
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
-\# Available memory:      2,777,642 MB at UTC 2026.01.26 14:27:45.446
-\# Memory report: Maximum memory size now 2,778,105 MB at UTC 2026.01.26 14:27:45.446
-\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.01.26 14:27:45.446
 \o Loading paraplot.cxt 
+\# Memory report: using         484 MB, process size 2,377 MB at UTC 2026.02.24 18:11:08.289
+\w *WARNING* asiiEvalDesignValList: problem with variable temp temperature.
+\w 
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 161) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (18 162) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 121) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -287,7 +279,19 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 163) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 122) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         58,428 MB at UTC 2026.02.24 18:11:13.252
+\# Memory report: Maximum memory size now 58,921 MB at UTC 2026.02.24 18:11:13.252
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.02.24 18:11:13.252
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 123) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -296,7 +300,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 164) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 124) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -305,7 +309,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 165) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 125) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -314,7 +318,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 166) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 126) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -323,7 +327,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 167) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 127) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -332,7 +336,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 168) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 128) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -341,7 +345,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 169) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 129) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -350,7 +354,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 170) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 130) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -359,7 +363,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 171) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 131) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -368,7 +372,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 172) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 132) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -377,7 +381,17 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 173) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 133) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         589 MB, process size 2,481 MB at UTC 2026.02.24 18:12:22.350
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 134) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -386,7 +400,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 174) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 135) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -395,7 +409,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 175) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 136) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -404,7 +418,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 176) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 137) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -413,7 +427,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 177) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 138) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -422,7 +436,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 178) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 139) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -431,17 +445,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 179) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Memory report: using         545 MB, process size 2,437 MB at UTC 2026.01.26 14:28:23.488
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (18 180) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 140) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -450,7 +454,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 181) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 141) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -459,7 +463,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 182) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 142) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -468,7 +472,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 183) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 143) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -477,7 +481,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 184) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 144) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -486,7 +490,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 185) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 145) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -495,7 +499,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 186) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 146) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -504,7 +508,107 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 187) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 147) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         698 MB, process size 2,590 MB at UTC 2026.02.24 18:13:52.356
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 148) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 149) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 150) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 151) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 152) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 153) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 154) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 155) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 156) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 157) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 158) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -516,7 +620,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 188) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 159) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -525,7 +629,17 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 189) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 160) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         807 MB, process size 2,700 MB at UTC 2026.02.24 18:14:58.462
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 161) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -534,7 +648,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 190) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 162) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -543,7 +657,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 191) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 163) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -552,7 +666,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 192) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 164) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -561,7 +675,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 193) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 165) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -570,7 +684,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 194) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 166) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -579,7 +693,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 195) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 167) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -588,7 +702,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 196) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 168) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -597,7 +711,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 197) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 169) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -606,7 +720,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 198) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 170) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -615,7 +729,7 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 199) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 171) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
@@ -624,467 +738,87 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (18 200) on testbench [ TRAN ].
+\o *Info*    Run complete for Point ID (19 172) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 173) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 174) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 175) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         918 MB, process size 2,811 MB at UTC 2026.02.24 18:15:06.529
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 176) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 177) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 178) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 179) on testbench [ OP_BG ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 180) on testbench [ OP_BG ].
 \o 
 \o 
 \o 
 \o 
 \o 
 \o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 57,506 MB at UTC 2026.02.24 18:15:13.559
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
-\o 
-\o 
-\o *Info*    Configuring the session ...
-\o 
-\o 	Library      = BANDGAP
-\o 	Cell         = REF_GEN_TB
-\o 	View         = schematic
-\o 	Simulator    = spectre
-\o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_MonteCarlo.8
-\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.8.rdb
-\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.8/1/TRAN
-\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
-\o 	Project Dir  = /home/saul/simulation
-\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
-\o 	File Encoding = 0
-\o 
-\o 
-\o 
-\o *Info*    The auto suspension is disabled.
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (19 26) on testbench [ TRAN ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var CL = "150f"
-\o Setting var CL2 = "3p"
-\o Setting var CONF_BG_SL_TRIM = "3"
-\o Setting var CONF_BG_TRIM = "3"
-\o Setting var CONF_LDO_SEL = "0"
-\o Setting var CONF_LVDS_SEL = "0"
-\o Setting var CONF_REF_TRIM = "3"
-\o Setting var EN = "1.2"
-\o Setting var EN_PULSE = "0"
-\o Setting var PD = "1.2"
-\o Setting var PD_PULSE = "1.2"
-\o Setting var TT = "1u"
-\o Setting var VDD = "1.2"
-\o Setting var VDD_PULSE = "100m"
-\o Setting var temperature = "50.0"
-\o Setting temp(T) = 50.0
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.8/26/TRAN/groupRunDataDir/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.8/26/TRAN/groupRunDataDir
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (19 26)
-\o 
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 26 14:29:51 2026
-\o End netlisting Jan 26 14:29:51 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (19
-\o           26).
-\o 
-\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
-\o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.8/26/TRAN/groupRunDataDir/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Jan 26 14:29:52 2026
-\o End netlisting Jan 26 14:29:52 2026
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 26) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 27) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Memory report: using         646 MB, process size 2,538 MB at UTC 2026.01.26 14:30:05.033
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 28) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 29) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 30) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 31) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 32) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 33) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 34) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 35) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 36) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 37) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 38) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 39) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 40) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 41) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 42) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 43) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\# Memory report: using         754 MB, process size 2,646 MB at UTC 2026.01.26 14:31:12.443
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 44) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 45) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 46) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 47) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 48) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 49) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
-\o            because it does not evaluate to an object that can be plotted, like a waveform or
-\o            parametric wave. See the Visualization & Analysis Tool documentation for information
-\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
-\o            the expressions that evaluate to those objects can be plotted.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (19 50) on testbench [ TRAN ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Monte Carlo Simulation completed successfully...
-\o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables".
-\o To save future changes, copy variables to cellView before exiting.
-\# Lic Summary:
-\# [14:36:47.088737] Cdslmd servers:3000@lic08.ug.kth.se
-\# [14:36:47.088753] Feature usage summary:
-\# Memory report: on exit            806 MB, process size 2,698 MB at UTC 2026.01.26 14:36:47.613
-\# Memory report: peak usage         806 MB, process size 2,698 MB

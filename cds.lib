@@ -11,3 +11,4 @@ DEFINE CHARACTERIZATION ./CHARACTERIZATION
 DEFINE trim_res_tb /home/saul/projects/LF_BG/trim_res_tb
 DEFINE TEST /home/saul/projects/LF_BG/TEST
 DEFINE Si3 ./Si3
+DEFINE REF_GEN /home/saul/projects/LF_BG/REF_GEN

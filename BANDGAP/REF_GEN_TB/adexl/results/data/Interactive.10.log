@@ -1,0 +1,326 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Feb 27 07:56:43 2026 
+Best design point: 1
+Design specs: 
+	TRAN	corner	C0_0 - 
+	V1000		7.057m
+	V550		4.378m
+	I32nA		104.6p
+	I128nA		412.8p
+	BangapRef		2.277m
+	TRAN	corner	C0_1 - 
+	V1000		7.515m
+	V550		4.682m
+	I32nA		115.1p
+	I128nA		454.2p
+	BangapRef		3.059m
+	TRAN	corner	C1_0 - 
+	V1000		4.681m
+	V550		4.142m
+	I32nA		11.04p
+	I128nA		34.51p
+	BangapRef		3.87m
+	TRAN	corner	C1_1 - 
+	V1000		20.1m
+	V550		13.16m
+	I32nA		302.4p
+	I128nA		1.199n
+	BangapRef		5.425m
+	TRAN	corner	C1_2 - 
+	V1000		75.35m
+	V550		44.92m
+	I32nA		1.28n
+	I128nA		5.085n
+	BangapRef		10.92m
+	TRAN	corner	C1_3 - 
+	V1000		4.994m
+	V550		4.343m
+	I32nA		17.5p
+	I128nA		58.75p
+	BangapRef		5.967m
+	TRAN	corner	C1_4 - 
+	V1000		23.14m
+	V550		14.93m
+	I32nA		404.6p
+	I128nA		1.603n
+	BangapRef		7.9m
+	TRAN	corner	C1_5 - 
+	V1000		82.57m
+	V550		49.11m
+	I32nA		1.585n
+	I128nA		6.269n
+	BangapRef		14.22m
+	TRAN	corner	C2_0 - 
+	V1000		575.8u
+	V550		432.5u
+	I32nA		3.856p
+	I128nA		9.021p
+	BangapRef		1.16m
+	TRAN	corner	C2_1 - 
+	V1000		3.204m
+	V550		1.988m
+	I32nA		46.7p
+	I128nA		182p
+	BangapRef		1.772m
+	TRAN	corner	C2_2 - 
+	V1000		15.87m
+	V550		9.282m
+	I32nA		211.2p
+	I128nA		839.9p
+	BangapRef		3.377m
+	TRAN	corner	C2_3 - 
+	V1000		761u
+	V550		569.1u
+	I32nA		4.687p
+	I128nA		11.74p
+	BangapRef		1.668m
+	TRAN	corner	C2_4 - 
+	V1000		3.489m
+	V550		2.198m
+	I32nA		49.92p
+	I128nA		194.5p
+	BangapRef		2.382m
+	TRAN	corner	C2_5 - 
+	V1000		16.4m
+	V550		9.641m
+	I32nA		223p
+	I128nA		886.6p
+	BangapRef		4.031m
+	TRAN	corner	C3_0 - 
+	V1000		575.8u
+	V550		432.5u
+	I32nA		3.856p
+	I128nA		9.021p
+	BangapRef		1.16m
+	TRAN	corner	C3_1 - 
+	V1000		3.204m
+	V550		1.988m
+	I32nA		46.7p
+	I128nA		182p
+	BangapRef		1.772m
+	TRAN	corner	C3_2 - 
+	V1000		15.87m
+	V550		9.282m
+	I32nA		211.2p
+	I128nA		839.9p
+	BangapRef		3.377m
+	TRAN	corner	C3_3 - 
+	V1000		761u
+	V550		569.1u
+	I32nA		4.687p
+	I128nA		11.74p
+	BangapRef		1.668m
+	TRAN	corner	C3_4 - 
+	V1000		3.489m
+	V550		2.198m
+	I32nA		49.92p
+	I128nA		194.5p
+	BangapRef		2.382m
+	TRAN	corner	C3_5 - 
+	V1000		16.4m
+	V550		9.641m
+	I32nA		223p
+	I128nA		886.6p
+	BangapRef		4.031m
+	TRAN	corner	C4_0 - 
+	V1000		4.681m
+	V550		4.142m
+	I32nA		11.04p
+	I128nA		34.51p
+	BangapRef		3.87m
+	TRAN	corner	C4_1 - 
+	V1000		20.1m
+	V550		13.16m
+	I32nA		302.4p
+	I128nA		1.199n
+	BangapRef		5.425m
+	TRAN	corner	C4_2 - 
+	V1000		75.35m
+	V550		44.92m
+	I32nA		1.28n
+	I128nA		5.085n
+	BangapRef		10.92m
+	TRAN	corner	C4_3 - 
+	V1000		4.994m
+	V550		4.343m
+	I32nA		17.5p
+	I128nA		58.75p
+	BangapRef		5.967m
+	TRAN	corner	C4_4 - 
+	V1000		23.14m
+	V550		14.93m
+	I32nA		404.6p
+	I128nA		1.603n
+	BangapRef		7.9m
+	TRAN	corner	C4_5 - 
+	V1000		82.57m
+	V550		49.11m
+	I32nA		1.585n
+	I128nA		6.269n
+	BangapRef		14.22m
+	TRAN	corner	C5_0 - 
+	V1000		4.827m
+	V550		4.33m
+	I32nA		3.927p
+	I128nA		9.293p
+	BangapRef		5.311m
+	TRAN	corner	C5_1 - 
+	V1000		8.125m
+	V550		6.415m
+	I32nA		52.04p
+	I128nA		203.3p
+	BangapRef		5.72m
+	TRAN	corner	C5_2 - 
+	V1000		21.86m
+	V550		14.31m
+	I32nA		257.7p
+	I128nA		1.026n
+	BangapRef		7.866m
+	TRAN	corner	C5_3 - 
+	V1000		5.008m
+	V550		4.463m
+	I32nA		4.78p
+	I128nA		12.1p
+	BangapRef		8.159m
+	TRAN	corner	C5_4 - 
+	V1000		8.409m
+	V550		6.623m
+	I32nA		54.88p
+	I128nA		214.2p
+	BangapRef		8.439m
+	TRAN	corner	C5_5 - 
+	V1000		22.41m
+	V550		14.68m
+	I32nA		265.8p
+	I128nA		1.058n
+	BangapRef		10.48m
+	TRAN	corner	C6_0 - 
+	V1000		636.5u
+	V550		448u
+	I32nA		9.729p
+	I128nA		29.72p
+	BangapRef		747.9u
+	TRAN	corner	C6_1 - 
+	V1000		14.14m
+	V550		8.268m
+	I32nA		253.1p
+	I128nA		1.003n
+	BangapRef		2.296m
+	TRAN	corner	C6_2 - 
+	V1000		65.11m
+	V550		37.7m
+	I32nA		1.069n
+	I128nA		4.25n
+	BangapRef		7.088m
+	TRAN	corner	C6_3 - 
+	V1000		913.4u
+	V550		629.8u
+	I32nA		14.82p
+	I128nA		48.59p
+	BangapRef		1.092m
+	TRAN	corner	C6_4 - 
+	V1000		16.64m
+	V550		9.743m
+	I32nA		334.8p
+	I128nA		1.326n
+	BangapRef		3.096m
+	TRAN	corner	C6_5 - 
+	V1000		71.28m
+	V550		41.31m
+	I32nA		1.312n
+	I128nA		5.199n
+	BangapRef		8.679m
+	TRAN	corner	C7_0 - 
+	V1000		838.3u
+	V550		590.1u
+	I32nA		9.729p
+	I128nA		29.72p
+	BangapRef		1.244m
+	TRAN	corner	C7_1 - 
+	V1000		18.55m
+	V550		10.85m
+	I32nA		253.1p
+	I128nA		1.003n
+	BangapRef		3.81m
+	TRAN	corner	C7_2 - 
+	V1000		84.88m
+	V550		49.16m
+	I32nA		1.069n
+	I128nA		4.25n
+	BangapRef		11.71m
+	TRAN	corner	C7_3 - 
+	V1000		1.203m
+	V550		829.3u
+	I32nA		14.82p
+	I128nA		48.59p
+	BangapRef		1.816m
+	TRAN	corner	C7_4 - 
+	V1000		21.76m
+	V550		12.74m
+	I32nA		334.8p
+	I128nA		1.326n
+	BangapRef		5.126m
+	TRAN	corner	C7_5 - 
+	V1000		92.25m
+	V550		53.48m
+	I32nA		1.312n
+	I128nA		5.199n
+	BangapRef		14.27m
+	TRAN	corner	C8_0 - 
+	V1000		3.678m
+	V550		3.299m
+	I32nA		3.927p
+	I128nA		9.293p
+	BangapRef		3.213m
+	TRAN	corner	C8_1 - 
+	V1000		6.192m
+	V550		4.892m
+	I32nA		52.04p
+	I128nA		203.3p
+	BangapRef		3.473m
+	TRAN	corner	C8_2 - 
+	V1000		16.66m
+	V550		10.92m
+	I32nA		257.7p
+	I128nA		1.026n
+	BangapRef		4.813m
+	TRAN	corner	C8_3 - 
+	V1000		3.816m
+	V550		3.401m
+	I32nA		4.781p
+	I128nA		12.1p
+	BangapRef		4.953m
+	TRAN	corner	C8_4 - 
+	V1000		6.41m
+	V550		5.051m
+	I32nA		54.88p
+	I128nA		214.2p
+	BangapRef		5.14m
+	TRAN	corner	C8_5 - 
+	V1000		17.08m
+	V550		11.2m
+	I32nA		265.8p
+	I128nA		1.058n
+	BangapRef		6.427m
+	TRAN	corner	Nominal - 
+	V1000		7.057m
+	V550		4.378m
+	I32nA		104.6p
+	I128nA		412.8p
+	BangapRef		2.277m
+Design parameters: 
+	CL		150f
+	CONF_BG_SL_TRIM		3
+	CONF_BG_TRIM		3
+	CONF_REF_TRIM		3
+	CONF_LVDS_SEL		0
+	PD		0
+	PD_PULSE		0
+	CONF_LDO_SEL		0
+
+Interactive.10
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.10 completed. 
+Current time: Fri Feb 27 07:58:04 2026 

@@ -1,0 +1,19 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.2
+LoginName                      saul
+HostName                       45447@edatools
+ProcessIdentifier              210765
+ProcessCreationTime_UTC        1777918549
+ProcessCreationTime_Readable   Mon May  4 18:15:49 2026 UTC
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /home/saul/projects/LF_BG/logs_saul/logs4/Job2.log2
+TimeEditLocked                 Mon May  4 18:15:49 2026 UTC
+ProcessScopeIdentifier         EDoVmS20UcyZZIew1Y4PsK
+ExpirationTime_UTC             1778004949
+ExpirationTime_Readable        Tue May  5 18:15:49 2026 UTC

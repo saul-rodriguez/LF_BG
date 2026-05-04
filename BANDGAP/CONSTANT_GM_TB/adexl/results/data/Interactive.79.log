@@ -1,0 +1,33 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Feb 24 06:10:40 2026 
+Best design point: 1
+Design specs: 
+	START_UP	corner	C1_0 - 
+	START_UP	corner	C1_1 - 
+	START_UP	corner	C2_0 - 
+	START_UP	corner	C2_1 - 
+	START_UP	corner	C3_0 - 
+	START_UP	corner	C3_1 - 
+	START_UP	corner	C4_0 - 
+	START_UP	corner	C4_1 - 
+	START_UP	corner	C5_0 - 
+	START_UP	corner	C5_1 - 
+	START_UP	corner	C6_0 - 
+	START_UP	corner	C6_1 - 
+	START_UP	corner	C7_0 - 
+	START_UP	corner	C7_1 - 
+	START_UP	corner	C8_0 - 
+	START_UP	corner	C8_1 - 
+	START_UP	corner	Nominal - 
+Design parameters: 
+	VDD		0
+	VDD_PULSE		1.32
+	EN		0
+	EN_PULSE		1.32
+
+Interactive.79
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.79 completed. 
+Current time: Tue Feb 24 06:10:44 2026 

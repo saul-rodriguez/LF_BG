@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Mar  5 16:16:48 2026 
+Best design point: 1
+Design specs: 
+	TEST:cap_mc:1	corner	Nominal - 
+	capacitance		20.58f
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Thu Mar  5 16:16:50 2026 

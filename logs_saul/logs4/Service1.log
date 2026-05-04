@@ -1,0 +1,467 @@
+\# Program start time:     UTC 2026.05.04 18:15:11.229
+\# Local time: UTC (UTC+00:00) 2026.05.04 18:15:11.229
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost edatools -beanport 11300 -beanbinlog  -beanLogFile /home/saul/projects/LF_BG/logs_saul/logs4/amps_Service1.log -mpssession virtuosoEDoVmS20UcyZZIew1Y4PsK_208462 -mpshost 42439@edatools -davinciService DaVinciService_208657_1777918457 -scopedPid EDoVmS20UcyZZIew1Y4PsK.208657 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid 6b914cdb-9d02-478c-95b3-11439c1ff235 -heartbeat /dev/shm/swift-heartbeat.6IEQirf4vp -log /home/saul/projects/LF_BG/logs_saul/logs4/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D138FFC7EFC06BC4D68F886089075D3225CD1A12FD236867F66E38F1FFC06BC4D66E38F1FFC06BC4D0F1B6D321E2BD5B500001E44 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 6.17.0-20-generic #20~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 01:28:37 UTC 2
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:7028 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,353 MB
+\# Available memory:	     58,789 MB
+\# System memory:	     72,238 MB
+\# Maximum memory size:	     71,005 MB
+\# Max mem available:	     58,909 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,680 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	edatools:/home/saul/projects/LF_BG
+\# Process Id:		210216
+\# Container Id:	EDoVmS20UcyZZIew1Y4PsK
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEDoVmS20UcyZZIew1Y4PsK_208462, host=42439@edatools). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 210216 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [18:15:11.445322] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# Memory report: using         273 MB, process size 1,963 MB at UTC 2026.05.04 18:15:13.065
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o 
+\o ----------------          LFoundry            ----------------
+\o ----------------    Initializing LF11IS PDK    ----------------
+\o ----------------        Version 1.3.2         ----------------
+\o ----------------        Option 6metal         ----------------
+\o *LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+\o *LF-INFO* lf11is libInit.il loaded successfully. 
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting HSpice models                 done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o Loading vdsil.cxt 
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: PDF reader "evince" found: /bin/evince.
+\o *LF-INFO* .cdsinit: Creating LF11IS PDK menus              done
+\o *LF-INFO* .cdsinit: Loading LF11IS display.drf             done
+\o *LF-INFO* .cdsinit: Setting PVS setup trigger      done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
+\o *LF-INFO* .cdsinit: Loading Layout Utilities              done
+\o *LF-INFO* .cdsinit: Opening library manager 				  done
+\e *Error* load: can't access file - "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl"
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 210216' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\i _axlRunServices()
+\# [18:15:13.388400] Periodic Lic check successful
+\# [18:15:13.388403] Feature usage summary:
+\o Loading simui.cxt 
+\o [2026-05-04 18:15:13.416 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "edatools", "processid": 210216, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\# Available memory:         58,593 MB at UTC 2026.05.04 18:15:23.473
+\# Memory report: Maximum memory size now 58,900 MB at UTC 2026.05.04 18:15:23.473
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.05.04 18:15:23.474
+\o [2026-05-04 18:15:44.435 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "8132"}
+\o [2026-05-04 18:15:44.435 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "testnameKey": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Loading vqp.cxt 
+\o *Warning* AXL Context Manager : job 1 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = REF_GEN
+\o 	Cell         = CONSTANT_GM_f_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /home/saul/projects/LF_BG/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/1/REF_GEN_CONSTANT_GM_f_TB_1
+\o 	Results Loc  = /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/CONSTANT_GM_f_TB/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         393 MB, process size 2,150 MB at UTC 2026.05.04 18:15:46.195
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/psf/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/psf/REF_GEN_CONSTANT_GM_f_TB_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting May  4 18:15:46 2026
+\o Loading json.cxt 
+\o End netlisting May  4 18:15:46 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:  181
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o *Warning*	Additional design variables have been found during netlisting.
+\o  		A value is necessary for successful simulation.
+\o 		To simulate, assign values to all design variables with 
+\o 		the Variables->Edit... menu, and use "Netlist and Run".
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:46.854 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "testnameKey": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:47.859 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "10115"}
+\o [2026-05-04 18:15:47.860 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 1 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = REF_GEN
+\o 	Cell         = CONSTANT_GM_f_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /home/saul/projects/LF_BG/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/1/REF_GEN_CONSTANT_GM_f_TB_1
+\o 	Results Loc  = /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/CONSTANT_GM_f_TB/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/1/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/1/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:49.056 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:49.057 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:49.059 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "14554"}
+\o [2026-05-04 18:15:49.059 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/2/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/2/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:49.471 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 2, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:49.471 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:49.472 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "16154"}
+\o [2026-05-04 18:15:49.472 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/3/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/3/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:49.733 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 3, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:49.733 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:49.734 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "17754"}
+\o [2026-05-04 18:15:49.734 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/4/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/4/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:50.143 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 4, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:50.144 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:50.144 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "19354"}
+\o [2026-05-04 18:15:50.145 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/5/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/5/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:50.399 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 5, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:50.399 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:50.400 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "20954"}
+\o [2026-05-04 18:15:50.400 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/6/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/6/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:50.660 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 6, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:50.660 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:50.661 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "22554"}
+\o [2026-05-04 18:15:50.661 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/7/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/7/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:50.916 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 7, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:50.916 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:50.917 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "24154"}
+\o [2026-05-04 18:15:50.918 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/8/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/8/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:51.172 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 8, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:51.172 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:51.174 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "25754"}
+\o [2026-05-04 18:15:51.174 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/9/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/9/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:51.436 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 9, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:51.437 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o [2026-05-04 18:15:51.441 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log", "logFileSize": "27354"}
+\o [2026-05-04 18:15:51.442 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/10/REF_GEN_CONSTANT_GM_f_TB_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.0/10/REF_GEN_CONSTANT_GM_f_TB_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-04 18:15:52.324 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 723.5977 MBytes, peak memory used: 723.5977 MBytes {"hostname": "edatools", "processid": 210216, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "point": 10, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs4/Service1.log"}
+\o [2026-05-04 18:15:52.324 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "REF_GEN_CONSTANT_GM_f_TB_1"}
+\o **** stopping dspf2oa stdobj@0x62479770 0 1
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [18:17:25.452778] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [18:17:25.452801] Feature usage summary:
+\# Memory report: on exit            419 MB, process size 2,267 MB at UTC 2026.05.04 18:17:25.452
+\# Memory report: peak usage         419 MB, process size 2,267 MB

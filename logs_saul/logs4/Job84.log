@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.11.02 07:27:03.807
-\# Local time: UTC (UTC+00:00) 2025.11.02 07:27:03.807
+\# Program start time:     UTC 2026.02.24 10:03:38.909
+\# Local time: UTC (UTC+00:00) 2026.02.24 10:03:38.909
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEVe2fT-Hv3GnfKVaVtk2-K_9911 -mpshost 35403@b35621b5a0f6 -davinciService DaVinciService_10105_1762060945 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job84.log -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.b35621b5a0f6_10105 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 84
-\# Host name (type):	b35621b5a0f6 (x86_64)
-\# Operating system:	Linux 6.10.14-linuxkit #1 SMP PREEMPT_DYNAMIC Tue Oct 14 07:34:37 UTC 2025
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEIivuzBHGEBNnOfT16T93J_382844 -mpshost 46857@edatools -davinciService DaVinciService_383039_1771909506 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job84.log -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_383039 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 84
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:5601 (1024x868)
+\# X display name (WxH):	:1189 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,20 +18,20 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	      1,214 MB
-\# Available memory:	     22,673 MB
-\# System memory:	     28,093 MB
-\# Maximum memory size:	     27,000 MB
-\# Max mem available:	     22,793 MB
-\# Initial memory used:	        121 MB
-\#        process size:	      1,681 MB
+\# Initial sbrk value:	      1,480 MB
+\# Available memory:	     48,246 MB
+\# System memory:	     72,238 MB
+\# Maximum memory size:	     70,878 MB
+\# Max mem available:	     48,366 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,680 MB
 \# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		saul
-\o Working Directory:	b35621b5a0f6:/home/saul/projects/LF_BG
-\# Process Id:		78509
-\# Container Id:	EVe2fT-Hv3GnfKVaVtk2-K
+\o Working Directory:	edatools:/home/saul/projects/LF_BG
+\# Process Id:		503696
+\# Container Id:	EIivuzBHGEBNnOfT16T93J
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -53,6 +53,8 @@
 \o Loading pte2.cxt 
 \o Loading xlUI.cxt 
 \o Loading auCore.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
 \o Loading vhdl.cxt 
 \o Loading seismic.cxt 
 \o Loading ci.cxt 
@@ -60,8 +62,6 @@
 \o Loading oasis.cxt 
 \o Loading analog.cxt 
 \o Loading asimenv.cxt 
-\o Loading dal.cxt 
-\o Loading awv.cxt 
 \o Loading socket.cxt 
 \o Loading par.cxt 
 \o Loading alvs.cxt 
@@ -75,13 +75,13 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEVe2fT-Hv3GnfKVaVtk2-K_9911, host=35403@b35621b5a0f6). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\# Memory report: using         258 MB, process size 1,944 MB at UTC 2026.02.24 10:03:40.068
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEIivuzBHGEBNnOfT16T93J_382844, host=46857@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 78509 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 503696 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [07:27:03.512409] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
-\# Memory report: using         273 MB, process size 1,963 MB at UTC 2025.11.02 07:27:08.597
+\# [10:03:38.445306] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
 \w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \o 
@@ -114,6 +114,7 @@
 \o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
 \o *LF-INFO* .cdsinit: Loading Layout Utilities              done
 \o *LF-INFO* .cdsinit: Opening library manager 				  done
+\e *Error* load: can't access file - "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl"
 \o *Info*    Client has finished starting ... 
 \o 
 \o Loading vdsil.cxt 
@@ -123,7 +124,7 @@
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
 \w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
 \w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 78509' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 503696' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \o Loading vqp.cxt 
@@ -134,16 +135,16 @@
 \o 
 \o Loading simui.cxt 
 \o 	Library      = BANDGAP
-\o 	Cell         = CONSTANT_GM_TB
+\o 	Cell         = REF_GEN_TB
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = BANDGAP:CONSTANT_GM_TB:1_spectre_state1_Interactive.37
-\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37.rdb
-\o 	Results Dir  = /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37/1/BANDGAP:CONSTANT_GM_TB:1
-\o 	Results Loc  = /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data
+\o 	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.177
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/1/TRAN
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
 \o 	Project Dir  = /home/saul/simulation
-\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/CONSTANT_GM_TB/adexl
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
 \o 	File Encoding = 0
 \o 
 \o 
@@ -153,6 +154,7 @@
 \o Loading spectrei.cxt 
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
+\# Memory report: using         366 MB, process size 2,059 MB at UTC 2026.02.24 10:03:41.210
 \o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
@@ -160,7 +162,6 @@
 \o Loading UltraSim.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
-\# Memory report: using         383 MB, process size 2,076 MB at UTC 2025.11.02 07:27:12.153
 \o 
 \o *Info*    The auto suspension is disabled.
 \o 
@@ -170,51 +171,65 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (38 1) on testbench [
-\o           BANDGAP:CONSTANT_GM_TB:1 ].
+\o *Info*    Run start for Point ID (17 4) on testbench [ TRAN ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var VDD = "1.2"
-\o Setting var VDD_PULSE = "0"
-\o Setting var temperature = "50.0"
-\o Setting temp(T) = 50.0
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "0"
+\o Setting var EN_PULSE = "1.32"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
+\o Setting var VDD = "0"
+\o Setting var VDD_PULSE = "1.32"
+\o Setting var temperature = "50"
+\o Setting temp(T) = 50
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37/1/BANDGAP:CONSTANT_GM_TB:1/netlist
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/4/TRAN/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37/1/BANDGAP:CONSTANT_GM_TB:1
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/4/TRAN
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (38 1)
+\o *Info*    Creating Netlist for Point ID (17 4)
 \o 
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
-\# [07:27:12.225906] Periodic Lic check successful
-\# [07:27:12.225907] Feature usage summary:
-\o Begin Incremental Netlisting Nov  2 07:27:12 2025
+\# [10:03:41.326905] Periodic Lic check successful
+\# [10:03:41.326906] Feature usage summary:
+\o Begin Incremental Netlisting Feb 24 10:03:41 2026
 \w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
 \w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
-\o End netlisting Nov  2 07:27:13 2025
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\o Loading json.cxt 
+\o End netlisting Feb 24 10:03:42 2026
 \o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   1.0s
+\o Netlisting Statistics:
+\o 	Number of components:   45
+\o 
+\o 	Elapsed time:          1.0s (45.00/s)
+\o Errors: 0	Warnings: 0
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
-\# Available memory:         20,448 MB at UTC 2025.11.02 07:27:14.024
-\# Memory report: Maximum memory size now 20,884 MB at UTC 2025.11.02 07:27:14.024
-\# Thread usage report: 22 active threads, active load 1.40 at UTC 2025.11.02 07:27:14.024
 \o 
-\o *Info*    Running simulation on testbench [ BANDGAP:CONSTANT_GM_TB:1
-\o           ] for Point ID (38 1).
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (17
+\o           4).
 \o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37/1/BANDGAP:CONSTANT_GM_TB:1/psf.
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/4/TRAN/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -224,26 +239,32 @@
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
 \o Loading paraplot.cxt 
+\# Available memory:         46,433 MB at UTC 2026.02.24 10:03:49.563
+\# Memory report: Maximum memory size now 46,893 MB at UTC 2026.02.24 10:03:49.563
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.02.24 10:03:49.563
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
 \o 
-\o *Info*    Run complete for Point ID (38 1) on testbench [
-\o           BANDGAP:CONSTANT_GM_TB:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
+\o *Info*    Run complete for Point ID (17 4) on testbench [ TRAN ].
 \o 
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (38 15) on testbench [
-\o           BANDGAP:CONSTANT_GM_TB:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (17 8) on testbench [ TRAN ].
 \o 
 \o Resetting statistical vars
 \o 
@@ -253,18 +274,18 @@
 \o Setting temp(T) = 85
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37/15/BANDGAP:CONSTANT_GM_TB:1/netlist
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/8/TRAN/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37/15/BANDGAP:CONSTANT_GM_TB:1
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/8/TRAN
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (38 15)
+\o *Info*    Creating Netlist for Point ID (17 8)
 \o 
 \o generate netlist...
-\o Begin Incremental Netlisting Nov  2 07:27:23 2025
-\o End netlisting Nov  2 07:27:23 2025
+\o Begin Incremental Netlisting Feb 24 10:03:51 2026
+\o End netlisting Feb 24 10:03:51 2026
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -272,10 +293,10 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ BANDGAP:CONSTANT_GM_TB:1
-\o           ] for Point ID (38 15).
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (17
+\o           8).
 \o 
-\o Delete psf data in /home/saul/simulation/BANDGAP/CONSTANT_GM_TB/adexl/results/data/Interactive.37/15/BANDGAP:CONSTANT_GM_TB:1/psf.
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/8/TRAN/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -284,26 +305,570 @@
 \o To view the simulator output, right-click on the test name, result 
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
-\# Memory report: Maximum memory size now 20,401 MB at UTC 2025.11.02 07:27:24.512
+\# Memory report: using         487 MB, process size 2,379 MB at UTC 2026.02.24 10:03:52.197
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
 \o 
-\o *Info*    Run complete for Point ID (38 15) on testbench [
-\o           BANDGAP:CONSTANT_GM_TB:1 ].
+\o *Info*    Run complete for Point ID (17 8) on testbench [ TRAN ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\# Memory report: Maximum memory size now 20,983 MB at UTC 2025.11.02 07:32:34.320
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (17 15) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/15/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/15/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (17 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:04:01 2026
+\o End netlisting Feb 24 10:04:01 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (17
+\o           15).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/15/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (17 15) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (17 20) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/20/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/20/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (17 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:04:10 2026
+\o End netlisting Feb 24 10:04:10 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (17
+\o           20).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/20/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (17 20) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (17 25) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "50"
+\o Setting temp(T) = 50
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/25/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/25/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (17 25)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:04:20 2026
+\o End netlisting Feb 24 10:04:20 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (17
+\o           25).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.177/25/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (17 25) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
-\# Lic Summary:
-\# [07:32:36.340664] Cdslmd servers:3000@lic08.ug.kth.se
-\# [07:32:36.341289] Feature usage summary:
-\# Memory report: on exit            465 MB, process size 2,358 MB at UTC 2025.11.02 07:32:36.341
-\# Memory report: peak usage         465 MB, process size 2,358 MB
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.178
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/1/TRAN
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 1) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "0"
+\o Setting var EN_PULSE = "1.32"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
+\o Setting var VDD = "0"
+\o Setting var VDD_PULSE = "1.32"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/1/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/1/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:07:47 2026
+\o End netlisting Feb 24 10:07:47 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   45
+\o 
+\o 	Elapsed time:          1.0s (45.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (18
+\o           1).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/1/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (18 1) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 10) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "50"
+\o Setting temp(T) = 50
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/10/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/10/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:07:56 2026
+\o End netlisting Feb 24 10:07:56 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (18
+\o           10).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/10/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (18 10) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 15) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/15/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/15/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:08:04 2026
+\o End netlisting Feb 24 10:08:04 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (18
+\o           15).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/15/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: using         593 MB, process size 2,486 MB at UTC 2026.02.24 10:08:05.305
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (18 15) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 20) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/20/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/20/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:08:12 2026
+\o End netlisting Feb 24 10:08:12 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (18
+\o           20).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/20/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (18 20) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 25) on testbench [ TRAN ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "50"
+\o Setting temp(T) = 50
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/25/TRAN/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/25/TRAN
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 25)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 24 10:08:20 2026
+\o End netlisting Feb 24 10:08:20 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TRAN ] for Point ID (18
+\o           25).
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.178/25/TRAN/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+\o            because it does not evaluate to an object that can be plotted, like a waveform or
+\o            parametric wave. See the Visualization & Analysis Tool documentation for information
+\o            about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+\o            the expressions that evaluate to those objects can be plotted.
+\o 
+\o *Info*    Run complete for Point ID (18 25) on testbench [ TRAN ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.

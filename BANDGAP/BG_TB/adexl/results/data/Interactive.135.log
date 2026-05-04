@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Feb 23 17:54:46 2026 
+Best design point: 1
+Design specs: 
+	BANDGAP:BG_TB:1	corner	Nominal - 
+Design parameters: 
+	VDD		1.2
+	VDD_PULSE		0
+	PD		1.2
+	PD_PULSE		0
+
+Interactive.135
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.135 completed. 
+Current time: Mon Feb 23 17:54:50 2026 

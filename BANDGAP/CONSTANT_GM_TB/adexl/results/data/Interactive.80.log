@@ -1,0 +1,67 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Feb 24 07:02:46 2026 
+Best design point: 1
+Design specs: 
+	BANDGAP:CONSTANT_GM_TB:1	corner	C1_0 - 
+	i("/R0/PLUS" ?result "dcOp")		177.3n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C1_1 - 
+	i("/R0/PLUS" ?result "dcOp")		282.2n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C2_0 - 
+	i("/R0/PLUS" ?result "dcOp")		132.7n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C2_1 - 
+	i("/R0/PLUS" ?result "dcOp")		205.6n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C3_0 - 
+	i("/R0/PLUS" ?result "dcOp")		132.7n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C3_1 - 
+	i("/R0/PLUS" ?result "dcOp")		205.6n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C4_0 - 
+	i("/R0/PLUS" ?result "dcOp")		177.3n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C4_1 - 
+	i("/R0/PLUS" ?result "dcOp")		282.2n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C5_0 - 
+	i("/R0/PLUS" ?result "dcOp")		133.6n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C5_1 - 
+	i("/R0/PLUS" ?result "dcOp")		200.3n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C6_0 - 
+	i("/R0/PLUS" ?result "dcOp")		178.7n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C6_1 - 
+	i("/R0/PLUS" ?result "dcOp")		270.9n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C7_0 - 
+	i("/R0/PLUS" ?result "dcOp")		135n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C7_1 - 
+	i("/R0/PLUS" ?result "dcOp")		207.8n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C8_0 - 
+	i("/R0/PLUS" ?result "dcOp")		175.4n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	C8_1 - 
+	i("/R0/PLUS" ?result "dcOp")		266.5n
+	I/V /V0; xf dB20(I/V)		Error	No
+	BANDGAP:CONSTANT_GM_TB:1	corner	Nominal - 
+	i("/R0/PLUS" ?result "dcOp")		211n
+	I/V /V0; xf dB20(I/V)		Error	No
+Design parameters: 
+	VDD		1.2
+	VDD_PULSE		0
+	EN		1.2
+	EN_PULSE		0
+
+Interactive.80
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.80 completed. 
+Current time: Tue Feb 24 07:02:50 2026 

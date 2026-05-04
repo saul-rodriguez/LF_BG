@@ -1,0 +1,1477 @@
+\# Program start time:     UTC 2026.02.25 16:20:58.505
+\# Local time: UTC (UTC+00:00) 2026.02.25 16:20:58.505
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEt5Xxqwj7iYYui01LuHMSK_72229 -mpshost 55927@edatools -davinciService DaVinciService_72427_1771998066 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job17.log3 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_72427 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 17
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:4668 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,238 MB
+\# Available memory:	     63,337 MB
+\# System memory:	     72,238 MB
+\# Maximum memory size:	     71,120 MB
+\# Max mem available:	     63,457 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,680 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	edatools:/home/saul/projects/LF_BG
+\# Process Id:		103679
+\# Container Id:	Et5Xxqwj7iYYui01LuHMSK
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEt5Xxqwj7iYYui01LuHMSK_72229, host=55927@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 103679 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [16:20:58.445362] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o 
+\o ----------------          LFoundry            ----------------
+\o ----------------    Initializing LF11IS PDK    ----------------
+\o ----------------        Version 1.3.2         ----------------
+\o ----------------        Option 6metal         ----------------
+\o *LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+\o *LF-INFO* lf11is libInit.il loaded successfully. 
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting HSpice models                 done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: PDF reader "evince" found: /bin/evince.
+\o *LF-INFO* .cdsinit: Creating LF11IS PDK menus              done
+\# Memory report: using         275 MB, process size 1,966 MB at UTC 2026.02.25 16:21:00.007
+\o *LF-INFO* .cdsinit: Loading LF11IS display.drf             done
+\o *LF-INFO* .cdsinit: Setting PVS setup trigger      done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
+\o *LF-INFO* .cdsinit: Loading Layout Utilities              done
+\o *LF-INFO* .cdsinit: Opening library manager 				  done
+\e *Error* load: can't access file - "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl"
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 103679' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = OP_none_MonteCarlo.21
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.21.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.21/1/OP
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 61) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "1.2"
+\o Setting var EN_PULSE = "0"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
+\o Setting var VDD = "1.2"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "85C"
+\o Setting temp(T) = 85C
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.21/61/OP/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.21/61/OP/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 61)
+\o 
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+\w                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [16:21:01.022368] Periodic Lic check successful
+\# [16:21:01.022369] Feature usage summary:
+\o Begin Incremental Netlisting Feb 25 16:21:01 2026
+\o End netlisting Feb 25 16:21:01 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (18 61).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.21/61/OP/groupRunDataDir/psf.
+\w *WARNING* asiiEvalDesignValList: problem with variable temp temperature.
+\w 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 25 16:21:01 2026
+\o End netlisting Feb 25 16:21:01 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: using         461 MB, process size 2,354 MB at UTC 2026.02.25 16:21:02.013
+\o Loading paraplot.cxt 
+\o *Info*    Current simulation for points ((18 61) (18 62) (18 63) (18
+\o           64) (18 65) (18 66) (18 67) (18 68) (18 69) (18 70) (18 71)
+\o           (18 72) (18 73) (18 74) (18 75) (18 76) (18 77) (18 78) (18
+\o           79) (18 80) (18 81) (18 82) (18 83) (18 84) (18 85) (18 86)
+\o           (18 87) (18 88) (18 89) (18 90) (18 91) (18 92) (18 93) (18
+\o           94) (18 95) (18 96) (18 97) (18 98) (18 99) (18 100) (18
+\o           101) (18 102) (18 103) (18 104) (18 105) (18 106) (18 107)
+\o           (18 108) (18 109) (18 110) (18 111) (18 112) (18 113) (18
+\o           114) (18 115) (18 116) (18 117) (18 118) (18 119) (18 120)).
+\o *Info*    (ADE-3072): Simulation stopped because you selected the
+\o           'Stop Simulation' command in ADE.
+\o 
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o ERROR (ADE-3036): Errors encountered during simulation. The simulator run log has not been generated.
+\o         Possible cause could be an invalid command line option for the version of the simulator
+\o         you are running. Choose Setup->Environment and verify that the command line options
+\o         specified in the userCmdLineOption field are supported for the simulator.
+\o         Alternatively, run the simulator standalone using the runSimulation file in the netlist
+\o         directory to know the exact cause of the error.
+\# Available memory:         61,809 MB at UTC 2026.02.25 16:21:08.559
+\# Memory report: Maximum memory size now 62,270 MB at UTC 2026.02.25 16:21:08.559
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.02.25 16:21:08.559
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = BANDGAP
+\o 	Cell         = REF_GEN_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = OP_none_MonteCarlo.22
+\o 	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22.rdb
+\o 	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/1/OP
+\o 	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (19 241) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "1.2"
+\o Setting var EN_PULSE = "0"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
+\o Setting var VDD = "1.2"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "85C"
+\o Setting temp(T) = 85C
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (19 241)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 25 16:21:10 2026
+\o End netlisting Feb 25 16:21:10 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (19
+\o           241).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf.
+\w *WARNING* asiiEvalDesignValList: problem with variable temp temperature.
+\w 
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 25 16:21:10 2026
+\o End netlisting Feb 25 16:21:10 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\w *WARNING* asiiEvalDesignValList: problem with variable temp temperature.
+\w 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/241/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/241/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'241' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 241) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/242/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/242/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'242' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 242) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/243/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/243/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'243' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 243) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/244/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/244/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'244' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 244) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/245/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/245/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'245' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 245) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/246/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/246/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'246' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 246) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/247/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/247/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'247' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 247) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/248/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/248/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'248' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 248) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/249/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/249/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'249' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 249) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         562 MB, process size 2,454 MB at UTC 2026.02.25 16:22:07.352
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/250/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/250/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'250' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 250) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/251/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/251/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'251' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 251) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/252/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/252/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'252' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 252) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/253/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/253/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'253' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 253) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/254/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/254/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'254' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 254) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/255/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/255/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'255' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 255) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/256/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/256/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'256' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 256) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/257/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/257/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'257' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 257) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/258/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/258/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'258' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 258) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/259/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/259/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'259' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 259) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/260/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/260/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'260' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 260) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/261/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/261/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'261' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 261) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/262/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/262/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'262' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 262) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         665 MB, process size 2,558 MB at UTC 2026.02.25 16:23:31.265
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/263/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/263/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'263' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 263) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/264/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/264/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'264' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\# Memory report: Maximum memory size now 61,000 MB at UTC 2026.02.25 16:23:45.542
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 264) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/265/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/265/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'265' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 265) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/266/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/266/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'266' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 266) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/267/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/267/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'267' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 267) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/268/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/268/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'268' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 268) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/269/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/269/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'269' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 269) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/270/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/270/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'270' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 270) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/271/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/271/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'271' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 271) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/272/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/272/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'272' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 272) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/273/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/273/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'273' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 273) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/274/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/274/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'274' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 274) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/275/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/275/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'275' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 275) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/276/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/276/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'276' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 276) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/277/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/277/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'277' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 277) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         777 MB, process size 2,670 MB at UTC 2026.02.25 16:24:26.351
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/278/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/278/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'278' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 278) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/279/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/279/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'279' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 279) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/280/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/280/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'280' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 280) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/281/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/281/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'281' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 281) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/282/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/282/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'282' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 282) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/283/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/283/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'283' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 283) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/284/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/284/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'284' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 284) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/285/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/285/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'285' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 285) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/286/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/286/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'286' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 286) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/287/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/287/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'287' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 287) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/288/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/288/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'288' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 288) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/289/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/289/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'289' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 289) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/290/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/290/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'290' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 290) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         880 MB, process size 2,773 MB at UTC 2026.02.25 16:24:33.137
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/291/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/291/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'291' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 291) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/292/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/292/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'292' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 292) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/293/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/293/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'293' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 293) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/294/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/294/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'294' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 294) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/295/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/295/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'295' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 295) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/296/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/296/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'296' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 296) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/297/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/297/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'297' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 297) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/298/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/298/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'298' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 298) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/299/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/299/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'299' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 299) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/300/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/MonteCarlo.22/241/OP/groupRunDataDir/psf/mc1_separate/300/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'300' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 300) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
