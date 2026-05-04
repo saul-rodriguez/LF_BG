@@ -1,4 +1,4 @@
-# File Created by  at Wed Jan 28 05:24:28 2026
+# File Created by  at Mon May  4 20:12:43 2026
 # assisted by CdsLibEditor
 ## PDK specific entries do not touch --
 INCLUDE $LF11IS_HOME/tools/setup/cds.lib
@@ -11,4 +11,5 @@ DEFINE CHARACTERIZATION ./CHARACTERIZATION
 DEFINE trim_res_tb /home/saul/projects/LF_BG/trim_res_tb
 DEFINE TEST /home/saul/projects/LF_BG/TEST
 DEFINE Si3 ./Si3
-DEFINE REF_GEN /home/saul/projects/LF_BG/REF_GEN
+DEFINE REF_GEN ./REF_GEN
+DEFINE AnaCommon /home/saul/projects/lars/media/shares/si3_common/lars/AnaCommon

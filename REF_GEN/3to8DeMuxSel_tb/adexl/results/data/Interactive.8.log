@@ -1,0 +1,25 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon May  4 20:28:34 2026 
+Best design point: 1
+Design specs: 
+	REF_GEN:3to8DeMuxSel_tb:1	corner	Nominal - 
+	D0		404.6n
+	D1		404.6n
+	D2		404.6n
+	D3		404.6n
+	D4		404.6n
+	D5		404.6n
+	D6		1.2
+	D7		404.6n
+Design parameters: 
+	A0		0
+	A1		1
+	A2		1
+	S		1.2
+
+Interactive.8
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.8 completed. 
+Current time: Mon May  4 20:28:36 2026 

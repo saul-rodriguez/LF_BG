@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = TEST
-	Cell         = cap_mc
+	Library      = REF_GEN
+	Cell         = 3to8DeMuxSel_tb
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = TEST:cap_mc:1_none_Interactive.0
-	Results DB   = /home/saul/projects/LF_BG/TEST/cap_mc/adexl/results/data/Interactive.0.rdb
-	Results Dir  = /home/saul/simulation/TEST/cap_mc/adexl/results/data/Interactive.0/1/TEST:cap_mc:1
-	Results Loc  = /home/saul/simulation/TEST/cap_mc/adexl/results/data
+	State Name   = REF_GEN:3to8DeMuxSel_tb:1_none_Interactive.0
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/3to8DeMuxSel_tb/adexl/results/data/Interactive.0.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/3to8DeMuxSel_tb/adexl/results/data/Interactive.0/1/REF_GEN:3to8DeMuxSel_tb:1
+	Results Loc  = /home/saul/simulation/REF_GEN/3to8DeMuxSel_tb/adexl/results/data
 	Project Dir  = /home/saul/simulation
-	Setup DB loc = /home/saul/projects/LF_BG/TEST/cap_mc/adexl
+	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/3to8DeMuxSel_tb/adexl
 	File Encoding = 0
 
 
@@ -29,46 +29,70 @@ WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [ TEST:cap_mc:1 ].
+*Info*    Run start for Point ID (0 1) on testbench [
+          REF_GEN:3to8DeMuxSel_tb:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
+Setting var A0 = "0"
+Setting var A1 = "0"
+Setting var A2 = "0"
+Setting var S = "0"
 Setting var temperature = "27"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/TEST/cap_mc/adexl/results/data/Interactive.0/1/TEST:cap_mc:1/netlist
+          /home/saul/simulation/REF_GEN/3to8DeMuxSel_tb/adexl/results/data/Interactive.0/1/REF_GEN:3to8DeMuxSel_tb:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/TEST/cap_mc/adexl/results/data/Interactive.0/1/TEST:cap_mc:1
+          /home/saul/simulation/REF_GEN/3to8DeMuxSel_tb/adexl/results/data/Interactive.0/1/REF_GEN:3to8DeMuxSel_tb:1
 
 
 *Info*    Creating Netlist for Point ID (0 1)
 
 generate netlist...
-Initializing the control file using cp:
-    cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/simulation/TEST/cap_mc/adexl/results/data/Interactive.0/1/TEST:cap_mc:1/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Mar  5 16:15:46 2026
-End netlisting Mar  5 16:15:46 2026
+Begin Incremental Netlisting May  4 20:24:51 2026
+WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+compared to the last session in the current run directory. The netlist(s)
+generated in the last netlisting session cannot be reused for incremental
+netlisting. Therefore re-netlisting the design.
+
+WARNING (ADE-6003): Terminal "D0N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D1N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D2N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D3N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting May  4 20:24:51 2026
 
 Netlisting Statistics:
-	Number of components:    2
+	Number of components:   58
 
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	Elapsed time:          1.0s (58.00/s)
+Errors: 0	Warnings: 5
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ TEST:cap_mc:1 ] for Point
-          ID (0 1).
+*Info*    Running simulation on testbench [ REF_GEN:3to8DeMuxSel_tb:1
+          ] for Point ID (0 1).
 
-Delete psf data in /home/saul/simulation/TEST/cap_mc/adexl/results/data/Interactive.0/1/TEST:cap_mc:1/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/3to8DeMuxSel_tb/adexl/results/data/Interactive.0/1/REF_GEN:3to8DeMuxSel_tb:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -84,7 +108,7 @@ reading simulation data...
 
 
 *Info*    Run complete for Point ID (0 1) on testbench [
-          TEST:cap_mc:1 ].
+          REF_GEN:3to8DeMuxSel_tb:1 ].
 
 
 
