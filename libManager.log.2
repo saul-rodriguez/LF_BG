@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 04/25/2024 14:34 (csvcm36c-7) $
 \o Sub version:		sub-version  s364 
-\o Arguments:		-mpssession virtuosoEOL_do1O0aVIFCqrCyd7_J_241368 -mpshost 36791@edatools 
+\o Arguments:		-mpssession virtuosoEULI05amcnLp6DuG9NQ63J_252443 -mpshost 42863@edatools 
 \o Working Directory:	edatools:/home/saul/projects/LF_BG
 \o 64-bit offsets
 \o Qt version: 		5.9.1
@@ -14,128 +14,23 @@
 \o MPS service: map window
 \w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
-\a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "BANDGAP"
-\a cdsLibManager->libLineEdit->value = "BANDGAP"
 \a cdsLibManager->libListBox->value = "REF_GEN"
 \a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "REF_GEN_f_TB"
-\a cdsLibManager->cellLineEdit->value = "REF_GEN_f_TB"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
-\a cdsLibManager->libListBox->value = "REF_GEN"
-\a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "REF_GEN_f_TB"
-\a cdsLibManager->cellLineEdit->value = "REF_GEN_f_TB"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "dec3_f"
-\a cdsLibManager->cellLineEdit->value = "dec3_f"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 21 165 2 "dec3_f")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->CopyFromLibrary->value = "AnaCommon"
-\a copyCellForm->CopyToLibrary->value = "AnaCommon"
-\a copyCellForm->CopyFromLibrary->value = "REF_GEN"
-\a copyCellForm->CopyFromCell->value = "dec3_f"
-\a copyCellForm->CopyToLibrary->value = "REF_GEN"
-\a copyCellForm->CopyToCell->value = "dec3_f"
-\a copyCellForm->ViewsToCopy->value = "symbol veriloga"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "AnaCommon BANDGAP CHARACTERIZATION Si3 TEST US_8ths ahdlLib ambit analogLib basic cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib cnVPcellLib connectLib dmsLib functional ieee lf11is lf11isChipFn lf11isPixel lf11isdhvt7s lf11ispIO1v2hvt lf11ispIO3v3hvt ncinternal ncmodels ncutils rfExamples rfLib rfTlineLib sdilib std synopsys trim_res_tb vital_memory xminternal xmmodels xmutils"
-\a nrSetWindowVisibility(copyCellForm "show")
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(873 112 468 659))
-\a copyCellForm->CopyToCell->value = "dec2_f"
-\a nrDialogAccept(copyCellForm)
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "REF_GEN".
-\o Processing files to be copied...
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(976 404 273 133))
-\o Copy succeeded.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "REF_GEN"
-\a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "dec3_f"
-\a cdsLibManager->cellLineEdit->value = "dec3_f"
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "3to8DeMuxSel"
+\a cdsLibManager->cellLineEdit->value = "3to8DeMuxSel"
 \a cdsLibManager->cellListBox->value = "dec2_f"
 \a cdsLibManager->cellLineEdit->value = "dec2_f"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a lmgrLogShowPopup("mainListPopup2" 46 10 2 "symbol")
-\a cdsLibManager->editDeleteButton->value = t
-\a deleteForm->deleteFilterEdit->value = "*"
-\a deleteForm->notDeleteFilterEdit->value = "*"
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(794 229 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(953 367 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting view "symbol" from cell "dec2_f" in library "REF_GEN".
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cellview 'REF_GEN/dec2_f/symbol'.
-\o Deletion of 1 view done.
-\a cdsLibManager->viewLineEdit->value = "veriloga"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrResizeWindow(workingDialogForm list(984 404 268 133))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
-\a cdsLibManager->libListBox->value = "REF_GEN"
-\a cdsLibManager->libLineEdit->value = "REF_GEN"
+\a cdsLibManager->cellListBox->value = "BG_TRIM_4_f"
+\a cdsLibManager->cellLineEdit->value = "BG_TRIM_4_f"
 \a cdsLibManager->cellListBox->value = "dec2_f"
 \a cdsLibManager->cellLineEdit->value = "dec2_f"
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->cellListBox->value = "dec3_f"
+\a cdsLibManager->cellLineEdit->value = "dec3_f"
+\a cdsLibManager->cellListBox->value = "inv8_f"
+\a cdsLibManager->cellLineEdit->value = "inv8_f"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
@@ -150,14 +45,15 @@
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \a cdsLibManager->libListBox->value = "REF_GEN"
 \a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "dec2_f"
-\a cdsLibManager->cellLineEdit->value = "dec2_f"
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->cellListBox->value = "inv8_f"
+\a cdsLibManager->cellLineEdit->value = "inv8_f"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -168,14 +64,361 @@
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
 \a cdsLibManager->libListBox->value = "REF_GEN"
 \a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "dec2_f"
-\a cdsLibManager->cellLineEdit->value = "dec2_f"
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->cellListBox->value = "inv8_f"
+\a cdsLibManager->cellLineEdit->value = "inv8_f"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "REF_GEN"
+\a cdsLibManager->libLineEdit->value = "REF_GEN"
+\a cdsLibManager->cellListBox->value = "inv8_f"
+\a cdsLibManager->cellLineEdit->value = "inv8_f"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "REF_GEN_f_TB"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_f_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup2" 56 29 2 "schematic")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "CONSTANT_GM_2_f"
+\a cdsLibManager->cellLineEdit->value = "CONSTANT_GM_2_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "mux2_1_f"
+\a cdsLibManager->cellLineEdit->value = "mux2_1_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "mux8_1_f"
+\a cdsLibManager->cellLineEdit->value = "mux8_1_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(416 240 710 770))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "trim_res_bg_sl_f"
+\a cdsLibManager->cellLineEdit->value = "trim_res_bg_sl_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "trim_res_bg_2_f"
+\a cdsLibManager->cellLineEdit->value = "trim_res_bg_2_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "trim_res_bg_sl_f"
+\a cdsLibManager->cellLineEdit->value = "trim_res_bg_sl_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "trim_res_array_rn_2_f"
+\a cdsLibManager->cellLineEdit->value = "trim_res_array_rn_2_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "trim_res_rnpolyn_2_f"
+\a cdsLibManager->cellLineEdit->value = "trim_res_rnpolyn_2_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "mux8_1p_f"
+\a cdsLibManager->cellLineEdit->value = "mux8_1p_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "mux8_1_f"
+\a cdsLibManager->cellLineEdit->value = "mux8_1_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "mux2_1_f"
+\a cdsLibManager->cellLineEdit->value = "mux2_1_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "mux8_1_f"
+\a cdsLibManager->cellLineEdit->value = "mux8_1_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "mux8_1p_f"
+\a cdsLibManager->cellLineEdit->value = "mux8_1p_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "REF_GEN_f_TB"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_f_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "REF_GEN_f"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup2" 44 14 2 "schematic")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "REF_V5_f"
+\a cdsLibManager->cellLineEdit->value = "REF_V5_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BG_TRIM_4_f"
+\a cdsLibManager->cellLineEdit->value = "BG_TRIM_4_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup2" 39 8 2 "schematic")
+\a cdsLibManager->FileOpenButton->value = t
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "REF_GEN_f"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 37 12 2 "layout")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "REF_V5_f"
+\a cdsLibManager->cellLineEdit->value = "REF_V5_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 50 7 2 "layout")
+\a cdsLibManager->FileOpenButton->value = t
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "trim_res_array_rn_2_f"
+\a cdsLibManager->cellLineEdit->value = "trim_res_array_rn_2_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BG_TRIM_4_f"
+\a cdsLibManager->cellLineEdit->value = "BG_TRIM_4_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "CONSTANT_GM_2_f"
+\a cdsLibManager->cellLineEdit->value = "CONSTANT_GM_2_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "REF_GEN_f"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_f"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)
