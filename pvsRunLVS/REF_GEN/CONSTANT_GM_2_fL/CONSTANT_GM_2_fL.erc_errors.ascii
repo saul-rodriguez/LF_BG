@@ -1,0 +1,21 @@
+CONSTANT_GM_2_fL 1000
+FLOATING_PWELL
+0 0 2 Jun 15 11:23:03 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_NWELL
+0 0 2 Jun 15 11:23:03 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_PSUB
+0 0 2 Jun 15 11:23:03 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_PSUBISO
+0 0 2 Jun 15 11:23:03 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_DNW
+0 0 2 Jun 15 11:23:03 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul
+Rule File Title:  LF11IS

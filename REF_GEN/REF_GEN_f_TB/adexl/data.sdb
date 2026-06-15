@@ -1143,7 +1143,7 @@
 						<value>spectre</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>config</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR/test_states</value>
@@ -1273,7 +1273,7 @@
 						<value>TRAN_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>config</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -1311,7 +1311,7 @@
 						<value>spectre</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>config</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR/test_states</value>
@@ -1383,7 +1383,7 @@
 						<value>OP_BG_active</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>config</value>
 					</option>
 				</tooloptions>
 				<prerunscript>0</prerunscript>
@@ -1632,7 +1632,7 @@
 		</runoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.30
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.43
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -2782,7 +2782,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.30</value>
+								<value>OP_none_Interactive.43</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -2903,7 +2903,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.30</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.43</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2950,7 +2950,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.30</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.43</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -3013,7 +3013,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.30</value>
+								<value>OP_BG_OP:1_state_Interactive.43</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3084,7 +3084,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LVDS_SEL
-						<value>4</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -3265,26 +3265,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:40:57 2026</timestamp>
-			<uuid>{3130ea72-d529-4f82-a32c-53f6066c7e46}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.30.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.30.rdb</simresults>
+			<timestamp>Jun 15 11:27:49 2026</timestamp>
+			<uuid>{2ce7cc39-8f98-43a5-a1c6-7456950d4bcb}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.43.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074057984</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.30</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.30</simdir>
+			<localpsfdir>/tmp/edatools_saul_112749341</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.30.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.30.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.43.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.31
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.44
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -4428,13 +4428,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.31</value>
+								<value>OP_none_Interactive.44</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -4555,10 +4555,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.31</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.44</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -4596,13 +4596,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.31</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.44</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -4665,10 +4665,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.31</value>
+								<value>OP_BG_OP:1_state_Interactive.44</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -4736,7 +4736,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LVDS_SEL
-						<value>5</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -4917,26 +4917,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:41:12 2026</timestamp>
-			<uuid>{12bcfde6-120f-4a57-9ea3-8f564fd54084}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.31.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.31.rdb</simresults>
+			<timestamp>Jun 15 11:31:09 2026</timestamp>
+			<uuid>{5cb48cda-2d10-47d2-ae76-3466e0ea2c9f}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.44.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.44.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074112748</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.31</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.31</simdir>
+			<localpsfdir>/tmp/edatools_saul_113109275</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.44</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.44</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.31.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.31.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.44.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.44.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.32
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.45
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -6080,13 +6080,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.32</value>
+								<value>OP_none_Interactive.45</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -6207,10 +6207,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.32</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.45</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -6248,13 +6248,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.32</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.45</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -6317,10 +6317,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.32</value>
+								<value>OP_BG_OP:1_state_Interactive.45</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -6388,7 +6388,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LVDS_SEL
-						<value>6</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -6569,26 +6569,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:41:54 2026</timestamp>
-			<uuid>{80f44ff7-76d1-406e-95b2-360cc7a3662b}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.32.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.32.rdb</simresults>
+			<timestamp>Jun 15 11:31:27 2026</timestamp>
+			<uuid>{4f24fb78-eda9-4cb5-8480-e1efc38500fc}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.45.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.45.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074154192</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.32</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.32</simdir>
+			<localpsfdir>/tmp/edatools_saul_113127201</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.45</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.45</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.32.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.32.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.45.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.45.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.33
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.46
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -7732,13 +7732,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.33</value>
+								<value>OP_none_Interactive.46</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -7859,10 +7859,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.33</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.46</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -7900,13 +7900,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.33</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.46</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -7969,10 +7969,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.33</value>
+								<value>OP_BG_OP:1_state_Interactive.46</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -8040,7 +8040,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LVDS_SEL
-						<value>7</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -8221,26 +8221,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:42:13 2026</timestamp>
-			<uuid>{ee10a812-9fe6-4a24-90c2-533e71a0aa52}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.33.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.33.rdb</simresults>
+			<timestamp>Jun 15 11:37:09 2026</timestamp>
+			<uuid>{b00f7cdb-16b0-4563-b643-0f8190ea86ed}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.46.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.46.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074213683</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.33</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.33</simdir>
+			<localpsfdir>/tmp/edatools_saul_113709347</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.46</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.46</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.33.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.33.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.46.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.46.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.34
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.47
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -9384,13 +9384,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.34</value>
+								<value>OP_none_Interactive.47</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -9511,10 +9511,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.34</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.47</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -9552,13 +9552,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.34</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.47</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -9621,10 +9621,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.34</value>
+								<value>OP_BG_OP:1_state_Interactive.47</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -9873,26 +9873,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:42:29 2026</timestamp>
-			<uuid>{cfd700bd-9d09-4481-bcb4-6835825db30f}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.34.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.34.rdb</simresults>
+			<timestamp>Jun 15 11:37:44 2026</timestamp>
+			<uuid>{fdff7f54-cca9-4b19-9ad8-0c7eb5ab0016}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.47.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.47.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074229589</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.34</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.34</simdir>
+			<localpsfdir>/tmp/edatools_saul_113744586</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.47</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.47</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.34.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.34.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.47.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.47.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.35
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.48
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -11036,13 +11036,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.35</value>
+								<value>OP_none_Interactive.48</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -11163,10 +11163,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.35</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.48</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -11204,13 +11204,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.35</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.48</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -11273,10 +11273,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.35</value>
+								<value>OP_BG_OP:1_state_Interactive.48</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -11352,7 +11352,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LDO_SEL
-						<value>1</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -11525,26 +11525,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:43:15 2026</timestamp>
-			<uuid>{9aeedd53-fbe4-4ff3-81cd-0a77a2d5f9d3}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.35.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.35.rdb</simresults>
+			<timestamp>Jun 15 11:44:36 2026</timestamp>
+			<uuid>{8be6816c-899e-4968-af33-d24f554be2ab}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.48.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.48.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074315197</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.35</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.35</simdir>
+			<localpsfdir>/tmp/edatools_saul_114436782</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.48</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.48</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.35.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.35.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.48.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.48.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.36
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.49
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -12688,13 +12688,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.36</value>
+								<value>OP_none_Interactive.49</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -12815,10 +12815,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.36</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.49</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -12856,13 +12856,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.36</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.49</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -12925,10 +12925,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.36</value>
+								<value>OP_BG_OP:1_state_Interactive.49</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -13004,7 +13004,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LDO_SEL
-						<value>2</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -13177,26 +13177,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:43:28 2026</timestamp>
-			<uuid>{9dda8d6f-43b5-459f-8791-4cfca12f9751}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.36.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.36.rdb</simresults>
+			<timestamp>Jun 15 11:44:58 2026</timestamp>
+			<uuid>{a48eba8e-2122-424f-8759-43ebc83cfb3a}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.49.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.49.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074328788</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.36</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.36</simdir>
+			<localpsfdir>/tmp/edatools_saul_114458324</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.49</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.49</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.36.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.36.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.49.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.49.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.37
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.50
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -14340,13 +14340,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.37</value>
+								<value>OP_none_Interactive.50</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -14467,10 +14467,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.37</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.50</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -14508,13 +14508,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.37</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.50</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -14577,10 +14577,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.37</value>
+								<value>OP_BG_OP:1_state_Interactive.50</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -14656,7 +14656,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LDO_SEL
-						<value>3</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -14829,26 +14829,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:43:42 2026</timestamp>
-			<uuid>{19beecaf-4e84-49c8-8068-b0c86b544f12}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.37.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.37.rdb</simresults>
+			<timestamp>Jun 15 11:45:33 2026</timestamp>
+			<uuid>{3b364efa-2821-49bd-81f9-06d66aa71dfc}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.50.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.50.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074342143</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.37</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.37</simdir>
+			<localpsfdir>/tmp/edatools_saul_114533152</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.50</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.50</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.37.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.37.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.50.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.50.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.38
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.51
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -15992,13 +15992,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.38</value>
+								<value>OP_none_Interactive.51</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -16119,10 +16119,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.38</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.51</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -16160,13 +16160,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.38</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.51</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -16229,10 +16229,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.38</value>
+								<value>OP_BG_OP:1_state_Interactive.51</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -16308,7 +16308,7 @@
 						</dependentTests>
 					</var>
 					<var>CONF_LDO_SEL
-						<value>4</value>
+						<value>0</value>
 						<dependentTests>
 							<dependentTest enabled="1">OP</dependentTest>
 							<dependentTest enabled="1">TRAN</dependentTest>
@@ -16481,26 +16481,26 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:43:53 2026</timestamp>
-			<uuid>{367a522b-f179-4636-8870-84bbea892d1b}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.38.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.38.rdb</simresults>
+			<timestamp>Jun 15 11:47:17 2026</timestamp>
+			<uuid>{c5ba3bb5-c682-49f6-85f5-93af6d3e00d6}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.51.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.51.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074353450</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.38</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.38</simdir>
+			<localpsfdir>/tmp/edatools_saul_114717872</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.51</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.51</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.38.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.38.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.51.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.51.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.39
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.52
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -17644,13 +17644,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>OP_none_Interactive.39</value>
+								<value>OP_none_Interactive.52</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -17771,10 +17771,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.39</value>
+								<value>TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.52</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -17812,13 +17812,13 @@
 								<value>spectre</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.39</value>
+								<value>BANDGAP:BG_TRIM_4:1_none_Interactive.52</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -17881,10 +17881,10 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>OP_BG_OP:1_state_Interactive.39</value>
+								<value>OP_BG_OP:1_state_Interactive.52</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</tooloptions>
 						<prerunscript>0</prerunscript>
@@ -18133,22 +18133,22 @@
 				</runoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 5 07:44:05 2026</timestamp>
-			<uuid>{a0fd6657-a525-4e61-9c80-2aaba88f2a73}</uuid>
-			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.39.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.39.rdb</simresults>
+			<timestamp>Jun 15 12:28:17 2026</timestamp>
+			<uuid>{ee7b4f43-b9a3-4742-8ffb-d0abb642d64a}</uuid>
+			<resultsname>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.52.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.52.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_074405861</localpsfdir>
-			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.39</psfdir>
-			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.39</simdir>
+			<localpsfdir>/tmp/edatools_saul_122817461</localpsfdir>
+			<psfdir>/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.52</psfdir>
+			<simdir>$AXL_PROJECT_DIR/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.52</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.39.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.39.log</runlogfile>
+			<runlog>/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.52.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.52.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

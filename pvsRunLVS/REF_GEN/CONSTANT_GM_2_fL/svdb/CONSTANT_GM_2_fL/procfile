@@ -1,0 +1,75 @@
+*
+* Techgen(tm) Tech file Generator.
+* FullVersion        : 18.1.2-s132
+* BuildNumber        : 132 
+* IRBuildNumber      : 132 
+* VersionDate        : Thu May 10 00:43:37 PDT 2018
+* Bitness            : 64-bit
+* 
+*
+process LF11IS
+*
+*| temp_reference 27
+*| auto_reorder_off true
+*
+deposition
+*step #  material   p/n                 name        thick    diel.   side     bot     angle
+step  1  substrate                       FOX       0.3  11.9
+step  2  metal                          DIFF       0.2977  0  
+step  3  dielectric p                    STI       0  3.9
+step  4  dielectric p                    GOX       0.0023  3.9
+step  5  metal                         POLYG       0.15  0  
+step  6  dielectric p                    IPD       0.5  3.9
+step  7  metal                        METAL1       0.27  0  
+step  8  dielectric p                   IMD1       0.615  4.1
+step  9  metal                        METAL2       0.34  0  
+step 10  dielectric p                   IMD2       0.8245  4.1
+step 11  metal                        METAL3       0.34  0  
+step 12  dielectric p                   IMD3       0.8245  4.1
+step 13  metal                        METAL4       0.34  0  
+step 14  dielectric p                   IMD4       0.8245  4.1
+step 15  metal                        METAL5       0.34  0  
+step 16  dielectric p                   IMD5       0  4.1
+step 17  dielectric p                 IDMIMS       0.065  7.3  0.065
+step 18  metal                          MIMS       0.15  0  
+step 19  dielectric p                 IMD5_1       0.6395  4.1
+step 20  metal                        METALF       0.69  0  
+step 21  dielectric n                   IMDF       1.24   4.1   sidewall(1.24)   1.24   auto_angle
+step 22  dielectric n                SCRATCH       0.22   7.8   sidewall(0.22)   0.22   auto_angle
+step 23  dielectric p                    air       40  1
+enddeposition
+
+metal_variations auto_comb
+layer DIFF w  0.15 
+layer DIFF s  0.15 
+layer POLYG w  0.11 
+layer POLYG s  0.15 0.1
+layer METAL1 w  0.15 
+layer METAL1 s  0.15 
+layer METAL2 w  0.2 
+layer METAL2 s  0.2 
+layer METAL3 w  0.2 
+layer METAL3 s  0.2 
+layer METAL4 w  0.2 
+layer METAL4 s  0.2 
+layer METAL5 w  0.2 
+layer METAL5 s  0.2 
+layer MIMS w  2 
+layer MIMS s  1.2 
+layer METALF w  0.36 
+layer METALF s  0.36 
+endmetal_variations
+
+via_effects
+* via_layer_name layer_b layer_t enc_b enc_t min_w [bot_delta top_delta minS]
+CONT POLYG METAL1 0.06 0.005 0.14 0 0 0.16
+CONTD DIFF METAL1 0.06 0.005 0.14 0 0 0.16
+VIA1 METAL1 METAL2 0.03 0.025 0.15 0 0 0.2
+VIA2 METAL2 METAL3 0.04 0.005 0.19 0 0 0.2
+VIA3 METAL3 METAL4 0.04 0.005 0.19 0 0 0.2
+VIA4 METAL4 METAL5 0.04 0.005 0.19 0 0 0.2
+VIAF METAL5 METALF 0.04 0.06 0.19 0 0 0.2
+VIAFMIM MIMS METALF 0.5 0.2 0.19 0 0 0.2
+endvia_effects
+endprocess
+

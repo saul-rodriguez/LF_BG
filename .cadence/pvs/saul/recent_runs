@@ -1,2 +1,7 @@
+1781527464 0 1781527464 "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL" "lvsbrowser" "" "" "" "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/" "auCdl" "auCdl schematic" "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/lay_cellMap.txt" "" "" "" "" true
+1781527417 0 1781527417 "/home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/mux8_1_fL/mux8_1_fL.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1781522586 0 1781522586 "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL" "lvsbrowser" "" "" "" "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/" "auCdl" "auCdl schematic" "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/lay_cellMap.txt" "" "" "" "" true
+1781522509 0 1781522509 "/home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/CONSTANT_GM_2_fL/CONSTANT_GM_2_fL.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1781452113 0 1781452113 "/home/saul/projects/LF_BG/pvsRunDRC/TEST/test_lay/test_lay.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
 1769578739 0 1769578739 "/home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4" "lvsbrowser" "" "" "" "/home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/" "auCdl" "auCdl schematic" "/home/saul/projects/LF_BG/pvsRunLVS/lf11isdhvt7s/DFC_X4/lay_cellMap.txt" "" "" "" "" true
 1769578013 0 1769578013 "/home/saul/projects/LF_BG/pvsRunDRC/Si3/IN/IN.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true

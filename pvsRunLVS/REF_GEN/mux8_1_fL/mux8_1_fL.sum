@@ -1,0 +1,249 @@
+********************************************************************************
+*** PVS HERC SUMMARY
+***
+Execute on Date/Time    : Mon Jun 15 12:44:19 2026
+PVS HERC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/.config.rul
+Rule Deck Title         : LF11IS
+Layout System           : GDSII
+Layout Path             : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/mux8_1_fL.gds
+Current Directory       : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL
+User Name:              : saul
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : mux8_1_fL.sum
+Geometry Flagging       : ACUTE = YES  ANGLED = NO  SKEW = YES  OFFGRID = YES
+                          NONSIMPLE POLYGON = YES  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : mux8_1_fL
+LVS Softchk Report      : mux8_1_fL.softchk
+ASCII ERC Error Report  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/mux8_1_fL.erc_errors.ascii
+ERC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER DIFF ....................... Total Original Geometry:        6 (      49)
+LAYER POLYG ...................... Total Original Geometry:        6 (      48)
+LAYER METAL1fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER METAL2fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER METAL3fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER POLYDOPE ................... Total Original Geometry:        1 (       8)
+LAYER SALBLK ..................... Total Original Geometry:        0 (       0)
+LAYER DNW ........................ Total Original Geometry:        0 (       0)
+LAYER METAL4fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NW3V3 ...................... Total Original Geometry:        0 (       0)
+LAYER PW3V3orig .................. Total Original Geometry:        0 (       0)
+LAYER NW1V2 ...................... Total Original Geometry:        0 (       0)
+LAYER PW1V2orig .................. Total Original Geometry:        2 (       9)
+LAYER METAL5fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NLVT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER GOX1V2 ..................... Total Original Geometry:        1 (       8)
+LAYER NEXT1V2 .................... Total Original Geometry:        1 (       8)
+LAYER PEXT1V2 .................... Total Original Geometry:        0 (       0)
+LAYER METALFfillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NEXT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER PEXT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER METALTfillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NPLUS ...................... Total Original Geometry:        1 (       8)
+LAYER PPLUS ...................... Total Original Geometry:        1 (       1)
+LAYER METAL1base ................. Total Original Geometry:        8 (      80)
+LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL2base ................. Total Original Geometry:       28 (      78)
+LAYER METAL2fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL2slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL3base ................. Total Original Geometry:        1 (       8)
+LAYER METAL3fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL3slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL4base ................. Total Original Geometry:        0 (       0)
+LAYER METAL4fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL4slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL5base ................. Total Original Geometry:        0 (       0)
+LAYER METAL5fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL5slot ................. Total Original Geometry:        0 (       0)
+LAYER METALFbase ................. Total Original Geometry:        0 (       0)
+LAYER METALFfill ................. Total Original Geometry:        0 (       0)
+LAYER METALFslot ................. Total Original Geometry:        0 (       0)
+LAYER METALTbase ................. Total Original Geometry:        0 (       0)
+LAYER METALTfill ................. Total Original Geometry:        0 (       0)
+LAYER METALTslot ................. Total Original Geometry:        0 (       0)
+LAYER CONT ....................... Total Original Geometry:      240 (     749)
+LAYER VIA1 ....................... Total Original Geometry:       32 (     508)
+LAYER VIA2 ....................... Total Original Geometry:        4 (      32)
+LAYER VIA3 ....................... Total Original Geometry:        0 (       0)
+LAYER VIA4 ....................... Total Original Geometry:        0 (       0)
+LAYER VIAF ....................... Total Original Geometry:        0 (       0)
+LAYER VIAT ....................... Total Original Geometry:        0 (       0)
+LAYER MIMS ....................... Total Original Geometry:        0 (       0)
+LAYER MIMS2 ...................... Total Original Geometry:        0 (       0)
+LAYER MIMS7 ...................... Total Original Geometry:        0 (       0)
+LAYER PSN ........................ Total Original Geometry:        0 (       0)
+LAYER PSP ........................ Total Original Geometry:        0 (       0)
+LAYER PSUB2 ...................... Total Original Geometry:        0 (       0)
+LAYER BJTmark .................... Total Original Geometry:        0 (       0)
+LAYER DIOmark .................... Total Original Geometry:        0 (       0)
+LAYER MIMmark .................... Total Original Geometry:        0 (       0)
+LAYER CAPmark .................... Total Original Geometry:        0 (       0)
+LAYER RESmark .................... Total Original Geometry:        0 (       0)
+LAYER RMET1mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET2mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET3mark .................. Total Original Geometry:        0 (       0)
+LAYER PW3V3blockGen .............. Total Original Geometry:        0 (       0)
+LAYER PW3V3makeGen ............... Total Original Geometry:        0 (       0)
+LAYER RMET4mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET5mark .................. Total Original Geometry:        0 (       0)
+LAYER RMETFmark .................. Total Original Geometry:        0 (       0)
+LAYER CAPFlabel .................. Total Original Geometry:        0 (       0)
+LAYER RMETTmark .................. Total Original Geometry:        0 (       0)
+LAYER CAPFmark ................... Total Original Geometry:        0 (       0)
+LAYER VARmark .................... Total Original Geometry:        0 (       0)
+LAYER SEALRINGmark ............... Total Original Geometry:        0 (       0)
+LAYER ESDDIOmark ................. Total Original Geometry:        0 (       0)
+LAYER PROBEmark .................. Total Original Geometry:        0 (       0)
+LAYER TXFETmark .................. Total Original Geometry:        0 (       0)
+LAYER SLOTOX ..................... Total Original Geometry:        0 (       0)
+LAYER BSMET ...................... Total Original Geometry:        0 (       0)
+LAYER BSMET_pin_txt .............. Total Original Geometry:        0 (       0)
+LAYER SNN ........................ Total Original Geometry:        0 (       0)
+LAYER PW1V2blockGen .............. Total Original Geometry:        0 (       0)
+LAYER PW1V2makeGen ............... Total Original Geometry:        0 (       0)
+LAYER ARRAYPW .................... Total Original Geometry:        0 (       0)
+LAYER PXL ........................ Total Original Geometry:        0 (       0)
+LAYER MCEL ....................... Total Original Geometry:        0 (       0)
+LAYER DIFF_pin_txt ............... Total Original Geometry:        0 (       0)
+LAYER POLYG_pin_txt .............. Total Original Geometry:        0 (       0)
+LAYER METAL1_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL2_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL3_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL4_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL5_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METALF_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METALT_pin_txt ............. Total Original Geometry:        0 (       0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+Offgrid Vertex on layer DIFF at location (9.715,12.715) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (0.235,12.715) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (0.235,0.235) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (19.195,0.235) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (19.195,12.715) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (9.715,12.715) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (9.715,12.535) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (19.015,12.535) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (19.015,0.415) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (0.415,0.415) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (0.415,12.535) in cell mux8_1_fL.
+Offgrid Vertex on layer DIFF at location (9.715,12.535) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (9.795,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (9.935,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (9.935,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (9.795,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.105,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.245,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.245,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.105,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.415,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.555,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.555,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.415,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.725,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.865,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.865,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (10.725,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.035,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.175,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.175,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.035,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.345,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.485,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.485,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.345,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.655,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.795,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.795,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.655,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.965,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.105,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.105,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (11.965,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.275,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.415,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.415,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.275,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.585,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.725,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.725,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.585,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.895,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.035,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.035,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (12.895,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.205,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.345,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.345,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.205,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.515,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.655,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.655,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.515,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.825,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.965,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.965,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (13.825,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.135,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.275,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.275,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.135,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.445,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.585,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.585,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.445,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.755,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.895,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.895,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (14.755,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.065,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.205,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.205,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.065,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.375,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.515,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.515,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.375,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.680,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.820,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.820,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.680,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.985,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (16.125,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (16.125,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (15.985,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (16.290,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (16.430,12.555) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (16.430,12.695) in cell mux8_1_fL.
+Offgrid Vertex on layer CONT at location (16.290,12.695) in cell mux8_1_fL.
+Maximum Offgrid Vertex warning count of 100 has been reached.
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK FLOATING_DNW ............... Total Result      0 (       0)
+RULECHECK FLOATING_NWELL ............. Total Result      0 (       0)
+RULECHECK FLOATING_PSUB .............. Total Result      0 (       0)
+RULECHECK FLOATING_PSUBISO ........... Total Result      0 (       0)
+RULECHECK FLOATING_PWELL ............. Total Result      0 (       0)
+RULECHECK FLOATING_PWELL2 ............ Not Executed!
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 0(s)
+Total Real Time                   : 0(s)
+Peak Memory Used                  : 26(M)
+Total Original Geometry           : 332 (1594)
+Total ERC RuleChecks              : 5
+Total ERC Results                 : 0 (0)

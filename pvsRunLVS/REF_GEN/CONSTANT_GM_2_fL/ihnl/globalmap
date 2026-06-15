@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+REF_GEN/CONSTANT_GM_2_fL/schematic CONSTANT_GM_2_fL
+lf11is/rnpolym_pcell_0/schematic rnpolym_pcell_0
+$endmodel
+$net
+$endnet
+$param
+$endparam

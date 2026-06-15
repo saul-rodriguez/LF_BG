@@ -1,0 +1,1 @@
+RNPOLYMNW1V2,1,rnpolym

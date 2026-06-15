@@ -1,0 +1,33 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Jun 15 12:28:17 2026 
+Best design point: 1
+Design specs: 
+	OP	corner	Nominal - 
+	V1000		1.001
+	V550		550.6m
+	I32nA		32.21n
+	I128nA		128.7n
+	BangapRef		600.8m
+	V/V /V0; xf dB20(V/V)		Error	No
+	PRN_TRIGGER		61.66u
+	REF5_dc_current		3.058u
+	output noise; V / sqrt(Hz)		Error	No
+	total_noise_V		Error	No
+	LDO		700.8m
+	LVDS		825.8m
+Design parameters: 
+	CL		150f
+	CONF_BG_SL_TRIM		3
+	CONF_BG_TRIM		3
+	CONF_REF_TRIM		3
+	CONF_LVDS_SEL		0
+	CONF_LDO_SEL		0
+	PD		0
+	PD_PULSE		0
+
+Interactive.52
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.52 completed. 
+Current time: Mon Jun 15 12:28:20 2026 

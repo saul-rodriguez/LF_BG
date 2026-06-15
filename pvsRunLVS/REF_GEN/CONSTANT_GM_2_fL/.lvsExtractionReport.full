@@ -1,0 +1,71 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : CONSTANT_GM_2_fL.rep
+ERC Summary File         : CONSTANT_GM_2_fL.sum
+LVS Comparison Report    : CONSTANT_GM_2_fL.rep.cls
+LVS Softchk Report       : CONSTANT_GM_2_fL.softchk
+Layout Name              : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/CONSTANT_GM_2_fL.gds ("CONSTANT_GM_2_fL")
+User Name                : saul
+Creation Time            : Mon Jun 15 11:23:03 2026
+Current directory        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL
+PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK NW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK NW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK ARRAYPW -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUB -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUBISO -TYPE UPPER   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "AbutContact_CDNS_7815225788913"
+ for cell "AbutContact_CDNS_7815225788915"
+ for cell "AbutContact_CDNS_781522578894"
+ for cell "CONSTANT_GM_2_fL"
+ for cell "Contact_CDNS_781522578891"
+ for cell "Contact_CDNS_7815225788912"
+ for cell "Contact_CDNS_7815225788918"
+ for cell "Contact_CDNS_781522578892"
+ for cell "Contact_CDNS_7815225788924"
+ for cell "Contact_CDNS_7815225788925"
+ for cell "Contact_CDNS_7815225788927"
+ for cell "Contact_CDNS_781522578893"
+ for cell "Contact_CDNS_7815225788930"
+ for cell "Contact_CDNS_781522578897"
+ for cell "Contact_CDNS_781522578899"
+ for cell "M1_M2_CDNS_781522578891"
+ for cell "M1_M2_CDNS_781522578892"
+ for cell "M1_M2_CDNS_781522578893"
+ for cell "M1_M2_CDNS_781522578894"
+ for cell "M2_M3_CDNS_7815225788910"
+ for cell "M2_M3_CDNS_7815225788911"
+ for cell "M2_M3_CDNS_781522578898"
+ for cell "PG_M1_CDNS_781522578890"
+ for cell "ncap1v2hvt"
+ for cell "ncap1v2hvt_CDNS_7815225788923"
+ for cell "nmos1v2hvt_4_CDNS_781522578890"
+ for cell "nmos1v2hvt_4_CDNS_7815225788916"
+ for cell "nmos1v2hvt_4_CDNS_7815225788919"
+ for cell "nmos1v2hvt_4_CDNS_781522578895"
+ for cell "nmos1v2hvt_4_CDNS_781522578898"
+ for cell "pmos1v2hvt_4_CDNS_7815225788911"
+ for cell "pmos1v2hvt_4_CDNS_7815225788914"
+ for cell "pmos1v2hvt_4_CDNS_7815225788917"
+ for cell "pmos1v2hvt_4_CDNS_7815225788921"
+ for cell "pmos1v2hvt_4_CDNS_7815225788928"
+ for cell "pmos1v2hvt_4_CDNS_7815225788929"
+ for cell "rnpolym_CDNS_7815225788926"

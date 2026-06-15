@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "CONSTANT_GM_2_fL"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/"
+ )
+( model
+( "lf11is/rnpolym_pcell_0/schematic" "rnpolym_pcell_0" )
+( "REF_GEN/CONSTANT_GM_2_fL/schematic" "CONSTANT_GM_2_fL" )
+ )
+( "rnpolym_pcell_0" "ihnl/cds0/map" )
+( "CONSTANT_GM_2_fL" "ihnl/cds1/map" )
+ )

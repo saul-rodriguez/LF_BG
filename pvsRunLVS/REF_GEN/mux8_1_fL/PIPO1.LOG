@@ -1,0 +1,68 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.36 
+Started at: 15-Jun-2026  12:44:15
+User Name : saul
+Host Name : edatools
+Directory : /home/saul/projects/LF_BG
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/mux8_1_fL.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/libraries/6metal/lf11is/lf11is.layermap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 REF_GEN
+strmFile                                /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/mux8_1_fL.gds
+topCell                                 mux8_1_fL
+view                                    layout
+runDir                                  /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL
+logFile                                 /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/PIPO1.LOG
+techLib                                 lf11is
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/libraries/6metal/lf11is/lf11is.layermap
+userSkillFile                           /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781527455600.
+INFO (XSTRM-223): 2. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_781527455601.
+INFO (XSTRM-223): 3. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781527455601.
+INFO (XSTRM-223): 4. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781527455602.
+INFO (XSTRM-223): 5. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781527455603.
+INFO (XSTRM-223): 6. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781527455600.
+INFO (XSTRM-223): 7. Translating cellView REF_GEN/mux8_1_fL/layout as STRUCTURE mux8_1_fL.
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       13
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  4
+	Rectangles:                             323
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           23
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               23
+	Text:                                   18
+	TextDisplay:                            0
+	Cells:                                  7
+
+Elapsed Time: 0.2s   User Time: 0.2s   CPU Time: 0.0s   Peak VM: 19740KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

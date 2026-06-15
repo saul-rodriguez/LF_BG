@@ -1,0 +1,86 @@
+Device_Table 1000
+0 0 1 Mon Jun 15 11:23:03 2026
+4
+Device Entry 0
+0 0 20 Mon Jun 15 11:23:03 2026
+NMOS1V2HVT
+MOS
+MN
+nmos1v2hvt
+(null)
+nmos1v2hvt
+4
+G NGATE 0
+S NDIFF 1
+D NDIFF 1
+B PW1V2 0
+0
+7
+W
+L
+AS
+AD
+PS
+PD
+M
+Device Entry 1
+0 0 20 Mon Jun 15 11:23:03 2026
+PMOS1V2HVT
+MOS
+MP
+pmos1v2hvt
+(null)
+pmos1v2hvt
+4
+G PGATE 0
+S PDIFF 1
+D PDIFF 1
+B NW1V2 0
+0
+7
+W
+L
+AS
+AD
+PS
+PD
+M
+Device Entry 2
+0 0 20 Mon Jun 15 11:23:03 2026
+NCAP1V2HVT
+USER
+ncap1v2hvt
+(null)
+X
+ncap1v2hvt
+3
+PLUS NGATE 0
+MINUS NDIFF 0
+B PW1V2 0
+0
+8
+C
+W
+L
+AS
+AD
+PS
+PD
+M
+Device Entry 3
+0 0 15 Mon Jun 15 11:23:03 2026
+RNPOLYMNW1V2
+RESISTOR
+R
+rnpolym
+(null)
+rnpolym
+3
+POS POLYG3 1
+NEG POLYG3 1
+SUB NW1V2 0
+0
+3
+R
+L
+W

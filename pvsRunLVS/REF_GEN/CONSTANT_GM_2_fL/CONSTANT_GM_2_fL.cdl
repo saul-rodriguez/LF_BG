@@ -1,0 +1,144 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: CONSTANT_GM_2_fL
+* View Name:     schematic
+* Netlisted on:  Jun 15 11:22:59 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolym_pcell_0
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolym_pcell_0 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_74 int_0_74 MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_73 int_0_74 int_0_73 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_72 int_0_72 int_0_73 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_71 int_0_72 int_0_71 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_70 int_0_70 int_0_71 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_69 int_0_70 int_0_69 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_68 int_0_68 int_0_69 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_67 int_0_68 int_0_67 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_66 int_0_66 int_0_67 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_65 int_0_66 int_0_65 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_64 int_0_64 int_0_65 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_63 int_0_64 int_0_63 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_62 int_0_62 int_0_63 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_61 int_0_62 int_0_61 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_60 int_0_60 int_0_61 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_59 int_0_60 int_0_59 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_58 int_0_58 int_0_59 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_57 int_0_58 int_0_57 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_56 int_0_56 int_0_57 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_55 int_0_56 int_0_55 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_54 int_0_54 int_0_55 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_53 int_0_54 int_0_53 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_52 int_0_52 int_0_53 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_51 int_0_52 int_0_51 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_50 int_0_50 int_0_51 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_49 int_0_50 int_0_49 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_48 int_0_48 int_0_49 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_47 int_0_48 int_0_47 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_46 int_0_46 int_0_47 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_45 int_0_46 int_0_45 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_44 int_0_44 int_0_45 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_43 int_0_44 int_0_43 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_42 int_0_42 int_0_43 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_41 int_0_42 int_0_41 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_40 int_0_40 int_0_41 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_39 int_0_40 int_0_39 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_38 int_0_38 int_0_39 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_37 int_0_38 int_0_37 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_36 int_0_36 int_0_37 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_35 int_0_36 int_0_35 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_34 int_0_34 int_0_35 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_33 int_0_34 int_0_33 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_32 int_0_32 int_0_33 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_31 int_0_32 int_0_31 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_30 int_0_30 int_0_31 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_29 int_0_30 int_0_29 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_28 int_0_28 int_0_29 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_27 int_0_28 int_0_27 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_26 int_0_26 int_0_27 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_25 int_0_26 int_0_25 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_24 int_0_24 int_0_25 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_23 int_0_24 int_0_23 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_22 int_0_22 int_0_23 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_21 int_0_22 int_0_21 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_20 int_0_20 int_0_21 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_19 int_0_20 int_0_19 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_18 int_0_18 int_0_19 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_17 int_0_18 int_0_17 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_16 int_0_16 int_0_17 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_15 int_0_16 int_0_15 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_14 int_0_14 int_0_15 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_13 int_0_14 int_0_13 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_12 int_0_12 int_0_13 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_11 int_0_12 int_0_11 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_10 int_0_10 int_0_11 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_9 int_0_10 int_0_9 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_8 int_0_8 int_0_9 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_7 int_0_8 int_0_7 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_6 int_0_6 int_0_7 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_5 int_0_6 int_0_5 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_4 int_0_4 int_0_5 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_3 int_0_4 int_0_3 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_2 int_0_2 int_0_3 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_1 int_0_2 int_0_1 $SUB=B $[rnpolym] $W=w $L=l
+RR_0_0 PLUS int_0_1 $SUB=B $[rnpolym] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    CONSTANT_GM_2_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT CONSTANT_GM_2_fL EN GNDA IOUT1 IOUT2 VDDA
+*.PININFO EN:B GNDA:B IOUT1:B IOUT2:B VDDA:B
+MM14 GNDA GNDA GNDA GNDA nmos1v2hvt W=10u L=2u m=2 nf=1
+MM84 net3 PD GNDA GNDA nmos1v2hvt W=1u L=1u m=1 nf=1
+MM81 PDN PD GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM3 net1 net10 net7 GNDA nmos1v2hvt W=10u L=10u m=1 nf=1
+MM2 net10 net10 net3 GNDA nmos1v2hvt W=10u L=10u m=1 nf=1
+MM1 net7 net3 net2 GNDA nmos1v2hvt W=10u L=2u m=4 nf=1
+MM88 PD EN GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM0 net3 net3 GNDA GNDA nmos1v2hvt W=10u L=2u m=1 nf=1
+MM15 VDDA VDDA VDDA VDDA pmos1v2hvt W=10u L=5u m=4 nf=1
+MM86 net5 PDN VDDA VDDA pmos1v2hvt W=2u L=1u m=1 nf=1
+MM82 PDN PD VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+MM89 PD EN VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+MM13 net8 net5 VDDA VDDA pmos1v2hvt W=10u L=5u m=4 nf=1
+MM12 IOUT2 net1 net8 VDDA pmos1v2hvt W=40u L=5u m=1 nf=4
+MM11 net10 net10 net4 VDDA pmos1v2hvt W=1u L=500n m=1 nf=1
+MM10 net4 net4 net1 VDDA pmos1v2hvt W=1u L=500n m=1 nf=1
+MM9 IOUT1 net1 net6 VDDA pmos1v2hvt W=40u L=5u m=1 nf=4
+MM8 net6 net5 VDDA VDDA pmos1v2hvt W=10u L=5u m=4 nf=1
+MM7 net1 net1 net5 VDDA pmos1v2hvt W=10u L=5u m=1 nf=1
+MM6 net5 net5 VDDA VDDA pmos1v2hvt W=10u L=5u m=1 nf=1
+MM5 net10 net1 net9 VDDA pmos1v2hvt W=10u L=5u m=1 nf=1
+MM4 net9 net5 VDDA VDDA pmos1v2hvt W=10u L=5u m=1 nf=1
+XC1 IOUT2 GNDA GNDA ncap1v2hvt M=4 W=20u L=10u $W=20u $L=10u
+XC0 IOUT1 GNDA GNDA ncap1v2hvt M=4 W=20u L=10u $W=20u $L=10u
+XR1 GNDA GNDA net11 / rnpolym_pcell_0 l=10u w=500n m=1
+XR0 GNDA net11 net2 / rnpolym_pcell_0 l=10u w=500n m=1
+.ENDS
+

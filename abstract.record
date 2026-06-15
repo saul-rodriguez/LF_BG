@@ -1,0 +1,5 @@
+absSkillMode()
+absSetLibrary("TEST")
+absSelectCellFrom("INV_X1" "INV_X1")
+absImportGDS()
+absExit()

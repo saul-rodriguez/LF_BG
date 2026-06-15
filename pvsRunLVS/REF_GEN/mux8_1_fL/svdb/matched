@@ -1,0 +1,35 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.11-s045
+#####  NVN Run Start                 :   Mon Jun 15 12:44:24 2026
+#####  ERC Summary File              :   mux8_1_fL.sum
+#####  Extraction Report File        :   mux8_1_fL.rep
+#####  Comparison Report File        :   mux8_1_fL.rep.cls
+#####  Top Cell                      :   mux8_1_fL  <vs>  mux8_1_fL
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   REF_GEN mux8_1_fL layout
+#####  Schematic File                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/mux8_1_fL.cdl (cdl)
+#####  Rules File                    :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/.config.rul
+#####                                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1_fL/.technology.rul
+#####  Pin Swap File                 :   mux8_1_fL.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 0s - (0s)
+#####  Extraction Peak Memory Usage  :   26.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   274.85MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
+#####  LVS Total Peak Memory Usage   :   274.85MB
+#####  
+##############################################################################################################
+
+

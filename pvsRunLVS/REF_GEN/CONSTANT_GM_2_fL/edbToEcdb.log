@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : CONSTANT_GM_2_fL_1478254.db
+ECDB dir        : ./
+Top Cell        : CONSTANT_GM_2_fL
+CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.net
+Layer map file  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ecdbmap
+Text map file   : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ports
+Dependency map  : CONSTANT_GM_2_fL.lmap.perc
+Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.lvsfile
+Float net file  : .CONSTANT_GM_2_fL.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : CONSTANT_GM_2_fL_1478254

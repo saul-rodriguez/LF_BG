@@ -1,0 +1,5 @@
+cUiSetViewStatus {test_trim} {layout} {1}
+cUiSetViewStatus {test_trim} {logical} {0}
+cUiSetViewStatus {test_trim} {abstract.pin} {0}
+cUiSetViewStatus {test_trim} {abstract.ext} {0}
+cUiSetViewStatus {test_trim} {abstract} {0}
