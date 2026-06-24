@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+REF_GEN/BG_STARTUP_fL2/schematic BG_STARTUP_fL2
+$endmodel
+$net
+$endnet
+$param
+$endparam

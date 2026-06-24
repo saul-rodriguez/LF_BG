@@ -1,0 +1,210 @@
+
+
+  Cadence Quantus Extraction - 64-bit Parasitic Extractor - Version
+24.1.0-p089 Wed Dec 18 09:25:34 PST 2024
+---------------------------------------------------------------------------------------------------------------
+                                  Copyright 2024 Cadence Design Systems,
+Inc.
+
+
+
+INFO (EXTQRCXLOG-128) : Quantus command line:
+ Started at: 2026-Jun-24 13:16:41 (2026-Jun-24 13:16:41 GMT)
+ Executable:
+/opt/tools/cadence/installs/QUANTUS241/tools/extraction/bin/64bit/quantus
+ Options:     -log_file
+/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/qrc.BG_TRIM_4_fL.log
+-cmd
+/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/qrc.BG_TRIM_4_fL.ccl
+ Current working directory: /home/saul/projects/LF_BG
+
+
+INFO (EXTQRCXLOG-103) : The Command File Options for the current Quantus run are as follows:
+
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "GNDA"
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing "auto" \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -net_name_space "LAYOUT" \
+	 -split_via_by_unit_area false
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pvs \
+	 -design_cell_name "BG_TRIM_4_fL layout REF_GEN" \
+	 -directory_name "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb" \
+	 -format "DFII" \
+	 -library_definitions_file "/home/saul/projects/LF_BG/cds.lib" \
+	 -run_name "BG_TRIM_4_fL"
+log_file \
+	 -file_name "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/qrc.BG_TRIM_4_fL.log"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -cdl_out_map_directory \
+		"/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL" \
+	 -device_finger_delimiter "@" \
+	 -enable_cellview_check false \
+	 -include_cap_model "true" \
+	 -include_parasitic_cap_model "comment" \
+	 -include_parasitic_res_model "comment" \
+	 -include_res_model "true" \
+	 -res_component "presistor" \
+	 -res_property_name "r" \
+	 -transfer_net_expression true \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb" \
+	 -temporary_directory_name "BG_TRIM_4_fL"
+process_technology \
+	 -technology_corner \
+		"default" \
+	 -technology_library_file "/home/saul/projects/LF_BG/pvtech.lib" \
+	 -technology_name "lf11is" \
+	 -temperature \
+		"25.0"
+
+-------------------------------------------------------------------------------------
+Wed Jun 24 13:16:41 2026: BEGIN INPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Wed Jun 24 13:16:42 2026: DONE INPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+INPUT stage summary:
+-------------------------------------------------------------------------------------
+ Number of CPUs requested:		1
+ Techfile(s):
+    /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/qrc/6metal/pvs/typ//qrcTechFile; process name: LF11IS
+
+ License(s) used:	QTS300 (x1)
+
+ Techgen compilation option(s):
+    -techdir /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/qrc/6metal/pvs/typ -inc /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL/BG_TRIM_4_fL.ilf -lvs /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL/BG_TRIM_4_fL.xcn -lvsvia -p2lvs /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/qrc/6metal/pvs/typ/qrcTechFile -reseqn -sw3d -blocking NVAR1V2HVTNOISO:0.001,FOX,DIFF,POLYG -blocking NVAR1V2HVTISO:0.001,FOX,DIFF,POLYG -blocking NVAR3V3RVTNOISO:0.001,FOX,DIFF,POLYG -blocking NVAR3V3RVTISO:0.001,FOX,DIFF,POLYG -blocking NCAP1V2HVT:0.001,FOX,DIFF,POLYG -blocking PCAP1V2HVT:0.001,FOX,DIFF,POLYG -blocking NCAP3V3RVT:0.001,FOX,DIFF,POLYG -blocking PCAP3V3RVT:0.001,FOX,DIFF,POLYG -blocking FRCAPM2M3:0.001,METAL2,METAL3,FOX -blocking DNPPW1V2:0.001,FOX,DIFF -blocking DNPPW1V2ESD:0.001,FOX,DIFF -blocking DNPPW3V3:0.001,FOX,DIFF -blocking DNPPW3V3ESD:0.001,FOX,DIFF -blocking DPPNW1V2:0.001,DIFF,FOX -blocking DPPNW1V2ESD:0.001,DIFF,FOX -blocking PNP5UX5U:0.001,DIFF,METAL1,FOX -blocking PNPBASE:0.001,DIFF,METAL1,FOX -blocking PNPEMIT5UX5U:0.001,DIFF,METAL1,FOX -blocking PNPEMIT10UX2U5:0.001,DIFF,METAL1,FOX -blocking CMIMS:0.001,METAL5,MIMS,FOX -blocking CMIMS2:0.001,METAL5,MIMS,FOX -blocking CMIMS7:0.001,METAL5,MIMS,FOX -blocking RMET1a:0.001,METAL1,FOX -blocking RMET2a:0.001,METAL2,FOX -blocking RMET3a:0.001,METAL3,FOX -blocking RMET4a:0.001,METAL4,FOX -blocking RMET5a:0.001,METAL5,FOX -blocking RMETFa:0.001,METALF,FOX -blocking RNPOLYHNW1V2:0.001,POLYG,FOX -blocking RNPOLYHPW3V3:0.001,POLYG,FOX -blocking RNPOLYHNW3V3:0.001,POLYG,FOX -blocking RNPOLYMPW1V2:0.001,POLYG,FOX -blocking RNPOLYMNW1V2:0.001,POLYG,FOX -blocking RNPOLYMPW3V3:0.001,POLYG,FOX -blocking RNPOLYMNW3V3:0.001,POLYG,FOX -blocking RPPOLYMNW1V2:0.001,POLYG,FOX -blocking RPPOLYMPW3V3:0.001,POLYG,FOX -blocking RPPOLYMNW3V3:0.001,POLYG,FOX -blocking PROBE_REC:0.001,METALF,FOX,DIFF -blocking NMOS1V2HVT:0.001,POLYG,METAL1,DIFF,FOX -blocking NMOS3V3RVT:0.001,POLYG,METAL1,DIFF,FOX -blocking NMOS3V3PIX:0.001,POLYG,METAL1,DIFF,FOX -blocking NMOS3V3TX:0.001,POLYG,METAL1,DIFF,FOX -blocking PMOS1V2HVT:0.001,POLYG,METAL1,DIFF,FOX -blocking PMOS3V3RVT:0.001,POLYG,METAL1,DIFF,FOX -res_blocking NCAP1V2HVT:0.001,NGATE -res_blocking NCAP3V3RVT:0.001,NGATE -res_blocking PCAP1V2HVT:0.001,PGATE -res_blocking PCAP3V3RVT:0.001,PGATE -res_blocking NVAR1V2HVTNOISO:0.001,NGATE -res_blocking NVAR1V2HVTISO:0.001,NGATE -res_blocking NVAR3V3RVTNOISO:0.001,NGATE -res_blocking NVAR3V3RVTISO:0.001,NGATE -exclude_gate_res -length_units meters -cap_unit 1 -dsub PTAP,PSUBISO,PW3V3,PW1V2,PSUB /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL
+
+ Input files:
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.agf
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.devtab
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.gds.map
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.ixf
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.lph
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.lvsfile
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.nxf
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.ports
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.sph
+    /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL_pin_xy.spi
+
+ Design data:
+    global nets:                  0
+
+ Peak memory:	177 MB
+
+ Messages:
+    *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+    
+    *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+    
+    INFO (CAPGEN-41199): 
+    
+    
+    Techgen -trans results will be written to directory: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL
+    
+    INFO (CAPGEN-41737): Lvs connect layers BSMET METALTa are not mapped in layer_setup file
+    
+    INFO (CAPGEN-41809):  Lvs connect via VIAT SLOTOX NDIFFCONTTX are not mapped in layer_setup file.
+    
+    WARNING (RCXSPIC-27104): p2lvsfile in tech directory does not have resistance 
+     temperature coefficients (TC1, TC2). ?temperature is ignored 
+    
+    WARNING (LBRCXM-617): Unable to obtain 1 license(s) of QTS100 24.10
+    
+    WARNING (AGDSEXT-30124): The <design>.props file is not available. The CCL option "input_db calibre/pvs/pegasus -device_properties_file <filename>" can be used to specify the .props file. 
+    
+    INFO (AGDSEXT-30016): 
+    setting dbunit 1e-09 1 1e-09
+    
+-------------------------------------------------------------------------------------
+Wed Jun 24 13:16:42 2026: BEGIN EXTRACTION stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Wed Jun 24 13:17:01 2026: DONE EXTRACTION stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+EXTRACTION stage summary:
+-------------------------------------------------------------------------------------
+ Design data:
+    LVS nets:                     348
+    signal nets:                  341
+    floating nets:                7
+    ground net name:              GNDA
+
+ Peak memory:	219 MB
+
+-------------------------------------------------------------------------------------
+Wed Jun 24 13:17:01 2026: BEGIN OUTPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Wed Jun 24 13:17:12 2026: DONE OUTPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+OUTPUT stage summary:
+-------------------------------------------------------------------------------------
+ Reduction statistics:
+    Dangling Rs removed:          164
+    Merged Parallel Rs:           0
+    Mfactor Merged devices:       0
+    Rs shorted by min_res option: 6487
+    Merged Parallel Self Caps:    0
+    CCs filtered by minC option:  6292
+    Shorted Incomplete Nets:      0
+ Output statistics:
+    R: 35516
+    C: 38271
+    L: 0
+
+ Peak memory:	389 MB
+
+    *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+
+    *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+
+    *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+
+    Summary for REF_GEN/BG_TRIM_4_fL/av_extracted
+    
+    instance count totals:
+    
+        lib              cell             view                    total
+        analogLib        pcapacitor       symbol                  38271
+        analogLib        presistor        symbol                  35516
+        lf11is           cmims            auCdl                      10
+        lf11is           nmos1v2hvt_4     auCdl                     119
+        lf11is           pmos1v2hvt_4     auCdl                     170
+        lf11is           pnp5ux5u         auCdl                     266
+        lf11is           rnpolyh_i        auCdl                     321
+    
+    Extracted view creation has completed.
+-------------------------------------------------------------------------------------
+
+INFO (LBRCXM-920): Host name and peak memory report
+ Host Name:                    edatools
+ Peak memory used:             389 MB (sampled at 15s intervals)
+
+INFO (LBRCXM-702): Run ended: Wed Jun 24 13:17:15 2026
+
+
+INFO (LBRCXM-805): Quantus run took:  15s user, 17s sys, 34s elapsed
+
+
+INFO (LBRCXM-708): *****  Quantus terminated normally  *****
+
+

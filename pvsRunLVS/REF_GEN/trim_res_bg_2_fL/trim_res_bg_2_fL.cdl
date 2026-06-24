@@ -1,0 +1,144 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: trim_res_bg_2_fL
+* View Name:     schematic
+* Netlisted on:  Jun 16 05:32:06 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_0
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_0 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_1 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_43 MINUS int_0_43 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_42 int_0_42 int_0_43 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_41 int_0_42 int_0_41 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_40 int_0_40 int_0_41 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_39 int_0_40 int_0_39 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_38 int_0_38 int_0_39 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_37 int_0_38 int_0_37 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_36 int_0_36 int_0_37 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_35 int_0_36 int_0_35 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_34 int_0_34 int_0_35 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_33 int_0_34 int_0_33 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_32 int_0_32 int_0_33 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_31 int_0_32 int_0_31 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_30 int_0_30 int_0_31 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_29 int_0_30 int_0_29 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_28 int_0_28 int_0_29 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_27 int_0_28 int_0_27 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_26 int_0_26 int_0_27 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_25 int_0_26 int_0_25 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_24 int_0_24 int_0_25 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_23 int_0_24 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_22 int_0_22 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_21 int_0_22 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_20 int_0_20 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_19 int_0_20 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_18 int_0_18 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_17 int_0_18 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_16 int_0_16 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_15 int_0_16 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_14 int_0_14 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_13 int_0_14 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_12 int_0_12 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_11 int_0_12 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_10 int_0_10 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_9 int_0_10 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_8 int_0_8 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_7 int_0_8 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_6 int_0_6 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_5 int_0_6 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_4 int_0_4 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_3 int_0_4 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_2 int_0_2 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_1 int_0_2 int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_2 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_1 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_3
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_3 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_4 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_3 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_2 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_1 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    trim_res_bg_2_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT trim_res_bg_2_fL P1 P2 REF S0 S1 S2 S3 S4 S5 S6 S7
+*.PININFO P1:B P2:B REF:B S0:B S1:B S2:B S3:B S4:B S5:B S6:B S7:B
+XR12<0> REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=1
+XR12<1> REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=1
+XR12<2> REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=1
+XR12<3> REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=1
+XR12<4> REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=1
+XR12<5> REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=1
+XR12<6> REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=1
+XR11 REF net2 P1 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR10 REF net1 net2 / rnpolyh_pcell_2 l=10u w=500n m=1
+XR9 REF P2 S7 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR8 REF S7 S6 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR7 REF S6 S5 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR6 REF S5 S4 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR5 REF S4 S3 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR3 REF S2 S1 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR2 REF S1 S0 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR1 REF S0 net11 / rnpolyh_pcell_3 l=10u w=500n m=1
+XR0 REF net11 net1 / rnpolyh_pcell_2 l=10u w=500n m=1
+XR4 REF S3 S2 / rnpolyh_pcell_3 l=10u w=500n m=1
+.ENDS
+

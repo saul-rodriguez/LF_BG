@@ -1,0 +1,84 @@
+hnlLastStopCellInfo = '(
+                           ( "lf11is" "rnpolyh_i" "auCdl" "157" "1657839782" )
+                       )
+hnlLastTopViewWasConfig = 0
+hnlLastMaxNameLength = 60
+hnlLastNamePrefix = "hnl_"
+hnlLastNetNamePrefix = "N"
+hnlLastInstNamePrefix = ""
+hnlLastModelNamePrefix = ""
+hnlLastGlobalNetPrefix = "G"
+hnlLastModulePrefix = "sub"
+hnlLastHierarchyDelimiter = "."
+hnlLastNetlistRevision = "__Revision2"
+hnlLastOptimizeCellGenerationInConfig = nil
+hnlLastMapNetFirstChar = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapNetInName = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapInstFirstChar = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapInstInName = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastInstNameDifferentFrom = '( )
+hnlLastModelNameDifferentFrom = '( )
+hnlLastNetNameDifferentFrom = '( )
+hnlLastTermNameDifferentFrom = '( )
+hnlLastParamNameDifferentFrom = '( )
+hnlLastLibInfo = '(
+                    ( "lf11is" "1657839782" )
+                   ( "REF_GEN" "1777918870" )
+                  )
+hnlLastDesignVars = '( )

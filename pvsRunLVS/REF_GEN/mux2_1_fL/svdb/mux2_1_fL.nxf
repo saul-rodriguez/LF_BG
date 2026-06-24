@@ -1,0 +1,21 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary mux2_1_fL
+# XXXX: End of header.
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% mux2_1_fL 6 mux2_1_fL 6 
+0 7 0 SN
+0 COM 0 COM
+0 GNDA 0 GNDA
+0 IN0 0 IN0
+0 IN1 0 IN1
+0 S 0 S
+0 VDDA 0 VDDA

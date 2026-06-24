@@ -1,7 +1,9 @@
 
-*** Checking layout cellview 'REF_GEN/CONSTANT_GM_2_fL/layout' against source cellview 'REF_GEN/CONSTANT_GM_2_fL/schematic'. - Sun Jun 14 19:41:54 2026 ***
+*** Checking layout cellview 'REF_GEN/BG_TRIM_4_fL/layout' against source cellview 'REF_GEN/BG_TRIM_4_fL/schematic'. - Wed Jun 24 11:45:43 2026 ***
 
-INFO (LX-1013): Instance terminal 'B' is missing from layout instance 'R0'.
+INFO (LX-1013): Instance terminal 'B' is missing from layout instance 'R1'.
+INFO (LX-1013): Instance terminal 'B' is missing from layout instance 'R11.1'.
+INFO (LX-1013): Instance terminal 'B' is missing from layout instance 'R11.2'.
 
 *** Check Against Source complete. ***
 

@@ -8,12 +8,12 @@
 
 	Library      = REF_GEN
 	Cell         = REF_GEN_f_TB
-	View         = schematic
+	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.17
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP
+	State Name   = OP_BG_OP:1_state_Interactive.79
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.79.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.79/1/OP_BG
 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
@@ -28,7 +28,7 @@
 
 
 
-*Info*    Run start for Point ID (3 1) on testbench [ OP ].
+*Info*    Run start for Point ID (9 1) on testbench [ OP_BG ].
 
 Resetting statistical vars
 
@@ -36,7 +36,7 @@ Resetting statistical vars
 
 Setting var CL = "150f"
 Setting var CL2 = "3p"
-Setting var CONF_BG_SL_TRIM = "0"
+Setting var CONF_BG_SL_TRIM = "3"
 Setting var CONF_BG_TRIM = "3"
 Setting var CONF_LDO_SEL = "0"
 Setting var CONF_LVDS_SEL = "0"
@@ -52,28 +52,57 @@ Setting var temperature = "50C"
 Setting temp(T) = 50C
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.79/1/OP_BG/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.79/1/OP_BG
 
 
-*Info*    Creating Netlist for Point ID (3 1)
+*Info*    Creating Netlist for Point ID (9 1)
 
 generate netlist...
-Begin Incremental Netlisting May  4 21:21:56 2026
-End netlisting May  4 21:21:56 2026
+Initializing the control file using cp:
+    cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.79/1/OP_BG/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Jun 21 02:30:49 2026
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.64/1/TRAN/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+WARNING (ADE-6003): Terminal "D0N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D1N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D2N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D3N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Jun 21 02:30:49 2026
+
+Netlisting Statistics:
+	Number of components:  649
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 5
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ OP ] for Point ID (3 1).
+*Info*    Running simulation on testbench [ OP_BG ] for Point ID (9
+          1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.79/1/OP_BG/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -87,28 +116,8 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2708): Evaluation of output 'total_noise_V' failed for point:'1' test:'OP'
-	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
-	because of the following error(s)
-	*Error* expt: can't handle (nil**2).
-Ensure that the definition of output is correct.
 
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("out" ?result "noise"))'.
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.17/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("/V0" ?result "xf"))'.
-Ensure that the definition of output is correct.
-
-
-*Info*    Run complete for Point ID (3 1) on testbench [ OP ].
+*Info*    Run complete for Point ID (9 1) on testbench [ OP_BG ].
 
 
 

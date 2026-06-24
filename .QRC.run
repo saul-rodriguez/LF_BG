@@ -3,4 +3,4 @@
 # THE RUN FILE created by Cadence Extraction Quantus UI Version 24.1.0-p089
 #--------------------------------------------------------------------------------------
 
-quantus  -log_file /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/qrc.CONSTANT_GM_2_fL.log -cmd /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/qrc.CONSTANT_GM_2_fL.ccl 
+quantus  -log_file /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/qrc.BG_TRIM_4_fL.log -cmd /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/qrc.BG_TRIM_4_fL.ccl 

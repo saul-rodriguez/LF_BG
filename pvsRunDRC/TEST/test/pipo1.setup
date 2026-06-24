@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"TEST"
+logFile	"/home/saul/projects/LF_BG/pvsRunDRC/TEST/test/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/saul/projects/LF_BG/pvsRunDRC/TEST/test"
+strmFile	"/home/saul/projects/LF_BG/pvsRunDRC/TEST/test/test.gds"
+strmVersion	5
+techLib	"lf11is"
+topCell	"test"
+view	"layout3"

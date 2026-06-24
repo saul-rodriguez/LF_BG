@@ -1,0 +1,37 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: BG_PNP_array
+* View Name:     schematic
+* Netlisted on:  Jun 22 00:51:39 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    BG_PNP_array
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BG_PNP_array A B GNDA
+*.PININFO A:B B:B GNDA:B
+QQ3 GNDA GNDA GNDA pnp5ux5u M=3 AE=25p
+QQ2 GNDA GNDA GNDA pnp5ux5u M=7 AE=25p
+QQ1 GNDA GNDA B pnp5ux5u M=255 AE=25p
+QQ0 GNDA GNDA A pnp5ux5u M=1 AE=25p
+.ENDS
+

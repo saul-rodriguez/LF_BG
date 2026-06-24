@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "trim_res_bg_2_fL"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_bg_2_fL/"
+ )
+( model
+( "lf11is/rnpolyh_pcell_1/schematic" "rnpolyh_pcell_1" )
+( "lf11is/rnpolyh_pcell_0/schematic" "rnpolyh_pcell_0" )
+( "REF_GEN/trim_res_bg_2_fL/schematic" "trim_res_bg_2_fL" )
+( "lf11is/rnpolyh_pcell_3/schematic" "rnpolyh_pcell_3" )
+( "lf11is/rnpolyh_pcell_2/schematic" "rnpolyh_pcell_2" )
+ )
+( "rnpolyh_pcell_1" "ihnl/cds1/map" )
+( "rnpolyh_pcell_3" "ihnl/cds3/map" )
+( "trim_res_bg_2_fL" "ihnl/cds4/map" )
+( "rnpolyh_pcell_0" "ihnl/cds0/map" )
+( "rnpolyh_pcell_2" "ihnl/cds2/map" )
+ )

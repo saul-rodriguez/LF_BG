@@ -1,0 +1,53 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: BG_STARTUP_fL2
+* View Name:     schematic
+* Netlisted on:  Jun 20 14:49:08 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    BG_STARTUP_fL2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BG_STARTUP_fL2 BIAS GNDA PD PDN PRN PRN_TRIGGER VDDA VREF
+*.PININFO BIAS:B GNDA:B PD:B PDN:B PRN:B PRN_TRIGGER:B VDDA:B VREF:B
+MM27 net6 net6 STARTUP_REF GNDA nmos1v2hvt W=1u L=10u m=1 nf=1
+MM25 PRN_TRIGGER net26 GNDA GNDA nmos1v2hvt W=4u L=4u m=1 nf=1
+MM24 net26 net26 GNDA GNDA nmos1v2hvt W=4u L=4u m=1 nf=1
+MM26 STARTUP_REF STARTUP_REF GNDA GNDA nmos1v2hvt W=1u L=10u m=1 nf=1
+MM44 PRN_TRIGGER PD GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM37 net26 PD GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM49 PRN net8 GNDA GNDA nmos1v2hvt W=1u L=200n m=1 nf=1
+MM47 net8 net7 GNDA GNDA nmos1v2hvt W=1u L=200n m=1 nf=1
+MM45 net7 PRN_TRIGGER GNDA GNDA nmos1v2hvt W=4u L=200n m=1 nf=2
+MM1 VDDA VDDA VDDA VDDA pmos1v2hvt W=8u L=1u m=2 nf=1
+MM0 VDDA VDDA VDDA VDDA pmos1v2hvt W=8u L=500n m=4 nf=1
+MM38 BIAS PDN VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+MM35 net6 BIAS VDDA VDDA pmos1v2hvt W=8u L=4u m=1 nf=1
+MM23 BIAS BIAS VDDA VDDA pmos1v2hvt W=8u L=4u m=2 nf=1
+MM21 net25 BIAS VDDA VDDA pmos1v2hvt W=8u L=4u m=2 nf=1
+MM20 net26 STARTUP_REF net25 VDDA pmos1v2hvt W=8u L=2u m=10 nf=1
+MM19 PRN_TRIGGER VREF net25 VDDA pmos1v2hvt W=8u L=2u m=10 nf=1
+MM50 PRN net8 VDDA VDDA pmos1v2hvt W=2u L=200n m=1 nf=1
+MM48 net8 net7 VDDA VDDA pmos1v2hvt W=2u L=200n m=1 nf=1
+MM46 net7 PRN_TRIGGER VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+.ENDS
+

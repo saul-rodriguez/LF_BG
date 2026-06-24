@@ -1,0 +1,441 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: BG_TRIM_4_fL
+* View Name:     schematic
+* Netlisted on:  Jun 24 13:13:02 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_0
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_0 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_1_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_1 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_2 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_85 MINUS int_0_85 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_84 int_0_84 int_0_85 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_83 int_0_84 int_0_83 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_82 int_0_82 int_0_83 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_81 int_0_82 int_0_81 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_80 int_0_80 int_0_81 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_79 int_0_80 int_0_79 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_78 int_0_78 int_0_79 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_77 int_0_78 int_0_77 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_76 int_0_76 int_0_77 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_75 int_0_76 int_0_75 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_74 int_0_74 int_0_75 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_73 int_0_74 int_0_73 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_72 int_0_72 int_0_73 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_71 int_0_72 int_0_71 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_70 int_0_70 int_0_71 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_69 int_0_70 int_0_69 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_68 int_0_68 int_0_69 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_67 int_0_68 int_0_67 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_66 int_0_66 int_0_67 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_65 int_0_66 int_0_65 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_64 int_0_64 int_0_65 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_63 int_0_64 int_0_63 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_62 int_0_62 int_0_63 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_61 int_0_62 int_0_61 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_60 int_0_60 int_0_61 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_59 int_0_60 int_0_59 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_58 int_0_58 int_0_59 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_57 int_0_58 int_0_57 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_56 int_0_56 int_0_57 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_55 int_0_56 int_0_55 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_54 int_0_54 int_0_55 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_53 int_0_54 int_0_53 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_52 int_0_52 int_0_53 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_51 int_0_52 int_0_51 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_50 int_0_50 int_0_51 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_49 int_0_50 int_0_49 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_48 int_0_48 int_0_49 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_47 int_0_48 int_0_47 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_46 int_0_46 int_0_47 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_45 int_0_46 int_0_45 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_44 int_0_44 int_0_45 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_43 int_0_44 int_0_43 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_42 int_0_42 int_0_43 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_41 int_0_42 int_0_41 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_40 int_0_40 int_0_41 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_39 int_0_40 int_0_39 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_38 int_0_38 int_0_39 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_37 int_0_38 int_0_37 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_36 int_0_36 int_0_37 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_35 int_0_36 int_0_35 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_34 int_0_34 int_0_35 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_33 int_0_34 int_0_33 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_32 int_0_32 int_0_33 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_31 int_0_32 int_0_31 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_30 int_0_30 int_0_31 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_29 int_0_30 int_0_29 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_28 int_0_28 int_0_29 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_27 int_0_28 int_0_27 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_26 int_0_26 int_0_27 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_25 int_0_26 int_0_25 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_24 int_0_24 int_0_25 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_23 int_0_24 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_22 int_0_22 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_21 int_0_22 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_20 int_0_20 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_19 int_0_20 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_18 int_0_18 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_17 int_0_18 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_16 int_0_16 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_15 int_0_16 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_14 int_0_14 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_13 int_0_14 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_12 int_0_12 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_11 int_0_12 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_10 int_0_10 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_9 int_0_10 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_8 int_0_8 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_7 int_0_8 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_6 int_0_6 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_5 int_0_6 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_4 int_0_4 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_3 int_0_4 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_2 int_0_2 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_1 int_0_2 int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    trim_res_bg_sl_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT trim_res_bg_sl_fL P1 P2 REF S0 S1 S2 S3 S4 S5 S6 S7
+*.PININFO P1:B P2:B REF:B S0:B S1:B S2:B S3:B S4:B S5:B S6:B S7:B
+XR13 REF REF REF / rnpolyh_pcell_0 l=10u w=500n m=2
+XR10 REF S0 net1 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR12 REF net1 P1 / rnpolyh_pcell_2 l=10u w=500n m=1
+XR8 REF S7 S6 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR7 REF S6 S5 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR6 REF S5 S4 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR5 REF S4 S3 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR3 REF S2 S1 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR2 REF S1 S0 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR11 REF P2 S7 / rnpolyh_pcell_1 l=10u w=500n m=1
+XR4 REF S3 S2 / rnpolyh_pcell_1 l=10u w=500n m=1
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    BG_PNP_array
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BG_PNP_array A B GNDA
+*.PININFO A:B B:B GNDA:B
+QQ3 GNDA GNDA GNDA pnp5ux5u M=3 AE=25p
+QQ2 GNDA GNDA GNDA pnp5ux5u M=7 AE=25p
+QQ1 GNDA GNDA B pnp5ux5u M=255 AE=25p
+QQ0 GNDA GNDA A pnp5ux5u M=1 AE=25p
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    mux8_1_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT mux8_1_fL A0 A1 A2 A3 A4 A5 A6 A7 COM GNDA IN0 IN1 IN2 IN3 IN4 IN5 IN6 
++ IN7
+*.PININFO A0:B A1:B A2:B A3:B A4:B A5:B A6:B A7:B COM:B GNDA:B IN0:B IN1:B 
+*.PININFO IN2:B IN3:B IN4:B IN5:B IN6:B IN7:B
+MM6 IN5 A5 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+MM5 IN4 A4 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+MM4 IN7 A7 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+MM3 IN6 A6 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+MM2 IN1 A1 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+MM1 IN0 A0 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+MM0 IN3 A3 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+MM7 IN2 A2 COM GNDA nmos1v2hvt W=10u L=1u m=1 nf=1
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_3
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_3 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_24 int_0_24 MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_23 int_0_24 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_22 int_0_22 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_21 int_0_22 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_20 int_0_20 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_19 int_0_20 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_18 int_0_18 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_17 int_0_18 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_16 int_0_16 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_15 int_0_16 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_14 int_0_14 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_13 int_0_14 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_12 int_0_12 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_11 int_0_12 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_10 int_0_10 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_9 int_0_10 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_8 int_0_8 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_7 int_0_8 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_6 int_0_6 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_5 int_0_6 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_4 int_0_4 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_3 int_0_4 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_2 int_0_2 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_1 int_0_2 int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    BG_STARTUP_fL2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BG_STARTUP_fL2 BIAS GNDA PD PDN PRN PRN_TRIGGER VDDA VREF
+*.PININFO BIAS:B GNDA:B PD:B PDN:B PRN:B PRN_TRIGGER:B VDDA:B VREF:B
+MM27 net6 net6 STARTUP_REF GNDA nmos1v2hvt W=1u L=10u m=1 nf=1
+MM25 PRN_TRIGGER net26 GNDA GNDA nmos1v2hvt W=4u L=4u m=1 nf=1
+MM24 net26 net26 GNDA GNDA nmos1v2hvt W=4u L=4u m=1 nf=1
+MM26 STARTUP_REF STARTUP_REF GNDA GNDA nmos1v2hvt W=1u L=10u m=1 nf=1
+MM44 PRN_TRIGGER PD GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM37 net26 PD GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM49 PRN net8 GNDA GNDA nmos1v2hvt W=1u L=200n m=1 nf=1
+MM47 net8 net7 GNDA GNDA nmos1v2hvt W=1u L=200n m=1 nf=1
+MM45 net7 PRN_TRIGGER GNDA GNDA nmos1v2hvt W=4u L=200n m=1 nf=2
+MM1 VDDA VDDA VDDA VDDA pmos1v2hvt W=8u L=1u m=2 nf=1
+MM0 VDDA VDDA VDDA VDDA pmos1v2hvt W=8u L=500n m=4 nf=1
+MM38 BIAS PDN VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+MM35 net6 BIAS VDDA VDDA pmos1v2hvt W=8u L=4u m=1 nf=1
+MM23 BIAS BIAS VDDA VDDA pmos1v2hvt W=8u L=4u m=2 nf=1
+MM21 net25 BIAS VDDA VDDA pmos1v2hvt W=8u L=4u m=2 nf=1
+MM20 net26 STARTUP_REF net25 VDDA pmos1v2hvt W=8u L=2u m=10 nf=1
+MM19 PRN_TRIGGER VREF net25 VDDA pmos1v2hvt W=8u L=2u m=10 nf=1
+MM50 PRN net8 VDDA VDDA pmos1v2hvt W=2u L=200n m=1 nf=1
+MM48 net8 net7 VDDA VDDA pmos1v2hvt W=2u L=200n m=1 nf=1
+MM46 net7 PRN_TRIGGER VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_4 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_43 MINUS int_0_43 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_42 int_0_42 int_0_43 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_41 int_0_42 int_0_41 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_40 int_0_40 int_0_41 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_39 int_0_40 int_0_39 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_38 int_0_38 int_0_39 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_37 int_0_38 int_0_37 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_36 int_0_36 int_0_37 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_35 int_0_36 int_0_35 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_34 int_0_34 int_0_35 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_33 int_0_34 int_0_33 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_32 int_0_32 int_0_33 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_31 int_0_32 int_0_31 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_30 int_0_30 int_0_31 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_29 int_0_30 int_0_29 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_28 int_0_28 int_0_29 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_27 int_0_28 int_0_27 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_26 int_0_26 int_0_27 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_25 int_0_26 int_0_25 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_24 int_0_24 int_0_25 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_23 int_0_24 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_22 int_0_22 int_0_23 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_21 int_0_22 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_20 int_0_20 int_0_21 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_19 int_0_20 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_18 int_0_18 int_0_19 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_17 int_0_18 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_16 int_0_16 int_0_17 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_15 int_0_16 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_14 int_0_14 int_0_15 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_13 int_0_14 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_12 int_0_12 int_0_13 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_11 int_0_12 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_10 int_0_10 int_0_11 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_9 int_0_10 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_8 int_0_8 int_0_9 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_7 int_0_8 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_6 int_0_6 int_0_7 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_5 int_0_6 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_4 int_0_4 int_0_5 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_3 int_0_4 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_2 int_0_2 int_0_3 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_1 int_0_2 int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS int_0_1 $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_5
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_5 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_1 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolyh_pcell_6
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolyh_pcell_6 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_4 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_3 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_2 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_1 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+RR_0_0 PLUS MINUS $SUB=B $[rnpolyh] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    trim_res_bg_2_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT trim_res_bg_2_fL P1 P2 REF S0 S1 S2 S3 S4 S5 S6 S7
+*.PININFO P1:B P2:B REF:B S0:B S1:B S2:B S3:B S4:B S5:B S6:B S7:B
+XR12<0> REF REF REF / rnpolyh_pcell_1 l=10u w=500n m=1
+XR12<1> REF REF REF / rnpolyh_pcell_1 l=10u w=500n m=1
+XR12<2> REF REF REF / rnpolyh_pcell_1 l=10u w=500n m=1
+XR12<3> REF REF REF / rnpolyh_pcell_1 l=10u w=500n m=1
+XR12<4> REF REF REF / rnpolyh_pcell_1 l=10u w=500n m=1
+XR12<5> REF REF REF / rnpolyh_pcell_1 l=10u w=500n m=1
+XR12<6> REF REF REF / rnpolyh_pcell_1 l=10u w=500n m=1
+XR11 REF net2 P1 / rnpolyh_pcell_4 l=10u w=500n m=1
+XR10 REF net1 net2 / rnpolyh_pcell_5 l=10u w=500n m=1
+XR9 REF P2 S7 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR8 REF S7 S6 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR7 REF S6 S5 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR6 REF S5 S4 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR5 REF S4 S3 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR3 REF S2 S1 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR2 REF S1 S0 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR1 REF S0 net11 / rnpolyh_pcell_6 l=10u w=500n m=1
+XR0 REF net11 net1 / rnpolyh_pcell_5 l=10u w=500n m=1
+XR4 REF S3 S2 / rnpolyh_pcell_6 l=10u w=500n m=1
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    BG_TRIM_4_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BG_TRIM_4_fL BIAS EN GNDA PRN TRIM_OUT<0> TRIM_OUT<1> TRIM_OUT<2> 
++ TRIM_OUT<3> TRIM_OUT<4> TRIM_OUT<5> TRIM_OUT<6> TRIM_OUT<7> TRIM_SL<0> 
++ TRIM_SL<1> TRIM_SL<2> TRIM_SL<3> TRIM_SL<4> TRIM_SL<5> TRIM_SL<6> TRIM_SL<7> 
++ VDDA VREF
+*.PININFO BIAS:B EN:B GNDA:B PRN:B TRIM_OUT<0>:B TRIM_OUT<1>:B TRIM_OUT<2>:B 
+*.PININFO TRIM_OUT<3>:B TRIM_OUT<4>:B TRIM_OUT<5>:B TRIM_OUT<6>:B 
+*.PININFO TRIM_OUT<7>:B TRIM_SL<0>:B TRIM_SL<1>:B TRIM_SL<2>:B TRIM_SL<3>:B 
+*.PININFO TRIM_SL<4>:B TRIM_SL<5>:B TRIM_SL<6>:B TRIM_SL<7>:B VDDA:B VREF:B
+XI8 X GNDA GNDA net53 net52 net54 net55 net56 net57 net36 net48 / 
++ trim_res_bg_sl_fL
+XI5 Y GNDA GNDA net29 net30 net31 net32 net33 net34 net27 net28 / 
++ trim_res_bg_sl_fL
+MM51 VDDA VDDA VDDA VDDA pmos1v2hvt W=40u L=1u m=4 nf=1
+MM53 VDDA VDDA VDDA VDDA pmos1v2hvt W=1u L=10u m=16 nf=1
+MM43 net20 net20 net37 VDDA pmos1v2hvt W=5u L=500n m=1 nf=1
+MM41 net37 net37 VDDA VDDA pmos1v2hvt W=5u L=500n m=1 nf=1
+MM40 PD EN VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+MM85 P PDN VDDA VDDA pmos1v2hvt W=560n L=2u m=1 nf=1
+MM82 PDN PD VDDA VDDA pmos1v2hvt W=2u L=500n m=1 nf=1
+MM34 net11 P net3 VDDA pmos1v2hvt W=40u L=10u m=10 nf=1
+MM33 net3 P VDDA VDDA pmos1v2hvt W=40u L=10u m=10 nf=1
+MM32 net10 P VDDA VDDA pmos1v2hvt W=40u L=10u m=10 nf=1
+MM10 P net6 VDDA VDDA pmos1v2hvt W=40u L=7.5u m=8 nf=1
+MM9 net6 net6 VDDA VDDA pmos1v2hvt W=40u L=7.5u m=8 nf=1
+MM5 VREF net20 net4 VDDA pmos1v2hvt W=40u L=500n m=1 nf=10
+MM4 Y net20 net2 VDDA pmos1v2hvt W=40u L=500n m=1 nf=10
+MM31 net2 P net10 VDDA pmos1v2hvt W=40u L=10u m=10 nf=1
+MM30 net4 P net14 VDDA pmos1v2hvt W=40u L=10u m=10 nf=1
+MM3 X net20 net11 VDDA pmos1v2hvt W=40u L=500n m=1 nf=10
+MM29 net14 P VDDA VDDA pmos1v2hvt W=40u L=10u m=10 nf=1
+MM52 VDDA VDDA VDDA VDDA pmos1v2hvt W=40u L=10u m=4 nf=1
+XI10 X net1 GNDA / BG_PNP_array
+MM54 GNDA GNDA GNDA GNDA nmos1v2hvt W=4u L=4u m=5 nf=1
+MM42 net20 net16 GNDA GNDA nmos1v2hvt W=4u L=4u m=1 nf=1
+MM39 PD EN GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM83 BIAS PDN net16 GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM84 net16 PD GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM81 PDN PD GNDA GNDA nmos1v2hvt W=1u L=500n m=1 nf=1
+MM18 P PRN_TRIGGER net12 GNDA nmos1v2hvt W=2u L=110n m=1 nf=1
+MM17 net12 net16 GNDA GNDA nmos1v2hvt W=4u L=4u m=1 nf=1
+MM22 net8 net16 GNDA GNDA nmos1v2hvt W=4u L=4u m=1 nf=1
+MM8 net7 net16 GNDA GNDA nmos1v2hvt W=4u L=4u m=4 nf=1
+MM7 net6 Y net7 GNDA nmos1v2hvt W=20u L=2u m=30 nf=1
+MM11 net16 net16 GNDA GNDA nmos1v2hvt W=4u L=4u m=4 nf=1
+MM6 P X net7 GNDA nmos1v2hvt W=20u L=2u m=30 nf=1
+MM50 GNDA GNDA GNDA GNDA nmos1v2hvt W=20u L=2u m=4 nf=1
+XI7 TRIM_SL<0> TRIM_SL<1> TRIM_SL<2> TRIM_SL<3> TRIM_SL<4> TRIM_SL<5> 
++ TRIM_SL<6> TRIM_SL<7> GNDA GNDA net53 net52 net54 net55 net56 net57 net36 
++ net48 / mux8_1_fL
+XI6 TRIM_SL<0> TRIM_SL<1> TRIM_SL<2> TRIM_SL<3> TRIM_SL<4> TRIM_SL<5> 
++ TRIM_SL<6> TRIM_SL<7> GNDA GNDA net29 net30 net31 net32 net33 net34 net27 
++ net28 / mux8_1_fL
+XI3 TRIM_OUT<0> TRIM_OUT<1> TRIM_OUT<2> TRIM_OUT<3> TRIM_OUT<4> TRIM_OUT<5> 
++ TRIM_OUT<6> TRIM_OUT<7> GNDA GNDA net9 net18 net21 net22 net23 net24 net25 
++ net26 / mux8_1_fL
+XR11 GNDA GNDA GNDA / rnpolyh_pcell_0 l=10u w=500n m=2
+XR1 GNDA net1 Y / rnpolyh_pcell_3 l=10u w=500n m=1
+CC1 VREF GNDA (70u)*(9u) $[cmims2] M=10 A=6.3e-10 P=0.000158
+XI9 net8 GNDA PD PDN PRN PRN_TRIGGER VDDA VREF / BG_STARTUP_fL2
+XI4 VREF GNDA GNDA net9 net18 net21 net22 net23 net24 net25 net26 / 
++ trim_res_bg_2_fL
+.ENDS
+

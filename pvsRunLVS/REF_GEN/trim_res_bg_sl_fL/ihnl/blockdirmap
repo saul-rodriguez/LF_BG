@@ -1,0 +1,6 @@
+CADENCE IHNL11144
+
+lf11is rnpolyh_pcell_0 schematic cds0
+lf11is rnpolyh_pcell_1 schematic cds1
+lf11is rnpolyh_pcell_2 schematic cds2
+REF_GEN trim_res_bg_sl_fL schematic cds3

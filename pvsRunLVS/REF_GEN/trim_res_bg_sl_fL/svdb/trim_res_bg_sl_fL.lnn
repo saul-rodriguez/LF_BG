@@ -1,0 +1,18 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary trim_res_bg_sl_fL
+% Contact_CDNS_782007315131 1
+% rnpolyh_CDNS_782007315130 4
+% rnpolyh_CDNS_782007315133 2
+% MASCO__Y1 12
+% trim_res_bg_sl_fL 11
+5 S0
+6 REF
+7 S1
+8 S2
+9 S3
+10 S4
+11 S5
+12 S6
+13 S7
+14 P2
+15 P1

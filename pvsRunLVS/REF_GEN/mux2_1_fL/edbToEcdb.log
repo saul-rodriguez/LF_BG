@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : mux2_1_fL_9084.db
+ECDB dir        : ./
+Top Cell        : mux2_1_fL
+CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux2_1_fL/svdb/mux2_1_fL.net
+Layer map file  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux2_1_fL/svdb/mux2_1_fL.ecdbmap
+Text map file   : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux2_1_fL/svdb/mux2_1_fL.ports
+Dependency map  : mux2_1_fL.lmap.perc
+Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux2_1_fL/svdb/mux2_1_fL.lvsfile
+Float net file  : .mux2_1_fL.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : mux2_1_fL_9084

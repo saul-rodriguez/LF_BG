@@ -1,0 +1,39 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: mux2_1_fL
+* View Name:     schematic
+* Netlisted on:  Jun 15 16:02:40 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    mux2_1_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT mux2_1_fL COM GNDA IN0 IN1 S VDDA
+*.PININFO COM:B GNDA:B IN0:B IN1:B S:B VDDA:B
+MM49 SN S GNDA GNDA nmos1v2hvt W=1u L=1u m=1 nf=1
+MM2 IN1 S COM GNDA nmos1v2hvt W=2u L=1u m=1 nf=1
+MM1 IN0 SN COM GNDA nmos1v2hvt W=2u L=1u m=1 nf=1
+MM0 COM S IN0 VDDA pmos1v2hvt W=4u L=1u m=1 nf=1
+MM50 SN S VDDA VDDA pmos1v2hvt W=2u L=1u m=1 nf=1
+MM3 COM SN IN1 VDDA pmos1v2hvt W=4u L=1u m=1 nf=1
+.ENDS
+

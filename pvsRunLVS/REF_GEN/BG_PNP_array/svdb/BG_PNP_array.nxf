@@ -1,0 +1,11 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary BG_PNP_array
+# XXXX: End of header.
+% Q 3 Q 3 
+0 C 0 C
+0 B 0 B
+0 E 0 E
+% BG_PNP_array 3 BG_PNP_array 3 
+0 A 0 A
+0 B 0 B
+0 GNDA 0 GNDA

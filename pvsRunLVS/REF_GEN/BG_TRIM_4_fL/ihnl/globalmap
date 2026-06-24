@@ -1,0 +1,20 @@
+CADENCE IHNL11140
+$model
+lf11is/rnpolyh_pcell_5/schematic rnpolyh_pcell_5
+lf11is/rnpolyh_pcell_2/schematic rnpolyh_pcell_2
+lf11is/rnpolyh_pcell_6/schematic rnpolyh_pcell_6
+lf11is/rnpolyh_pcell_3/schematic rnpolyh_pcell_3
+REF_GEN/BG_TRIM_4_fL/schematic BG_TRIM_4_fL
+REF_GEN/BG_PNP_array/schematic BG_PNP_array
+REF_GEN/mux8_1_fL/schematic mux8_1_fL
+REF_GEN/trim_res_bg_sl_fL/schematic trim_res_bg_sl_fL
+REF_GEN/BG_STARTUP_fL2/schematic BG_STARTUP_fL2
+REF_GEN/trim_res_bg_2_fL/schematic trim_res_bg_2_fL
+lf11is/rnpolyh_pcell_1/schematic rnpolyh_pcell_1
+lf11is/rnpolyh_pcell_0/schematic rnpolyh_pcell_0
+lf11is/rnpolyh_pcell_4/schematic rnpolyh_pcell_4
+$endmodel
+$net
+$endnet
+$param
+$endparam

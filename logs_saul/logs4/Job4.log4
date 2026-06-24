@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = REF_GEN
-	Cell         = BG_f_TB
-	View         = schematic
+	Cell         = REF_GEN_f_TB
+	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = BANDGAP:BG_TB:1_none_Interactive.145
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/BG_f_TB/adexl/results/data/Interactive.145.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/BG_f_TB/adexl/results/data/Interactive.145/1/BANDGAP:BG_TB:1
-	Results Loc  = /home/saul/simulation/REF_GEN/BG_f_TB/adexl/results/data
+	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.63
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.63.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.63/1/TRAN
+	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
-	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/BG_f_TB/adexl
+	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
 	File Encoding = 0
 
 
@@ -28,40 +28,45 @@
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [ BANDGAP:BG_TB:1
-          ].
+*Info*    Run start for Point ID (2 1) on testbench [ TRAN ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var PD = "1.2"
+Setting var CL = "150f"
+Setting var CL2 = "3p"
+Setting var CONF_BG_SL_TRIM = "3"
+Setting var CONF_BG_TRIM = "3"
+Setting var CONF_LDO_SEL = "0"
+Setting var CONF_LVDS_SEL = "0"
+Setting var CONF_REF_TRIM = "3"
+Setting var EN = "0"
+Setting var EN_PULSE = "1.2"
+Setting var PD = "0"
 Setting var PD_PULSE = "0"
-Setting var VDD = "1.2"
-Setting var VDD_PULSE = "0"
+Setting var TT = "1n"
+Setting var VDD = "0"
+Setting var VDD_PULSE = "1.2"
 Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/BG_f_TB/adexl/results/data/Interactive.145/1/BANDGAP:BG_TB:1/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.63/1/TRAN/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/BG_f_TB/adexl/results/data/Interactive.145/1/BANDGAP:BG_TB:1
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.63/1/TRAN
 
 
-*Info*    Creating Netlist for Point ID (0 1)
+*Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Initializing the control file using cp:
-    cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/simulation/REF_GEN/BG_f_TB/adexl/results/data/Interactive.145/1/BANDGAP:BG_TB:1/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting May  4 18:35:13 2026
-End netlisting May  4 18:35:13 2026
+Begin Incremental Netlisting Jun 17 19:16:44 2026
+End netlisting Jun 17 19:16:44 2026
 
 Netlisting Statistics:
-	Number of components:  430
+	Number of components:   57
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -69,10 +74,9 @@ Errors: 0	Warnings: 0
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ BANDGAP:BG_TB:1 ] for
-          Point ID (0 1).
+*Info*    Running simulation on testbench [ TRAN ] for Point ID (2 1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/BG_f_TB/adexl/results/data/Interactive.145/1/BANDGAP:BG_TB:1/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.63/1/TRAN/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -86,9 +90,13 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
 
-*Info*    Run complete for Point ID (0 1) on testbench [
-          BANDGAP:BG_TB:1 ].
+*Info*    Run complete for Point ID (2 1) on testbench [ TRAN ].
 
 
 

@@ -8,12 +8,12 @@
 
 	Library      = REF_GEN
 	Cell         = REF_GEN_f_TB
-	View         = schematic
+	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.16
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP
+	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.78
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.78.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.78/1/TRAN
 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
@@ -28,7 +28,7 @@
 
 
 
-*Info*    Run start for Point ID (2 1) on testbench [ OP ].
+*Info*    Run start for Point ID (8 1) on testbench [ TRAN ].
 
 Resetting statistical vars
 
@@ -37,43 +37,49 @@ Resetting statistical vars
 Setting var CL = "150f"
 Setting var CL2 = "3p"
 Setting var CONF_BG_SL_TRIM = "3"
-Setting var CONF_BG_TRIM = "7"
+Setting var CONF_BG_TRIM = "3"
 Setting var CONF_LDO_SEL = "0"
 Setting var CONF_LVDS_SEL = "0"
 Setting var CONF_REF_TRIM = "3"
-Setting var EN = "1.2"
-Setting var EN_PULSE = "0"
+Setting var EN = "0"
+Setting var EN_PULSE = "1.2"
 Setting var PD = "0"
 Setting var PD_PULSE = "0"
-Setting var TT = "1u"
-Setting var VDD = "1.2"
-Setting var VDD_PULSE = "0"
-Setting var temperature = "50C"
-Setting temp(T) = 50C
+Setting var TT = "1n"
+Setting var VDD = "0"
+Setting var VDD_PULSE = "1.2"
+Setting var temperature = "50.0"
+Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.78/1/TRAN/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.78/1/TRAN
 
 
-*Info*    Creating Netlist for Point ID (2 1)
+*Info*    Creating Netlist for Point ID (8 1)
 
 generate netlist...
-Begin Incremental Netlisting May  4 21:20:51 2026
-End netlisting May  4 21:20:51 2026
+Begin Incremental Netlisting Jun 21 02:21:32 2026
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.64/1/TRAN/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+End netlisting Jun 21 02:21:32 2026
+
+Netlisting Statistics:
+	Number of components:   39
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ OP ] for Point ID (2 1).
+*Info*    Running simulation on testbench [ TRAN ] for Point ID (8 1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.78/1/TRAN/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -87,28 +93,13 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2708): Evaluation of output 'total_noise_V' failed for point:'1' test:'OP'
-	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
-	because of the following error(s)
-	*Error* expt: can't handle (nil**2).
-Ensure that the definition of output is correct.
+ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
 
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("out" ?result "noise"))'.
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.16/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("/V0" ?result "xf"))'.
-Ensure that the definition of output is correct.
-
-
-*Info*    Run complete for Point ID (2 1) on testbench [ OP ].
+*Info*    Run complete for Point ID (8 1) on testbench [ TRAN ].
 
 
 

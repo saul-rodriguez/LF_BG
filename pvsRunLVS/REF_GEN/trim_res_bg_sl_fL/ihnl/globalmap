@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+lf11is/rnpolyh_pcell_2/schematic rnpolyh_pcell_2
+REF_GEN/trim_res_bg_sl_fL/schematic trim_res_bg_sl_fL
+lf11is/rnpolyh_pcell_1/schematic rnpolyh_pcell_1
+lf11is/rnpolyh_pcell_0/schematic rnpolyh_pcell_0
+$endmodel
+$net
+$endnet
+$param
+$endparam

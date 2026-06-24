@@ -1,0 +1,5 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary BG_PNP_array
+A 3 A 68960 54780 METAL2a
+GNDA 1 GNDA 2675 100215 METAL1a
+B 2 B 5525 96990 METAL2a

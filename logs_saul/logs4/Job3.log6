@@ -8,12 +8,12 @@
 
 	Library      = REF_GEN
 	Cell         = REF_GEN_f_TB
-	View         = schematic
+	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.43
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP
+	State Name   = OP_none_Interactive.90
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP
 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
@@ -48,36 +48,106 @@ Setting var PD_PULSE = "0"
 Setting var TT = "1u"
 Setting var VDD = "1.2"
 Setting var VDD_PULSE = "0"
-Setting var temperature = "50C"
-Setting temp(T) = 50C
+Setting var temperature = "50.0"
+Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP
 
 
 *Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Jun 15 11:27:50 2026
-Loading json.cxt 
-End netlisting Jun 15 11:27:50 2026
+Begin Incremental Netlisting Jun 24 13:23:47 2026
+WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+directory. Netlist(s) from last session cannot be reused for incremental
+netlisting. Therefore, re-netlisting the design.
+
+WARNING (OSSHNL-325): Place master 'REF_GEN/BG_TRIM_4_fL/symbol' for instance 'I0' has been modified since the last
+extraction of its parent cellview 'REF_GEN/REF_GEN_f/schematic'.
+Connectivity changes in the place master can cause issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent cellview 'REF_GEN/REF_GEN_f/schematic' and regenerate the netlist. To avoid
+multiple Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier SKILL function to do a hierarchical check and save on the top
+cell and then generate the netlist.
+-Ignore all connectivity checks for this place master by specifying it to the
+list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors by setting the environment variable
+simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+and non-connectivity changes, thereby generating an incorrect netlist.
+To avoid reporting of non-connectivity changes after performing a hierarchical
+check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error' to receive reports of only
+connectivity issues during netlisting.
+The variable simSymbolModifiedAction controls the severity of this message,
+which can be 'ignore', 'warning', or 'error'.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds41', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds6', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds7', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds9', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds10', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds11', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds12', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (ADE-6003): Terminal "D0N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D1N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D2N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6003): Terminal "D3N", specified in the CDF termOrder, does not exist
+           in the cell-view "REF_GEN" "3to8DeMuxSel" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Jun 24 13:23:58 2026
 
 Netlisting Statistics:
-	Number of components:  110
+	Number of components: 75063
 
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	Elapsed time:         11.0s (6823.91/s)
+Errors: 0	Warnings: 5
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [ OP ] for Point ID (1 1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -91,22 +161,22 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP. Use results() for a list of available results.
 ERROR (ADEXL-2708): Evaluation of output 'total_noise_V' failed for point:'1' test:'OP'
 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
 	because of the following error(s)
 	*Error* expt: can't handle (nil**2).
 Ensure that the definition of output is correct.
 
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP. Use results() for a list of available results.
 ERROR (ADEXL-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'1' test:'OP'
 	Expression:'db(getData("out" ?result "noise"))'.
 Ensure that the definition of output is correct.
 
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.43/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.90/1/OP. Use results() for a list of available results.
 ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
 	Expression:'db(getData("/V0" ?result "xf"))'.
 Ensure that the definition of output is correct.

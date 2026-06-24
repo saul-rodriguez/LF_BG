@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+REF_GEN/BG_PNP_array/schematic BG_PNP_array
+$endmodel
+$net
+$endnet
+$param
+$endparam

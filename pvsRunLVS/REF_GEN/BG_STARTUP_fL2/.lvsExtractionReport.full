@@ -1,0 +1,66 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : BG_STARTUP_fL2.rep
+ERC Summary File         : BG_STARTUP_fL2.sum
+LVS Comparison Report    : BG_STARTUP_fL2.rep.cls
+LVS Softchk Report       : BG_STARTUP_fL2.softchk
+Layout Name              : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/BG_STARTUP_fL2.gds ("BG_STARTUP_fL2")
+User Name                : saul
+Creation Time            : Sat Jun 20 14:49:11 2026
+Current directory        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2
+PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK NW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK NW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK ARRAYPW -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUB -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUBISO -TYPE UPPER   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "AbutContact_CDNS_7819669478111"
+ for cell "AbutContact_CDNS_7819669478127"
+ for cell "BG_STARTUP_fL2"
+ for cell "Contact_CDNS_781966947811"
+ for cell "Contact_CDNS_7819669478110"
+ for cell "Contact_CDNS_7819669478116"
+ for cell "Contact_CDNS_7819669478117"
+ for cell "Contact_CDNS_781966947812"
+ for cell "Contact_CDNS_7819669478120"
+ for cell "Contact_CDNS_781966947813"
+ for cell "Contact_CDNS_7819669478134"
+ for cell "Contact_CDNS_781966947816"
+ for cell "Contact_CDNS_781966947817"
+ for cell "M1_M2_CDNS_781966947810"
+ for cell "M1_M2_CDNS_7819669478111"
+ for cell "M1_M2_CDNS_781966947816"
+ for cell "M2_M3_CDNS_781966947811"
+ for cell "M2_M3_CDNS_781966947812"
+ for cell "PG_M1_CDNS_7819669478110"
+ for cell "PG_M1_CDNS_781966947817"
+ for cell "nmos1v2hvt_4_CDNS_7819669478112"
+ for cell "nmos1v2hvt_4_CDNS_7819669478115"
+ for cell "nmos1v2hvt_4_CDNS_7819669478123"
+ for cell "nmos1v2hvt_4_CDNS_7819669478132"
+ for cell "nmos1v2hvt_4_CDNS_781966947815"
+ for cell "pmos1v2hvt_4_CDNS_781966947810"
+ for cell "pmos1v2hvt_4_CDNS_7819669478119"
+ for cell "pmos1v2hvt_4_CDNS_7819669478121"
+ for cell "pmos1v2hvt_4_CDNS_7819669478125"
+ for cell "pmos1v2hvt_4_CDNS_7819669478128"
+ for cell "pmos1v2hvt_4_CDNS_7819669478129"
+ for cell "pmos1v2hvt_4_CDNS_781966947819"

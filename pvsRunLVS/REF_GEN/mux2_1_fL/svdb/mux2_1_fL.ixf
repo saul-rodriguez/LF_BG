@@ -1,0 +1,12 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary mux2_1_fL
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% mux2_1_fL 6 mux2_1_fL 6
+0 X16/M0 0 MM2  
+0 X17/M0 0 MM1  
+0 X12/M0 0 MM0  
+0 X13/M0 0 MM3  
+0 X14/M0 0 MM50  
+0 X15/M0 0 MM49  

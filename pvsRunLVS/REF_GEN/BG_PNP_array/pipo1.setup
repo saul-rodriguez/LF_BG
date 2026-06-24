@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"REF_GEN"
+logFile	"/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_PNP_array/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_PNP_array"
+strmFile	"/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_PNP_array/BG_PNP_array.gds"
+strmVersion	5
+techLib	"lf11is"
+topCell	"BG_PNP_array"
+view	"layout"

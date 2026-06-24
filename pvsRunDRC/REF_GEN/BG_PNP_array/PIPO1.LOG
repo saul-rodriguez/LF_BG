@@ -1,0 +1,73 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.36 
+Started at: 22-Jun-2026  00:50:29
+User Name : saul
+Host Name : edatools
+Directory : /home/saul/projects/LF_BG
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/BG_PNP_array/BG_PNP_array.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/libraries/6metal/lf11is/lf11is.layermap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 REF_GEN
+strmFile                                /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/BG_PNP_array/BG_PNP_array.gds
+topCell                                 BG_PNP_array
+view                                    layout
+runDir                                  /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/BG_PNP_array
+logFile                                 /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/BG_PNP_array/PIPO1.LOG
+techLib                                 lf11is
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/libraries/6metal/lf11is/lf11is.layermap
+userSkillFile                           /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/BG_PNP_array/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_782089429131.
+INFO (XSTRM-223): 2. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_782089429132.
+INFO (XSTRM-223): 3. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_782089429133.
+INFO (XSTRM-223): 4. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_782089429134.
+INFO (XSTRM-223): 5. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_782089429135.
+INFO (XSTRM-223): 6. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_782089429136.
+INFO (XSTRM-223): 7. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_782089429137.
+INFO (XSTRM-223): 8. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_782089429138.
+INFO (XSTRM-223): 9. Translating cellView lf11is/pnp5ux5u/layout as STRUCTURE pnp5ux5u_CDNS_782089429130.
+INFO (XSTRM-223): 10. Translating cellView lf11is/pnp5ux5u/layout as STRUCTURE pnp5ux5u_CDNS_782089429139.
+INFO (XSTRM-223): 11. Translating cellView lf11is/pnp5ux5u/layout as STRUCTURE pnp5ux5u_CDNS_7820894291310.
+INFO (XSTRM-223): 12. Translating cellView REF_GEN/BG_PNP_array/layout as STRUCTURE BG_PNP_array.
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       310
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             256
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   3
+	TextDisplay:                            0
+	Cells:                                  12
+
+Elapsed Time: 0.3s   User Time: 0.2s   CPU Time: 0.0s   Peak VM: 22552KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

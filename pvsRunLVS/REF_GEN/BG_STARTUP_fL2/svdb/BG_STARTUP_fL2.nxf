@@ -1,0 +1,28 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary BG_STARTUP_fL2
+# XXXX: End of header.
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% BG_STARTUP_fL2 8 BG_STARTUP_fL2 8 
+0 7 0 net6
+0 1 0 STARTUP_REF
+0 4 0 net26
+0 9 0 net8
+0 8 0 net7
+0 3 0 net25
+0 BIAS 0 BIAS
+0 GNDA 0 GNDA
+0 PD 0 PD
+0 PDN 0 PDN
+0 PRN 0 PRN
+0 PRN_TRIGGER 0 PRN_TRIGGER
+0 VDDA 0 VDDA
+0 VREF 0 VREF

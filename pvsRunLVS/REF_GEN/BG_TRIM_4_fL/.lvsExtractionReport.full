@@ -1,0 +1,134 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : BG_TRIM_4_fL.rep
+ERC Summary File         : BG_TRIM_4_fL.sum
+LVS Comparison Report    : BG_TRIM_4_fL.rep.cls
+LVS Softchk Report       : BG_TRIM_4_fL.softchk
+Layout Name              : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/BG_TRIM_4_fL.gds ("BG_TRIM_4_fL")
+User Name                : saul
+Creation Time            : Wed Jun 24 13:13:06 2026
+Current directory        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL
+PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK NW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK NW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK ARRAYPW -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUB -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUBISO -TYPE UPPER   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "AbutContact_CDNS_7823067815722"
+ for cell "AbutContact_CDNS_7823067815738"
+ for cell "AbutContact_CDNS_782306781574"
+ for cell "AbutContact_CDNS_7823067815742"
+ for cell "AbutContact_CDNS_7823067815773"
+ for cell "AbutContact_CDNS_7823067815778"
+ for cell "AbutContact_CDNS_7823067815779"
+ for cell "AbutContact_CDNS_7823067815780"
+ for cell "AbutContact_CDNS_7823067815781"
+ for cell "BG_PNP_array"
+ for cell "BG_STARTUP_fL2"
+ for cell "BG_TRIM_4_fL"
+ for cell "Contact_CDNS_7823067815713"
+ for cell "Contact_CDNS_7823067815714"
+ for cell "Contact_CDNS_7823067815715"
+ for cell "Contact_CDNS_7823067815718"
+ for cell "Contact_CDNS_782306781572"
+ for cell "Contact_CDNS_7823067815721"
+ for cell "Contact_CDNS_7823067815727"
+ for cell "Contact_CDNS_7823067815728"
+ for cell "Contact_CDNS_782306781573"
+ for cell "Contact_CDNS_7823067815731"
+ for cell "Contact_CDNS_7823067815745"
+ for cell "Contact_CDNS_7823067815755"
+ for cell "Contact_CDNS_7823067815757"
+ for cell "Contact_CDNS_7823067815759"
+ for cell "Contact_CDNS_782306781576"
+ for cell "Contact_CDNS_7823067815761"
+ for cell "Contact_CDNS_7823067815762"
+ for cell "Contact_CDNS_7823067815770"
+ for cell "Contact_CDNS_7823067815772"
+ for cell "Contact_CDNS_7823067815775"
+ for cell "Contact_CDNS_7823067815776"
+ for cell "Contact_CDNS_7823067815777"
+ for cell "Contact_CDNS_782306781578"
+ for cell "Contact_CDNS_7823067815782"
+ for cell "Contact_CDNS_782306781579"
+ for cell "M1_M2_CDNS_782306781571"
+ for cell "M1_M2_CDNS_7823067815710"
+ for cell "M1_M2_CDNS_7823067815711"
+ for cell "M1_M2_CDNS_7823067815716"
+ for cell "M1_M2_CDNS_782306781572"
+ for cell "M1_M2_CDNS_7823067815722"
+ for cell "M1_M2_CDNS_7823067815723"
+ for cell "M1_M2_CDNS_7823067815724"
+ for cell "M1_M2_CDNS_7823067815725"
+ for cell "M1_M2_CDNS_782306781573"
+ for cell "M1_M2_CDNS_7823067815734"
+ for cell "M1_M2_CDNS_7823067815737"
+ for cell "M1_M2_CDNS_782306781574"
+ for cell "M1_M2_CDNS_782306781575"
+ for cell "M1_M2_CDNS_7823067815753"
+ for cell "M1_M2_CDNS_782306781579"
+ for cell "M2_M3_CDNS_782306781570"
+ for cell "M2_M3_CDNS_7823067815718"
+ for cell "M2_M3_CDNS_7823067815721"
+ for cell "M2_M3_CDNS_7823067815727"
+ for cell "M2_M3_CDNS_7823067815728"
+ for cell "M2_M3_CDNS_7823067815732"
+ for cell "M2_M3_CDNS_7823067815735"
+ for cell "M2_M3_CDNS_7823067815754"
+ for cell "M2_M3_CDNS_782306781576"
+ for cell "PG_M1_CDNS_7823067815712"
+ for cell "PG_M1_CDNS_7823067815717"
+ for cell "PG_M1_CDNS_782306781578"
+ for cell "cmims_CDNS_782306781570"
+ for cell "mux8_1_fL"
+ for cell "nmos1v2hvt_4_CDNS_7823067815717"
+ for cell "nmos1v2hvt_4_CDNS_7823067815723"
+ for cell "nmos1v2hvt_4_CDNS_7823067815726"
+ for cell "nmos1v2hvt_4_CDNS_7823067815734"
+ for cell "nmos1v2hvt_4_CDNS_7823067815743"
+ for cell "nmos1v2hvt_4_CDNS_7823067815747"
+ for cell "nmos1v2hvt_4_CDNS_7823067815769"
+ for cell "nmos1v2hvt_4_CDNS_782306781577"
+ for cell "pmos1v2hvt_4_CDNS_782306781571"
+ for cell "pmos1v2hvt_4_CDNS_7823067815712"
+ for cell "pmos1v2hvt_4_CDNS_7823067815720"
+ for cell "pmos1v2hvt_4_CDNS_7823067815730"
+ for cell "pmos1v2hvt_4_CDNS_7823067815732"
+ for cell "pmos1v2hvt_4_CDNS_7823067815736"
+ for cell "pmos1v2hvt_4_CDNS_7823067815739"
+ for cell "pmos1v2hvt_4_CDNS_7823067815740"
+ for cell "pmos1v2hvt_4_CDNS_7823067815754"
+ for cell "pmos1v2hvt_4_CDNS_7823067815756"
+ for cell "pmos1v2hvt_4_CDNS_7823067815758"
+ for cell "pmos1v2hvt_4_CDNS_7823067815760"
+ for cell "pmos1v2hvt_4_CDNS_7823067815766"
+ for cell "pmos1v2hvt_4_CDNS_7823067815785"
+ for cell "pnp5ux5u_CDNS_7823067815774"
+ for cell "pnp5ux5u_CDNS_7823067815783"
+ for cell "pnp5ux5u_CDNS_7823067815784"
+ for cell "rnpolyh_CDNS_7823067815711"
+ for cell "rnpolyh_CDNS_7823067815749"
+ for cell "rnpolyh_CDNS_782306781575"
+ for cell "rnpolyh_CDNS_7823067815750"
+ for cell "rnpolyh_CDNS_7823067815751"
+ for cell "rnpolyh_CDNS_7823067815752"
+ for cell "trim_res_bg_2_fL"
+ for cell "trim_res_bg_sl_fL"

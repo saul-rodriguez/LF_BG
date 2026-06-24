@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : BG_STARTUP_fL2_125918.db
+ECDB dir        : ./
+Top Cell        : BG_STARTUP_fL2
+CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/svdb/BG_STARTUP_fL2.net
+Layer map file  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/svdb/BG_STARTUP_fL2.ecdbmap
+Text map file   : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/svdb/BG_STARTUP_fL2.ports
+Dependency map  : BG_STARTUP_fL2.lmap.perc
+Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/svdb/BG_STARTUP_fL2.lvsfile
+Float net file  : .BG_STARTUP_fL2.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : BG_STARTUP_fL2_125918

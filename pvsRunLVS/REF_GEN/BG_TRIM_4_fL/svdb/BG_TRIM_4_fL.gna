@@ -1,0 +1,16 @@
+* Net aliases by cell for run: BG_TRIM_4_fL.rep
+* THIS FILE IS GENERATED. DO NOT EDIT.
+* ==== Bound cells ==============
+* ==== Unbound cells ==============
+mux8_1_fL { 
+  GNDA ( COM )
+}
+rnpolyh_pcell_0 { 
+  PLUS ( MINUS B )
+}
+trim_res_bg_2_fL { 
+  REF ( P2 )
+}
+trim_res_bg_sl_fL { 
+  REF ( P2 )
+}

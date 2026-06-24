@@ -1,0 +1,43 @@
+*WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+
+*WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+
+INFO (CAPGEN-41199): 
+
+
+Techgen -trans results will be written to directory: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL
+
+INFO (CAPGEN-41737): Lvs connect layers BSMET METALTa are not mapped in layer_setup file
+
+INFO (CAPGEN-41809):  Lvs connect via VIAT SLOTOX NDIFFCONTTX are not mapped in layer_setup file.
+
+WARNING (RCXSPIC-27104): p2lvsfile in tech directory does not have resistance 
+ temperature coefficients (TC1, TC2). ?temperature is ignored 
+
+WARNING (LBRCXM-617): Unable to obtain 1 license(s) of QTS100 24.10
+
+WARNING (AGDSEXT-30124): The <design>.props file is not available. The CCL option "input_db calibre/pvs/pegasus -device_properties_file <filename>" can be used to specify the .props file. 
+
+INFO (AGDSEXT-30016): 
+setting dbunit 1e-09 1 1e-09
+
+    *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+
+    *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+
+    *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+
+    Summary for REF_GEN/BG_TRIM_4_fL/av_extracted
+    
+    instance count totals:
+    
+        lib              cell             view                    total
+        analogLib        pcapacitor       symbol                  38271
+        analogLib        presistor        symbol                  35516
+        lf11is           cmims            auCdl                      10
+        lf11is           nmos1v2hvt_4     auCdl                     119
+        lf11is           pmos1v2hvt_4     auCdl                     170
+        lf11is           pnp5ux5u         auCdl                     266
+        lf11is           rnpolyh_i        auCdl                     321
+    
+    Extracted view creation has completed.

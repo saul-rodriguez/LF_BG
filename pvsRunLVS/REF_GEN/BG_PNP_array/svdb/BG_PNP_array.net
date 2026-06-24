@@ -1,0 +1,387 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : BG_PNP_array                                 *
+* Netlisted  : Mon Jun 22 00:51:43 2026                     *
+* PVS Version: 24.11-s045 Mon Jan 27 22:18:54 PST 2025      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 Q(pnp5ux5u) PNP5UX5U PW1V2(C) PNPBASE(B) PNPEMIT5UX5U(E)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: Contact_CDNS_782089499331                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt Contact_CDNS_782089499331 1
+*.DEVICECLIMB
+** N=1 EP=1 FDC=0
+.ends Contact_CDNS_782089499331
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: Contact_CDNS_782089499332                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt Contact_CDNS_782089499332 1
+** N=1 EP=1 FDC=0
+.ends Contact_CDNS_782089499332
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: Contact_CDNS_782089499333                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt Contact_CDNS_782089499333 1
+** N=1 EP=1 FDC=0
+.ends Contact_CDNS_782089499333
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: AbutContact_CDNS_782089499334                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt AbutContact_CDNS_782089499334 1
+** N=1 EP=1 FDC=0
+.ends AbutContact_CDNS_782089499334
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: AbutContact_CDNS_782089499335                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt AbutContact_CDNS_782089499335 1
+** N=1 EP=1 FDC=0
+.ends AbutContact_CDNS_782089499335
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: AbutContact_CDNS_782089499336                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt AbutContact_CDNS_782089499336 1
+** N=1 EP=1 FDC=0
+.ends AbutContact_CDNS_782089499336
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: AbutContact_CDNS_782089499337                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt AbutContact_CDNS_782089499337 1
+** N=1 EP=1 FDC=0
+.ends AbutContact_CDNS_782089499337
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: Contact_CDNS_782089499338                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt Contact_CDNS_782089499338 1
+** N=1 EP=1 FDC=0
+.ends Contact_CDNS_782089499338
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pnp5ux5u_CDNS_782089499330                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pnp5ux5u_CDNS_782089499330 1 2
+*.DEVICECLIMB
+** N=2 EP=2 FDC=0
+X0 2 Contact_CDNS_782089499331 $T=1620 1620 0 0 $X=1500 $Y=1500
+X1 2 Contact_CDNS_782089499332 $T=1665 1665 0 0 $X=1500 $Y=1500
+X2 1 Contact_CDNS_782089499333 $T=-780 -1150 0 0 $X=-860 $Y=-1180
+X3 1 Contact_CDNS_782089499333 $T=-780 5890 0 0 $X=-860 $Y=5860
+X4 1 AbutContact_CDNS_782089499334 $T=-130 -510 0 0 $X=-280 $Y=-600
+X5 1 AbutContact_CDNS_782089499334 $T=-130 5250 0 0 $X=-280 $Y=5160
+X6 1 AbutContact_CDNS_782089499335 $T=-510 -480 0 0 $X=-600 $Y=-600
+X7 1 AbutContact_CDNS_782089499335 $T=5250 -480 0 0 $X=5160 $Y=-600
+X8 1 AbutContact_CDNS_782089499336 $T=-860 -1180 0 0 $X=-1020 $Y=-1340
+X9 1 AbutContact_CDNS_782089499336 $T=-860 5860 0 0 $X=-1020 $Y=5700
+X10 1 AbutContact_CDNS_782089499337 $T=-1180 -1180 0 0 $X=-1340 $Y=-1340
+X11 1 AbutContact_CDNS_782089499337 $T=5860 -1180 0 0 $X=5700 $Y=-1340
+X12 1 Contact_CDNS_782089499338 $T=-1150 -780 0 0 $X=-1180 $Y=-860
+X13 1 Contact_CDNS_782089499338 $T=5890 -780 0 0 $X=5860 $Y=-860
+.ends pnp5ux5u_CDNS_782089499330
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pnp5ux5u_CDNS_782089499339                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pnp5ux5u_CDNS_782089499339 1 2
+*.DEVICECLIMB
+** N=2 EP=2 FDC=1
+X0 2 Contact_CDNS_782089499331 $T=1620 1620 0 0 $X=1500 $Y=1500
+X1 2 Contact_CDNS_782089499332 $T=1665 1665 0 0 $X=1500 $Y=1500
+X2 1 Contact_CDNS_782089499333 $T=-780 -1150 0 0 $X=-860 $Y=-1180
+X3 1 Contact_CDNS_782089499333 $T=-780 5890 0 0 $X=-860 $Y=5860
+X4 1 AbutContact_CDNS_782089499334 $T=-130 -510 0 0 $X=-280 $Y=-600
+X5 1 AbutContact_CDNS_782089499334 $T=-130 5250 0 0 $X=-280 $Y=5160
+X6 1 AbutContact_CDNS_782089499335 $T=-510 -480 0 0 $X=-600 $Y=-600
+X7 1 AbutContact_CDNS_782089499335 $T=5250 -480 0 0 $X=5160 $Y=-600
+X8 1 AbutContact_CDNS_782089499336 $T=-860 -1180 0 0 $X=-1020 $Y=-1340
+X9 1 AbutContact_CDNS_782089499336 $T=-860 5860 0 0 $X=-1020 $Y=5700
+X10 1 AbutContact_CDNS_782089499337 $T=-1180 -1180 0 0 $X=-1340 $Y=-1340
+X11 1 AbutContact_CDNS_782089499337 $T=5860 -1180 0 0 $X=5700 $Y=-1340
+X12 1 Contact_CDNS_782089499338 $T=-1150 -780 0 0 $X=-1180 $Y=-860
+X13 1 Contact_CDNS_782089499338 $T=5890 -780 0 0 $X=5860 $Y=-860
+Q0 1 1 2 pnp5ux5u ae=2.5e-11 m=1 $X=-860 $Y=-860 $dt=0
+.ends pnp5ux5u_CDNS_782089499339
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pnp5ux5u_CDNS_7820894993310                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pnp5ux5u_CDNS_7820894993310 1 2
+*.DEVICECLIMB
+** N=2 EP=2 FDC=0
+X0 2 Contact_CDNS_782089499331 $T=1620 1620 0 0 $X=1500 $Y=1500
+X1 2 Contact_CDNS_782089499332 $T=1665 1665 0 0 $X=1500 $Y=1500
+X2 1 Contact_CDNS_782089499333 $T=-780 -1150 0 0 $X=-860 $Y=-1180
+X3 1 Contact_CDNS_782089499333 $T=-780 5890 0 0 $X=-860 $Y=5860
+X4 1 AbutContact_CDNS_782089499334 $T=-130 -510 0 0 $X=-280 $Y=-600
+X5 1 AbutContact_CDNS_782089499334 $T=-130 5250 0 0 $X=-280 $Y=5160
+X6 1 AbutContact_CDNS_782089499335 $T=-510 -480 0 0 $X=-600 $Y=-600
+X7 1 AbutContact_CDNS_782089499335 $T=5250 -480 0 0 $X=5160 $Y=-600
+X8 1 AbutContact_CDNS_782089499336 $T=-860 -1180 0 0 $X=-1020 $Y=-1340
+X9 1 AbutContact_CDNS_782089499336 $T=-860 5860 0 0 $X=-1020 $Y=5700
+X10 1 AbutContact_CDNS_782089499337 $T=-1180 -1180 0 0 $X=-1340 $Y=-1340
+X11 1 AbutContact_CDNS_782089499337 $T=5860 -1180 0 0 $X=5700 $Y=-1340
+X12 1 Contact_CDNS_782089499338 $T=-1150 -780 0 0 $X=-1180 $Y=-860
+X13 1 Contact_CDNS_782089499338 $T=5890 -780 0 0 $X=5860 $Y=-860
+.ends pnp5ux5u_CDNS_7820894993310
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: MASCO__A1                                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt MASCO__A1 1 2
+*.DEVICECLIMB
+** N=2 EP=2 FDC=0
+X0 2 1 pnp5ux5u_CDNS_7820894993310 $T=1340 1340 0 0 $X=0 $Y=0
+X1 2 1 pnp5ux5u_CDNS_7820894993310 $T=8380 1340 0 0 $X=7040 $Y=0
+.ends MASCO__A1
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: MASCO__B2                                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt MASCO__B2 1 2 3
+*.DEVICECLIMB
+** N=3 EP=3 FDC=0
+X0 1 2 MASCO__A1 $T=0 0 0 0 $X=0 $Y=0
+X1 3 2 MASCO__A1 $T=0 7040 0 0 $X=0 $Y=7040
+.ends MASCO__B2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: MASCO__A3                                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt MASCO__A3 1 2 3
+*.DEVICECLIMB
+** N=3 EP=3 FDC=2
+X0 2 3 1 MASCO__B2 $T=0 0 0 0 $X=0 $Y=0
+X1 2 3 1 MASCO__B2 $T=14080 0 0 0 $X=14080 $Y=0
+Q0 3 3 1 pnp5ux5u ae=2.5e-11 m=1 $X=7520 $Y=7520 $dt=0
+Q1 3 3 1 pnp5ux5u ae=2.5e-11 m=1 $X=14560 $Y=7520 $dt=0
+.ends MASCO__A3
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: MASCO__B4                                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt MASCO__B4 1 2 3
+*.DEVICECLIMB
+** N=3 EP=3 FDC=9
+X0 3 1 2 MASCO__A3 $T=0 0 0 0 $X=0 $Y=0
+X1 3 3 2 MASCO__A3 $T=0 14080 0 0 $X=0 $Y=14080
+Q0 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=7520 $Y=14560 $dt=0
+Q1 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=14560 $Y=14560 $dt=0
+Q2 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=21600 $Y=7520 $dt=0
+Q3 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=21600 $Y=14560 $dt=0
+Q4 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=21600 $Y=21600 $dt=0
+.ends MASCO__B4
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: BG_PNP_array                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt BG_PNP_array A B GNDA
+** N=3 EP=3 FDC=266
+X0 GNDA B pnp5ux5u_CDNS_782089499330 $T=129820 59315 0 0 $X=128480 $Y=57975
+X1 GNDA A pnp5ux5u_CDNS_782089499339 $T=66460 52275 0 0 $X=65120 $Y=50935
+X2 GNDA B pnp5ux5u_CDNS_7820894993310 $T=59420 52275 0 0 $X=58080 $Y=50935
+X3 GNDA GNDA pnp5ux5u_CDNS_7820894993310 $T=129820 2995 0 0 $X=128480 $Y=1655
+X4 GNDA GNDA pnp5ux5u_CDNS_7820894993310 $T=129820 10035 0 0 $X=128480 $Y=8695
+X5 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 17075 0 0 $X=128480 $Y=15735
+X6 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 24115 0 0 $X=128480 $Y=22775
+X7 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 31155 0 0 $X=128480 $Y=29815
+X8 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 38195 0 0 $X=128480 $Y=36855
+X9 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 45235 0 0 $X=128480 $Y=43895
+X10 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 52275 0 0 $X=128480 $Y=50935
+X11 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 66355 0 0 $X=128480 $Y=65015
+X12 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 73395 0 0 $X=128480 $Y=72055
+X13 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 80435 0 0 $X=128480 $Y=79095
+X14 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 87475 0 0 $X=128480 $Y=86135
+X15 GNDA B pnp5ux5u_CDNS_7820894993310 $T=129820 94515 0 0 $X=128480 $Y=93175
+X16 B GNDA MASCO__A1 $T=58080 43895 0 0 $X=58080 $Y=43895
+X17 GNDA GNDA GNDA MASCO__B2 $T=114400 1655 0 0 $X=114400 $Y=1655
+X18 B GNDA B MASCO__B2 $T=114400 15735 0 0 $X=114400 $Y=15735
+X19 B GNDA B MASCO__B2 $T=114400 29815 0 0 $X=114400 $Y=29815
+X20 B GNDA B MASCO__B2 $T=114400 57975 0 0 $X=114400 $Y=57975
+X21 B GNDA B MASCO__B2 $T=114400 72055 0 0 $X=114400 $Y=72055
+X22 B GNDA B MASCO__B2 $T=114400 86135 0 0 $X=114400 $Y=86135
+X23 B B GNDA MASCO__A3 $T=1760 86135 0 0 $X=1760 $Y=86135
+X24 B B GNDA MASCO__A3 $T=29920 86135 0 0 $X=29920 $Y=86135
+X25 B B GNDA MASCO__A3 $T=58080 29815 0 0 $X=58080 $Y=29815
+X26 B B GNDA MASCO__A3 $T=58080 86135 0 0 $X=58080 $Y=86135
+X27 B B GNDA MASCO__A3 $T=72160 43895 0 0 $X=72160 $Y=43895
+X28 B B GNDA MASCO__A3 $T=86240 29815 0 0 $X=86240 $Y=29815
+X29 B B GNDA MASCO__A3 $T=86240 86135 0 0 $X=86240 $Y=86135
+X30 B B GNDA MASCO__A3 $T=100320 43895 0 0 $X=100320 $Y=43895
+X31 B GNDA B MASCO__B4 $T=1760 1655 0 0 $X=1760 $Y=1655
+X32 B GNDA B MASCO__B4 $T=1760 29815 0 0 $X=1760 $Y=29815
+X33 B GNDA B MASCO__B4 $T=1760 57975 0 0 $X=1760 $Y=57975
+X34 B GNDA B MASCO__B4 $T=29920 1655 0 0 $X=29920 $Y=1655
+X35 B GNDA B MASCO__B4 $T=29920 29815 0 0 $X=29920 $Y=29815
+X36 B GNDA B MASCO__B4 $T=29920 57975 0 0 $X=29920 $Y=57975
+X37 B GNDA B MASCO__B4 $T=58080 1655 0 0 $X=58080 $Y=1655
+X38 B GNDA B MASCO__B4 $T=58080 57975 0 0 $X=58080 $Y=57975
+X39 GNDA GNDA B MASCO__B4 $T=86240 1655 0 0 $X=86240 $Y=1655
+X40 B GNDA B MASCO__B4 $T=86240 57975 0 0 $X=86240 $Y=57975
+Q0 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=2135 $dt=0
+Q1 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=9175 $dt=0
+Q2 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=16215 $dt=0
+Q3 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=23255 $dt=0
+Q4 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=30295 $dt=0
+Q5 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=37335 $dt=0
+Q6 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=44375 $dt=0
+Q7 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=51415 $dt=0
+Q8 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=58455 $dt=0
+Q9 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=65495 $dt=0
+Q10 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=72535 $dt=0
+Q11 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=79575 $dt=0
+Q12 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=86615 $dt=0
+Q13 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=93655 $dt=0
+Q14 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=2135 $dt=0
+Q15 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=30295 $dt=0
+Q16 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=58455 $dt=0
+Q17 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=86615 $dt=0
+Q18 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=2135 $dt=0
+Q19 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=30295 $dt=0
+Q20 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=58455 $dt=0
+Q21 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=86615 $dt=0
+Q22 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=2135 $dt=0
+Q23 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=30295 $dt=0
+Q24 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=58455 $dt=0
+Q25 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=86615 $dt=0
+Q26 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=93655 $dt=0
+Q27 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=2135 $dt=0
+Q28 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=9175 $dt=0
+Q29 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=16215 $dt=0
+Q30 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=23255 $dt=0
+Q31 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=30295 $dt=0
+Q32 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=37335 $dt=0
+Q33 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=44375 $dt=0
+Q34 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=51415 $dt=0
+Q35 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=58455 $dt=0
+Q36 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=65495 $dt=0
+Q37 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=72535 $dt=0
+Q38 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=79575 $dt=0
+Q39 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=86615 $dt=0
+Q40 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=93655 $dt=0
+Q41 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=2135 $dt=0
+Q42 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=30295 $dt=0
+Q43 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=58455 $dt=0
+Q44 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=86615 $dt=0
+Q45 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=2135 $dt=0
+Q46 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=30295 $dt=0
+Q47 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=58455 $dt=0
+Q48 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=86615 $dt=0
+Q49 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=2135 $dt=0
+Q50 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=30295 $dt=0
+Q51 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=58455 $dt=0
+Q52 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=86615 $dt=0
+Q53 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=93655 $dt=0
+Q54 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=2135 $dt=0
+Q55 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=9175 $dt=0
+Q56 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=16215 $dt=0
+Q57 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=23255 $dt=0
+Q58 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=30295 $dt=0
+Q59 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=37335 $dt=0
+Q60 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=44375 $dt=0
+Q61 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=51415 $dt=0
+Q62 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=58455 $dt=0
+Q63 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=65495 $dt=0
+Q64 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=72535 $dt=0
+Q65 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=79575 $dt=0
+Q66 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=86615 $dt=0
+Q67 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=93655 $dt=0
+Q68 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=2135 $dt=0
+Q69 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=30295 $dt=0
+Q70 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=44375 $dt=0
+Q71 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=58455 $dt=0
+Q72 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=86615 $dt=0
+Q73 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=2135 $dt=0
+Q74 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=30295 $dt=0
+Q75 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=44375 $dt=0
+Q76 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=51415 $dt=0
+Q77 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=58455 $dt=0
+Q78 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=86615 $dt=0
+Q79 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=2135 $dt=0
+Q80 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=30295 $dt=0
+Q81 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=37335 $dt=0
+Q82 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=44375 $dt=0
+Q83 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=58455 $dt=0
+Q84 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=86615 $dt=0
+Q85 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=93655 $dt=0
+Q86 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=2135 $dt=0
+Q87 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=9175 $dt=0
+Q88 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=16215 $dt=0
+Q89 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=23255 $dt=0
+Q90 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=30295 $dt=0
+Q91 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=37335 $dt=0
+Q92 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=44375 $dt=0
+Q93 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=58455 $dt=0
+Q94 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=65495 $dt=0
+Q95 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=72535 $dt=0
+Q96 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=79575 $dt=0
+Q97 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=86615 $dt=0
+Q98 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=93655 $dt=0
+Q99 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=2135 $dt=0
+Q100 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=30295 $dt=0
+Q101 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=44375 $dt=0
+Q102 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=51415 $dt=0
+Q103 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=58455 $dt=0
+Q104 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=86615 $dt=0
+Q105 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=2135 $dt=0
+Q106 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=30295 $dt=0
+Q107 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=44375 $dt=0
+Q108 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=51415 $dt=0
+Q109 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=58455 $dt=0
+Q110 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=86615 $dt=0
+Q111 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=2135 $dt=0
+Q112 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=30295 $dt=0
+Q113 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=37335 $dt=0
+Q114 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=44375 $dt=0
+Q115 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=58455 $dt=0
+Q116 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=86615 $dt=0
+Q117 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=93655 $dt=0
+Q118 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=2135 $dt=0
+Q119 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=9175 $dt=0
+Q120 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=16215 $dt=0
+Q121 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=23255 $dt=0
+Q122 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=30295 $dt=0
+Q123 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=37335 $dt=0
+Q124 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=44375 $dt=0
+Q125 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=58455 $dt=0
+Q126 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=65495 $dt=0
+Q127 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=72535 $dt=0
+Q128 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=79575 $dt=0
+Q129 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=86615 $dt=0
+Q130 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=93655 $dt=0
+Q131 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=2135 $dt=0
+Q132 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=9175 $dt=0
+Q133 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=16215 $dt=0
+Q134 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=23255 $dt=0
+Q135 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=30295 $dt=0
+Q136 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=37335 $dt=0
+Q137 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=44375 $dt=0
+Q138 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=51415 $dt=0
+Q139 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=58455 $dt=0
+Q140 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=65495 $dt=0
+Q141 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=72535 $dt=0
+Q142 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=79575 $dt=0
+Q143 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=86615 $dt=0
+Q144 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=93655 $dt=0
+Q145 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=2135 $dt=0
+Q146 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=9175 $dt=0
+Q147 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=16215 $dt=0
+Q148 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=23255 $dt=0
+Q149 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=30295 $dt=0
+Q150 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=37335 $dt=0
+Q151 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=44375 $dt=0
+Q152 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=51415 $dt=0
+Q153 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=58455 $dt=0
+Q154 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=65495 $dt=0
+Q155 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=72535 $dt=0
+Q156 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=79575 $dt=0
+Q157 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=86615 $dt=0
+Q158 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=93655 $dt=0
+.ends BG_PNP_array

@@ -1,0 +1,111 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.36 
+Started at: 20-Jun-2026  14:49:07
+User Name : saul
+Host Name : edatools
+Directory : /home/saul/projects/LF_BG
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/BG_STARTUP_fL2.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/libraries/6metal/lf11is/lf11is.layermap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 REF_GEN
+strmFile                                /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/BG_STARTUP_fL2.gds
+topCell                                 BG_STARTUP_fL2
+view                                    layout
+runDir                                  /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2
+logFile                                 /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/PIPO1.LOG
+techLib                                 lf11is
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/libraries/6metal/lf11is/lf11is.layermap
+userSkillFile                           /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_STARTUP_fL2/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781966947810.
+INFO (XSTRM-223): 2. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_781966947811.
+INFO (XSTRM-223): 3. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_781966947812.
+INFO (XSTRM-223): 4. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781966947813.
+INFO (XSTRM-223): 5. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_781966947814.
+INFO (XSTRM-223): 6. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781966947815.
+INFO (XSTRM-223): 7. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781966947816.
+INFO (XSTRM-223): 8. Translating stdVia lf11is/PG_M1/layout as STRUCTURE PG_M1_CDNS_781966947817.
+INFO (XSTRM-223): 9. Translating stdVia lf11is/PG_M1/layout as STRUCTURE PG_M1_CDNS_781966947818.
+INFO (XSTRM-223): 10. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781966947819.
+INFO (XSTRM-223): 11. Translating stdVia lf11is/PG_M1/layout as STRUCTURE PG_M1_CDNS_7819669478110.
+INFO (XSTRM-223): 12. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_7819669478111.
+INFO (XSTRM-223): 13. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_7819669478112.
+INFO (XSTRM-223): 14. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781966947811.
+INFO (XSTRM-223): 15. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781966947812.
+INFO (XSTRM-223): 16. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781966947813.
+INFO (XSTRM-223): 17. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_781966947814.
+INFO (XSTRM-223): 18. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_781966947810.
+INFO (XSTRM-223): 19. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781966947816.
+INFO (XSTRM-223): 20. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781966947817.
+INFO (XSTRM-223): 21. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_781966947818.
+INFO (XSTRM-223): 22. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781966947815.
+INFO (XSTRM-223): 23. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478110.
+INFO (XSTRM-223): 24. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478111.
+INFO (XSTRM-223): 25. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_781966947819.
+INFO (XSTRM-223): 26. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478113.
+INFO (XSTRM-223): 27. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478114.
+INFO (XSTRM-223): 28. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7819669478112.
+INFO (XSTRM-223): 29. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478116.
+INFO (XSTRM-223): 30. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478117.
+INFO (XSTRM-223): 31. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478118.
+INFO (XSTRM-223): 32. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7819669478115.
+INFO (XSTRM-223): 33. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478120.
+INFO (XSTRM-223): 34. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7819669478119.
+INFO (XSTRM-223): 35. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478122.
+INFO (XSTRM-223): 36. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7819669478121.
+INFO (XSTRM-223): 37. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478124.
+INFO (XSTRM-223): 38. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7819669478123.
+INFO (XSTRM-223): 39. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478126.
+INFO (XSTRM-223): 40. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478127.
+INFO (XSTRM-223): 41. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7819669478125.
+INFO (XSTRM-223): 42. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7819669478128.
+INFO (XSTRM-223): 43. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478130.
+INFO (XSTRM-223): 44. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478131.
+INFO (XSTRM-223): 45. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7819669478129.
+INFO (XSTRM-223): 46. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478133.
+INFO (XSTRM-223): 47. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7819669478134.
+INFO (XSTRM-223): 48. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7819669478135.
+INFO (XSTRM-223): 49. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7819669478132.
+INFO (XSTRM-223): 50. Translating cellView REF_GEN/BG_STARTUP_fL2/layout as STRUCTURE BG_STARTUP_fL2.
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       102
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             766
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           94
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               117
+	Text:                                   8
+	TextDisplay:                            0
+	Cells:                                  50
+
+Elapsed Time: 0.4s   User Time: 0.4s   CPU Time: 0.0s   Peak VM: 29204KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

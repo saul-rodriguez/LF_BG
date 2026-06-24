@@ -1,0 +1,109 @@
+# This PVS File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to PVS Debug Environment malfunction.
+# 
+"Run Directory" internal none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test
+"Current Directory" internal none /home/saul/projects/LF_BG
+"Cadence Directory" internal none /home/saul/projects/LF_BG/.cadence/
+"Job Signature" internal none IPVS_1782217453_207769
+"PVS Job Mode" internal none drc
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/.preset.autosave
+"Technology Name" internal none "lf11is"
+"Technology RuleSet" internal none "default"
+"Technology Mapping File" internal none /home/saul/projects/LF_BG/pvtech.lib
+"Technology Rule File" internal none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/.technology.rul
+"PVS Version" internal none 24.11-s045
+"Binary Name" internal none pvsgui
+"PVS Build Date" internal none "Mon Jan 27 22:18:54 PST 2025"
+"PVS Job Time" internal none 1782217456
+"DFII version" internal none 6.1.8.0
+"Run Directory" internal none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test
+"PVS Job Mode" internal none drc
+"Rule File" input text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/.config.rul
+"Rule File" input text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/.technology.rul
+"Cell Tree" output text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/cell_tree.txt
+"Layout Scale" internal none 0.001
+"Layout TechLib" internal none lf11is
+"Layout Library Name" internal none TEST
+"Layout Cell Name" internal none test
+"Layout View Name" internal none layout3
+"Layout ConvertPin" internal text geometry
+"Layout HierDepth" internal none 32
+"Layout MaxVertices" internal none 2048
+"Layout Top Cell" internal none test
+"Layout GDSII" input none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/test.gds
+"Intermediate GDSII File" output none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/test.gds
+"Intermediate GDSII File creation Errors" output none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/PIPO1.LOG
+"Layout ReplaceBusBitChar" input none nil
+"Layout NoConvertHalfWidthPath" input none nil
+"Layout FlattenPCells" input none nil
+"Job Signature" internal none IPVS_1782217453_207769
+"Do not check rules files before run" internal none ENABLED
+"Control File" input text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/pvsdrcctl
+"PVS Job Log" log text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/pvsuidrc.log
+"PIPO Setup File I" internal text  /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/pipo1.setup
+"PIPO Log I" log text  /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/PIPO1.LOG
+"PIPO Output I" internal text  /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/PIPO1.OUT
+"Input Layout" input none OA: TEST test layout3
+"Output Layout Cellmap I" internal text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/lay_cellMap.txt
+"PVS Version" internal none 24.11-s045
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Mon Jan 27 22:18:54 PST 2025"
+"PVS Job Time" internal none 1782217456
+"Cell Tree" output text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/cell_tree.txt
+"PVS Job Mode" internal none drc
+"Rule File" input text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/.config.rul
+"Rule File" input text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/.technology.rul
+"Density RDB " output rdb slotxArea.rdb
+"Antenna RDB POL.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB CON.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB POL.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB CON.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB POL.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB CON.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME1.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME1.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB ME1.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI1.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI1.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB VI1.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME2.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME2.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB ME2.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI2.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI2.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB VI2.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME3.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME3.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB ME3.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI3.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI3.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB VI3.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME4.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME4.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB ME4.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI4.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VI4.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB VI4.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME5.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB ME5.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB ME5.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VIF.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB VIF.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB VIF.20.GATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB MEF.20.NATIVEGATE1V2" output rdb ANTENNA.rdb
+"Antenna RDB MEF.20.GATE3V3" output rdb ANTENNA.rdb
+"Antenna RDB MEF.20.GATE1V2" output rdb ANTENNA.rdb
+"Layout GDSII" input none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/test.gds
+"DRC Summary" output text /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/test.sum
+"ASCII DRC Report Database" output rdb /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/test.drc_errors.ascii
+"Run Directory" internal none /home/saul/projects/LF_BG/pvsRunDRC/TEST/test/
+"UI Data" internal none ENABLED
+"PVS Mode Info" internal none ILMCPIMJPDMKCLLOAFKMIKHFJNFJBNMB
+"Report MaxResults" internal none 1000
+"PVS Version" internal none 24.11-s045
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Mon Jan 27 22:18:54 PST 2025"
+"PVS Job Time" internal none 1782217456

@@ -1,0 +1,38 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "BG_TRIM_4_fL"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/"
+ )
+( model
+( "REF_GEN/mux8_1_fL/schematic" "mux8_1_fL" )
+( "lf11is/rnpolyh_pcell_1/schematic" "rnpolyh_pcell_1" )
+( "lf11is/rnpolyh_pcell_4/schematic" "rnpolyh_pcell_4" )
+( "lf11is/rnpolyh_pcell_0/schematic" "rnpolyh_pcell_0" )
+( "REF_GEN/BG_PNP_array/schematic" "BG_PNP_array" )
+( "REF_GEN/trim_res_bg_2_fL/schematic" "trim_res_bg_2_fL" )
+( "lf11is/rnpolyh_pcell_6/schematic" "rnpolyh_pcell_6" )
+( "lf11is/rnpolyh_pcell_5/schematic" "rnpolyh_pcell_5" )
+( "REF_GEN/BG_STARTUP_fL2/schematic" "BG_STARTUP_fL2" )
+( "REF_GEN/trim_res_bg_sl_fL/schematic" "trim_res_bg_sl_fL" )
+( "lf11is/rnpolyh_pcell_3/schematic" "rnpolyh_pcell_3" )
+( "REF_GEN/BG_TRIM_4_fL/schematic" "BG_TRIM_4_fL" )
+( "lf11is/rnpolyh_pcell_2/schematic" "rnpolyh_pcell_2" )
+ )
+( "BG_STARTUP_fL2" "ihnl/cds7/map" )
+( "mux8_1_fL" "ihnl/cds5/map" )
+( "rnpolyh_pcell_1" "ihnl/cds1/map" )
+( "rnpolyh_pcell_3" "ihnl/cds6/map" )
+( "BG_TRIM_4_fL" "ihnl/cds12/map" )
+( "trim_res_bg_2_fL" "ihnl/cds11/map" )
+( "rnpolyh_pcell_5" "ihnl/cds9/map" )
+( "trim_res_bg_sl_fL" "ihnl/cds3/map" )
+( "BG_PNP_array" "ihnl/cds4/map" )
+( "rnpolyh_pcell_0" "ihnl/cds0/map" )
+( "rnpolyh_pcell_4" "ihnl/cds8/map" )
+( "rnpolyh_pcell_6" "ihnl/cds10/map" )
+( "rnpolyh_pcell_2" "ihnl/cds2/map" )
+ )
