@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : REF_V5_fLC_653370.db
+ECDB dir        : ./
+Top Cell        : REF_V5_fLC
+CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/svdb/REF_V5_fLC.net
+Layer map file  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/svdb/REF_V5_fLC.ecdbmap
+Text map file   : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/svdb/REF_V5_fLC.ports
+Dependency map  : REF_V5_fLC.lmap.perc
+Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/svdb/REF_V5_fLC.lvsfile
+Float net file  : .REF_V5_fLC.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : REF_V5_fLC_653370

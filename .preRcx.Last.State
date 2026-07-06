@@ -1,8 +1,8 @@
 
 
 vuipreRcxFormTable = '(
-	runName  "BG_TRIM_4_fL"
-	runDir  "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb"
+	runName  "REF_V5_fLC"
+	runDir  "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/svdb"
 	assuraTech  "/home/saul/projects/LF_BG/pvtech.lib"
 	tech  "lf11is"
 	mapFile  ""

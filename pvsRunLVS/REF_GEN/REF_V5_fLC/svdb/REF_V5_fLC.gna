@@ -1,0 +1,13 @@
+* Net aliases by cell for run: REF_V5_fLC.rep
+* THIS FILE IS GENERATED. DO NOT EDIT.
+* ==== Bound cells ==============
+* ==== Unbound cells ==============
+rnpolym_pcell_3 { 
+  PLUS ( MINUS B )
+}
+rnpolym_pcell_4 { 
+  PLUS ( MINUS B )
+}
+rnpolym_pcell_7 { 
+  MINUS ( B )
+}

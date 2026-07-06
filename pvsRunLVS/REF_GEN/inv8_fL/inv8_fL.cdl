@@ -1,0 +1,55 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: inv8_fL
+* View Name:     schematic
+* Netlisted on:  Jun 25 17:00:14 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Si3
+* Cell Name:    IN2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT IN2 A Out VDD VSS
+*.PININFO A:I Out:O VDD:B VSS:B
+MM34 Out A VSS VSS nmos1v2hvt W=600n L=180n m=1 nf=1
+MM36 Out A VDD VDD pmos1v2hvt W=940n L=180n m=1 nf=1
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    inv8_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv8_fL GNDA IN0 IN1 IN2 IN3 IN4 IN5 IN6 IN7 OUT0 OUT1 OUT2 OUT3 OUT4 
++ OUT5 OUT6 OUT7 VDDA
+*.PININFO GNDA:B IN0:B IN1:B IN2:B IN3:B IN4:B IN5:B IN6:B IN7:B OUT0:B OUT1:B 
+*.PININFO OUT2:B OUT3:B OUT4:B OUT5:B OUT6:B OUT7:B VDDA:B
+XI7 IN4 OUT4 VDDA GNDA / IN2
+XI6 IN6 OUT6 VDDA GNDA / IN2
+XI5 IN7 OUT7 VDDA GNDA / IN2
+XI4 IN5 OUT5 VDDA GNDA / IN2
+XI3 IN2 OUT2 VDDA GNDA / IN2
+XI2 IN3 OUT3 VDDA GNDA / IN2
+XI1 IN1 OUT1 VDDA GNDA / IN2
+XI0 IN0 OUT0 VDDA GNDA / IN2
+.ENDS
+

@@ -1,0 +1,43 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: mux8_1p_fL
+* View Name:     schematic
+* Netlisted on:  Jun 25 14:27:34 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    mux8_1p_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT mux8_1p_fL A0 A1 A2 A3 A4 A5 A6 A7 COM IN0 IN1 IN2 IN3 IN4 IN5 IN6 IN7 
++ VDDA
+*.PININFO A0:B A1:B A2:B A3:B A4:B A5:B A6:B A7:B COM:B IN0:B IN1:B IN2:B 
+*.PININFO IN3:B IN4:B IN5:B IN6:B IN7:B VDDA:B
+MM6 COM A5 IN5 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+MM5 COM A4 IN4 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+MM4 COM A7 IN7 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+MM3 COM A6 IN6 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+MM2 COM A1 IN1 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+MM1 COM A0 IN0 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+MM0 COM A3 IN3 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+MM7 COM A2 IN2 VDDA pmos1v2hvt W=10u L=1u m=1 nf=1
+.ENDS
+

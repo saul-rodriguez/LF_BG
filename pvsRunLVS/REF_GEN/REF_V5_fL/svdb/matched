@@ -1,0 +1,36 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.11-s045
+#####  NVN Run Start                 :   Mon Jul  6 11:33:09 2026
+#####  ERC Summary File              :   REF_V5_fL.sum
+#####  Extraction Report File        :   REF_V5_fL.rep
+#####  Comparison Report File        :   REF_V5_fL.rep.cls
+#####  Top Cell                      :   REF_V5_fL  <vs>  REF_V5_fL
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####                                :   [INFO]  Some Sections Have Been Truncated
+#####  
+#####  Layout Design                 :   REF_GEN REF_V5_fL layout
+#####  Schematic File                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fL/REF_V5_fL.cdl (cdl)
+#####  Rules File                    :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fL/.config.rul
+#####                                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fL/.technology.rul
+#####  Pin Swap File                 :   REF_V5_fL.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 0s - (0s)
+#####  Extraction Peak Memory Usage  :   26.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   294.08MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
+#####  LVS Total Peak Memory Usage   :   294.08MB
+#####  
+##############################################################################################################
+
+

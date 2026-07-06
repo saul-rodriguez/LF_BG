@@ -1,0 +1,37 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary trim_res_array_rn_2_fL
+# XXXX: End of header.
+% R 3 R 3 
+0 PLUS 0 PLUS
+0 MINUS 0 MINUS
+0 B 0 B
+% trim_res_array_rn_2_fL 7 trim_res_array_rn_2_fL 7 
+0 1 0 net12
+0 15 0 net5
+0 14 0 net1
+0 13 0 net7
+0 12 0 net2
+0 11 0 net10
+0 10 0 net4
+0 9 0 net11
+0 GNDA 0 GNDA
+0 P1 0 P1
+0 P2 0 P2
+0 SEL1 0 SEL1
+0 SEL2 0 SEL2
+0 SEL3 0 SEL3
+0 SEL4 0 SEL4
+0 X14/5 0 XI19/net1
+0 X15/5 0 XI18/net1
+0 X13/5 0 XI17/net1
+0 X12/5 0 XI16/net1
+0 X11/5 0 XI15/net1
+0 X10/5 0 XI14/net1
+0 X9/5 0 XI9/net1
+0 X8/5 0 XI8/net1
+0 X7/5 0 XI7/net1
+0 X6/5 0 XI6/net1
+0 X5/5 0 XI5/net1
+0 X4/5 0 XI4/net1
+0 X3/5 0 XI3/net1
+0 X2/5 0 XI2/net1

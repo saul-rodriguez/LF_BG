@@ -1,25 +1,25 @@
 Parameters:
 	-runDir
-	/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL
+	/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC
 	-ossdir
-	/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/
+	/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/
 	-cellmap
-	/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/lay_cellMap.txt
+	/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/lay_cellMap.txt
 	-ppid
-	207630
+	337842
 	-form
 	-viewer
 	virtuoso
 	-schview
 	schematic
 	-tag
-	GAMPG0DFCNAQ6‚FCRGL
+	HDMRH2‡IGJBM1IJJNJI
 
 
 Checking out SoftShare license Phys_Ver_Sys_Results_Mgr 24.1 Qty: 1 ... failed.
 Unable to queue for a license on the license server.
 License checkout failed.
 Checking out SoftShare license Pegasus_RV 24.1 Qty: 1 ... succeeded (1s).
-starting pvsProbeServer: port= 58727
-Starting probe server on port: 58727
+starting pvsProbeServer: port= 38917
+Starting probe server on port: 38917
 Checking in SoftShare license Pegasus_RV ... succeeded (1s).

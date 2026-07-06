@@ -1,0 +1,5 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary trim_res_rnpolyn_2_fL
+P1 1 P1 9130 360 METAL1a
+P2 2 P2 4630 36155 METAL1a
+GNDA 5 GNDA 2590 -385 METAL1a

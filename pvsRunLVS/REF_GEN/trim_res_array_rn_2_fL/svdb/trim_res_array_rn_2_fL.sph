@@ -1,0 +1,38 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% rnpolym_pcell_1 3
+RR_0_11 R 3
+RR_0_10 R 3
+RR_0_9 R 3
+RR_0_8 R 3
+RR_0_7 R 3
+RR_0_6 R 3
+RR_0_5 R 3
+RR_0_4 R 3
+RR_0_3 R 3
+RR_0_2 R 3
+RR_0_1 R 3
+RR_0_0 R 3
+% rnpolym_pcell_0 3
+RR_0_0 R 3
+% trim_res_rnpolyn_2_fL 3
+XR0 rnpolym_pcell_0 3
+XR11 rnpolym_pcell_0 3
+XR1 rnpolym_pcell_1 3
+% trim_res_array_rn_2_fL 7
+XI19 trim_res_rnpolyn_2_fL 3
+XI18 trim_res_rnpolyn_2_fL 3
+XI17 trim_res_rnpolyn_2_fL 3
+XI16 trim_res_rnpolyn_2_fL 3
+XI15 trim_res_rnpolyn_2_fL 3
+XI14 trim_res_rnpolyn_2_fL 3
+XI9 trim_res_rnpolyn_2_fL 3
+XI8 trim_res_rnpolyn_2_fL 3
+XI7 trim_res_rnpolyn_2_fL 3
+XI6 trim_res_rnpolyn_2_fL 3
+XI5 trim_res_rnpolyn_2_fL 3
+XI4 trim_res_rnpolyn_2_fL 3
+XI3 trim_res_rnpolyn_2_fL 3
+XI2 trim_res_rnpolyn_2_fL 3

@@ -1,0 +1,37 @@
+trim_res_rnpolyn_2_fL 1000
+FLOATING_PWELL
+0 0 2 Jul  2 14:05:19 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_rnpolyn_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_NWELL
+0 0 2 Jul  2 14:05:19 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_rnpolyn_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_PSUB
+2 2 2 Jul  2 14:05:19 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_rnpolyn_2_fL/.config.rul
+Rule File Title:  LF11IS
+p 1 4
+9005 5
+10005 5
+10005 36485
+9005 36485
+p 2 10
+9005 -1710
+11755 -1710
+11755 37485
+-995 37485
+-995 -1710
+9005 -1710
+9005 36485
+10755 36485
+10755 5
+9005 5
+FLOATING_PSUBISO
+0 0 2 Jul  2 14:05:19 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_rnpolyn_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_DNW
+0 0 2 Jul  2 14:05:19 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_rnpolyn_2_fL/.config.rul
+Rule File Title:  LF11IS

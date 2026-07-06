@@ -1,0 +1,22 @@
+CADENCE IHNL11140
+$model
+lf11is/rnpolym_pcell_5/schematic rnpolym_pcell_5
+REF_GEN/inv8_fL/schematic inv8_fL
+REF_GEN/REF_V5_fLC/schematic REF_V5_fLC
+lf11is/rnpolym_pcell_4/schematic rnpolym_pcell_4
+lf11is/rnpolym_pcell_3/schematic rnpolym_pcell_3
+lf11is/rnpolym_pcell_7/schematic rnpolym_pcell_7
+REF_GEN/trim_res_array_rn_2_fL/schematic trim_res_array_rn_2_fL
+lf11is/rnpolym_pcell_6/schematic rnpolym_pcell_6
+REF_GEN/mux8_1_fL/schematic mux8_1_fL
+Si3/IN2/schematic IN2
+REF_GEN/mux8_1p_fL/schematic mux8_1p_fL
+REF_GEN/trim_res_rnpolyn_2_fL/schematic trim_res_rnpolyn_2_fL
+lf11is/rnpolym_pcell_2/schematic rnpolym_pcell_2
+lf11is/rnpolym_pcell_0/schematic rnpolym_pcell_0
+lf11is/rnpolym_pcell_1/schematic rnpolym_pcell_1
+$endmodel
+$net
+$endnet
+$param
+$endparam

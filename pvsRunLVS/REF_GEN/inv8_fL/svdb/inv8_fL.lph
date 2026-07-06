@@ -1,0 +1,16 @@
+# Placement Hierarchy File (lph)
+# 
+# 
+# 
+% IN2 4
+M0 MN 4
+M1 MP 4
+% inv8_fL 18
+X0 IN2 4
+X1 IN2 4
+X2 IN2 4
+X3 IN2 4
+X4 IN2 4
+X5 IN2 4
+X6 IN2 4
+X7 IN2 4

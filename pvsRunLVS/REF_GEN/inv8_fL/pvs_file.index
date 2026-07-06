@@ -1,0 +1,86 @@
+# This PVS File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to PVS Debug Environment malfunction.
+# 
+"Run Directory" internal none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL
+"Current Directory" internal none /home/saul/projects/LF_BG
+"Cadence Directory" internal none /home/saul/projects/LF_BG/.cadence/
+"Job Signature" internal none IPVS_1782406812_337982
+"PVS Job Mode" internal none lvs
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/.preset.autosave
+"Technology Name" internal none "lf11is"
+"Technology RuleSet" internal none "default"
+"Technology Mapping File" internal none /home/saul/projects/LF_BG/pvtech.lib
+"Technology Rule File" internal none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/.technology.rul
+"PVS Version" internal none 24.11-s045
+"Binary Name" internal none pvsgui
+"PVS Build Date" internal none "Mon Jan 27 22:18:54 PST 2025"
+"PVS Job Time" internal none 1782406814
+"DFII version" internal none 6.1.8.0
+"Rule File" input text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/.config.rul
+"Rule File" input text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/.technology.rul
+"Layout Scale" internal none 0.001
+"Layout TechLib" internal none lf11is
+"Layout Library Name" internal none REF_GEN
+"Layout Cell Name" internal none inv8_fL
+"Layout View Name" internal none layout
+"Layout ConvertPin" internal text geometry
+"Layout HierDepth" internal none 32
+"Layout MaxVertices" internal none 2048
+"Layout Top Cell" internal none inv8_fL
+"Layout GDSII" input none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.gds
+"Intermediate GDSII File" output none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.gds
+"Intermediate GDSII File creation Errors" output none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/PIPO1.LOG
+"Layout ReplaceBusBitChar" input none nil
+"Layout NoConvertHalfWidthPath" input none nil
+"Layout FlattenPCells" input none nil
+"Schematic Library Name" internal none REF_GEN
+"Schematic Cell Name" internal none inv8_fL
+"Schematic View Name" internal none schematic
+"Schematic Top Cell" internal none inv8_fL
+"Schematic Netlist" output text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.cdl
+"Extracted Spice File" output text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.spi
+"Quantus QRC Data" internal none ENABLED
+"Do not check rules files before run" internal none ENABLED
+"Control File" input text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/pvslvsctl
+"CDL Out Stop List" internal text auCdl
+"CDL Out View List" internal text auCdl schematic
+"Use CDL Out Keys " internal none ENABLED
+"CDL Out Include File" input text /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+"CDL Out Display Pin Information" internal none ENABLED
+"PVS Job Log" log text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/pvsuilvs.log
+"PIPO Setup File I" internal text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/pipo1.setup
+"PIPO Log I" log text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/PIPO1.LOG
+"PIPO Output I" internal text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/PIPO1.OUT
+"SI Setup File" internal text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/si.env
+"SI Log" log text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/SI.LOG
+"SI Output" log text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/SI.OUT
+"SI OSS Directory" internal none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/
+"Simulator Mode" internal none auCdl
+"Input Layout" input none OA: REF_GEN inv8_fL layout
+"Input Schematic" input none OA: REF_GEN inv8_fL schematic
+"Output Layout Cellmap I" internal text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/lay_cellMap.txt
+"Binary Name" internal none pvsvirt
+"Comparison Report" output cls /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.rep.cls
+"Extraction Report" output erc /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.rep
+"Mask SVDB Directory" internal none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/svdb
+"QRC Top Cell" internal none inv8_fL
+"LVS Report Options" internal none -none
+"SCONNECT RDB" output rdb /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.softchk
+"ERC Summary" output text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.sum
+"ASCII ERC Report Database" output rdb /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.erc_errors.ascii
+"Extraction Result" internal none CLEAN
+"ERC Result" internal none EMPTY
+"UI Data" internal none ENABLED
+"Lvs Replicate Devices" internal none ENABLED
+"PVS Mode Info" internal none ILMCPIMJPDMKCLLOHDDDBJLKGPIPDBFG
+"Report MaxResults" internal none 1000
+"Binary Name" internal none pvs
+"Comparison Result" internal none MATCH
+"LVS Run Name" internal none inv8_fL.rep
+"PVS Version" internal none 24.11-s045
+"Binary Name" internal none pvsnvn
+"PVS Build Date" internal none "Mon Jan 27 22:18:54 PST 2025"
+"PVS Job Time" internal none 1782406821

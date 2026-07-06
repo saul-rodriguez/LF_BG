@@ -1,0 +1,24 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary mux8_1p_fL
+% Contact_CDNS_782397654261 2
+% Contact_CDNS_782397654262 1
+% pmos1v2hvt_4_CDNS_782397654260 5
+% mux8_1p_fL 18
+1 A0
+3 IN0
+4 COM
+5 VDDA
+6 A1
+7 IN1
+8 A2
+9 IN2
+10 A3
+11 IN3
+12 A4
+13 IN4
+14 A5
+15 IN5
+16 A6
+17 IN6
+18 A7
+19 IN7

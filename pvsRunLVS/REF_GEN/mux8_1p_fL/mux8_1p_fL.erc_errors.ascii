@@ -1,0 +1,54 @@
+mux8_1p_fL 1000
+FLOATING_PWELL
+0 0 2 Jun 25 14:27:37 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1p_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_NWELL
+0 0 2 Jun 25 14:27:37 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1p_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_PSUB
+3 3 2 Jun 25 14:27:37 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1p_fL/.config.rul
+Rule File Title:  LF11IS
+p 1 4
+580 940
+730 940
+730 10940
+580 10940
+p 2 16
+1920 220
+2445 220
+2445 11340
+205 11340
+205 220
+580 220
+580 10940
+730 10940
+730 940
+580 940
+580 220
+1920 220
+1920 10940
+2070 10940
+2070 940
+1920 940
+p 3 10
+205 -780
+19125 -780
+19125 12340
+-795 12340
+-795 -780
+205 -780
+205 11340
+18125 11340
+18125 220
+205 220
+FLOATING_PSUBISO
+0 0 2 Jun 25 14:27:37 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1p_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_DNW
+0 0 2 Jun 25 14:27:37 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1p_fL/.config.rul
+Rule File Title:  LF11IS

@@ -1,0 +1,249 @@
+********************************************************************************
+*** PVS HERC SUMMARY
+***
+Execute on Date/Time    : Sun Jul  5 22:35:14 2026
+PVS HERC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/.config.rul
+Rule Deck Title         : LF11IS
+Layout System           : GDSII
+Layout Path             : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/trim_res_array_rn_2_fL.gds
+Current Directory       : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL
+User Name:              : saul
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : trim_res_array_rn_2_fL.sum
+Geometry Flagging       : ACUTE = YES  ANGLED = NO  SKEW = YES  OFFGRID = YES
+                          NONSIMPLE POLYGON = YES  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : trim_res_array_rn_2_fL
+LVS Softchk Report      : trim_res_array_rn_2_fL.softchk
+ASCII ERC Error Report  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/trim_res_array_rn_2_fL.erc_errors.ascii
+ERC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER DIFF ....................... Total Original Geometry:        1 (      14)
+LAYER POLYG ...................... Total Original Geometry:       40 (     980)
+LAYER METAL1fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER METAL2fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER METAL3fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER POLYDOPE ................... Total Original Geometry:        2 (      42)
+LAYER SALBLK ..................... Total Original Geometry:        2 (      42)
+LAYER DNW ........................ Total Original Geometry:        0 (       0)
+LAYER METAL4fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NW3V3 ...................... Total Original Geometry:        0 (       0)
+LAYER PW3V3orig .................. Total Original Geometry:        0 (       0)
+LAYER NW1V2 ...................... Total Original Geometry:        6 (      98)
+LAYER PW1V2orig .................. Total Original Geometry:        0 (       0)
+LAYER METAL5fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NLVT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER GOX1V2 ..................... Total Original Geometry:        0 (       0)
+LAYER NEXT1V2 .................... Total Original Geometry:        0 (       0)
+LAYER PEXT1V2 .................... Total Original Geometry:        0 (       0)
+LAYER METALFfillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NEXT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER PEXT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER METALTfillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NPLUS ...................... Total Original Geometry:        7 (     126)
+LAYER PPLUS ...................... Total Original Geometry:        0 (       0)
+LAYER METAL1base ................. Total Original Geometry:      115 (    1031)
+LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL2base ................. Total Original Geometry:        2 (       3)
+LAYER METAL2fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL2slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL3base ................. Total Original Geometry:        0 (       0)
+LAYER METAL3fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL3slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL4base ................. Total Original Geometry:        0 (       0)
+LAYER METAL4fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL4slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL5base ................. Total Original Geometry:        0 (       0)
+LAYER METAL5fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL5slot ................. Total Original Geometry:        0 (       0)
+LAYER METALFbase ................. Total Original Geometry:        0 (       0)
+LAYER METALFfill ................. Total Original Geometry:        0 (       0)
+LAYER METALFslot ................. Total Original Geometry:        0 (       0)
+LAYER METALTbase ................. Total Original Geometry:        0 (       0)
+LAYER METALTfill ................. Total Original Geometry:        0 (       0)
+LAYER METALTslot ................. Total Original Geometry:        0 (       0)
+LAYER CONT ....................... Total Original Geometry:       28 (    1148)
+LAYER VIA1 ....................... Total Original Geometry:        5 (      10)
+LAYER VIA2 ....................... Total Original Geometry:        0 (       0)
+LAYER VIA3 ....................... Total Original Geometry:        0 (       0)
+LAYER VIA4 ....................... Total Original Geometry:        0 (       0)
+LAYER VIAF ....................... Total Original Geometry:        0 (       0)
+LAYER VIAT ....................... Total Original Geometry:        0 (       0)
+LAYER MIMS ....................... Total Original Geometry:        0 (       0)
+LAYER MIMS2 ...................... Total Original Geometry:        0 (       0)
+LAYER MIMS7 ...................... Total Original Geometry:        0 (       0)
+LAYER PSN ........................ Total Original Geometry:        0 (       0)
+LAYER PSP ........................ Total Original Geometry:        0 (       0)
+LAYER PSUB2 ...................... Total Original Geometry:        0 (       0)
+LAYER BJTmark .................... Total Original Geometry:        0 (       0)
+LAYER DIOmark .................... Total Original Geometry:        0 (       0)
+LAYER MIMmark .................... Total Original Geometry:        0 (       0)
+LAYER CAPmark .................... Total Original Geometry:        0 (       0)
+LAYER RESmark .................... Total Original Geometry:       13 (     196)
+LAYER RMET1mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET2mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET3mark .................. Total Original Geometry:        0 (       0)
+LAYER PW3V3blockGen .............. Total Original Geometry:        0 (       0)
+LAYER PW3V3makeGen ............... Total Original Geometry:        0 (       0)
+LAYER RMET4mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET5mark .................. Total Original Geometry:        0 (       0)
+LAYER RMETFmark .................. Total Original Geometry:        0 (       0)
+LAYER CAPFlabel .................. Total Original Geometry:        0 (       0)
+LAYER RMETTmark .................. Total Original Geometry:        0 (       0)
+LAYER CAPFmark ................... Total Original Geometry:        0 (       0)
+LAYER VARmark .................... Total Original Geometry:        0 (       0)
+LAYER SEALRINGmark ............... Total Original Geometry:        0 (       0)
+LAYER ESDDIOmark ................. Total Original Geometry:        0 (       0)
+LAYER PROBEmark .................. Total Original Geometry:        0 (       0)
+LAYER TXFETmark .................. Total Original Geometry:        0 (       0)
+LAYER SLOTOX ..................... Total Original Geometry:        0 (       0)
+LAYER BSMET ...................... Total Original Geometry:        0 (       0)
+LAYER BSMET_pin_txt .............. Total Original Geometry:        0 (       0)
+LAYER SNN ........................ Total Original Geometry:        0 (       0)
+LAYER PW1V2blockGen .............. Total Original Geometry:        0 (       0)
+LAYER PW1V2makeGen ............... Total Original Geometry:        0 (       0)
+LAYER ARRAYPW .................... Total Original Geometry:        0 (       0)
+LAYER PXL ........................ Total Original Geometry:        0 (       0)
+LAYER MCEL ....................... Total Original Geometry:        0 (       0)
+LAYER DIFF_pin_txt ............... Total Original Geometry:        0 (       0)
+LAYER POLYG_pin_txt .............. Total Original Geometry:        0 (       0)
+LAYER METAL1_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL2_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL3_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL4_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL5_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METALF_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METALT_pin_txt ............. Total Original Geometry:        0 (       0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+Offgrid Vertex on layer METAL1base at location (68.125,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (68.275,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (68.275,41.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (68.125,41.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.625,7.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.775,7.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.775,41.300) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.625,41.300) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (15.645,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (15.795,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (15.795,41.340) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (15.645,41.340) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (47.135,7.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (47.285,7.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (47.285,41.305) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (47.135,41.305) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (93.825,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (94.325,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (94.325,41.475) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (93.825,41.475) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (36.780,41.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (36.630,41.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (26.115,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (26.265,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (26.265,41.300) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (26.115,41.300) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (78.615,7.120) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (78.765,7.120) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (78.765,41.305) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (78.615,41.305) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (151.470,7.305) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (133.370,7.305) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (110.120,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (110.270,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (120.620,7.135) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (120.770,7.135) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (151.215,6.370) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (151.215,6.615) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (7.760,6.615) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.275,41.150) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.425,41.150) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.425,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.275,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (73.075,42.935) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (76.915,42.935) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (76.915,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (73.075,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (76.765,41.155) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (76.915,41.155) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (76.915,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (76.765,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (77.500,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (77.650,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (77.650,7.215) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (77.500,7.215) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (35.245,7.130) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (35.265,7.130) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (35.265,7.280) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (35.245,7.280) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (20.575,42.935) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.425,42.935) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.425,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (20.575,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (68.125,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (77.650,7.125) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (77.650,7.275) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (68.125,7.275) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.275,41.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (68.275,41.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (68.275,41.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.275,41.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (133.095,7.095) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (133.605,7.095) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (133.605,7.320) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (133.095,7.320) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (62.575,42.935) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.425,42.935) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.425,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (62.575,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.275,41.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.425,41.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.425,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (66.275,43.085) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (67.000,7.215) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (67.150,7.215) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (67.150,7.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (67.000,7.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (15.645,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.805,7.140) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (24.805,7.290) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (15.645,7.290) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.625,7.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (67.150,7.145) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (67.150,7.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.625,7.295) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.775,41.150) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (57.775,41.300) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (52.075,42.915) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (55.920,42.915) in cell trim_res_array_rn_2_fL.
+Offgrid Vertex on layer METAL1base at location (55.920,43.065) in cell trim_res_array_rn_2_fL.
+Maximum Offgrid Vertex warning count of 100 has been reached.
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK FLOATING_DNW ............... Total Result      0 (       0)
+RULECHECK FLOATING_NWELL ............. Total Result      0 (       0)
+RULECHECK FLOATING_PSUB .............. Total Result      3 (      43)
+RULECHECK FLOATING_PSUBISO ........... Total Result      0 (       0)
+RULECHECK FLOATING_PWELL ............. Total Result      0 (       0)
+RULECHECK FLOATING_PWELL2 ............ Not Executed!
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 0(s)
+Total Real Time                   : 0(s)
+Peak Memory Used                  : 26(M)
+Total Original Geometry           : 221 (3690)
+Total ERC RuleChecks              : 5
+Total ERC Results                 : 3 (43)

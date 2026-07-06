@@ -1,0 +1,83 @@
+Device_Table 1000
+0 0 1 Mon Jul  6 11:32:59 2026
+4
+Device Entry 0
+0 0 17 Mon Jul  6 11:32:59 2026
+CMIMS2
+CAPACITOR
+C
+cmims2
+(null)
+cmims2
+2
+POS TOPMIMS2 0
+NEG METAL5a 0
+0
+6
+C
+P
+A
+L
+W
+M
+Device Entry 1
+0 0 20 Mon Jul  6 11:32:59 2026
+NMOS1V2HVT
+MOS
+MN
+nmos1v2hvt
+(null)
+nmos1v2hvt
+4
+G NGATE 0
+S NDIFF 1
+D NDIFF 1
+B PW1V2 0
+0
+7
+W
+L
+AS
+AD
+PS
+PD
+M
+Device Entry 2
+0 0 20 Mon Jul  6 11:32:59 2026
+PMOS1V2HVT
+MOS
+MP
+pmos1v2hvt
+(null)
+pmos1v2hvt
+4
+G PGATE 0
+S PDIFF 1
+D PDIFF 1
+B NW1V2 0
+0
+7
+W
+L
+AS
+AD
+PS
+PD
+M
+Device Entry 3
+0 0 15 Mon Jul  6 11:32:59 2026
+RNPOLYMNW1V2
+RESISTOR
+R
+rnpolym
+(null)
+rnpolym
+3
+POS POLYG3 1
+NEG POLYG3 1
+SUB NW1V2 0
+0
+3
+R
+L
+W

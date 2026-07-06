@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inv8_fL"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/"
+ )
+( model
+( "REF_GEN/inv8_fL/schematic" "inv8_fL" )
+( "Si3/IN2/schematic" "IN2" )
+ )
+( "inv8_fL" "ihnl/cds1/map" )
+( "IN2" "ihnl/cds0/map" )
+ )

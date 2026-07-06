@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+REF_GEN/inv8_fL/schematic inv8_fL
+Si3/IN2/schematic IN2
+$endmodel
+$net
+$endnet
+$param
+$endparam

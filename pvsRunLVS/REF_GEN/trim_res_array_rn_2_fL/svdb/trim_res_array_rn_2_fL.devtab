@@ -1,0 +1,20 @@
+Device_Table 1000
+0 0 1 Sun Jul  5 22:35:14 2026
+1
+Device Entry 0
+0 0 15 Sun Jul  5 22:35:14 2026
+RNPOLYMNW1V2
+RESISTOR
+R
+rnpolym
+(null)
+rnpolym
+3
+POS POLYG3 1
+NEG POLYG3 1
+SUB NW1V2 0
+0
+3
+R
+L
+W

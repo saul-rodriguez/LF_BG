@@ -1,0 +1,35 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.11-s045
+#####  NVN Run Start                 :   Thu Jun 25 17:00:21 2026
+#####  ERC Summary File              :   inv8_fL.sum
+#####  Extraction Report File        :   inv8_fL.rep
+#####  Comparison Report File        :   inv8_fL.rep.cls
+#####  Top Cell                      :   inv8_fL  <vs>  inv8_fL
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   REF_GEN inv8_fL layout
+#####  Schematic File                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/inv8_fL.cdl (cdl)
+#####  Rules File                    :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/.config.rul
+#####                                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/inv8_fL/.technology.rul
+#####  Pin Swap File                 :   inv8_fL.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 0s - (0s)
+#####  Extraction Peak Memory Usage  :   26.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   266.38MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
+#####  LVS Total Peak Memory Usage   :   266.38MB
+#####  
+##############################################################################################################
+
+

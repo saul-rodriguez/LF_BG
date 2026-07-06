@@ -1,0 +1,42 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "REF_V5_fLC"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/"
+ )
+( model
+( "lf11is/rnpolym_pcell_1/schematic" "rnpolym_pcell_1" )
+( "REF_GEN/inv8_fL/schematic" "inv8_fL" )
+( "lf11is/rnpolym_pcell_4/schematic" "rnpolym_pcell_4" )
+( "REF_GEN/trim_res_rnpolyn_2_fL/schematic" "trim_res_rnpolyn_2_fL" )
+( "REF_GEN/mux8_1_fL/schematic" "mux8_1_fL" )
+( "lf11is/rnpolym_pcell_6/schematic" "rnpolym_pcell_6" )
+( "lf11is/rnpolym_pcell_3/schematic" "rnpolym_pcell_3" )
+( "REF_GEN/REF_V5_fLC/schematic" "REF_V5_fLC" )
+( "REF_GEN/mux8_1p_fL/schematic" "mux8_1p_fL" )
+( "REF_GEN/trim_res_array_rn_2_fL/schematic" "trim_res_array_rn_2_fL" )
+( "lf11is/rnpolym_pcell_0/schematic" "rnpolym_pcell_0" )
+( "lf11is/rnpolym_pcell_5/schematic" "rnpolym_pcell_5" )
+( "lf11is/rnpolym_pcell_2/schematic" "rnpolym_pcell_2" )
+( "lf11is/rnpolym_pcell_7/schematic" "rnpolym_pcell_7" )
+( "Si3/IN2/schematic" "IN2" )
+ )
+( "mux8_1_fL" "ihnl/cds1/map" )
+( "rnpolym_pcell_7" "ihnl/cds13/map" )
+( "rnpolym_pcell_5" "ihnl/cds11/map" )
+( "rnpolym_pcell_4" "ihnl/cds10/map" )
+( "mux8_1p_fL" "ihnl/cds0/map" )
+( "rnpolym_pcell_1" "ihnl/cds5/map" )
+( "trim_res_rnpolyn_2_fL" "ihnl/cds6/map" )
+( "inv8_fL" "ihnl/cds3/map" )
+( "REF_V5_fLC" "ihnl/cds14/map" )
+( "rnpolym_pcell_3" "ihnl/cds9/map" )
+( "rnpolym_pcell_0" "ihnl/cds4/map" )
+( "trim_res_array_rn_2_fL" "ihnl/cds7/map" )
+( "rnpolym_pcell_6" "ihnl/cds12/map" )
+( "IN2" "ihnl/cds2/map" )
+( "rnpolym_pcell_2" "ihnl/cds8/map" )
+ )

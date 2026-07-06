@@ -1,0 +1,410 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Jul  6 14:26:11 2026 
+Best design point: 1
+Design specs: 
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_0 - 
+	V1000		6.766u
+	V550		4.45u
+	I32nA		21.55f
+	I128nA		86.19f
+	BangapRef		493.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_1 - 
+	V1000		240.1n
+	V550		208.8n
+	I32nA		446.3a
+	I128nA		1.767f
+	BangapRef		362.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_2 - 
+	V1000		10.8u
+	V550		7.486u
+	I32nA		53.21f
+	I128nA		212.7f
+	BangapRef		467.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_3 - 
+	V1000		3.139u
+	V550		2.971u
+	I32nA		10.16f
+	I128nA		39.38f
+	BangapRef		332.9m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_4 - 
+	V1000		13.9u
+	V550		9.642u
+	I32nA		40.62f
+	I128nA		162.5f
+	BangapRef		494.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_5 - 
+	V1000		9.387u
+	V550		7.6u
+	I32nA		27.41f
+	I128nA		109.3f
+	BangapRef		360.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_6 - 
+	V1000		4.143u
+	V550		2.795u
+	I32nA		21.05f
+	I128nA		84.16f
+	BangapRef		460.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_7 - 
+	V1000		29.74n
+	V550		32.23n
+	I32nA		113.9a
+	I128nA		431.3a
+	BangapRef		334.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_8 - 
+	V1000		5.132u
+	V550		3.375u
+	I32nA		21.52f
+	I128nA		86.08f
+	BangapRef		492.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_9 - 
+	V1000		191.2n
+	V550		163.4n
+	I32nA		445.7a
+	I128nA		1.764f
+	BangapRef		361.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_10 - 
+	V1000		8.192u
+	V550		5.68u
+	I32nA		53.18f
+	I128nA		212.6f
+	BangapRef		466.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_11 - 
+	V1000		2.625u
+	V550		2.394u
+	I32nA		10.15f
+	I128nA		39.34f
+	BangapRef		332.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_12 - 
+	V1000		10.54u
+	V550		7.313u
+	I32nA		40.57f
+	I128nA		162.3f
+	BangapRef		493.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_13 - 
+	V1000		7.219u
+	V550		5.822u
+	I32nA		27.38f
+	I128nA		109.2f
+	BangapRef		359.7m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_14 - 
+	V1000		3.143u
+	V550		2.12u
+	I32nA		21.03f
+	I128nA		84.07f
+	BangapRef		460.1m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_15 - 
+	V1000		26.29n
+	V550		26.55n
+	I32nA		113.8a
+	I128nA		430.9a
+	BangapRef		333.9m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_16 - 
+	V1000		6.766u
+	V550		4.45u
+	I32nA		21.55f
+	I128nA		86.19f
+	BangapRef		493.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_17 - 
+	V1000		240.1n
+	V550		208.8n
+	I32nA		446.3a
+	I128nA		1.767f
+	BangapRef		362.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_18 - 
+	V1000		10.8u
+	V550		7.486u
+	I32nA		53.21f
+	I128nA		212.7f
+	BangapRef		467.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_19 - 
+	V1000		3.139u
+	V550		2.971u
+	I32nA		10.16f
+	I128nA		39.38f
+	BangapRef		332.9m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_20 - 
+	V1000		13.9u
+	V550		9.642u
+	I32nA		40.62f
+	I128nA		162.5f
+	BangapRef		494.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_21 - 
+	V1000		9.387u
+	V550		7.6u
+	I32nA		27.41f
+	I128nA		109.3f
+	BangapRef		360.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_22 - 
+	V1000		4.143u
+	V550		2.795u
+	I32nA		21.05f
+	I128nA		84.16f
+	BangapRef		460.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_23 - 
+	V1000		29.74n
+	V550		32.23n
+	I32nA		113.9a
+	I128nA		431.3a
+	BangapRef		334.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_24 - 
+	V1000		5.132u
+	V550		3.375u
+	I32nA		21.52f
+	I128nA		86.08f
+	BangapRef		492.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_25 - 
+	V1000		191.2n
+	V550		163.4n
+	I32nA		445.7a
+	I128nA		1.764f
+	BangapRef		361.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_26 - 
+	V1000		8.192u
+	V550		5.68u
+	I32nA		53.18f
+	I128nA		212.6f
+	BangapRef		466.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_27 - 
+	V1000		2.625u
+	V550		2.394u
+	I32nA		10.15f
+	I128nA		39.34f
+	BangapRef		332.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_28 - 
+	V1000		10.54u
+	V550		7.313u
+	I32nA		40.57f
+	I128nA		162.3f
+	BangapRef		493.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_29 - 
+	V1000		7.219u
+	V550		5.822u
+	I32nA		27.38f
+	I128nA		109.2f
+	BangapRef		359.7m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_30 - 
+	V1000		3.143u
+	V550		2.12u
+	I32nA		21.03f
+	I128nA		84.07f
+	BangapRef		460.1m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_31 - 
+	V1000		26.29n
+	V550		26.55n
+	I32nA		113.8a
+	I128nA		430.9a
+	BangapRef		333.9m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_32 - 
+	V1000		6.766u
+	V550		4.45u
+	I32nA		21.55f
+	I128nA		86.19f
+	BangapRef		493.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_33 - 
+	V1000		240.1n
+	V550		208.8n
+	I32nA		446.3a
+	I128nA		1.767f
+	BangapRef		362.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_34 - 
+	V1000		10.8u
+	V550		7.486u
+	I32nA		53.21f
+	I128nA		212.7f
+	BangapRef		467.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_35 - 
+	V1000		3.139u
+	V550		2.971u
+	I32nA		10.16f
+	I128nA		39.38f
+	BangapRef		332.9m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_36 - 
+	V1000		13.9u
+	V550		9.642u
+	I32nA		40.62f
+	I128nA		162.5f
+	BangapRef		494.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_37 - 
+	V1000		9.387u
+	V550		7.6u
+	I32nA		27.41f
+	I128nA		109.3f
+	BangapRef		360.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_38 - 
+	V1000		4.143u
+	V550		2.795u
+	I32nA		21.05f
+	I128nA		84.16f
+	BangapRef		460.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_39 - 
+	V1000		29.74n
+	V550		32.23n
+	I32nA		113.9a
+	I128nA		431.3a
+	BangapRef		334.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_40 - 
+	V1000		5.132u
+	V550		3.375u
+	I32nA		21.52f
+	I128nA		86.08f
+	BangapRef		492.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_41 - 
+	V1000		191.2n
+	V550		163.4n
+	I32nA		445.7a
+	I128nA		1.764f
+	BangapRef		361.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_42 - 
+	V1000		8.192u
+	V550		5.68u
+	I32nA		53.18f
+	I128nA		212.6f
+	BangapRef		466.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_43 - 
+	V1000		2.625u
+	V550		2.394u
+	I32nA		10.15f
+	I128nA		39.34f
+	BangapRef		332.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_44 - 
+	V1000		10.54u
+	V550		7.313u
+	I32nA		40.57f
+	I128nA		162.3f
+	BangapRef		493.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_45 - 
+	V1000		7.219u
+	V550		5.822u
+	I32nA		27.38f
+	I128nA		109.2f
+	BangapRef		359.7m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_46 - 
+	V1000		3.143u
+	V550		2.12u
+	I32nA		21.03f
+	I128nA		84.07f
+	BangapRef		460.1m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_47 - 
+	V1000		26.29n
+	V550		26.55n
+	I32nA		113.8a
+	I128nA		430.9a
+	BangapRef		333.9m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_48 - 
+	V1000		6.766u
+	V550		4.45u
+	I32nA		21.55f
+	I128nA		86.19f
+	BangapRef		493.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_49 - 
+	V1000		240.1n
+	V550		208.8n
+	I32nA		446.3a
+	I128nA		1.767f
+	BangapRef		362.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_50 - 
+	V1000		10.8u
+	V550		7.486u
+	I32nA		53.21f
+	I128nA		212.7f
+	BangapRef		467.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_51 - 
+	V1000		3.139u
+	V550		2.971u
+	I32nA		10.16f
+	I128nA		39.38f
+	BangapRef		332.9m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_52 - 
+	V1000		13.9u
+	V550		9.642u
+	I32nA		40.62f
+	I128nA		162.5f
+	BangapRef		494.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_53 - 
+	V1000		9.387u
+	V550		7.6u
+	I32nA		27.41f
+	I128nA		109.3f
+	BangapRef		360.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_54 - 
+	V1000		4.143u
+	V550		2.795u
+	I32nA		21.05f
+	I128nA		84.16f
+	BangapRef		460.8m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_55 - 
+	V1000		29.74n
+	V550		32.23n
+	I32nA		113.9a
+	I128nA		431.3a
+	BangapRef		334.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_56 - 
+	V1000		5.132u
+	V550		3.375u
+	I32nA		21.52f
+	I128nA		86.08f
+	BangapRef		492.3m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_57 - 
+	V1000		191.2n
+	V550		163.4n
+	I32nA		445.7a
+	I128nA		1.764f
+	BangapRef		361.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_58 - 
+	V1000		8.192u
+	V550		5.68u
+	I32nA		53.18f
+	I128nA		212.6f
+	BangapRef		466.5m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_59 - 
+	V1000		2.625u
+	V550		2.394u
+	I32nA		10.15f
+	I128nA		39.34f
+	BangapRef		332.2m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_60 - 
+	V1000		10.54u
+	V550		7.313u
+	I32nA		40.57f
+	I128nA		162.3f
+	BangapRef		493.6m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_61 - 
+	V1000		7.219u
+	V550		5.822u
+	I32nA		27.38f
+	I128nA		109.2f
+	BangapRef		359.7m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_62 - 
+	V1000		3.143u
+	V550		2.12u
+	I32nA		21.03f
+	I128nA		84.07f
+	BangapRef		460.1m
+	TRAN	corner	MOS_BJT_RES_CAP_TEMP_63 - 
+	V1000		26.29n
+	V550		26.55n
+	I32nA		113.8a
+	I128nA		430.9a
+	BangapRef		333.9m
+	TRAN	corner	Nominal - 
+	V1000		2.985u
+	V550		2.378u
+	I32nA		8.925f
+	I128nA		35.61f
+	BangapRef		367.9m
+Design parameters: 
+	CL		150f
+	CONF_BG_SL_TRIM		3
+	CONF_BG_TRIM		3
+	CONF_REF_TRIM		3
+	CONF_LVDS_SEL		0
+	CONF_LDO_SEL		0
+	PD		0
+	PD_PULSE		0
+
+Interactive.139
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.139 completed. 
+Current time: Mon Jul  6 15:13:34 2026 

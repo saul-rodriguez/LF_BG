@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = BANDGAP
-	Cell         = REF_GEN_TB
-	View         = schematic
+	Library      = REF_GEN
+	Cell         = REF_GEN_f_TB
+	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.204
-	Results DB   = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.204.rdb
-	Results Dir  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.204/1/OP
-	Results Loc  = /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data
+	State Name   = OP_none_Interactive.120
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.120.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.120/1/OP
+	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
-	Setup DB loc = /home/saul/projects/LF_BG/BANDGAP/REF_GEN_TB/adexl
+	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
 	File Encoding = 0
 
 
@@ -28,7 +28,7 @@
 
 
 
-*Info*    Run start for Point ID (21 1) on testbench [ OP ].
+*Info*    Run start for Point ID (15 1) on testbench [ OP ].
 
 Resetting statistical vars
 
@@ -48,35 +48,40 @@ Setting var PD_PULSE = "0"
 Setting var TT = "1u"
 Setting var VDD = "1.2"
 Setting var VDD_PULSE = "0"
-Setting var temperature = "50C"
-Setting temp(T) = 50C
+Setting var temperature = "50.0"
+Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.204/1/OP/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.120/1/OP/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.204/1/OP
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.120/1/OP
 
 
-*Info*    Creating Netlist for Point ID (21 1)
+*Info*    Creating Netlist for Point ID (15 1)
 
 generate netlist...
-Begin Incremental Netlisting Feb 24 18:57:06 2026
-WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.189/1/TRAN/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Begin Incremental Netlisting Jul  6 12:07:22 2026
+WARNING (OSSHNL-940): Same Cell name 'trim_res_rnpolyn_2_fL' is present in multiple libraries -  REF_GEN and TEST.
+
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.93/1/OP/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
 Ensure that you have the write permission for the mentioned file.
 
-End netlisting Feb 24 18:57:06 2026
+End netlisting Jul  6 12:07:22 2026
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:  106
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ OP ] for Point ID (21 1).
+*Info*    Running simulation on testbench [ OP ] for Point ID (15 1).
 
-Delete psf data in /home/saul/simulation/BANDGAP/REF_GEN_TB/adexl/results/data/Interactive.204/1/OP/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.120/1/OP/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -90,8 +95,14 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.120/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.120/1/OP. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
+	Expression:'db(getData("/V0" ?result "xf"))'.
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (21 1) on testbench [ OP ].
+
+*Info*    Run complete for Point ID (15 1) on testbench [ OP ].
 
 
 

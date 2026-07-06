@@ -1,0 +1,36 @@
+REF_V5_fL
+
+mux8_1p_fL
+	pmos1v2hvt_4_CDNS_7832881761119
+
+trim_res_rnpolyn_2_fL
+	rnpolym_CDNS_7832881761116
+
+trim_res_array_rn_2_fL
+	trim_res_rnpolyn_2_fL
+
+mux8_1_fL
+	nmos1v2hvt_4_CDNS_7832881761123
+
+inv8_fL
+	IN2
+
+REF_V5_fL
+	pmos1v2hvt_4_CDNS_783288176110
+	nmos1v2hvt_4_CDNS_783288176118
+	pmos1v2hvt_4_CDNS_7832881761111
+	rnpolym_CDNS_7832881761116
+	rnpolym_CDNS_7832881761118
+	mux8_1p_fL
+	trim_res_array_rn_2_fL
+	mux8_1_fL
+	inv8_fL
+	pmos1v2hvt_4_CDNS_7832881761127
+	nmos1v2hvt_4_CDNS_7832881761133
+	pmos1v2hvt_4_CDNS_7832881761142
+	nmos1v2hvt_4_CDNS_7832881761143
+	rnpolym_CDNS_7832881761146
+	pmos1v2hvt_4_CDNS_7832881761147
+	pmos1v2hvt_4_CDNS_7832881761152
+	nmos1v2hvt_4_CDNS_7832881761138
+

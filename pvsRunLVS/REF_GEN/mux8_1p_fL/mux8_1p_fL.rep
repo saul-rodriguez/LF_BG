@@ -1,0 +1,32 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : mux8_1p_fL.rep
+ERC Summary File         : mux8_1p_fL.sum
+LVS Comparison Report    : mux8_1p_fL.rep.cls
+LVS Softchk Report       : mux8_1p_fL.softchk
+Layout Name              : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1p_fL/mux8_1p_fL.gds ("mux8_1p_fL")
+User Name                : saul
+Creation Time            : Thu Jun 25 14:27:37 2026
+Current directory        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/mux8_1p_fL
+PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK NW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK NW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK ARRAYPW -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUB -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUBISO -TYPE UPPER   Total Result        0 (       0)

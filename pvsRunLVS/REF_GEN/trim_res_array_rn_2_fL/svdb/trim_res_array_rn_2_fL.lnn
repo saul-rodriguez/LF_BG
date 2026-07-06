@@ -1,0 +1,17 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary trim_res_array_rn_2_fL
+% M1_M2_CDNS_783290911030 1
+% Contact_CDNS_783290911031 1
+% rnpolym_CDNS_783290911032 4
+% trim_res_rnpolyn_2_fL 4
+2 P2
+3 P1
+4 GNDA
+% trim_res_array_rn_2_fL 7
+3 SEL1
+4 P1
+5 GNDA
+6 SEL2
+7 SEL3
+8 SEL4
+16 P2

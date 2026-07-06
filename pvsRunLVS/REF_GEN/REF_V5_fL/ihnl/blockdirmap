@@ -1,0 +1,17 @@
+CADENCE IHNL111415
+
+REF_GEN mux8_1p_fL schematic cds0
+REF_GEN mux8_1_fL schematic cds1
+Si3 IN2 schematic cds2
+REF_GEN inv8_fL schematic cds3
+lf11is rnpolym_pcell_0 schematic cds4
+lf11is rnpolym_pcell_1 schematic cds5
+REF_GEN trim_res_rnpolyn_2_fL schematic cds6
+REF_GEN trim_res_array_rn_2_fL schematic cds7
+lf11is rnpolym_pcell_2 schematic cds8
+lf11is rnpolym_pcell_3 schematic cds9
+lf11is rnpolym_pcell_4 schematic cds10
+lf11is rnpolym_pcell_5 schematic cds11
+lf11is rnpolym_pcell_6 schematic cds12
+lf11is rnpolym_pcell_7 schematic cds13
+REF_GEN REF_V5_fL schematic cds14

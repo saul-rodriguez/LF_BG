@@ -1,24 +1,10 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
 \o Sub version:		sub-version  s364 
-\o Arguments:		-cdslib /home/saul/projects/LF_BG/cds.lib -mpssession virtuosoEi7eZLwuaLmTVO3weYpUaK_222856 -mpshost 60647@edatools -mpsversion 6.18 
+\o Arguments:		-cdslib /home/saul/projects/LF_BG/cds.lib -mpssession virtuosoEGnQsS4uCoj0DfOzdOw8cK_337645 -mpshost 40105@edatools -mpsversion 6.18 
 \o Working Directory:	edatools:/home/saul/projects/LF_BG
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.9.1
 \a nrSetCurrentWindow(cdsLibEditor)
-\a nrResizeWindow(cdsLibEditor list(705 300 500 400))
-\a nrListItemAction(cdsLibEditor->mainTable 41 0)
-\o Active cell: 41 0 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 41 0 "AnaCommon")
-\a nrListItemAction(cdsLibEditor->mainTable 41 1)
-\o Active cell: 41 1 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 41 1 "/home/saul/projects/lars/media/shares/si3_common/lars/AnaCommon")
-\a nrListItemAction(cdsLibEditor->mainTable 42 0)
-\o Active cell: 42 0 ""
-\a nrListItemAction(cdsLibEditor->mainTable 40 1)
-\o Active cell: 40 1 "/home/saul/projects/LF_BG/REF_GEN"
-\a nrListItemRename(cdsLibEditor->mainTable, 40 1 "./REF_GEN")
-\a nrListItemAction(cdsLibEditor->mainTable 41 0)
-\o Active cell: 41 0 "AnaCommon"
-\a cdsLibEditor->fileSaveButton->value = t
+\a nrResizeWindow(cdsLibEditor list(1664 298 500 400))
 \a exit(0)

@@ -1,0 +1,19 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary trim_res_rnpolyn_2_fL
+# XXXX: End of header.
+% R 3 R 3
+% trim_res_rnpolyn_2_fL 3 trim_res_rnpolyn_2_fL 3
+0 X24/R0 0 XR0/RR_0_0  
+0 X25/R0 0 XR11/RR_0_0  
+0 R0 0 XR1/RR_0_11  
+0 R1 0 XR1/RR_0_10  
+0 R2 0 XR1/RR_0_9  
+0 R3 0 XR1/RR_0_8  
+0 R4 0 XR1/RR_0_7  
+0 R5 0 XR1/RR_0_6  
+0 R6 0 XR1/RR_0_5  
+0 R7 0 XR1/RR_0_4  
+0 R8 0 XR1/RR_0_3  
+0 R9 0 XR1/RR_0_2  
+0 R10 0 XR1/RR_0_1  
+0 R11 0 XR1/RR_0_0  

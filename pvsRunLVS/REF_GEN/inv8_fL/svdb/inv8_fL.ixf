@@ -1,0 +1,22 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary inv8_fL
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% inv8_fL 18 inv8_fL 18
+0 X0/M1 0 XI0/MM36  
+0 X0/M0 0 XI0/MM34  
+0 X1/M1 0 XI1/MM36  
+0 X1/M0 0 XI1/MM34  
+0 X2/M1 0 XI3/MM36  
+0 X2/M0 0 XI3/MM34  
+0 X3/M1 0 XI2/MM36  
+0 X3/M0 0 XI2/MM34  
+0 X4/M1 0 XI7/MM36  
+0 X4/M0 0 XI7/MM34  
+0 X5/M1 0 XI4/MM36  
+0 X5/M0 0 XI4/MM34  
+0 X6/M1 0 XI6/MM36  
+0 X6/M0 0 XI6/MM34  
+0 X7/M1 0 XI5/MM36  
+0 X7/M0 0 XI5/MM34  

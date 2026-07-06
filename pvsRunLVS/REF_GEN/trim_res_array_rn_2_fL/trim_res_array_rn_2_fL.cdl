@@ -1,0 +1,93 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: trim_res_array_rn_2_fL
+* View Name:     schematic
+* Netlisted on:  Jul  5 22:35:11 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolym_pcell_0
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolym_pcell_0 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_0 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: lf11is
+* Cell Name:    rnpolym_pcell_1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT rnpolym_pcell_1 B MINUS PLUS w=500n l=2u m=1
+*.PININFO B:B MINUS:B PLUS:B
+RR_0_11 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_10 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_9 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_8 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_7 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_6 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_5 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_4 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_3 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_2 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_1 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+RR_0_0 PLUS MINUS $SUB=B $[rnpolym] $W=w $L=l
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    trim_res_rnpolyn_2_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT trim_res_rnpolyn_2_fL GNDA P1 P2
+*.PININFO GNDA:B P1:B P2:B
+XR0 GNDA net1 P1 / rnpolym_pcell_0 l=35u w=500n m=1
+XR11 GNDA P2 net1 / rnpolym_pcell_0 l=35u w=500n m=1
+XR1 GNDA P2 P1 / rnpolym_pcell_1 l=35u w=500n m=1
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    trim_res_array_rn_2_fL
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT trim_res_array_rn_2_fL GNDA P1 P2 SEL1 SEL2 SEL3 SEL4
+*.PININFO GNDA:B P1:B P2:B SEL1:B SEL2:B SEL3:B SEL4:B
+XI19 GNDA P2 net12 / trim_res_rnpolyn_2_fL
+XI18 GNDA P2 net12 / trim_res_rnpolyn_2_fL
+XI17 GNDA net5 net12 / trim_res_rnpolyn_2_fL
+XI16 GNDA net1 net5 / trim_res_rnpolyn_2_fL
+XI15 GNDA net7 net1 / trim_res_rnpolyn_2_fL
+XI14 GNDA net2 net7 / trim_res_rnpolyn_2_fL
+XI9 GNDA net10 net2 / trim_res_rnpolyn_2_fL
+XI8 GNDA net4 net10 / trim_res_rnpolyn_2_fL
+XI7 GNDA net11 net4 / trim_res_rnpolyn_2_fL
+XI6 GNDA SEL4 net11 / trim_res_rnpolyn_2_fL
+XI5 GNDA SEL3 SEL4 / trim_res_rnpolyn_2_fL
+XI4 GNDA SEL2 SEL3 / trim_res_rnpolyn_2_fL
+XI3 GNDA SEL1 SEL2 / trim_res_rnpolyn_2_fL
+XI2 GNDA P1 SEL1 / trim_res_rnpolyn_2_fL
+.ENDS
+

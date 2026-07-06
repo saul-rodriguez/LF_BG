@@ -1,0 +1,8 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary trim_res_rnpolyn_2_fL
+% Contact_CDNS_783001115461 1
+% rnpolym_CDNS_783001115462 4
+% trim_res_rnpolyn_2_fL 3
+1 P1
+2 P2
+5 GNDA

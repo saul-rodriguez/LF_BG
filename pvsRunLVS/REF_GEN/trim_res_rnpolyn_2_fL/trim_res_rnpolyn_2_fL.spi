@@ -1,0 +1,38 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : trim_res_rnpolyn_2_fL                        *
+* Netlisted  : Thu Jul  2 14:05:19 2026                     *
+* PVS Version: 24.11-s045 Mon Jan 27 22:18:54 PST 2025      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 R(rnpolym) RNPOLYMNW1V2 POLYG3(POS) POLYG3(NEG) NW1V2(SUB)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_783001115462                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_783001115462 2 3 4
+** N=4 EP=3 FDC=1
+R0 3 2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=4 $X=0 $Y=0 $dt=0
+.ends rnpolym_CDNS_783001115462
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: trim_res_rnpolyn_2_fL                           *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt trim_res_rnpolyn_2_fL GNDA P1 P2
+** N=6 EP=3 FDC=14
+X24 4 P1 GNDA rnpolym_CDNS_783001115462 $T=9255 745 0 0 $X=9005 $Y=5
+X25 P2 4 GNDA rnpolym_CDNS_783001115462 $T=10005 35745 1 0 $X=9755 $Y=5
+R0 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=255 $Y=745 $dt=0
+R1 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=1005 $Y=745 $dt=0
+R2 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=1755 $Y=745 $dt=0
+R3 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=2505 $Y=745 $dt=0
+R4 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=3255 $Y=745 $dt=0
+R5 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=4005 $Y=745 $dt=0
+R6 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=4755 $Y=745 $dt=0
+R7 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=5505 $Y=745 $dt=0
+R8 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=6255 $Y=745 $dt=0
+R9 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=7005 $Y=745 $dt=0
+R10 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=7755 $Y=745 $dt=0
+R11 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=8505 $Y=745 $dt=0
+.ends trim_res_rnpolyn_2_fL

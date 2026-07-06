@@ -1,0 +1,101 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : trim_res_array_rn_2_fL                       *
+* Netlisted  : Sun Jul  5 22:35:14 2026                     *
+* PVS Version: 24.11-s045 Mon Jan 27 22:18:54 PST 2025      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 R(rnpolym) RNPOLYMNW1V2 POLYG3(POS) POLYG3(NEG) NW1V2(SUB)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M1_M2_CDNS_783290911030                         *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M1_M2_CDNS_783290911030 1
+** N=1 EP=1 FDC=0
+.ends M1_M2_CDNS_783290911030
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: Contact_CDNS_783290911031                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt Contact_CDNS_783290911031 1
+** N=1 EP=1 FDC=0
+.ends Contact_CDNS_783290911031
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_783290911032                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_783290911032 1 2 3 4
+** N=4 EP=4 FDC=1
+X0 3 Contact_CDNS_783290911031 $T=-30 -520 0 0 $X=-50 $Y=-540
+X1 2 Contact_CDNS_783290911031 $T=-30 35260 0 0 $X=-50 $Y=35240
+R0 3 2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=4 $X=0 $Y=0 $dt=0
+.ends rnpolym_CDNS_783290911032
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: trim_res_rnpolyn_2_fL                           *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt trim_res_rnpolyn_2_fL 1 P2 P1 GNDA
+** N=5 EP=4 FDC=14
+X0 P1 Contact_CDNS_783290911031 $T=225 225 0 0 $X=205 $Y=205
+X1 P2 Contact_CDNS_783290911031 $T=225 36005 0 0 $X=205 $Y=35985
+X2 P1 Contact_CDNS_783290911031 $T=975 225 0 0 $X=955 $Y=205
+X3 P2 Contact_CDNS_783290911031 $T=975 36005 0 0 $X=955 $Y=35985
+X4 P1 Contact_CDNS_783290911031 $T=1725 225 0 0 $X=1705 $Y=205
+X5 P2 Contact_CDNS_783290911031 $T=1725 36005 0 0 $X=1705 $Y=35985
+X6 P1 Contact_CDNS_783290911031 $T=2475 225 0 0 $X=2455 $Y=205
+X7 P2 Contact_CDNS_783290911031 $T=2475 36005 0 0 $X=2455 $Y=35985
+X8 P1 Contact_CDNS_783290911031 $T=3225 225 0 0 $X=3205 $Y=205
+X9 P2 Contact_CDNS_783290911031 $T=3225 36005 0 0 $X=3205 $Y=35985
+X10 P1 Contact_CDNS_783290911031 $T=3975 225 0 0 $X=3955 $Y=205
+X11 P2 Contact_CDNS_783290911031 $T=3975 36005 0 0 $X=3955 $Y=35985
+X12 P1 Contact_CDNS_783290911031 $T=4725 225 0 0 $X=4705 $Y=205
+X13 P2 Contact_CDNS_783290911031 $T=4725 36005 0 0 $X=4705 $Y=35985
+X14 P1 Contact_CDNS_783290911031 $T=5475 225 0 0 $X=5455 $Y=205
+X15 P2 Contact_CDNS_783290911031 $T=5475 36005 0 0 $X=5455 $Y=35985
+X16 P1 Contact_CDNS_783290911031 $T=6225 225 0 0 $X=6205 $Y=205
+X17 P2 Contact_CDNS_783290911031 $T=6225 36005 0 0 $X=6205 $Y=35985
+X18 P1 Contact_CDNS_783290911031 $T=6975 225 0 0 $X=6955 $Y=205
+X19 P2 Contact_CDNS_783290911031 $T=6975 36005 0 0 $X=6955 $Y=35985
+X20 P1 Contact_CDNS_783290911031 $T=7725 225 0 0 $X=7705 $Y=205
+X21 P2 Contact_CDNS_783290911031 $T=7725 36005 0 0 $X=7705 $Y=35985
+X22 P1 Contact_CDNS_783290911031 $T=8475 225 0 0 $X=8455 $Y=205
+X23 P2 Contact_CDNS_783290911031 $T=8475 36005 0 0 $X=8455 $Y=35985
+X24 1 5 P1 GNDA rnpolym_CDNS_783290911032 $T=9255 745 0 0 $X=9005 $Y=5
+X25 1 P2 5 GNDA rnpolym_CDNS_783290911032 $T=10005 35745 1 0 $X=9755 $Y=5
+R0 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=255 $Y=745 $dt=0
+R1 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=1005 $Y=745 $dt=0
+R2 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=1755 $Y=745 $dt=0
+R3 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=2505 $Y=745 $dt=0
+R4 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=3255 $Y=745 $dt=0
+R5 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=4005 $Y=745 $dt=0
+R6 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=4755 $Y=745 $dt=0
+R7 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=5505 $Y=745 $dt=0
+R8 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=6255 $Y=745 $dt=0
+R9 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=7005 $Y=745 $dt=0
+R10 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=7755 $Y=745 $dt=0
+R11 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=8505 $Y=745 $dt=0
+.ends trim_res_rnpolyn_2_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: trim_res_array_rn_2_fL                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt trim_res_array_rn_2_fL GNDA P1 P2 SEL1 SEL2 SEL3 SEL4
+** N=17 EP=7 FDC=196
+X0 1 M1_M2_CDNS_783290911030 $T=129170 42990 0 0 $X=128365 $Y=42855
+X1 1 M1_M2_CDNS_783290911030 $T=134110 42990 0 0 $X=133305 $Y=42855
+X2 2 SEL1 P1 GNDA trim_res_rnpolyn_2_fL $T=5445 6855 0 0 $X=5450 $Y=6145
+X3 2 SEL2 SEL1 GNDA trim_res_rnpolyn_2_fL $T=15945 6855 0 0 $X=15950 $Y=6145
+X4 2 SEL3 SEL2 GNDA trim_res_rnpolyn_2_fL $T=26445 6855 0 0 $X=26450 $Y=6145
+X5 2 SEL4 SEL3 GNDA trim_res_rnpolyn_2_fL $T=36945 6855 0 0 $X=36950 $Y=6145
+X6 2 9 SEL4 GNDA trim_res_rnpolyn_2_fL $T=47445 6855 0 0 $X=47450 $Y=6145
+X7 2 10 9 GNDA trim_res_rnpolyn_2_fL $T=57945 6855 0 0 $X=57950 $Y=6145
+X8 2 11 10 GNDA trim_res_rnpolyn_2_fL $T=68445 6855 0 0 $X=68450 $Y=6145
+X9 2 12 11 GNDA trim_res_rnpolyn_2_fL $T=78945 6855 0 0 $X=78950 $Y=6145
+X10 2 13 12 GNDA trim_res_rnpolyn_2_fL $T=89445 6855 0 0 $X=89450 $Y=6145
+X11 2 14 13 GNDA trim_res_rnpolyn_2_fL $T=99945 6855 0 0 $X=99950 $Y=6145
+X12 2 15 14 GNDA trim_res_rnpolyn_2_fL $T=110445 6855 0 0 $X=110450 $Y=6145
+X13 2 1 15 GNDA trim_res_rnpolyn_2_fL $T=120945 6855 0 0 $X=120950 $Y=6145
+X14 2 1 P2 GNDA trim_res_rnpolyn_2_fL $T=142350 6855 1 180 $X=131595 $Y=6145
+X15 2 1 P2 GNDA trim_res_rnpolyn_2_fL $T=142105 6855 0 0 $X=142110 $Y=6145
+.ends trim_res_array_rn_2_fL

@@ -1,0 +1,32 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : trim_res_rnpolyn_2_fL.rep
+ERC Summary File         : trim_res_rnpolyn_2_fL.sum
+LVS Comparison Report    : trim_res_rnpolyn_2_fL.rep.cls
+LVS Softchk Report       : trim_res_rnpolyn_2_fL.softchk
+Layout Name              : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_rnpolyn_2_fL/trim_res_rnpolyn_2_fL.gds ("trim_res_rnpolyn_2_fL")
+User Name                : saul
+Creation Time            : Thu Jul  2 14:05:19 2026
+Current directory        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_rnpolyn_2_fL
+PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK NW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK NW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW1V2 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PW3V3 -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK ARRAYPW -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUB -TYPE UPPER   Total Result        0 (       0)
+    LVS_SOFTCHK PSUBISO -TYPE UPPER   Total Result        0 (       0)

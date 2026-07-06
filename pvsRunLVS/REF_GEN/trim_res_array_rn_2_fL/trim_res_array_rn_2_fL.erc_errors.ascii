@@ -1,0 +1,50 @@
+trim_res_array_rn_2_fL 1000
+FLOATING_PWELL
+0 0 2 Jul  5 22:35:14 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_NWELL
+0 0 2 Jul  5 22:35:14 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_PSUB
+3 3 2 Jul  5 22:35:14 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/.config.rul
+Rule File Title:  LF11IS
+p 1 4
+14450 6860
+15450 6860
+15450 43340
+14450 43340
+p 2 8
+5450 6860
+5490 6860
+5490 6145
+16160 6145
+16160 6860
+14450 6860
+14450 43340
+5450 43340
+p 3 14
+5450 5145
+153860 5145
+153860 44340
+4450 44340
+4450 5145
+5450 5145
+5450 43340
+152860 43340
+152860 6860
+152820 6860
+152820 6145
+5490 6145
+5490 6860
+5450 6860
+FLOATING_PSUBISO
+0 0 2 Jul  5 22:35:14 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/.config.rul
+Rule File Title:  LF11IS
+FLOATING_DNW
+0 0 2 Jul  5 22:35:14 2026
+Rule File Pathname: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/trim_res_array_rn_2_fL/.config.rul
+Rule File Title:  LF11IS
