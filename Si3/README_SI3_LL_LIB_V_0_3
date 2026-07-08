@@ -1,0 +1,48 @@
+
+
+V0.2
+
+Added DTF and deleted LS and LSN
+
+V0.1
+
+This file describes the low-leakage stadard cell library developed for Si3 using lf11. There are 24 cells at schematic, layout, and symbol level. The cells are DRC/LVS checked.
+
+Library name: Si3
+
+
+Data from lf11isdhv7s library:
+
+Width	INV_X1		1.2
+Width	FILLCELL_X1	0.4
+
+
+Height of all cells: 2.8
+
+
+Name Si3	Name LF11 ?	Width	Width(INV_X1)	Width(FILLCELL_X1)	Notes		
+AN2		AND2_X1 	2.4 	2		6
+BU1		BUF_X1		2.0	1.667		5
+BU2		BUF_X2		3.2	2.667		8
+CG1		CLKGATE_X1	5.6	4.667		14			Gated clock	
+DL5		dEL_1N_x10?	17.2	14.333		43
+DNR		?		7.2	6		18			D flip-flop with Clock Negative input and Reset Positive (H) 
+DNRS		?		7.2	6		18			D flip-flop with Clock Negative input and Reset Positive (H) and scan  
+DNSS		?		9.6	8		24			D flip-flop with Clock Negative input and Set Positive (H) and scan  
+DR		?		7.2	6		18			D flip-flop with Clock Positive input and Reset Positive (H)
+DRS		?		9.2	7.667		23			D flip-flop with Clock Positive input and Reset Positive (H) and scan
+DS		?		7.6	6.333		19			D flip-flop with Clock Positive input and Set Positive (H)
+DSS		?		9.6	8		24			D flip-flop with Clock Positive input and Set Positive (H) and scan
+IN		INV_X1		1.2	1		3
+IN2		INV_X2		1.2	1		3
+LN1		LN_X1		3.2	2.667		8			Latch
+MX2		MUX2_X1		2.4	2		6
+NA2		NAND2_X1	1.6	1.333		4
+NA3		NAND3_X1	2	1.667		5
+NO2		NOR2_X1		1.6	1.333		4
+NO3		NOR3_X1		2	1.667		5
+OR2		OR2_X1		2	1.667		5
+TH		LOGIC1		1.2	1		3
+TL		LOGIC0		1.2	1		3
+XO2		XOR2_X1		2.4	2		6
+DTF		?		9.6	8		24			Dual-flank triggered flip-flop.
