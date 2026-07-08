@@ -1,0 +1,14 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% LS 7
+MM1 MN 4
+MM0 MN 4
+MM34 MN 4
+MM3 MP 4
+MM2 MP 4
+MM36 MP 4
+% LS2 8
+XI1 LS 7
+XI0 LS 7

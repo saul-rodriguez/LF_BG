@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : LS3_722523.db
+ECDB dir        : ./
+Top Cell        : LS3
+CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/svdb/LS3.net
+Layer map file  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/svdb/LS3.ecdbmap
+Text map file   : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/svdb/LS3.ports
+Dependency map  : LS3.lmap.perc
+Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/svdb/LS3.lvsfile
+Float net file  : .LS3.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : LS3_722523

@@ -1,0 +1,47 @@
+Device_Table 1000
+0 0 1 Wed Jul  8 11:58:28 2026
+2
+Device Entry 0
+0 0 20 Wed Jul  8 11:58:28 2026
+NMOS1V2HVT
+MOS
+MN
+nmos1v2hvt
+(null)
+nmos1v2hvt
+4
+G NGATE 0
+S NDIFF 1
+D NDIFF 1
+B PW1V2 0
+0
+7
+W
+L
+AS
+AD
+PS
+PD
+M
+Device Entry 1
+0 0 20 Wed Jul  8 11:58:28 2026
+PMOS1V2HVT
+MOS
+MP
+pmos1v2hvt
+(null)
+pmos1v2hvt
+4
+G PGATE 0
+S PDIFF 1
+D PDIFF 1
+B NW1V2 0
+0
+7
+W
+L
+AS
+AD
+PS
+PD
+M

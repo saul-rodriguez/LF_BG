@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"AnaCommon"
+logFile	"/home/saul/projects/LF_BG/pvsRunLVS/AnaCommon/LS/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/saul/projects/LF_BG/pvsRunLVS/AnaCommon/LS"
+strmFile	"/home/saul/projects/LF_BG/pvsRunLVS/AnaCommon/LS/LS.gds"
+strmVersion	5
+techLib	"lf11is"
+topCell	"LS"
+view	"layout"

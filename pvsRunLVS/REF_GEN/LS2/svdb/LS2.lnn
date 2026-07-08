@@ -1,0 +1,19 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary LS2
+% LS 7
+1 IN
+2 OUTN
+3 OUT
+4 VDDD
+5 VSSD
+6 VDD
+7 VSS
+% LS2 8
+1 IN0
+3 OUT0
+4 VDDD
+5 GNDD
+6 VDDA
+7 GNDA
+8 IN1
+10 OUT1

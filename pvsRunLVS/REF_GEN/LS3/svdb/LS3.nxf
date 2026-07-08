@@ -1,0 +1,30 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary LS3
+# XXXX: End of header.
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% LS3 10 LS3 10 
+0 4 0 net18
+0 9 0 net12
+0 12 0 net6
+0 GNDA 0 GNDA
+0 GNDD 0 GNDD
+0 IN0 0 IN0
+0 IN1 0 IN1
+0 IN2 0 IN2
+0 OUT0 0 OUT0
+0 OUT1 0 OUT1
+0 OUT2 0 OUT2
+0 VDDA 0 VDDA
+0 VDDD 0 VDDD
+0 X4/8 0 XI2/net5
+0 X5/8 0 XI1/net5
+0 X6/8 0 XI0/net5

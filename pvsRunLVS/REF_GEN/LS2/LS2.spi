@@ -1,0 +1,32 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : LS2                                          *
+* Netlisted  : Wed Jul  8 12:14:23 2026                     *
+* PVS Version: 24.11-s045 Mon Jan 27 22:18:54 PST 2025      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(nmos1v2hvt) NMOS1V2HVT NDIFF(D) NGATE(G) NDIFF(S) PW1V2(B)
+*.DEVTMPLT 1 MP(pmos1v2hvt) PMOS1V2HVT PDIFF(D) PGATE(G) PDIFF(S) NW1V2(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: LS                                              *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt LS IN OUTN OUT VDDD VSSD VDD VSS
+** N=8 EP=7 FDC=6
+M0 VSSD IN 8 VSSD nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=7.8e-14 PD=8.6e-07 PS=8.6e-07 m=1 $X=375 $Y=730 $dt=0
+M1 VSS IN OUTN VSS nmos1v2hvt L=1.1e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=1595 $Y=390 $dt=0
+M2 OUT 8 VSS VSS nmos1v2hvt L=1.1e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=2045 $Y=390 $dt=0
+M3 VDDD IN 8 VDDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=7.8e-14 PD=8.6e-07 PS=8.6e-07 m=1 $X=410 $Y=1910 $dt=1
+M4 VDD OUT OUTN VDD pmos1v2hvt L=1.97e-06 W=1.5e-07 AD=1.981e-13 AS=1.216e-13 PD=2.63e-06 PS=1.61e-06 m=1 $X=2225 $Y=1480 $dt=1
+M5 VDD OUTN OUT VDD pmos1v2hvt L=1.97e-06 W=1.5e-07 AD=1.981e-13 AS=8.26e-14 PD=2.63e-06 PS=1.09e-06 m=1 $X=2225 $Y=2260 $dt=1
+.ends LS
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: LS2                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt LS2 GNDA GNDD IN0 IN1 OUT0 OUT1 VDDA VDDD
+** N=10 EP=8 FDC=12
+X0 IN0 2 OUT0 VDDD GNDD VDDA GNDA LS $T=225 250 0 0 $X=0 $Y=0
+X1 IN1 9 OUT1 VDDD GNDD VDDA GNDA LS $T=225 6250 1 0 $X=0 $Y=3200
+.ends LS2

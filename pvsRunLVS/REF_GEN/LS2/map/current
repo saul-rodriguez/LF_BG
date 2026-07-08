@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "LS2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS2/"
+ )
+( model
+( "REF_GEN/LS2/schematic" "LS2" )
+( "AnaCommon/LS/schematic" "LS" )
+ )
+( "LS2" "ihnl/cds1/map" )
+( "LS" "ihnl/cds0/map" )
+ )

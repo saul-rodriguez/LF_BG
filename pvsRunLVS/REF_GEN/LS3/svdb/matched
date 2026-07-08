@@ -1,0 +1,35 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.11-s045
+#####  NVN Run Start                 :   Wed Jul  8 12:52:34 2026
+#####  ERC Summary File              :   LS3.sum
+#####  Extraction Report File        :   LS3.rep
+#####  Comparison Report File        :   LS3.rep.cls
+#####  Top Cell                      :   LS3  <vs>  LS3
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   REF_GEN LS3 layout
+#####  Schematic File                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/LS3.cdl (cdl)
+#####  Rules File                    :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/.config.rul
+#####                                :   /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/.technology.rul
+#####  Pin Swap File                 :   LS3.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 0s - (0s)
+#####  Extraction Peak Memory Usage  :   26.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   262.28MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
+#####  LVS Total Peak Memory Usage   :   262.28MB
+#####  
+##############################################################################################################
+
+
