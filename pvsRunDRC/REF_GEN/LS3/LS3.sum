@@ -1,7 +1,7 @@
 ********************************************************************************
 *** PVS HDRC SUMMARY
 ***
-Execute on Date/Time    : Wed Jul  8 12:52:08 2026
+Execute on Date/Time    : Tue Jul 28 08:51:55 2026
 PVS HDRC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/LS3/.config.rul
 Rule Deck Title         : LF11IS
@@ -75,7 +75,7 @@ LAYER PPLUSLD .................... Total Original Geometry:        0 (       0)
 LAYER NPLUSLDH ................... Total Original Geometry:        0 (       0)
 LAYER PPLUSLDH ................... Total Original Geometry:        0 (       0)
 LAYER NPLUS ...................... Total Original Geometry:        5 (      11)
-LAYER PPLUS ...................... Total Original Geometry:        6 (      14)
+LAYER PPLUS ...................... Total Original Geometry:        7 (      15)
 LAYER HVNPLUS .................... Total Original Geometry:        0 (       0)
 LAYER HVPPLUS .................... Total Original Geometry:        0 (       0)
 LAYER METAL1base ................. Total Original Geometry:       31 (      61)
@@ -964,7 +964,7 @@ RULECHECK SDN.08 ..................... Total Result      0 (       0)
 RULECHECK SDN.11 ..................... Total Result      0 (       0)
 RULECHECK SDN.12 ..................... Total Result      0 (       0)
 RULECHECK SDP.01 ..................... Total Result      0 (       0)
-RULECHECK SDP.02 ..................... Total Result      1 (       1)
+RULECHECK SDP.02 ..................... Total Result      0 (       0)
 RULECHECK SDP.03.SRAM.a .............. Total Result      0 (       0)
 RULECHECK SDP.03.SRAM.c .............. Total Result      0 (       0)
 RULECHECK SDP.03.a ................... Total Result      0 (       0)
@@ -1081,6 +1081,6 @@ RULECHECK noDRC.10 ................... Total Result      0 (       0)
 Total CPU Time                    : 0(s)
 Total Real Time                   : 1(s)
 Peak Memory Used                  : 32(M)
-Total Original Geometry           : 138 (334)
+Total Original Geometry           : 139 (335)
 Total DRC RuleChecks              : 856
-Total DRC Results                 : 8 (8)
+Total DRC Results                 : 7 (7)

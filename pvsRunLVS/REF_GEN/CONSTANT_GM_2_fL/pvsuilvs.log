@@ -38,7 +38,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.36 
-Started at: 15-Jun-2026  11:22:58
+Started at: 28-Jul-2026  08:45:47
 User Name : saul
 Host Name : edatools
 Directory : /home/saul/projects/LF_BG
@@ -76,54 +76,54 @@ convertDot                              node
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
 *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/layout' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
-INFO (XSTRM-223): 1. Translating stdVia lf11is/PG_M1/layout as STRUCTURE PG_M1_CDNS_781522578890.
-INFO (XSTRM-223): 2. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578891.
-INFO (XSTRM-223): 3. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578892.
-INFO (XSTRM-223): 4. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578893.
-INFO (XSTRM-223): 5. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578894.
-INFO (XSTRM-223): 6. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578895.
-INFO (XSTRM-223): 7. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578896.
-INFO (XSTRM-223): 8. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578897.
-INFO (XSTRM-223): 9. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_781522578898.
-INFO (XSTRM-223): 10. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522578899.
-INFO (XSTRM-223): 11. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7815225788910.
-INFO (XSTRM-223): 12. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7815225788911.
+INFO (XSTRM-223): 1. Translating stdVia lf11is/PG_M1/layout as STRUCTURE PG_M1_CDNS_785228347470.
+INFO (XSTRM-223): 2. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347471.
+INFO (XSTRM-223): 3. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347472.
+INFO (XSTRM-223): 4. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347473.
+INFO (XSTRM-223): 5. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347474.
+INFO (XSTRM-223): 6. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347475.
+INFO (XSTRM-223): 7. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347476.
+INFO (XSTRM-223): 8. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347477.
+INFO (XSTRM-223): 9. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_785228347478.
+INFO (XSTRM-223): 10. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228347479.
+INFO (XSTRM-223): 11. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7852283474710.
+INFO (XSTRM-223): 12. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7852283474711.
 *WARNING* (DB-220704): The Pcell super master 'lf11is/ncap1v2hvt/layout' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
 *WARNING* (DB-220704): The Pcell super master 'lf11is/Contact/layout' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
-INFO (XSTRM-223): 13. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522578891.
-INFO (XSTRM-223): 14. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522578892.
-INFO (XSTRM-223): 15. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522578893.
-INFO (XSTRM-223): 16. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_781522578894.
-INFO (XSTRM-223): 17. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781522578890.
-INFO (XSTRM-223): 18. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_781522578896.
-INFO (XSTRM-223): 19. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522578897.
-INFO (XSTRM-223): 20. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781522578895.
-INFO (XSTRM-223): 21. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522578899.
-INFO (XSTRM-223): 22. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225788910.
-INFO (XSTRM-223): 23. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781522578898.
-INFO (XSTRM-223): 24. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225788912.
-INFO (XSTRM-223): 25. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225788913.
-INFO (XSTRM-223): 26. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225788911.
-INFO (XSTRM-223): 27. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225788915.
-INFO (XSTRM-223): 28. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225788914.
-INFO (XSTRM-223): 29. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7815225788916.
-INFO (XSTRM-223): 30. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225788918.
-INFO (XSTRM-223): 31. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225788917.
-INFO (XSTRM-223): 32. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225788920.
-INFO (XSTRM-223): 33. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7815225788919.
-INFO (XSTRM-223): 34. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225788922.
-INFO (XSTRM-223): 35. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225788921.
-INFO (XSTRM-223): 36. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225788924.
-INFO (XSTRM-223): 37. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225788925.
-INFO (XSTRM-223): 38. Translating cellView lf11is/ncap1v2hvt/layout as STRUCTURE ncap1v2hvt_CDNS_7815225788923.
-INFO (XSTRM-223): 39. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225788927.
-INFO (XSTRM-223): 40. Translating cellView lf11is/rnpolym/layout as STRUCTURE rnpolym_CDNS_7815225788926.
-INFO (XSTRM-223): 41. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225788928.
-INFO (XSTRM-223): 42. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225788930.
-INFO (XSTRM-223): 43. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225788931.
-INFO (XSTRM-223): 44. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225788929.
+INFO (XSTRM-223): 13. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228347471.
+INFO (XSTRM-223): 14. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228347472.
+INFO (XSTRM-223): 15. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228347473.
+INFO (XSTRM-223): 16. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_785228347474.
+INFO (XSTRM-223): 17. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_785228347470.
+INFO (XSTRM-223): 18. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_785228347476.
+INFO (XSTRM-223): 19. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228347477.
+INFO (XSTRM-223): 20. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_785228347475.
+INFO (XSTRM-223): 21. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228347479.
+INFO (XSTRM-223): 22. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283474710.
+INFO (XSTRM-223): 23. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_785228347478.
+INFO (XSTRM-223): 24. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283474712.
+INFO (XSTRM-223): 25. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283474713.
+INFO (XSTRM-223): 26. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283474711.
+INFO (XSTRM-223): 27. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283474715.
+INFO (XSTRM-223): 28. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283474714.
+INFO (XSTRM-223): 29. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7852283474716.
+INFO (XSTRM-223): 30. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283474718.
+INFO (XSTRM-223): 31. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283474717.
+INFO (XSTRM-223): 32. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283474720.
+INFO (XSTRM-223): 33. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7852283474719.
+INFO (XSTRM-223): 34. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283474722.
+INFO (XSTRM-223): 35. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283474721.
+INFO (XSTRM-223): 36. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283474724.
+INFO (XSTRM-223): 37. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283474725.
+INFO (XSTRM-223): 38. Translating cellView lf11is/ncap1v2hvt/layout as STRUCTURE ncap1v2hvt_CDNS_7852283474723.
+INFO (XSTRM-223): 39. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283474727.
+INFO (XSTRM-223): 40. Translating cellView lf11is/rnpolym/layout as STRUCTURE rnpolym_CDNS_7852283474726.
+INFO (XSTRM-223): 41. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283474728.
+INFO (XSTRM-223): 42. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283474730.
+INFO (XSTRM-223): 43. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283474731.
+INFO (XSTRM-223): 44. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283474729.
 INFO (XSTRM-223): 45. Translating cellView REF_GEN/CONSTANT_GM_2_fL/layout as STRUCTURE CONSTANT_GM_2_fL.
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
 
@@ -132,7 +132,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  8
-	Rectangles:                             2801
+	Rectangles:                             3350
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -152,7 +152,7 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  45
 
-Elapsed Time: 0.6s   User Time: 0.5s   CPU Time: 0.0s   Peak VM: 32320KB
+Elapsed Time: 0.5s   User Time: 0.5s   CPU Time: 0.0s   Peak VM: 32264KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
 
 Creation of CDL for REF_GEN/CONSTANT_GM_2_fL/schematic is started
@@ -170,7 +170,7 @@ Running simulation in directory: "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CO
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
 Loading cdf.cxt 
-End netlisting Jun 15 11:22:59 2026
+End netlisting Jul 28 08:45:48 2026
 
 Running simin
 
@@ -178,10 +178,10 @@ Running runSim()...
 
 
 Running runsim with simulator: "auCdl"
-Begin simulation:    Jun 15 11:22:59 2026
+Begin simulation:    Jul 28 08:45:48 2026
 
 auCdl netlisting completed
-End simulation:      Jun 15 11:22:59 2026
+End simulation:      Jul 28 08:45:48 2026
 INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.
 
 ********************************************************************************
@@ -192,9 +192,9 @@ Copyright 2025 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
-Executed on:     edatools (Linux x86_64 6.17.0-29-generic)
-Process Id:      1478254
-Starting Time:   Mon Jun 15 11:23:02 2026 (Mon Jun 15 11:23:02 2026 GMT)
+Executed on:     edatools (Linux x86_64 6.17.0-35-generic)
+Process Id:      948244
+Starting Time:   Tue Jul 28 08:45:51 2026 (Tue Jul 28 08:45:51 2026 GMT)
 With parameters: -lvs -top_cell CONSTANT_GM_2_fL -source_top_cell CONSTANT_GM_2_fL -spice /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/CONSTANT_GM_2_fL.spi -rc_data -control /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/pvslvsctl -ui_data -gdb_data -ai /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.technology.rul 
 ********************************************************************************
 
@@ -204,7 +204,7 @@ Get host info ...
 ########################################################################
 CPU info:
     model name      :  11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
-    cpu MHz         :  4314.084
+    cpu MHz         :  800.000
     cache size      :  16384 KB
     physical cores  :  8
     logical cores   :  16
@@ -214,50 +214,50 @@ Memory info:
     64044M physical memory installed.
 
     MemTotal:       65583164 kB
-    MemFree:        20918960 kB
-    MemAvailable:   54762916 kB
-    Buffers:         3061308 kB
-    Cached:         27677064 kB
-    SwapCached:            0 kB
-    Active:         18668728 kB
-    Inactive:       20415508 kB
-    Active(anon):    7836092 kB
-    Inactive(anon):        0 kB
-    Active(file):   10832636 kB
-    Inactive(file): 20415508 kB
-    Unevictable:        8160 kB
-    Mlocked:             184 kB
+    MemFree:         3347284 kB
+    MemAvailable:   57509440 kB
+    Buffers:         2034820 kB
+    Cached:         49031936 kB
+    SwapCached:            8 kB
+    Active:         13788196 kB
+    Inactive:       42114844 kB
+    Active(anon):    4245104 kB
+    Inactive(anon):   890128 kB
+    Active(file):    9543092 kB
+    Inactive(file): 41224716 kB
+    Unevictable:        8056 kB
+    Mlocked:              80 kB
     SwapTotal:       8388604 kB
-    SwapFree:        8388604 kB
+    SwapFree:        8388596 kB
     Zswap:                 0 kB
     Zswapped:              0 kB
-    Dirty:             11124 kB
-    Writeback:             0 kB
-    AnonPages:       8354240 kB
-    Mapped:          2830576 kB
-    Shmem:            694464 kB
-    KReclaimable:    3323268 kB
-    Slab:            4248404 kB
-    SReclaimable:    3323268 kB
-    SUnreclaim:       925136 kB
-    KernelStack:       34248 kB
-    PageTables:       550720 kB
-    SecPageTables:      6772 kB
+    Dirty:              3728 kB
+    Writeback:             4 kB
+    AnonPages:       4844448 kB
+    Mapped:          2049772 kB
+    Shmem:            298944 kB
+    KReclaimable:    4121804 kB
+    Slab:            5092840 kB
+    SReclaimable:    4121804 kB
+    SUnreclaim:       971036 kB
+    KernelStack:       25400 kB
+    PageTables:       538228 kB
+    SecPageTables:      6316 kB
     NFS_Unstable:          0 kB
     Bounce:                0 kB
     WritebackTmp:          0 kB
     CommitLimit:    41180184 kB
-    Committed_AS:   914926764 kB
+    Committed_AS:   960603116 kB
     VmallocTotal:   34359738367 kB
-    VmallocUsed:      273356 kB
+    VmallocUsed:      262988 kB
     VmallocChunk:          0 kB
-    Percpu:            69376 kB
+    Percpu:            58368 kB
     HardwareCorrupted:     0 kB
     AnonHugePages:         0 kB
     ShmemHugePages:     6144 kB
     ShmemPmdMapped:        0 kB
-    FileHugePages:   1105920 kB
-    FilePmdMapped:     81920 kB
+    FileHugePages:   4671488 kB
+    FilePmdMapped:     59392 kB
     CmaTotal:              0 kB
     CmaFree:               0 kB
     Unaccepted:            0 kB
@@ -268,9 +268,9 @@ Memory info:
     HugePages_Surp:        0
     Hugepagesize:       2048 kB
     Hugetlb:               0 kB
-    DirectMap4k:     3816048 kB
-    DirectMap2M:    34719744 kB
-    DirectMap1G:    29360128 kB
+    DirectMap4k:     1946224 kB
+    DirectMap2M:    22958080 kB
+    DirectMap1G:    42991616 kB
 
 
 ########################################################################
@@ -1852,7 +1852,7 @@ Operation 'SELECT -inside' at line 234 in file /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/
 Operation 'OR' at line 235 in file /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/pvs/common/./lvs/pvs.lvs is not selected for executing, remove it.
 Operation 'SELECT -enclose' at line 322 in file /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/pvs/common/./lvs/pvs.lvs is not selected for executing, remove it.
 Operation 'SELECT -interact' at line 383 in file /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/pvs/common/./lvs/pvs.lvs is not selected for executing, remove it.
-Time: cpu=0.07/0.07  real=0.13/0.13  Memory: 8.27/8.33/11.60  peak=11.60
+Time: cpu=0.07/0.07  real=0.12/0.12  Memory: 8.27/8.33/11.60  peak=11.60
 
 
 ########################################################################
@@ -1862,116 +1862,116 @@ Parsing Layer Mapping File CONSTANT_GM_2_fL.lmap ...
 
 GDSII Input Summary
 
-Date: Mon Jun 15 11:23:03 2026
+Date: Tue Jul 28 08:45:51 2026
 GDSII file: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/CONSTANT_GM_2_fL.gds
-GDSII size: 206848
+GDSII size: 243712
 GDSII version: 5.0
 GDSII library name: REF_GEN
-Last Modified: 19:13:51 6/14/2026
-Last Accessed: 11:22:58 6/15/2026
+Last Modified: 9:16:48 7/8/2026
+Last Accessed: 8:45:47 7/28/2026
 data base unit in user units    : 0.001
 physical size of data base unit : 1e-09
 magnification: 1
 
-loading cell PG_M1_CDNS_781522578890 ...
-loading cell M1_M2_CDNS_781522578891 ...
-loading cell M1_M2_CDNS_781522578892 ...
-loading cell M1_M2_CDNS_781522578893 ...
-loading cell M1_M2_CDNS_781522578894 ...
-loading cell M1_M2_CDNS_781522578895 ...
-loading cell M1_M2_CDNS_781522578896 ...
-loading cell M1_M2_CDNS_781522578897 ...
-loading cell M2_M3_CDNS_781522578898 ...
-loading cell M1_M2_CDNS_781522578899 ...
-loading cell M2_M3_CDNS_7815225788910 ...
-loading cell M2_M3_CDNS_7815225788911 ...
-loading cell Contact_CDNS_781522578891 ...
-loading cell Contact_CDNS_781522578892 ...
-loading cell Contact_CDNS_781522578893 ...
-loading cell AbutContact_CDNS_781522578894 ...
-loading cell nmos1v2hvt_4_CDNS_781522578890 ...
-loading cell AbutContact_CDNS_781522578896 ...
-loading cell Contact_CDNS_781522578897 ...
-loading cell nmos1v2hvt_4_CDNS_781522578895 ...
-loading cell Contact_CDNS_781522578899 ...
-loading cell AbutContact_CDNS_7815225788910 ...
-loading cell nmos1v2hvt_4_CDNS_781522578898 ...
-loading cell Contact_CDNS_7815225788912 ...
-loading cell AbutContact_CDNS_7815225788913 ...
-loading cell pmos1v2hvt_4_CDNS_7815225788911 ...
-loading cell AbutContact_CDNS_7815225788915 ...
-loading cell pmos1v2hvt_4_CDNS_7815225788914 ...
-loading cell nmos1v2hvt_4_CDNS_7815225788916 ...
-loading cell Contact_CDNS_7815225788918 ...
-loading cell pmos1v2hvt_4_CDNS_7815225788917 ...
-loading cell AbutContact_CDNS_7815225788920 ...
-loading cell nmos1v2hvt_4_CDNS_7815225788919 ...
-loading cell AbutContact_CDNS_7815225788922 ...
-loading cell pmos1v2hvt_4_CDNS_7815225788921 ...
-loading cell Contact_CDNS_7815225788924 ...
-loading cell Contact_CDNS_7815225788925 ...
-loading cell ncap1v2hvt_CDNS_7815225788923 ...
-loading cell Contact_CDNS_7815225788927 ...
-loading cell rnpolym_CDNS_7815225788926 ...
-loading cell pmos1v2hvt_4_CDNS_7815225788928 ...
-loading cell Contact_CDNS_7815225788930 ...
-loading cell AbutContact_CDNS_7815225788931 ...
-loading cell pmos1v2hvt_4_CDNS_7815225788929 ...
+loading cell PG_M1_CDNS_785228347470 ...
+loading cell M1_M2_CDNS_785228347471 ...
+loading cell M1_M2_CDNS_785228347472 ...
+loading cell M1_M2_CDNS_785228347473 ...
+loading cell M1_M2_CDNS_785228347474 ...
+loading cell M1_M2_CDNS_785228347475 ...
+loading cell M1_M2_CDNS_785228347476 ...
+loading cell M1_M2_CDNS_785228347477 ...
+loading cell M2_M3_CDNS_785228347478 ...
+loading cell M1_M2_CDNS_785228347479 ...
+loading cell M2_M3_CDNS_7852283474710 ...
+loading cell M2_M3_CDNS_7852283474711 ...
+loading cell Contact_CDNS_785228347471 ...
+loading cell Contact_CDNS_785228347472 ...
+loading cell Contact_CDNS_785228347473 ...
+loading cell AbutContact_CDNS_785228347474 ...
+loading cell nmos1v2hvt_4_CDNS_785228347470 ...
+loading cell AbutContact_CDNS_785228347476 ...
+loading cell Contact_CDNS_785228347477 ...
+loading cell nmos1v2hvt_4_CDNS_785228347475 ...
+loading cell Contact_CDNS_785228347479 ...
+loading cell AbutContact_CDNS_7852283474710 ...
+loading cell nmos1v2hvt_4_CDNS_785228347478 ...
+loading cell Contact_CDNS_7852283474712 ...
+loading cell AbutContact_CDNS_7852283474713 ...
+loading cell pmos1v2hvt_4_CDNS_7852283474711 ...
+loading cell AbutContact_CDNS_7852283474715 ...
+loading cell pmos1v2hvt_4_CDNS_7852283474714 ...
+loading cell nmos1v2hvt_4_CDNS_7852283474716 ...
+loading cell Contact_CDNS_7852283474718 ...
+loading cell pmos1v2hvt_4_CDNS_7852283474717 ...
+loading cell AbutContact_CDNS_7852283474720 ...
+loading cell nmos1v2hvt_4_CDNS_7852283474719 ...
+loading cell AbutContact_CDNS_7852283474722 ...
+loading cell pmos1v2hvt_4_CDNS_7852283474721 ...
+loading cell Contact_CDNS_7852283474724 ...
+loading cell Contact_CDNS_7852283474725 ...
+loading cell ncap1v2hvt_CDNS_7852283474723 ...
+loading cell Contact_CDNS_7852283474727 ...
+loading cell rnpolym_CDNS_7852283474726 ...
+loading cell pmos1v2hvt_4_CDNS_7852283474728 ...
+loading cell Contact_CDNS_7852283474730 ...
+loading cell AbutContact_CDNS_7852283474731 ...
+loading cell pmos1v2hvt_4_CDNS_7852283474729 ...
 loading cell CONSTANT_GM_2_fL ...
-Time: cpu=0.00/0.08  real=0.01/0.14  Memory: 20.35/20.48/21.49  peak=21.49
+Time: cpu=0.00/0.07  real=0.01/0.13  Memory: 20.35/20.48/21.49  peak=21.49
 
 
 Cell Summary:
 ----------------------------------------------------------------------------
     CELL                               INSTANCE    GEOMETRY      LABELS        HREF        FREF
 ----------------------------------------------------------------------------
-PG_M1_CDNS_781522578890                       0           6           0           6           6
-M1_M2_CDNS_781522578891                       0           4           0           2           2
-M1_M2_CDNS_781522578892                       0           6           0           6           6
-M1_M2_CDNS_781522578893                       0           6           0           2           2
-M1_M2_CDNS_781522578894                       0           5           0           5           5
-M1_M2_CDNS_781522578895                       0          10           0           1           1
-M1_M2_CDNS_781522578896                       0           8           0           1           1
-M1_M2_CDNS_781522578897                       0           8           0           1           1
-M2_M3_CDNS_781522578898                       0          26           0           4           4
-M1_M2_CDNS_781522578899                       0           8           0           1           1
-M2_M3_CDNS_7815225788910                      0          62           0           2           2
-M2_M3_CDNS_7815225788911                      0          42           0           2           2
-Contact_CDNS_781522578891                     0          35           0          15          60
-Contact_CDNS_781522578892                     0          30           0          11          46
-Contact_CDNS_781522578893                     0           5           0           2           7
-AbutContact_CDNS_781522578894                 0          12           0           2           7
-nmos1v2hvt_4_CDNS_781522578890                5          19           0           4           4
-AbutContact_CDNS_781522578896                 0           7           0           1           2
-Contact_CDNS_781522578897                     0           5           0           6          10
-nmos1v2hvt_4_CDNS_781522578895                3          15           0           2           2
-Contact_CDNS_781522578899                     0          18           0           1           2
-AbutContact_CDNS_7815225788910                0          38           0           1           2
-nmos1v2hvt_4_CDNS_781522578898                6          20           0           2           2
-Contact_CDNS_7815225788912                    0          10           0           2          16
-AbutContact_CDNS_7815225788913                0          22           0           2          16
-pmos1v2hvt_4_CDNS_7815225788911               5          18           0           4           4
-AbutContact_CDNS_7815225788915                0           7           0           2           4
-pmos1v2hvt_4_CDNS_7815225788914               3          14           0           2           2
-nmos1v2hvt_4_CDNS_7815225788916               4          18           0           3           3
-Contact_CDNS_7815225788918                    0           8           0           4           6
-pmos1v2hvt_4_CDNS_7815225788917               3          14           0           2           2
-AbutContact_CDNS_7815225788920                0           8           0           1           1
-nmos1v2hvt_4_CDNS_7815225788919               3          15           0           1           1
-AbutContact_CDNS_7815225788922                0           8           0           1           1
-pmos1v2hvt_4_CDNS_7815225788921               3          14           0           1           1
-Contact_CDNS_7815225788924                    0          68           0           2          16
-Contact_CDNS_7815225788925                    0          49           0           1           8
-ncap1v2hvt_CDNS_7815225788923                 3          19           0           8           8
-Contact_CDNS_7815225788927                    0           4           0         150         300
-rnpolym_CDNS_7815225788926                  150         531           0           2           2
-pmos1v2hvt_4_CDNS_7815225788928               6          19           0          12          12
-Contact_CDNS_7815225788930                    0          37           0           1           2
-AbutContact_CDNS_7815225788931                0          75           0           1           2
-pmos1v2hvt_4_CDNS_7815225788929              12          40           0           2           2
-CONSTANT_GM_2_fL                             78        1557           5           1           1
+PG_M1_CDNS_785228347470                       0           6           0           6           6
+M1_M2_CDNS_785228347471                       0           4           0           2           2
+M1_M2_CDNS_785228347472                       0           6           0           6           6
+M1_M2_CDNS_785228347473                       0           6           0           2           2
+M1_M2_CDNS_785228347474                       0           5           0           5           5
+M1_M2_CDNS_785228347475                       0          10           0           1           1
+M1_M2_CDNS_785228347476                       0           8           0           1           1
+M1_M2_CDNS_785228347477                       0           8           0           1           1
+M2_M3_CDNS_785228347478                       0          26           0           4           4
+M1_M2_CDNS_785228347479                       0           8           0           1           1
+M2_M3_CDNS_7852283474710                      0          62           0           2           2
+M2_M3_CDNS_7852283474711                      0          42           0           2           2
+Contact_CDNS_785228347471                     0          35           0          15          60
+Contact_CDNS_785228347472                     0          30           0          11          46
+Contact_CDNS_785228347473                     0           5           0           2           7
+AbutContact_CDNS_785228347474                 0          12           0           2           7
+nmos1v2hvt_4_CDNS_785228347470                5          19           0           4           4
+AbutContact_CDNS_785228347476                 0           7           0           1           2
+Contact_CDNS_785228347477                     0           5           0           6          10
+nmos1v2hvt_4_CDNS_785228347475                3          15           0           2           2
+Contact_CDNS_785228347479                     0          18           0           1           2
+AbutContact_CDNS_7852283474710                0          38           0           1           2
+nmos1v2hvt_4_CDNS_785228347478                6          20           0           2           2
+Contact_CDNS_7852283474712                    0          10           0           2          16
+AbutContact_CDNS_7852283474713                0          22           0           2          16
+pmos1v2hvt_4_CDNS_7852283474711               5          18           0           4           4
+AbutContact_CDNS_7852283474715                0           7           0           2           4
+pmos1v2hvt_4_CDNS_7852283474714               3          14           0           2           2
+nmos1v2hvt_4_CDNS_7852283474716               4          18           0           3           3
+Contact_CDNS_7852283474718                    0           8           0           4           6
+pmos1v2hvt_4_CDNS_7852283474717               3          14           0           2           2
+AbutContact_CDNS_7852283474720                0           8           0           1           1
+nmos1v2hvt_4_CDNS_7852283474719               3          15           0           1           1
+AbutContact_CDNS_7852283474722                0           8           0           1           1
+pmos1v2hvt_4_CDNS_7852283474721               3          14           0           1           1
+Contact_CDNS_7852283474724                    0          68           0           2          16
+Contact_CDNS_7852283474725                    0          49           0           1           8
+ncap1v2hvt_CDNS_7852283474723                 3          19           0           8           8
+Contact_CDNS_7852283474727                    0           4           0         150         300
+rnpolym_CDNS_7852283474726                  150         531           0           2           2
+pmos1v2hvt_4_CDNS_7852283474728               6          19           0          12          12
+Contact_CDNS_7852283474730                    0          37           0           1           2
+AbutContact_CDNS_7852283474731                0          75           0           1           2
+pmos1v2hvt_4_CDNS_7852283474729              12          40           0           2           2
+CONSTANT_GM_2_fL                             78        2106           5           1           1
 ----------------------------------------------------------------------------
-TOTAL CELL = 45;  INSTANCE = 284;  GEOMETRY = 2950;  LABEL = 5
+TOTAL CELL = 45;  INSTANCE = 284;  GEOMETRY = 3499;  LABEL = 5
 
 Layer Summary:
 ----------------------------------------------------------------------------
@@ -2001,7 +2001,7 @@ PEXT3V3                       10570         0         0         0         0
 METALTfillCustom              18812         0         0         0         0
 NPLUS                         10660        21         0        56         0
 PPLUS                         10670        20         0        45         0
-METAL1base                    10700       441         0      1289         0
+METAL1base                    10700       443         0      1291         0
 METAL1fill                    10703         0         0         0         0
 METAL1slot                    10704         0         0         0         0
 METAL2base                    10710        97         0       207         0
@@ -2022,7 +2022,7 @@ METALFslot                    10774         0         0         0         0
 METALTbase                    10780         0         0         0         0
 METALTfill                    10783         0         0         0         0
 METALTslot                    10784         0         0         0         0
-CONT                          10800      1647         0      6071         0
+CONT                          10800      2194         0      6618         0
 VIA1                          10810        90         0      1549         0
 VIA2                          10820       124         0       296         0
 VIA3                          10830         0         0         0         0
@@ -2076,7 +2076,7 @@ METALF_pin_txt                30772         0         0         0         0
 METALT_pin_txt                30782         0         0         0         0
 ----------------------------------------------------------------------------
 
-CHIP EXTENT: 3250 1130 91210 107375
+CHIP EXTENT: 2335 215 92020 108290
 
 [WARN] Offgrid Vertex on layer DIFF at location (5.235,12.280) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer DIFF at location (5.235,12.540) in cell CONSTANT_GM_2_fL.
@@ -2084,18 +2084,16 @@ CHIP EXTENT: 3250 1130 91210 107375
 [WARN] Offgrid Vertex on layer DIFF at location (6.960,7.045) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer DIFF at location (6.960,7.305) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer DIFF at location (6.465,7.305) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.815,53.980) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.815,7.715) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (90.975,7.715) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (90.975,100.240) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.815,100.240) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.815,53.980) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.995,53.980) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.995,100.060) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (90.795,100.060) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (90.795,7.895) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.995,7.895) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer DIFF at location (68.995,53.980) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (2.570,54.255) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (91.785,0.450) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (91.785,108.055) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (2.570,108.055) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (2.570,54.255) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (2.750,54.255) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (2.750,107.875) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (91.605,107.875) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (91.605,0.630) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer DIFF at location (2.750,54.255) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer DIFF at location (39.625,30.245) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer DIFF at location (10.895,30.245) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer DIFF at location (10.895,6.405) in cell CONSTANT_GM_2_fL.
@@ -2132,53 +2130,55 @@ CHIP EXTENT: 3250 1130 91210 107375
 [WARN] Offgrid Vertex on layer POLYG at location (12.025,64.975) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer POLYG at location (12.025,65.640) in cell CONSTANT_GM_2_fL.
 [WARN] Offgrid Vertex on layer POLYG at location (11.465,65.640) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,55.585) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,55.585) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,55.725) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,55.725) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,56.195) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,56.195) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,56.335) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,56.335) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,56.500) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,56.500) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,56.640) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,56.640) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,56.805) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,56.805) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,56.945) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,56.945) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,57.110) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,57.110) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,57.250) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,57.250) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,57.415) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,57.415) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,57.555) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,57.555) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,57.720) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,57.720) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,57.860) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,57.860) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,58.025) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,58.025) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,58.165) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,58.165) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,58.330) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,58.330) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,58.470) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,58.470) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,58.635) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,58.635) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,58.775) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,58.775) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,58.940) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,58.940) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,59.080) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,59.080) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.835,59.245) in cell CONSTANT_GM_2_fL.
-[WARN] Offgrid Vertex on layer CONT at location (68.975,59.245) in cell CONSTANT_GM_2_fL.
-Time: cpu=0.00/0.08  real=0.00/0.14  Memory: 20.38/20.48/20.48  peak=21.49
+[WARN] Offgrid Vertex on layer CONT at location (91.625,23.570) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,23.570) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,23.710) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,23.710) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,24.170) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,24.170) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,24.310) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,24.310) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,24.470) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,24.470) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,24.610) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,24.610) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,24.770) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,24.770) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,24.910) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,24.910) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,25.070) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,25.070) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,25.210) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,25.210) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,25.370) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,25.370) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,25.510) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,25.510) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,25.670) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,25.670) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,25.810) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,25.810) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,25.970) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,25.970) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,26.110) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,26.110) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,26.270) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,26.270) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,26.410) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,26.410) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,26.570) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,26.570) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,26.710) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,26.710) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,26.870) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,26.870) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,27.010) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,27.010) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,27.170) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,27.170) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.765,27.310) in cell CONSTANT_GM_2_fL.
+[WARN] Offgrid Vertex on layer CONT at location (91.625,27.310) in cell CONSTANT_GM_2_fL.
+Time: cpu=0.00/0.07  real=0.00/0.13  Memory: 20.38/20.48/20.48  peak=21.49
 
 
 Ports ...
@@ -2241,70 +2241,70 @@ Preparing Hierarchical Database ...
 Constructing Hierarchical Database ...
 ========================================================================
 
-    AbutContact_CDNS_7815225788920 is expanded.
-    AbutContact_CDNS_781522578896 is expanded.
-    M1_M2_CDNS_781522578896 is expanded.
-    M1_M2_CDNS_781522578897 is expanded.
-    AbutContact_CDNS_7815225788922 is expanded.
-    M1_M2_CDNS_781522578895 is expanded.
-    M1_M2_CDNS_781522578899 is expanded.
-    AbutContact_CDNS_7815225788910 is expanded.
-    AbutContact_CDNS_7815225788931 is expanded.
-Time: cpu=0.00/0.08  real=0.00/0.14  Memory: 20.38/20.48/20.48  peak=21.49
+    AbutContact_CDNS_7852283474720 is expanded.
+    AbutContact_CDNS_785228347476 is expanded.
+    M1_M2_CDNS_785228347476 is expanded.
+    M1_M2_CDNS_785228347477 is expanded.
+    AbutContact_CDNS_7852283474722 is expanded.
+    M1_M2_CDNS_785228347475 is expanded.
+    M1_M2_CDNS_785228347479 is expanded.
+    AbutContact_CDNS_7852283474710 is expanded.
+    AbutContact_CDNS_7852283474731 is expanded.
+Time: cpu=0.00/0.07  real=0.00/0.13  Memory: 20.38/20.48/20.48  peak=21.49
 
 
   REORGANIZE HIERARCHIES (1)...
 
-Time: cpu=0.00/0.08  real=0.00/0.14  Memory: 20.38/20.48/20.48  peak=21.49
+Time: cpu=0.00/0.07  real=0.00/0.13  Memory: 20.38/20.48/20.48  peak=21.49
 
   REORGANIZE HIERARCHIES (2)...
 
-Time: cpu=0.00/0.08  real=0.00/0.14  Memory: 20.38/20.48/20.48  peak=21.49
+Time: cpu=0.00/0.07  real=0.00/0.13  Memory: 20.38/20.48/20.48  peak=21.49
 
 
 Cell Summary:
 ----------------------------------------------------------------------------
     CELL                               INSTANCE    GEOMETRY      LABELS        HREF        FREF
 ----------------------------------------------------------------------------
-PG_M1_CDNS_781522578890                       0           6           0           6           6
-M1_M2_CDNS_781522578891                       0           4           0           2           2
-M1_M2_CDNS_781522578892                       0           6           0           6           6
-M1_M2_CDNS_781522578893                       0           6           0           2           2
-M1_M2_CDNS_781522578894                       0           5           0           5           5
-M2_M3_CDNS_781522578898                       0          26           0           4           4
-M2_M3_CDNS_7815225788910                      0          62           0           2           2
-M2_M3_CDNS_7815225788911                      0          42           0           2           2
-Contact_CDNS_781522578891                     0          35           0          15          60
-Contact_CDNS_781522578892                     0          30           0          11          46
-Contact_CDNS_781522578893                     0           5           0           2           7
-AbutContact_CDNS_781522578894                 0          12           0           2           7
-nmos1v2hvt_4_CDNS_781522578890                5          19           0           4           4
-Contact_CDNS_781522578897                     0           5           0           6          10
-nmos1v2hvt_4_CDNS_781522578895                2          22           0           2           2
-Contact_CDNS_781522578899                     0          18           0           1           2
-nmos1v2hvt_4_CDNS_781522578898                5          58           0           2           2
-Contact_CDNS_7815225788912                    0          10           0           2          16
-AbutContact_CDNS_7815225788913                0          22           0           2          16
-pmos1v2hvt_4_CDNS_7815225788911               5          18           0           4           4
-AbutContact_CDNS_7815225788915                0           7           0           2           4
-pmos1v2hvt_4_CDNS_7815225788914               3          14           0           2           2
-nmos1v2hvt_4_CDNS_7815225788916               4          18           0           3           3
-Contact_CDNS_7815225788918                    0           8           0           4           6
-pmos1v2hvt_4_CDNS_7815225788917               3          14           0           2           2
-nmos1v2hvt_4_CDNS_7815225788919               2          23           0           1           1
-pmos1v2hvt_4_CDNS_7815225788921               2          22           0           1           1
-Contact_CDNS_7815225788924                    0          68           0           2          16
-Contact_CDNS_7815225788925                    0          49           0           1           8
-ncap1v2hvt_CDNS_7815225788923                 3          19           0           8           8
-Contact_CDNS_7815225788927                    0           4           0           5         300
+PG_M1_CDNS_785228347470                       0           6           0           6           6
+M1_M2_CDNS_785228347471                       0           4           0           2           2
+M1_M2_CDNS_785228347472                       0           6           0           6           6
+M1_M2_CDNS_785228347473                       0           6           0           2           2
+M1_M2_CDNS_785228347474                       0           5           0           5           5
+M2_M3_CDNS_785228347478                       0          26           0           4           4
+M2_M3_CDNS_7852283474710                      0          62           0           2           2
+M2_M3_CDNS_7852283474711                      0          42           0           2           2
+Contact_CDNS_785228347471                     0          35           0          15          60
+Contact_CDNS_785228347472                     0          30           0          11          46
+Contact_CDNS_785228347473                     0           5           0           2           7
+AbutContact_CDNS_785228347474                 0          12           0           2           7
+nmos1v2hvt_4_CDNS_785228347470                5          19           0           4           4
+Contact_CDNS_785228347477                     0           5           0           6          10
+nmos1v2hvt_4_CDNS_785228347475                2          22           0           2           2
+Contact_CDNS_785228347479                     0          18           0           1           2
+nmos1v2hvt_4_CDNS_785228347478                5          58           0           2           2
+Contact_CDNS_7852283474712                    0          10           0           2          16
+AbutContact_CDNS_7852283474713                0          22           0           2          16
+pmos1v2hvt_4_CDNS_7852283474711               5          18           0           4           4
+AbutContact_CDNS_7852283474715                0           7           0           2           4
+pmos1v2hvt_4_CDNS_7852283474714               3          14           0           2           2
+nmos1v2hvt_4_CDNS_7852283474716               4          18           0           3           3
+Contact_CDNS_7852283474718                    0           8           0           4           6
+pmos1v2hvt_4_CDNS_7852283474717               3          14           0           2           2
+nmos1v2hvt_4_CDNS_7852283474719               2          23           0           1           1
+pmos1v2hvt_4_CDNS_7852283474721               2          22           0           1           1
+Contact_CDNS_7852283474724                    0          68           0           2          16
+Contact_CDNS_7852283474725                    0          49           0           1           8
+ncap1v2hvt_CDNS_7852283474723                 3          19           0           8           8
+Contact_CDNS_7852283474727                    0           4           0           5         300
 MASCO__Y1                                     5           0           0          30          60
-rnpolym_CDNS_7815225788926                   30         531           0           2           2
-pmos1v2hvt_4_CDNS_7815225788928               6          19           0          12          12
-Contact_CDNS_7815225788930                    0          37           0           1           2
-pmos1v2hvt_4_CDNS_7815225788929              11         115           0           2           2
-CONSTANT_GM_2_fL                             74        1591           5           1           1
+rnpolym_CDNS_7852283474726                   30         531           0           2           2
+pmos1v2hvt_4_CDNS_7852283474728               6          19           0          12          12
+Contact_CDNS_7852283474730                    0          37           0           1           2
+pmos1v2hvt_4_CDNS_7852283474729              11         115           0           2           2
+CONSTANT_GM_2_fL                             74        2140           5           1           1
 ----------------------------------------------------------------------------
-TOTAL CELL = 37;  INSTANCE = 160;  GEOMETRY = 2950;  LABEL = 5
+TOTAL CELL = 37;  INSTANCE = 160;  GEOMETRY = 3499;  LABEL = 5
 
 Layer Summary:
 ----------------------------------------------------------------------------
@@ -2334,7 +2334,7 @@ PEXT3V3                       10570         0         0         0         0
 METALTfillCustom              18812         0         0         0         0
 NPLUS                         10660        21         0        56         0
 PPLUS                         10670        20         0        45         0
-METAL1base                    10700       441         0      1289         0
+METAL1base                    10700       443         0      1291         0
 METAL1fill                    10703         0         0         0         0
 METAL1slot                    10704         0         0         0         0
 METAL2base                    10710        97         0       207         0
@@ -2355,7 +2355,7 @@ METALFslot                    10774         0         0         0         0
 METALTbase                    10780         0         0         0         0
 METALTfill                    10783         0         0         0         0
 METALTslot                    10784         0         0         0         0
-CONT                          10800      1647         0      6071         0
+CONT                          10800      2194         0      6618         0
 VIA1                          10810        90         0      1549         0
 VIA2                          10820       124         0       296         0
 VIA3                          10830         0         0         0         0
@@ -2408,17 +2408,17 @@ METAL5_pin_txt                30742         0         0         0         0
 METALF_pin_txt                30772         0         0         0         0
 METALT_pin_txt                30782         0         0         0         0
 ----------------------------------------------------------------------------
-Time: cpu=0.00/0.08  real=0.00/0.14  Memory: 20.38/20.48/20.48  peak=21.49
+Time: cpu=0.00/0.07  real=0.00/0.13  Memory: 20.38/20.48/20.48  peak=21.49
 
 
 Compacting Hierarchy Library ...
 ========================================================================
-Time: cpu=0.00/0.08  real=0.00/0.14  Memory: 12.33/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.07  real=0.00/0.13  Memory: 12.33/12.45/20.48  peak=21.49
 
 
 Analyzing Cell Overlapings ...
 ========================================================================
-Time: cpu=0.00/0.08  real=0.00/0.14  Memory: 12.33/12.45/16.46  peak=21.49
+Time: cpu=0.00/0.07  real=0.00/0.13  Memory: 12.33/12.45/16.46  peak=21.49
 
 
 Merge Layers ...
@@ -2457,7 +2457,7 @@ Merge Layers ...
     generate layer PPLUS, TYP = P, HPN = 20, FPN = 45, HEN = 84, FEN = 184
 
     METAL1base = OR METAL1base
-    generate layer METAL1base, TYP = P, HPN = 167, FPN = 1143, HEN = 988, FEN = 4920
+    generate layer METAL1base, TYP = P, HPN = 167, FPN = 1143, HEN = 994, FEN = 4926
 
     METAL2base = OR METAL2base
     generate layer METAL2base, TYP = P, HPN = 40, FPN = 150, HEN = 290, FEN = 730
@@ -2466,7 +2466,7 @@ Merge Layers ...
     generate layer METAL3base, TYP = P, HPN = 7, FPN = 12, HEN = 48, FEN = 68
 
     CONT = OR CONT
-    generate layer CONT, TYP = P, HPN = 1647, FPN = 6071, HEN = 6588, FEN = 24284
+    generate layer CONT, TYP = P, HPN = 2194, FPN = 6618, HEN = 8776, FEN = 26472
 
     VIA1 = OR VIA1
     generate layer VIA1, TYP = P, HPN = 90, FPN = 1549, HEN = 360, FEN = 6196
@@ -2480,9 +2480,9 @@ Merge Layers ...
     RESmark = OR RESmark
     generate layer RESmark, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
 
-Time: cpu=0.01/0.09  real=0.01/0.16  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.01/0.09  real=0.01/0.14  Memory: 12.31/12.45/20.48  peak=21.49
 
-Time: cpu=0.00/0.09  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 ########################################################################
@@ -2494,15 +2494,15 @@ operation group: 1/234
     CHIP = EXTENT
 ========================================================================
     generate layer CHIP, TYP = P, HPN = 20, FPN = 155, HEN = 232, FEN = 1116
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/20.74  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/20.74  peak=21.49
 
 
 
 operation group: 2/234
     _EPTMPL262146 = OR METAL1base METAL1fill METAL1fillCustom
 ========================================================================
-    generate layer _EPTMPL262146, TYP = P, HPN = 167, FPN = 1143, HEN = 988, FEN = 4920
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+    generate layer _EPTMPL262146, TYP = P, HPN = 167, FPN = 1143, HEN = 994, FEN = 4926
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL1base
     delete layer METAL1fill
@@ -2512,8 +2512,8 @@ Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
 operation group: 3/234
     METAL1 = NOT _EPTMPL262146 METAL1slot
 ========================================================================
-    generate layer METAL1, TYP = P, HPN = 167, FPN = 1143, HEN = 988, FEN = 4920
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+    generate layer METAL1, TYP = P, HPN = 167, FPN = 1143, HEN = 994, FEN = 4926
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262146
     delete layer METAL1slot
@@ -2523,7 +2523,7 @@ operation group: 4/234
     RMET1a = AND METAL1 RMET1mark
 ========================================================================
     generate layer RMET1a, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer RMET1mark
 
@@ -2531,8 +2531,8 @@ Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
 operation group: 5/234
     METAL1a = NOT METAL1 RMET1a
 ========================================================================
-    generate layer METAL1a, TYP = P, HPN = 167, FPN = 1143, HEN = 988, FEN = 4920
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+    generate layer METAL1a, TYP = P, HPN = 167, FPN = 1143, HEN = 994, FEN = 4926
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL1
 
@@ -2541,7 +2541,7 @@ operation group: 6/234
     _EPTMPL262148 = OR METAL2base METAL2fill METAL2fillCustom
 ========================================================================
     generate layer _EPTMPL262148, TYP = P, HPN = 40, FPN = 150, HEN = 290, FEN = 730
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL2base
     delete layer METAL2fill
@@ -2552,7 +2552,7 @@ operation group: 7/234
     METAL2 = NOT _EPTMPL262148 METAL2slot
 ========================================================================
     generate layer METAL2, TYP = P, HPN = 40, FPN = 150, HEN = 290, FEN = 730
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262148
     delete layer METAL2slot
@@ -2562,7 +2562,7 @@ operation group: 8/234
     RMET2a = AND METAL2 RMET2mark
 ========================================================================
     generate layer RMET2a, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer RMET2mark
 
@@ -2571,7 +2571,7 @@ operation group: 9/234
     METAL2a = NOT METAL2 RMET2a
 ========================================================================
     generate layer METAL2a, TYP = P, HPN = 40, FPN = 150, HEN = 290, FEN = 730
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -2579,7 +2579,7 @@ operation group: 10/234
     _EPTMPL262150 = OR METAL3base METAL3fill METAL3fillCustom
 ========================================================================
     generate layer _EPTMPL262150, TYP = P, HPN = 7, FPN = 12, HEN = 48, FEN = 68
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL3base
     delete layer METAL3fill
@@ -2590,7 +2590,7 @@ operation group: 11/234
     METAL3 = NOT _EPTMPL262150 METAL3slot
 ========================================================================
     generate layer METAL3, TYP = P, HPN = 7, FPN = 12, HEN = 48, FEN = 68
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262150
     delete layer METAL3slot
@@ -2600,7 +2600,7 @@ operation group: 12/234
     RMET3a = AND METAL3 RMET3mark
 ========================================================================
     generate layer RMET3a, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer RMET3mark
 
@@ -2609,7 +2609,7 @@ operation group: 13/234
     METAL3a = NOT METAL3 RMET3a
 ========================================================================
     generate layer METAL3a, TYP = P, HPN = 7, FPN = 12, HEN = 48, FEN = 68
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -2617,7 +2617,7 @@ operation group: 14/234
     _EPTMPL262152 = OR METAL4base METAL4fill METAL4fillCustom
 ========================================================================
     generate layer _EPTMPL262152, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL4base
     delete layer METAL4fill
@@ -2628,7 +2628,7 @@ operation group: 15/234
     METAL4 = NOT _EPTMPL262152 METAL4slot
 ========================================================================
     generate layer METAL4, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262152
     delete layer METAL4slot
@@ -2638,7 +2638,7 @@ operation group: 16/234
     RMET4a = AND METAL4 RMET4mark
 ========================================================================
     generate layer RMET4a, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer RMET4mark
 
@@ -2647,7 +2647,7 @@ operation group: 17/234
     METAL4a = NOT METAL4 RMET4a
 ========================================================================
     generate layer METAL4a, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL4
 
@@ -2656,7 +2656,7 @@ operation group: 18/234
     _EPTMPL262154 = OR METAL5base METAL5fill METAL5fillCustom
 ========================================================================
     generate layer _EPTMPL262154, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL5base
     delete layer METAL5fill
@@ -2667,7 +2667,7 @@ operation group: 19/234
     METAL5 = NOT _EPTMPL262154 METAL5slot
 ========================================================================
     generate layer METAL5, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262154
     delete layer METAL5slot
@@ -2677,7 +2677,7 @@ operation group: 20/234
     RMET5a = AND METAL5 RMET5mark
 ========================================================================
     generate layer RMET5a, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer RMET5mark
 
@@ -2686,7 +2686,7 @@ operation group: 21/234
     _EPTMPL262169 = NOT METAL5 RMET5a
 ========================================================================
     generate layer _EPTMPL262169, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METAL5
 
@@ -2695,7 +2695,7 @@ operation group: 22/234
     METAL5a = NOT _EPTMPL262169 MIMmark
 ========================================================================
     generate layer METAL5a, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262169
 
@@ -2704,7 +2704,7 @@ operation group: 23/234
     _EPTMPL262156 = OR METALFbase METALFfill METALFfillCustom
 ========================================================================
     generate layer _EPTMPL262156, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METALFbase
     delete layer METALFfill
@@ -2715,7 +2715,7 @@ operation group: 24/234
     METALF = NOT _EPTMPL262156 METALFslot
 ========================================================================
     generate layer METALF, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262156
     delete layer METALFslot
@@ -2725,7 +2725,7 @@ operation group: 25/234
     RMETFa = AND METALF RMETFmark
 ========================================================================
     generate layer RMETFa, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer RMETFmark
 
@@ -2734,7 +2734,7 @@ operation group: 26/234
     METALFa = NOT METALF RMETFa
 ========================================================================
     generate layer METALFa, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -2742,7 +2742,7 @@ operation group: 27/234
     _CPTMPL353 = OR MIMS MIMS7 MIMS2
 ========================================================================
     generate layer _CPTMPL353, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -2750,7 +2750,7 @@ operation group: 28/234
     VIAF2 = NOT VIAF _CPTMPL353
 ========================================================================
     generate layer VIAF2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -2758,7 +2758,7 @@ operation group: 29/234
     MIMSa = NOT MIMS MIMmark
 ========================================================================
     generate layer MIMSa, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -2766,7 +2766,7 @@ operation group: 30/234
     VIAM = AND VIAF _CPTMPL353
 ========================================================================
     generate layer VIAM, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer VIAF
     delete layer _CPTMPL353
@@ -2776,7 +2776,7 @@ operation group: 31/234
     TOPMIM = AND MIMS MIMmark
 ========================================================================
     generate layer TOPMIM, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer MIMS
 
@@ -2785,7 +2785,7 @@ operation group: 32/234
     TOPMIMS2 = AND MIMS2 MIMmark
 ========================================================================
     generate layer TOPMIMS2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer MIMS2
 
@@ -2794,7 +2794,7 @@ operation group: 33/234
     TOPMIMS7 = AND MIMS7 MIMmark
 ========================================================================
     generate layer TOPMIMS7, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer MIMS7
     delete layer MIMmark
@@ -2804,7 +2804,7 @@ operation group: 34/234
     _EPTMPL262158 = OR METALTbase METALTfill METALTfillCustom
 ========================================================================
     generate layer _EPTMPL262158, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METALTbase
     delete layer METALTfill
@@ -2815,7 +2815,7 @@ operation group: 35/234
     METALT = NOT _EPTMPL262158 METALTslot
 ========================================================================
     generate layer METALT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _EPTMPL262158
     delete layer METALTslot
@@ -2825,7 +2825,7 @@ operation group: 36/234
     RMETTa = AND METALT RMETTmark
 ========================================================================
     generate layer RMETTa, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer RMETTmark
 
@@ -2834,7 +2834,7 @@ operation group: 37/234
     METALTa = NOT METALT RMETTa
 ========================================================================
     generate layer METALTa, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.14  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer METALT
     delete layer RMETTa
@@ -2844,7 +2844,7 @@ operation group: 38/234
     RPPOLYS1 = AND POLYG RESmark
 ========================================================================
     generate layer RPPOLYS1, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
-Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/17.72  peak=21.49
+Time: cpu=0.00/0.09  real=0.00/0.15  Memory: 12.31/12.45/17.72  peak=21.49
 
     delete layer RESmark
 
@@ -2853,7 +2853,7 @@ operation group: 39/234
     POLYG1 = NOT POLYG RPPOLYS1
 ========================================================================
     generate layer POLYG1, TYP = P, HPN = 175, FPN = 690, HEN = 712, FEN = 2784
-Time: cpu=0.00/0.10  real=0.00/0.17  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.10  real=0.00/0.15  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -2861,7 +2861,7 @@ operation group: 40/234
     GATE = AND POLYG1 DIFF
 ========================================================================
     generate layer GATE, TYP = P, HPN = 15, FPN = 49, HEN = 60, FEN = 196
-Time: cpu=0.00/0.11  real=0.00/0.17  Memory: 12.31/12.45/17.72  peak=21.49
+Time: cpu=0.00/0.10  real=0.00/0.15  Memory: 12.31/12.45/17.72  peak=21.49
 
 
 
@@ -2869,7 +2869,7 @@ operation group: 41/234
     DOPEDGATE = AND GATE POLYDOPE
 ========================================================================
     generate layer DOPEDGATE, TYP = P, HPN = 6, FPN = 20, HEN = 24, FEN = 80
-Time: cpu=0.00/0.11  real=0.00/0.17  Memory: 12.31/12.45/17.72  peak=21.49
+Time: cpu=0.00/0.10  real=0.00/0.15  Memory: 12.31/12.45/17.72  peak=21.49
 
 
 
@@ -2877,7 +2877,7 @@ operation group: 42/234
     NGATE = AND DOPEDGATE NPLUS
 ========================================================================
     generate layer NGATE, TYP = P, HPN = 6, FPN = 20, HEN = 24, FEN = 80
-Time: cpu=0.00/0.11  real=0.00/0.18  Memory: 12.31/12.45/17.72  peak=21.49
+Time: cpu=0.00/0.10  real=0.00/0.16  Memory: 12.31/12.45/17.72  peak=21.49
 
     delete layer DOPEDGATE
 
@@ -2886,7 +2886,7 @@ operation group: 43/234
     _CPTMPL159 = NOT POLYG1 NGATE
 ========================================================================
     generate layer _CPTMPL159, TYP = P, HPN = 181, FPN = 710, HEN = 736, FEN = 2864
-Time: cpu=0.01/0.11  real=0.01/0.18  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.11  real=0.00/0.16  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -2894,7 +2894,7 @@ operation group: 44/234
     _CPTMPL160 = AND POLYG1 PXL
 ========================================================================
     generate layer _CPTMPL160, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.11  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.11  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer POLYG1
 
@@ -2903,7 +2903,7 @@ operation group: 45/234
     POLYG2 = OR _CPTMPL159 _CPTMPL160
 ========================================================================
     generate layer POLYG2, TYP = P, HPN = 181, FPN = 710, HEN = 736, FEN = 2864
-Time: cpu=0.00/0.12  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.11  real=0.00/0.16  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL159
     delete layer _CPTMPL160
@@ -2913,7 +2913,7 @@ operation group: 46/234
     PGATE = AND GATE PPLUS
 ========================================================================
     generate layer PGATE, TYP = P, HPN = 9, FPN = 29, HEN = 36, FEN = 116
-Time: cpu=0.00/0.12  real=0.00/0.18  Memory: 12.31/12.45/17.72  peak=21.49
+Time: cpu=0.00/0.11  real=0.00/0.16  Memory: 12.31/12.45/17.72  peak=21.49
 
 
 
@@ -2921,7 +2921,7 @@ operation group: 47/234
     POLYG3 = NOT POLYG2 PGATE
 ========================================================================
     generate layer POLYG3, TYP = P, HPN = 190, FPN = 739, HEN = 772, FEN = 2980
-Time: cpu=0.00/0.12  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.11  real=0.00/0.17  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer POLYG2
 
@@ -2929,8 +2929,8 @@ Time: cpu=0.00/0.12  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
 operation group: 48/234
     DIFFCONT = NOT CONT POLYG
 ========================================================================
-    generate layer DIFFCONT, TYP = P, HPN = 1556, FPN = 5012, HEN = 6224, FEN = 20048
-Time: cpu=0.00/0.12  real=0.00/0.19  Memory: 12.31/12.45/17.72  peak=21.49
+    generate layer DIFFCONT, TYP = P, HPN = 2103, FPN = 5559, HEN = 8412, FEN = 22236
+Time: cpu=0.00/0.11  real=0.00/0.17  Memory: 12.31/12.45/17.72  peak=21.49
 
     delete layer POLYG
 
@@ -2939,7 +2939,7 @@ operation group: 49/234
     POLYCONT = NOT CONT DIFFCONT
 ========================================================================
     generate layer POLYCONT, TYP = P, HPN = 91, FPN = 1059, HEN = 364, FEN = 4236
-Time: cpu=0.00/0.12  real=0.00/0.19  Memory: 12.31/12.45/17.72  peak=21.49
+Time: cpu=0.00/0.11  real=0.00/0.17  Memory: 12.31/12.45/17.72  peak=21.49
 
     delete layer CONT
 
@@ -2948,7 +2948,7 @@ operation group: 50/234
     NDIFF1 = AND NPLUS DIFF
 ========================================================================
     generate layer NDIFF1, TYP = P, HPN = 12, FPN = 45, HEN = 52, FEN = 184
-Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.12  real=0.00/0.17  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -2956,7 +2956,7 @@ operation group: 51/234
     _CPTMPL271 = NOT NDIFF1 NGATE
 ========================================================================
     generate layer _CPTMPL271, TYP = P, HPN = 18, FPN = 65, HEN = 76, FEN = 264
-Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/17.72  peak=21.49
+Time: cpu=0.00/0.12  real=0.00/0.17  Memory: 12.31/12.45/17.72  peak=21.49
 
     delete layer NDIFF1
 
@@ -2965,7 +2965,7 @@ operation group: 52/234
     NDIFF = NOT _CPTMPL271 MCEL
 ========================================================================
     generate layer NDIFF, TYP = P, HPN = 18, FPN = 65, HEN = 76, FEN = 264
-Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.12  real=0.00/0.17  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL271
     delete layer MCEL
@@ -2975,7 +2975,7 @@ operation group: 53/234
     PNPBASE1 = AND NDIFF NW1V2
 ========================================================================
     layer PNPBASE1 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.12  real=0.00/0.17  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -2983,7 +2983,7 @@ operation group: 54/234
     PNPBASE = AND PNPBASE1 BJTmark
 ========================================================================
     generate layer PNPBASE, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.12  real=0.00/0.17  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer PNPBASE1
 
@@ -2992,7 +2992,7 @@ operation group: 55/234
     PDIFF1 = AND PPLUS DIFF
 ========================================================================
     generate layer PDIFF1, TYP = P, HPN = 12, FPN = 37, HEN = 52, FEN = 152
-Time: cpu=0.00/0.13  real=0.00/0.20  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.12  real=0.00/0.18  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -3000,7 +3000,7 @@ operation group: 56/234
     PDIFF = NOT PDIFF1 PGATE
 ========================================================================
     generate layer PDIFF, TYP = P, HPN = 21, FPN = 66, HEN = 88, FEN = 268
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer PDIFF1
 
@@ -3009,7 +3009,7 @@ operation group: 57/234
     NDIFFCONT = NOT DIFFCONT PDIFF
 ========================================================================
     generate layer NDIFFCONT, TYP = P, HPN = 911, FPN = 2672, HEN = 3644, FEN = 10688
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -3017,7 +3017,7 @@ operation group: 58/234
     PNPEMIT1 = AND PDIFF NW1V2
 ========================================================================
     layer PNPEMIT1 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3025,7 +3025,7 @@ operation group: 59/234
     PNPEMIT2 = AND PNPEMIT1 BJTmark
 ========================================================================
     generate layer PNPEMIT2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer PNPEMIT1
 
@@ -3034,7 +3034,7 @@ operation group: 60/234
     PNPEMIT = AND PNPEMIT2 PEXT1V2
 ========================================================================
     generate layer PNPEMIT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer PNPEMIT2
 
@@ -3043,7 +3043,7 @@ operation group: 61/234
     PNPEMIT5UX5U = NOT PNPEMIT SALBLK
 ========================================================================
     generate layer PNPEMIT5UX5U, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3051,7 +3051,7 @@ operation group: 62/234
     PNPSALBLK = SIZE SALBLK -by 0.38 -overunder
 ========================================================================
     layer PNPSALBLK not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3059,7 +3059,7 @@ operation group: 63/234
     PNPEMIT10UX2U5 = SELECT -inside PNPEMIT PNPSALBLK
 ========================================================================
     generate layer PNPEMIT10UX2U5, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer PNPEMIT
     delete layer PNPSALBLK
@@ -3068,8 +3068,8 @@ Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 operation group: 64/234
     PDIFFCONT = NOT DIFFCONT NDIFF
 ========================================================================
-    generate layer PDIFFCONT, TYP = P, HPN = 1122, FPN = 2340, HEN = 4488, FEN = 9360
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/20.48  peak=21.49
+    generate layer PDIFFCONT, TYP = P, HPN = 1669, FPN = 2887, HEN = 6676, FEN = 11548
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -3077,7 +3077,7 @@ operation group: 65/234
     _CPTMPL220 = OR PSN SNN
 ========================================================================
     generate layer _CPTMPL220, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer SNN
 
@@ -3086,7 +3086,7 @@ operation group: 66/234
     _CPTMPL225 = SELECT -interact DIFF _CPTMPL220
 ========================================================================
     generate layer _CPTMPL225, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3094,7 +3094,7 @@ operation group: 67/234
     _CPTMPL226 = OR NDIFF _CPTMPL225
 ========================================================================
     layer _CPTMPL226 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL225
 
@@ -3103,7 +3103,7 @@ operation group: 68/234
     _CPTMPL227 = SELECT -interact _CPTMPL226 TXFETmark
 ========================================================================
     generate layer _CPTMPL227, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL226
 
@@ -3112,7 +3112,7 @@ operation group: 69/234
     _CPTMPL228 = NOT _CPTMPL227 GATE
 ========================================================================
     generate layer _CPTMPL228, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL227
 
@@ -3121,7 +3121,7 @@ operation group: 70/234
     NDIFFTX = NOT _CPTMPL228 ARRAYPW
 ========================================================================
     generate layer NDIFFTX, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL228
 
@@ -3130,7 +3130,7 @@ operation group: 71/234
     _CPTMPL368 = AND DIFFCONT NDIFFTX
 ========================================================================
     generate layer _CPTMPL368, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer DIFFCONT
 
@@ -3139,7 +3139,7 @@ operation group: 72/234
     NDIFFCONTTX = NOT _CPTMPL368 GATE
 ========================================================================
     generate layer NDIFFCONTTX, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL368
 
@@ -3148,7 +3148,7 @@ operation group: 73/234
     _CPTMPL221 = SELECT -interact GATE _CPTMPL220
 ========================================================================
     generate layer _CPTMPL221, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer GATE
     delete layer _CPTMPL220
@@ -3158,7 +3158,7 @@ operation group: 74/234
     NGATE3V3TX = AND _CPTMPL221 TXFETmark
 ========================================================================
     generate layer NGATE3V3TX, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL221
 
@@ -3167,7 +3167,7 @@ operation group: 75/234
     ALLNW = OR NW1V2 NW3V3
 ========================================================================
     generate layer ALLNW, TYP = P, HPN = 12, FPN = 66, HEN = 88, FEN = 428
-Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3175,7 +3175,7 @@ operation group: 76/234
     NTAP = AND NDIFF ALLNW
 ========================================================================
     generate layer NTAP, TYP = P, HPN = 7, FPN = 25, HEN = 32, FEN = 104
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -3183,7 +3183,7 @@ operation group: 77/234
     _CPTMPL275 = NOT PDIFF ALLNW
 ========================================================================
     generate layer _CPTMPL275, TYP = P, HPN = 6, FPN = 14, HEN = 28, FEN = 60
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
@@ -3191,7 +3191,7 @@ operation group: 78/234
     BULK = SIZE CHIP -by 1
 ========================================================================
     generate layer BULK, TYP = P, HPN = 20, FPN = 155, HEN = 232, FEN = 1116
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/16.46  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/16.46  peak=21.49
 
 
 
@@ -3199,7 +3199,7 @@ operation group: 79/234
     PSUB2UP = SIZE PSUB2 -by 0.005
 ========================================================================
     generate layer PSUB2UP, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3207,7 +3207,7 @@ operation group: 80/234
     PSUB2IN = SIZE PSUB2 -by -0.005
 ========================================================================
     generate layer PSUB2IN, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer PSUB2
 
@@ -3216,7 +3216,7 @@ operation group: 81/234
     PSUBRING = NOT PSUB2UP PSUB2IN
 ========================================================================
     generate layer PSUBRING, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer PSUB2UP
     delete layer PSUB2IN
@@ -3226,7 +3226,7 @@ operation group: 82/234
     _CPTMPL31 = NOT BULK PSUBRING
 ========================================================================
     generate layer _CPTMPL31, TYP = P, HPN = 20, FPN = 155, HEN = 232, FEN = 1116
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3234,7 +3234,7 @@ operation group: 83/234
     PSUB = NOT _CPTMPL31 SEALRINGmark
 ========================================================================
     generate layer PSUB, TYP = P, HPN = 20, FPN = 155, HEN = 232, FEN = 1116
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL31
 
@@ -3243,7 +3243,7 @@ operation group: 84/234
     NWHOLE = HOLES ALLNW
 ========================================================================
     layer NWHOLE not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3251,7 +3251,7 @@ operation group: 85/234
     DNWRING = AND NWHOLE DNW
 ========================================================================
     generate layer DNWRING, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3259,7 +3259,7 @@ operation group: 86/234
     _CPTMPL36 = AND PSUB DNWRING
 ========================================================================
     generate layer _CPTMPL36, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer DNWRING
 
@@ -3268,7 +3268,7 @@ operation group: 87/234
     NWHOLENOTHOLE = NOT ALLNW NWHOLE
 ========================================================================
     layer NWHOLENOTHOLE not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3276,7 +3276,7 @@ operation group: 88/234
     _CPTMPL28 = SELECT -touch NWHOLENOTHOLE NWHOLE
 ========================================================================
     layer _CPTMPL28 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer NWHOLENOTHOLE
     delete layer NWHOLE
@@ -3286,7 +3286,7 @@ operation group: 89/234
     NWHOLEINNER = HOLES ALLNW -inner
 ========================================================================
     layer NWHOLEINNER not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3294,7 +3294,7 @@ operation group: 90/234
     NWHOLENOTHOLEINNER = NOT ALLNW NWHOLEINNER
 ========================================================================
     layer NWHOLENOTHOLEINNER not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3302,7 +3302,7 @@ operation group: 91/234
     _CPTMPL29 = SELECT -touch NWHOLENOTHOLEINNER NWHOLEINNER
 ========================================================================
     layer _CPTMPL29 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer NWHOLENOTHOLEINNER
     delete layer NWHOLEINNER
@@ -3312,7 +3312,7 @@ operation group: 92/234
     NWRING = OR _CPTMPL28 _CPTMPL29
 ========================================================================
     layer NWRING not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL28
     delete layer _CPTMPL29
@@ -3322,7 +3322,7 @@ operation group: 93/234
     PSUBISO = NOT _CPTMPL36 NWRING
 ========================================================================
     generate layer PSUBISO, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL36
     delete layer NWRING
@@ -3332,7 +3332,7 @@ operation group: 94/234
     PTAP = NOT _CPTMPL275 PSUBISO
 ========================================================================
     generate layer PTAP, TYP = P, HPN = 6, FPN = 14, HEN = 28, FEN = 60
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3340,7 +3340,7 @@ operation group: 95/234
     PTAPISO = AND _CPTMPL275 PSUBISO
 ========================================================================
     generate layer PTAPISO, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.18  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL275
 
@@ -3349,7 +3349,7 @@ operation group: 96/234
     inPw1v2All = OR PW1V2orig PW1V2makeGen
 ========================================================================
     generate layer inPw1v2All, TYP = P, HPN = 11, FPN = 54, HEN = 72, FEN = 352
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3357,7 +3357,7 @@ operation group: 97/234
     pw1v2BlockGenNew = OR PXL PW1V2blockGen
 ========================================================================
     generate layer pw1v2BlockGenNew, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3365,7 +3365,7 @@ operation group: 98/234
     pw1V2OrgNotBlocked = NOT inPw1v2All pw1v2BlockGenNew
 ========================================================================
     generate layer pw1V2OrgNotBlocked, TYP = P, HPN = 11, FPN = 54, HEN = 72, FEN = 352
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer pw1v2BlockGenNew
 
@@ -3373,8 +3373,8 @@ Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/12.45  peak=21.49
 operation group: 99/234
     noPw1v2 = CAT PW1V2blockGen PW1V2orig PW1V2makeGen PW3V3orig PW3V3makeGen NW1V2 NW3V3 PXL NLVT3V3
 ========================================================================
-    generate layer noPw1v2, TYP = P, HPN = 22, FPN = 119, HEN = 160, FEN = 780
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/16.46  peak=21.49
+    generate layer noPw1v2, TYP = P, HPN = 23, FPN = 120, HEN = 160, FEN = 780
+Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/16.46  peak=21.49
 
     delete layer PW1V2blockGen
 
@@ -3383,7 +3383,7 @@ operation group: 100/234
     generator1v2 = NOT BULK noPw1v2
 ========================================================================
     generate layer generator1v2, TYP = P, HPN = 2, FPN = 2, HEN = 72, FEN = 72
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer noPw1v2
 
@@ -3391,8 +3391,8 @@ Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
 operation group: 101/234
     pw1V2NewNotBlockedWoClean = OR pw1V2OrgNotBlocked generator1v2
 ========================================================================
-    generate layer pw1V2NewNotBlockedWoClean, TYP = P, HPN = 11, FPN = 54, HEN = 130, FEN = 410
-Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/16.46  peak=21.49
+    generate layer pw1V2NewNotBlockedWoClean, TYP = P, HPN = 11, FPN = 54, HEN = 128, FEN = 408
+Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/16.46  peak=21.49
 
     delete layer pw1V2OrgNotBlocked
     delete layer generator1v2
@@ -3401,8 +3401,8 @@ Time: cpu=0.00/0.14  real=0.00/0.21  Memory: 12.31/12.45/16.46  peak=21.49
 operation group: 102/234
     pw1v2Plus = SIZE pw1V2NewNotBlockedWoClean -by 0.005 -truncate 0.005
 ========================================================================
-    generate layer pw1v2Plus, TYP = P, HPN = 11, FPN = 54, HEN = 86, FEN = 258
-Time: cpu=0.00/0.15  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
+    generate layer pw1v2Plus, TYP = P, HPN = 11, FPN = 54, HEN = 84, FEN = 256
+Time: cpu=0.00/0.13  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer pw1V2NewNotBlockedWoClean
 
@@ -3410,16 +3410,16 @@ Time: cpu=0.00/0.15  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
 operation group: 103/234
     pw1v2UnderOver = SIZE pw1v2Plus -by 0.315 -underover -truncate 0.315
 ========================================================================
-    generate layer pw1v2UnderOver, TYP = P, HPN = 7, FPN = 21, HEN = 70, FEN = 126
-Time: cpu=0.00/0.15  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
+    generate layer pw1v2UnderOver, TYP = P, HPN = 7, FPN = 21, HEN = 68, FEN = 124
+Time: cpu=0.00/0.14  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
 
 
 
 operation group: 104/234
     pw1v2WidthCleanedTemp = AND pw1v2UnderOver pw1v2Plus
 ========================================================================
-    generate layer pw1v2WidthCleanedTemp, TYP = P, HPN = 11, FPN = 54, HEN = 130, FEN = 410
-Time: cpu=0.00/0.15  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
+    generate layer pw1v2WidthCleanedTemp, TYP = P, HPN = 11, FPN = 54, HEN = 128, FEN = 408
+Time: cpu=0.00/0.14  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer pw1v2UnderOver
     delete layer pw1v2Plus
@@ -3428,8 +3428,8 @@ Time: cpu=0.00/0.15  real=0.00/0.21  Memory: 12.31/12.45/20.48  peak=21.49
 operation group: 105/234
     pw1v2WidthCleaned = SIZE pw1v2WidthCleanedTemp -by -0.005 -truncate 0.005
 ========================================================================
-    generate layer pw1v2WidthCleaned, TYP = P, HPN = 11, FPN = 54, HEN = 186, FEN = 438
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/20.48  peak=21.49
+    generate layer pw1v2WidthCleaned, TYP = P, HPN = 11, FPN = 54, HEN = 184, FEN = 436
+Time: cpu=0.00/0.14  real=0.00/0.19  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer pw1v2WidthCleanedTemp
 
@@ -3438,7 +3438,7 @@ operation group: 106/234
     outPw1v2 = NOT pw1v2WidthCleaned inPw1v2All
 ========================================================================
     generate layer outPw1v2, TYP = P, HPN = 2, FPN = 2, HEN = 72, FEN = 72
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer pw1v2WidthCleaned
     delete layer inPw1v2All
@@ -3448,7 +3448,7 @@ operation group: 107/234
     ioPw1v2GenNew = OR outPw1v2 PW1V2makeGen
 ========================================================================
     generate layer ioPw1v2GenNew, TYP = P, HPN = 2, FPN = 2, HEN = 72, FEN = 72
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer outPw1v2
     delete layer PW1V2makeGen
@@ -3457,16 +3457,16 @@ Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
 operation group: 108/234
     _CPTMPL75 = OR PW1V2orig ioPw1v2GenNew
 ========================================================================
-    generate layer _CPTMPL75, TYP = P, HPN = 11, FPN = 54, HEN = 130, FEN = 410
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/16.46  peak=21.49
+    generate layer _CPTMPL75, TYP = P, HPN = 11, FPN = 54, HEN = 128, FEN = 408
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/16.46  peak=21.49
 
 
 
 operation group: 109/234
     _CPTMPL76 = NOT _CPTMPL75 PSUBRING
 ========================================================================
-    generate layer _CPTMPL76, TYP = P, HPN = 11, FPN = 54, HEN = 130, FEN = 410
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+    generate layer _CPTMPL76, TYP = P, HPN = 11, FPN = 54, HEN = 128, FEN = 408
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL75
 
@@ -3474,8 +3474,8 @@ Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
 operation group: 110/234
     PW1V2 = NOT _CPTMPL76 SEALRINGmark
 ========================================================================
-    generate layer PW1V2, TYP = P, HPN = 11, FPN = 54, HEN = 130, FEN = 410
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+    generate layer PW1V2, TYP = P, HPN = 11, FPN = 54, HEN = 128, FEN = 408
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL76
 
@@ -3484,7 +3484,7 @@ operation group: 111/234
     inPw3v3All = OR PW3V3orig PW3V3makeGen
 ========================================================================
     generate layer inPw3v3All, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3492,7 +3492,7 @@ operation group: 112/234
     pw3v3BlockGenNew = OR PXL PW3V3blockGen
 ========================================================================
     generate layer pw3v3BlockGenNew, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3500,7 +3500,7 @@ operation group: 113/234
     pw3V3OrgNotBlocked = NOT inPw3v3All pw3v3BlockGenNew
 ========================================================================
     generate layer pw3V3OrgNotBlocked, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer pw3v3BlockGenNew
 
@@ -3508,8 +3508,8 @@ Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
 operation group: 114/234
     noPw3v3 = CAT PW3V3blockGen PW1V2orig PW3V3orig PW3V3makeGen NW1V2 NW3V3 PXL NLVT3V3
 ========================================================================
-    generate layer noPw3v3, TYP = P, HPN = 22, FPN = 119, HEN = 160, FEN = 780
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/16.46  peak=21.49
+    generate layer noPw3v3, TYP = P, HPN = 23, FPN = 120, HEN = 160, FEN = 780
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/16.46  peak=21.49
 
     delete layer PW3V3blockGen
     delete layer PW1V2orig
@@ -3519,7 +3519,7 @@ operation group: 115/234
     _CPTMPL66 = NOT BULK noPw3v3
 ========================================================================
     generate layer _CPTMPL66, TYP = P, HPN = 2, FPN = 2, HEN = 72, FEN = 72
-Time: cpu=0.00/0.15  real=0.00/0.22  Memory: 12.31/12.45/20.48  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/20.48  peak=21.49
 
     delete layer BULK
     delete layer noPw3v3
@@ -3529,7 +3529,7 @@ operation group: 116/234
     generator3v3 = NOT _CPTMPL66 ioPw1v2GenNew
 ========================================================================
     generate layer generator3v3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/17.47  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/17.47  peak=21.49
 
     delete layer _CPTMPL66
     delete layer ioPw1v2GenNew
@@ -3539,7 +3539,7 @@ operation group: 117/234
     pw3V3NewNotBlockedWoClean = OR pw3V3OrgNotBlocked generator3v3
 ========================================================================
     generate layer pw3V3NewNotBlockedWoClean, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer pw3V3OrgNotBlocked
     delete layer generator3v3
@@ -3549,7 +3549,7 @@ operation group: 118/234
     pw3v3Plus = SIZE pw3V3NewNotBlockedWoClean -by 0.005 -truncate 0.005
 ========================================================================
     generate layer pw3v3Plus, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer pw3V3NewNotBlockedWoClean
 
@@ -3558,7 +3558,7 @@ operation group: 119/234
     pw3v3UnderOver = SIZE pw3v3Plus -by 0.5 -underover -truncate 0.5
 ========================================================================
     generate layer pw3v3UnderOver, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
 
 
@@ -3566,7 +3566,7 @@ operation group: 120/234
     pw3v3WidthCleanedTemp = AND pw3v3UnderOver pw3v3Plus
 ========================================================================
     generate layer pw3v3WidthCleanedTemp, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer pw3v3UnderOver
     delete layer pw3v3Plus
@@ -3576,7 +3576,7 @@ operation group: 121/234
     pw3v3WidthCleaned = SIZE pw3v3WidthCleanedTemp -by -0.005 -truncate 0.005
 ========================================================================
     generate layer pw3v3WidthCleaned, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer pw3v3WidthCleanedTemp
 
@@ -3585,7 +3585,7 @@ operation group: 122/234
     outPw3v3 = NOT pw3v3WidthCleaned inPw3v3All
 ========================================================================
     generate layer outPw3v3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer pw3v3WidthCleaned
     delete layer inPw3v3All
@@ -3595,7 +3595,7 @@ operation group: 123/234
     _CPTMPL78 = OR PW3V3orig outPw3v3 PW3V3makeGen
 ========================================================================
     generate layer _CPTMPL78, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer PW3V3orig
     delete layer outPw3v3
@@ -3606,7 +3606,7 @@ operation group: 124/234
     _CPTMPL79 = NOT _CPTMPL78 PSUBRING
 ========================================================================
     generate layer _CPTMPL79, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL78
     delete layer PSUBRING
@@ -3616,7 +3616,7 @@ operation group: 125/234
     PW3V3 = NOT _CPTMPL79 SEALRINGmark
 ========================================================================
     generate layer PW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.31/12.45/12.45  peak=21.49
+Time: cpu=0.00/0.14  real=0.00/0.20  Memory: 12.31/12.45/12.45  peak=21.49
 
     delete layer _CPTMPL79
     delete layer SEALRINGmark
@@ -3669,7 +3669,7 @@ operation group: 126/234
     LVS_SOFTCHK ARRAYPW -TYPE UPPER   Total Result        0 (       0)
     LVS_SOFTCHK PSUB -TYPE UPPER   Total Result        0 (       0)
     LVS_SOFTCHK PSUBISO -TYPE UPPER   Total Result        0 (       0)
-Time: cpu=0.02/0.17  real=0.02/0.24  Memory: 12.34/12.50/25.57  peak=25.57
+Time: cpu=0.02/0.16  real=0.02/0.21  Memory: 12.34/12.52/25.58  peak=25.58
 
     delete layer VIA1
     delete layer VIA2
@@ -3688,7 +3688,7 @@ operation group: 127/234
     CAPF_M2M3 = SELECT -label CAPFmark -textname cvnm2m3 -textlayer CAPFlabel
 ========================================================================
     generate layer CAPF_M2M3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.17  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer CAPFmark
     delete layer CAPFlabel
@@ -3698,7 +3698,7 @@ operation group: 128/234
     METAL23_0 = AND METAL2 METAL3
 ========================================================================
     layer METAL23_0 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.17  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer METAL2
     delete layer METAL3
@@ -3708,7 +3708,7 @@ operation group: 129/234
     _EPTMPL262182 = SELECT -inside METAL23_0 CAPF_M2M3
 ========================================================================
     generate layer _EPTMPL262182, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.17  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer METAL23_0
 
@@ -3717,7 +3717,7 @@ operation group: 130/234
     FRCAPM2M3 = SELECT -enclose CAPF_M2M3 _EPTMPL262182
 ========================================================================
     generate layer FRCAPM2M3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.17  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _EPTMPL262182
 
@@ -3726,7 +3726,7 @@ operation group: 131/234
     RPOLYSALBLK = AND RPPOLYS1 SALBLK
 ========================================================================
     generate layer RPOLYSALBLK, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
-Time: cpu=0.00/0.17  real=0.00/0.24  Memory: 12.33/12.50/17.53  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/17.54  peak=25.58
 
     delete layer SALBLK
 
@@ -3735,7 +3735,7 @@ operation group: 132/234
     RNPOLYH = SELECT -inside RPOLYSALBLK NPLUS
 ========================================================================
     generate layer RNPOLYH, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/17.79  peak=25.58
 
 
 
@@ -3743,7 +3743,7 @@ operation group: 133/234
     RNPOLYHPW1V2 = AND RNPOLYH PW1V2
 ========================================================================
     generate layer RNPOLYHPW1V2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3751,7 +3751,7 @@ operation group: 134/234
     RNPOLYHPW3V3 = AND RNPOLYH PW3V3
 ========================================================================
     generate layer RNPOLYHPW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3759,7 +3759,7 @@ operation group: 135/234
     RNPOLYHNW1V2 = AND RNPOLYH NW1V2
 ========================================================================
     generate layer RNPOLYHNW1V2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3767,7 +3767,7 @@ operation group: 136/234
     RNPOLYHNW3V3 = AND RNPOLYH NW3V3
 ========================================================================
     generate layer RNPOLYHNW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.16  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3775,7 +3775,7 @@ operation group: 137/234
     RNPOLYS1 = AND RPPOLYS1 POLYDOPE
 ========================================================================
     generate layer RNPOLYS1, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/17.53  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/17.54  peak=25.58
 
     delete layer RPPOLYS1
     delete layer POLYDOPE
@@ -3785,7 +3785,7 @@ operation group: 138/234
     RNPOLYM1 = AND RNPOLYS1 RPOLYSALBLK
 ========================================================================
     generate layer RNPOLYM1, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/17.79  peak=25.58
 
     delete layer RNPOLYS1
 
@@ -3794,7 +3794,7 @@ operation group: 139/234
     _CPTMPL126 = SELECT -interact RNPOLYM1 NPLUS
 ========================================================================
     generate layer _CPTMPL126, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/17.53  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/17.54  peak=25.58
 
     delete layer RNPOLYM1
     delete layer NPLUS
@@ -3804,7 +3804,7 @@ operation group: 140/234
     RNPOLYM = NOT _CPTMPL126 RNPOLYH
 ========================================================================
     generate layer RNPOLYM, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
-Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL126
     delete layer RNPOLYH
@@ -3814,7 +3814,7 @@ operation group: 141/234
     RNPOLYMPW1V2 = AND RNPOLYM PW1V2
 ========================================================================
     generate layer RNPOLYMPW1V2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/17.79  peak=25.58
 
 
 
@@ -3822,7 +3822,7 @@ operation group: 142/234
     RNPOLYMPW3V3 = AND RNPOLYM PW3V3
 ========================================================================
     generate layer RNPOLYMPW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3830,7 +3830,7 @@ operation group: 143/234
     RNPOLYMNW1V2 = AND RNPOLYM NW1V2
 ========================================================================
     generate layer RNPOLYMNW1V2, TYP = P, HPN = 75, FPN = 150, HEN = 300, FEN = 600
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/17.53  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/17.54  peak=25.58
 
 
 
@@ -3838,7 +3838,7 @@ operation group: 144/234
     RNPOLYMNW3V3 = AND RNPOLYM NW3V3
 ========================================================================
     generate layer RNPOLYMNW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer RNPOLYM
 
@@ -3847,7 +3847,7 @@ operation group: 145/234
     RPPOLYM = AND RPOLYSALBLK PPLUS
 ========================================================================
     generate layer RPPOLYM, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/16.52  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/16.54  peak=25.58
 
     delete layer RPOLYSALBLK
     delete layer PPLUS
@@ -3857,7 +3857,7 @@ operation group: 146/234
     RPPOLYMPW1V2 = AND RPPOLYM PW1V2
 ========================================================================
     generate layer RPPOLYMPW1V2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3865,7 +3865,7 @@ operation group: 147/234
     RPPOLYMPW3V3 = AND RPPOLYM PW3V3
 ========================================================================
     generate layer RPPOLYMPW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3873,7 +3873,7 @@ operation group: 148/234
     RPPOLYMNW1V2 = AND RPPOLYM NW1V2
 ========================================================================
     generate layer RPPOLYMNW1V2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3881,7 +3881,7 @@ operation group: 149/234
     RPPOLYMNW3V3 = AND RPPOLYM NW3V3
 ========================================================================
     generate layer RPPOLYMNW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer RPPOLYM
 
@@ -3890,7 +3890,7 @@ operation group: 150/234
     NGATE3V3 = AND NGATE NEXT3V3
 ========================================================================
     generate layer NGATE3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3898,7 +3898,7 @@ operation group: 151/234
     _CPTMPL217 = NOT NGATE3V3 TXFETmark
 ========================================================================
     generate layer _CPTMPL217, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -3906,7 +3906,7 @@ operation group: 152/234
     _CPTMPL218 = AND _CPTMPL217 ARRAYPW
 ========================================================================
     generate layer _CPTMPL218, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL217
 
@@ -3915,7 +3915,7 @@ operation group: 153/234
     NMOS3V3PIX = AND _CPTMPL218 PXL
 ========================================================================
     generate layer NMOS3V3PIX, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL218
     delete layer PXL
@@ -3925,7 +3925,7 @@ operation group: 154/234
     NMOS3V3TX = AND NGATE3V3TX TXFETmark
 ========================================================================
     generate layer NMOS3V3TX, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.22  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer TXFETmark
 
@@ -3934,7 +3934,7 @@ operation group: 155/234
     _CPTMPL163 = AND NGATE NEXT1V2
 ========================================================================
     generate layer _CPTMPL163, TYP = P, HPN = 6, FPN = 20, HEN = 24, FEN = 80
-Time: cpu=0.00/0.18  real=0.00/0.25  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.23  Memory: 12.33/12.52/17.79  peak=25.58
 
 
 
@@ -3942,7 +3942,7 @@ operation group: 156/234
     NGATE1V2 = AND _CPTMPL163 GOX1V2
 ========================================================================
     generate layer NGATE1V2, TYP = P, HPN = 6, FPN = 20, HEN = 24, FEN = 80
-Time: cpu=0.00/0.19  real=0.00/0.25  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.23  Memory: 12.33/12.52/17.79  peak=25.58
 
     delete layer _CPTMPL163
 
@@ -3951,7 +3951,7 @@ operation group: 157/234
     NMOS1V2HVT1 = AND NGATE1V2 PW1V2
 ========================================================================
     generate layer NMOS1V2HVT1, TYP = P, HPN = 6, FPN = 20, HEN = 24, FEN = 80
-Time: cpu=0.00/0.19  real=0.00/0.25  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.17  real=0.00/0.23  Memory: 12.33/12.52/17.79  peak=25.58
 
 
 
@@ -3959,7 +3959,7 @@ operation group: 158/234
     NCAP1V2HVT = AND NMOS1V2HVT1 CAPmark
 ========================================================================
     generate layer NCAP1V2HVT, TYP = P, HPN = 1, FPN = 8, HEN = 4, FEN = 32
-Time: cpu=0.00/0.19  real=0.00/0.25  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.23  Memory: 12.33/12.52/17.79  peak=25.58
 
 
 
@@ -3967,7 +3967,7 @@ operation group: 159/234
     _CPTMPL165 = AND PGATE PEXT1V2
 ========================================================================
     generate layer _CPTMPL165, TYP = P, HPN = 9, FPN = 29, HEN = 36, FEN = 116
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.23  Memory: 12.33/12.52/17.79  peak=25.58
 
 
 
@@ -3975,7 +3975,7 @@ operation group: 160/234
     PGATE1V2 = AND _CPTMPL165 GOX1V2
 ========================================================================
     generate layer PGATE1V2, TYP = P, HPN = 9, FPN = 29, HEN = 36, FEN = 116
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.23  Memory: 12.33/12.52/17.79  peak=25.58
 
     delete layer _CPTMPL165
 
@@ -3984,7 +3984,7 @@ operation group: 161/234
     PMOS1V2HVT1 = AND PGATE1V2 NW1V2
 ========================================================================
     generate layer PMOS1V2HVT1, TYP = P, HPN = 9, FPN = 29, HEN = 36, FEN = 116
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/17.79  peak=25.58
 
     delete layer PGATE1V2
 
@@ -3993,7 +3993,7 @@ operation group: 162/234
     PCAP1V2HVT = AND PMOS1V2HVT1 CAPmark
 ========================================================================
     generate layer PCAP1V2HVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/17.78  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/17.79  peak=25.58
 
 
 
@@ -4001,7 +4001,7 @@ operation group: 163/234
     NMOS3V3RVT1 = AND NGATE3V3 PW3V3
 ========================================================================
     generate layer NMOS3V3RVT1, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4009,7 +4009,7 @@ operation group: 164/234
     NCAP3V3RVT = AND NMOS3V3RVT1 CAPmark
 ========================================================================
     generate layer NCAP3V3RVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4017,7 +4017,7 @@ operation group: 165/234
     PGATE3V3 = AND PGATE PEXT3V3
 ========================================================================
     generate layer PGATE3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4025,7 +4025,7 @@ operation group: 166/234
     PMOS3V3RVT1 = AND PGATE3V3 NW3V3
 ========================================================================
     generate layer PMOS3V3RVT1, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PGATE3V3
 
@@ -4034,7 +4034,7 @@ operation group: 167/234
     PCAP3V3RVT = AND PMOS3V3RVT1 CAPmark
 ========================================================================
     generate layer PCAP3V3RVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.19  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4042,7 +4042,7 @@ operation group: 168/234
     NMOS1V2HVT = NOT NMOS1V2HVT1 CAPmark
 ========================================================================
     generate layer NMOS1V2HVT, TYP = P, HPN = 5, FPN = 12, HEN = 20, FEN = 48
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/17.53  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/17.54  peak=25.58
 
     delete layer NMOS1V2HVT1
 
@@ -4051,7 +4051,7 @@ operation group: 169/234
     PMOS1V2HVT = NOT PMOS1V2HVT1 CAPmark
 ========================================================================
     generate layer PMOS1V2HVT, TYP = P, HPN = 9, FPN = 29, HEN = 36, FEN = 116
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/17.53  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/17.54  peak=25.58
 
     delete layer PMOS1V2HVT1
 
@@ -4060,7 +4060,7 @@ operation group: 170/234
     NMOS3V3RVT = NOT NMOS3V3RVT1 CAPmark
 ========================================================================
     generate layer NMOS3V3RVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer NMOS3V3RVT1
 
@@ -4069,7 +4069,7 @@ operation group: 171/234
     PMOS3V3RVT = NOT PMOS3V3RVT1 CAPmark
 ========================================================================
     generate layer PMOS3V3RVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PMOS3V3RVT1
     delete layer CAPmark
@@ -4079,7 +4079,7 @@ operation group: 172/234
     DNPPW = AND NDIFF DIOmark
 ========================================================================
     generate layer DNPPW, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4087,7 +4087,7 @@ operation group: 173/234
     _CPTMPL280 = AND DNPPW PW1V2
 ========================================================================
     generate layer _CPTMPL280, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4095,7 +4095,7 @@ operation group: 174/234
     _CPTMPL281 = AND _CPTMPL280 NEXT1V2
 ========================================================================
     generate layer _CPTMPL281, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL280
 
@@ -4104,7 +4104,7 @@ operation group: 175/234
     DNPPW1V2 = SELECT -inside _CPTMPL281 GOX1V2
 ========================================================================
     generate layer DNPPW1V2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL281
 
@@ -4113,7 +4113,7 @@ operation group: 176/234
     _CPTMPL286 = AND DNPPW PW3V3
 ========================================================================
     generate layer _CPTMPL286, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer DNPPW
 
@@ -4122,7 +4122,7 @@ operation group: 177/234
     DNPPW3V3 = AND _CPTMPL286 NEXT3V3
 ========================================================================
     generate layer DNPPW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL286
 
@@ -4131,7 +4131,7 @@ operation group: 178/234
     DNPPWESD = AND NDIFF ESDDIOmark
 ========================================================================
     generate layer DNPPWESD, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4139,7 +4139,7 @@ operation group: 179/234
     _CPTMPL293 = AND DNPPWESD PW1V2
 ========================================================================
     generate layer _CPTMPL293, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4147,7 +4147,7 @@ operation group: 180/234
     _CPTMPL294 = AND _CPTMPL293 NEXT1V2
 ========================================================================
     generate layer _CPTMPL294, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL293
     delete layer NEXT1V2
@@ -4157,7 +4157,7 @@ operation group: 181/234
     DNPPW1V2ESD = SELECT -inside _CPTMPL294 GOX1V2
 ========================================================================
     generate layer DNPPW1V2ESD, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL294
 
@@ -4166,7 +4166,7 @@ operation group: 182/234
     _CPTMPL296 = AND DNPPWESD PW3V3
 ========================================================================
     generate layer _CPTMPL296, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer DNPPWESD
 
@@ -4175,7 +4175,7 @@ operation group: 183/234
     DNPPW3V3ESD = AND _CPTMPL296 NEXT3V3
 ========================================================================
     generate layer DNPPW3V3ESD, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL296
     delete layer NEXT3V3
@@ -4185,7 +4185,7 @@ operation group: 184/234
     DPPNW = AND PDIFF DIOmark
 ========================================================================
     generate layer DPPNW, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4193,7 +4193,7 @@ operation group: 185/234
     _CPTMPL303 = AND DPPNW NW1V2
 ========================================================================
     generate layer _CPTMPL303, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4201,7 +4201,7 @@ operation group: 186/234
     _CPTMPL304 = AND _CPTMPL303 PEXT1V2
 ========================================================================
     generate layer _CPTMPL304, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL303
 
@@ -4210,7 +4210,7 @@ operation group: 187/234
     DPPNW1V2 = SELECT -inside _CPTMPL304 GOX1V2
 ========================================================================
     generate layer DPPNW1V2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL304
 
@@ -4219,7 +4219,7 @@ operation group: 188/234
     _CPTMPL309 = AND DPPNW NW3V3
 ========================================================================
     generate layer _CPTMPL309, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer DPPNW
 
@@ -4228,7 +4228,7 @@ operation group: 189/234
     DPPNW3V3 = AND _CPTMPL309 PEXT3V3
 ========================================================================
     generate layer DPPNW3V3, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL309
 
@@ -4237,7 +4237,7 @@ operation group: 190/234
     DPPNWESD = AND PDIFF ESDDIOmark
 ========================================================================
     generate layer DPPNWESD, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer ESDDIOmark
 
@@ -4246,7 +4246,7 @@ operation group: 191/234
     _CPTMPL316 = AND DPPNWESD NW1V2
 ========================================================================
     generate layer _CPTMPL316, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4254,7 +4254,7 @@ operation group: 192/234
     _CPTMPL317 = AND _CPTMPL316 PEXT1V2
 ========================================================================
     generate layer _CPTMPL317, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL316
     delete layer PEXT1V2
@@ -4264,7 +4264,7 @@ operation group: 193/234
     DPPNW1V2ESD = AND _CPTMPL317 GOX1V2
 ========================================================================
     generate layer DPPNW1V2ESD, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL317
 
@@ -4273,7 +4273,7 @@ operation group: 194/234
     _CPTMPL319 = AND DPPNWESD NW3V3
 ========================================================================
     generate layer _CPTMPL319, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer DPPNWESD
 
@@ -4282,7 +4282,7 @@ operation group: 195/234
     DPPNW3V3ESD = AND _CPTMPL319 PEXT3V3
 ========================================================================
     generate layer DPPNW3V3ESD, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL319
     delete layer PEXT3V3
@@ -4292,7 +4292,7 @@ operation group: 196/234
     DDNWSUB = AND DNW PSUB
 ========================================================================
     generate layer DDNWSUB, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4300,7 +4300,7 @@ operation group: 197/234
     DPW1V2DNW = AND PW1V2 DNW
 ========================================================================
     generate layer DPW1V2DNW, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4308,7 +4308,7 @@ operation group: 198/234
     DPW3V3DNW = AND PW3V3 DNW
 ========================================================================
     generate layer DPW3V3DNW, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4316,7 +4316,7 @@ operation group: 199/234
     _CPTMPL328 = AND NDIFFTX DIOmark
 ========================================================================
     generate layer _CPTMPL328, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer DIOmark
 
@@ -4325,7 +4325,7 @@ operation group: 200/234
     _CPTMPL329 = AND PSN PSP
 ========================================================================
     generate layer _CPTMPL329, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PSN
     delete layer PSP
@@ -4335,7 +4335,7 @@ operation group: 201/234
     DPV = SELECT -interact _CPTMPL328 _CPTMPL329
 ========================================================================
     generate layer DPV, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL328
     delete layer _CPTMPL329
@@ -4345,7 +4345,7 @@ operation group: 202/234
     PNP01 = HOLES PDIFF -inner
 ========================================================================
     layer PNP01 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4353,7 +4353,7 @@ operation group: 203/234
     PNP02 = SELECT -enclose PNP01 PDIFF -eq 1
 ========================================================================
     layer PNP02 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PNP01
 
@@ -4362,7 +4362,7 @@ operation group: 204/234
     _CPTMPL333 = HOLES NDIFF -empty
 ========================================================================
     layer _CPTMPL333 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4370,7 +4370,7 @@ operation group: 205/234
     _CPTMPL334 = HOLES NDIFF -inner -empty
 ========================================================================
     layer _CPTMPL334 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4378,7 +4378,7 @@ operation group: 206/234
     PNP03 = OR _CPTMPL333 _CPTMPL334
 ========================================================================
     layer PNP03 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL333
     delete layer _CPTMPL334
@@ -4388,7 +4388,7 @@ operation group: 207/234
     PNP04 = SELECT -enclose PNP03 PDIFF -eq 1
 ========================================================================
     layer PNP04 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PNP03
 
@@ -4397,7 +4397,7 @@ operation group: 208/234
     PNP05 = SELECT -enclose PNP02 PNP04
 ========================================================================
     layer PNP05 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PNP02
     delete layer PNP04
@@ -4407,7 +4407,7 @@ operation group: 209/234
     PNP06 = AND PNP05 BJTmark
 ========================================================================
     generate layer PNP06, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PNP05
     delete layer BJTmark
@@ -4417,7 +4417,7 @@ operation group: 210/234
     PNP07 = SELECT -inside PNP06 GOX1V2
 ========================================================================
     generate layer PNP07, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PNP06
     delete layer GOX1V2
@@ -4427,7 +4427,7 @@ operation group: 211/234
     PNP5UX5U01 = RECT_CHK PNPEMIT5UX5U -eq 5 -by eq 5
 ========================================================================
     generate layer PNP5UX5U01, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4435,7 +4435,7 @@ operation group: 212/234
     PNP5UX5U = SELECT -enclose PNP07 PNP5UX5U01
 ========================================================================
     generate layer PNP5UX5U, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer PNP07
     delete layer PNP5UX5U01
@@ -4445,7 +4445,7 @@ operation group: 213/234
     CMIMS = SELECT -interact TOPMIM VIAM
 ========================================================================
     generate layer CMIMS, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4453,7 +4453,7 @@ operation group: 214/234
     CMIMS2 = SELECT -interact TOPMIMS2 VIAM
 ========================================================================
     generate layer CMIMS2, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4461,7 +4461,7 @@ operation group: 215/234
     CMIMS7 = SELECT -interact TOPMIMS7 VIAM
 ========================================================================
     generate layer CMIMS7, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer VIAM
 
@@ -4470,7 +4470,7 @@ operation group: 216/234
     _CPTMPL263 = AND NGATE1V2 NW1V2
 ========================================================================
     layer _CPTMPL263 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer NGATE1V2
 
@@ -4479,7 +4479,7 @@ operation group: 217/234
     NVAR1V2HVT = SELECT -interact VARmark _CPTMPL263
 ========================================================================
     generate layer NVAR1V2HVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL263
 
@@ -4488,7 +4488,7 @@ operation group: 218/234
     NVAR1V2HVTNOISO = NOT NVAR1V2HVT DNW
 ========================================================================
     generate layer NVAR1V2HVTNOISO, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4496,7 +4496,7 @@ operation group: 219/234
     NVAR1V2HVTISO = AND NVAR1V2HVT DNW
 ========================================================================
     generate layer NVAR1V2HVTISO, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer NVAR1V2HVT
 
@@ -4505,7 +4505,7 @@ operation group: 220/234
     NGATE3V3RVT = NOT NGATE3V3 NLVT3V3
 ========================================================================
     generate layer NGATE3V3RVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer NGATE3V3
     delete layer NLVT3V3
@@ -4515,7 +4515,7 @@ operation group: 221/234
     _CPTMPL267 = AND NGATE3V3RVT NW3V3
 ========================================================================
     generate layer _CPTMPL267, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer NGATE3V3RVT
 
@@ -4524,7 +4524,7 @@ operation group: 222/234
     NVAR3V3RVT = SELECT -interact VARmark _CPTMPL267
 ========================================================================
     generate layer NVAR3V3RVT, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer _CPTMPL267
 
@@ -4533,7 +4533,7 @@ operation group: 223/234
     NVAR3V3RVTNOISO = NOT NVAR3V3RVT DNW
 ========================================================================
     generate layer NVAR3V3RVTNOISO, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
 
 
@@ -4541,7 +4541,7 @@ operation group: 224/234
     NVAR3V3RVTISO = AND NVAR3V3RVT DNW
 ========================================================================
     generate layer NVAR3V3RVTISO, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer NVAR3V3RVT
 
@@ -4550,7 +4550,7 @@ operation group: 225/234
     PROBE_REC = AND PROBEmark METALF
 ========================================================================
     generate layer PROBE_REC, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer METALF
 
@@ -4559,7 +4559,7 @@ operation group: 226/234
     METAL3cf = AND METAL3a CAPF_M2M3
 ========================================================================
     generate layer METAL3cf, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer CAPF_M2M3
 
@@ -4568,7 +4568,7 @@ operation group: 227/234
     VARMARKER = AND DIFF VARmark
 ========================================================================
     generate layer VARMARKER, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.20  real=0.00/0.26  Memory: 12.33/12.50/12.50  peak=25.57
+Time: cpu=0.00/0.18  real=0.00/0.24  Memory: 12.33/12.52/12.52  peak=25.58
 
     delete layer DIFF
     delete layer VARmark
@@ -4997,7 +4997,7 @@ Write DEVICES ...
     layer _EPTMPL262566 not generated, operation is dynamically optimized out.
     layer _EPTMPL262568 not generated, operation is dynamically optimized out.
     layer _EPTMPL262571 not generated, operation is dynamically optimized out.
-Time: cpu=0.01/0.20  real=0.01/0.27  Memory: 17.35/17.56/21.58  peak=25.57
+Time: cpu=0.01/0.19  real=0.01/0.25  Memory: 17.35/17.56/21.58  peak=25.58
 
     delete layer RMET1a
     delete layer METAL2a
@@ -5067,7 +5067,7 @@ operation group: 229/234
     FLOATING_PWELL:_CPTMPL371 = OR PTAP PTAPISO
 ========================================================================
     layer FLOATING_PWELL:_CPTMPL371 not generated, operation is dynamically optimized out.
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/17.56  peak=25.57
+Time: cpu=0.00/0.19  real=0.00/0.25  Memory: 17.35/17.56/17.56  peak=25.58
 
 
 
@@ -5075,12 +5075,12 @@ operation group: 230/234
     FLOATING_PWELL:L262476 = SELECT -interact PW3V3 FLOATING_PWELL:_CPTMPL371 -not
 ========================================================================
     generate layer FLOATING_PWELL:L262476, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/17.56  peak=25.57
+Time: cpu=0.00/0.19  real=0.00/0.25  Memory: 17.35/17.56/17.56  peak=25.58
 
     delete layer FLOATING_PWELL:_CPTMPL371
 
     Rule Check FLOATING_PWELL finished, 0 error(s) reported.
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/18.57  peak=25.57
+Time: cpu=0.00/0.19  real=0.00/0.25  Memory: 17.35/17.56/18.57  peak=25.58
 
 
 [INFO]: 20.00% (1 out of 5) rule checks completed.
@@ -5090,11 +5090,11 @@ operation group: 231/234
     FLOATING_NWELL:L262480 = SELECT -interact ALLNW NTAP -not
 ========================================================================
     generate layer FLOATING_NWELL:L262480, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/25.60  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/25.60  peak=25.60
 
 
     Rule Check FLOATING_NWELL finished, 0 error(s) reported.
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/18.57  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/18.57  peak=25.60
 
 
 [INFO]: 40.00% (2 out of 5) rule checks completed.
@@ -5104,12 +5104,12 @@ operation group: 232/234
     FLOATING_PSUB:L262481 = SELECT -interact PSUB PTAP -not
 ========================================================================
     generate layer FLOATING_PSUB:L262481, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/17.56  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/17.56  peak=25.60
 
     delete layer PSUB
 
     Rule Check FLOATING_PSUB finished, 0 error(s) reported.
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/21.58  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/21.58  peak=25.60
 
 
 [INFO]: 60.00% (3 out of 5) rule checks completed.
@@ -5119,11 +5119,11 @@ operation group: 233/234
     FLOATING_PSUBISO:L262482 = SELECT -interact PSUBISO PTAPISO -not
 ========================================================================
     generate layer FLOATING_PSUBISO:L262482, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/17.56  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/17.56  peak=25.60
 
 
     Rule Check FLOATING_PSUBISO finished, 0 error(s) reported.
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/18.57  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/18.57  peak=25.60
 
 
 [INFO]: 80.00% (4 out of 5) rule checks completed.
@@ -5133,12 +5133,12 @@ operation group: 234/234
     FLOATING_DNW:L262484 = SELECT -interact DNW ALLNW -not
 ========================================================================
     generate layer FLOATING_DNW:L262484, TYP = P, HPN = 0, FPN = 0, HEN = 0, FEN = 0
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/17.56  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/17.56  peak=25.60
 
     delete layer ALLNW
 
     Rule Check FLOATING_DNW finished, 0 error(s) reported.
-Time: cpu=0.00/0.21  real=0.00/0.27  Memory: 17.35/17.56/18.57  peak=25.60
+Time: cpu=0.00/0.20  real=0.00/0.25  Memory: 17.35/17.56/18.57  peak=25.60
 
 
 [INFO]: 100.00% (5 out of 5) rule checks completed.
@@ -5171,7 +5171,7 @@ Outputting Results ...
 Total CPU Time                    : 0(s)
 Total Real Time                   : 0(s)
 Peak Memory Used                  : 26(M)
-Total Original Geometry           : 2950(11182)
+Total Original Geometry           : 3499(11731)
 Total ERC RuleChecks              : 5
 Total ERC Results                 : 0 (0)
 Summary can be found in file CONSTANT_GM_2_fL.sum
@@ -5187,17 +5187,17 @@ Copyright 2025 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
-Executed on:     edatools (Linux x86_64 6.17.0-29-generic)
-Process Id:      1478268
-Starting Time:   Mon Jun 15 11:23:03 2026 (Mon Jun 15 11:23:03 2026 GMT)
-With parameters: CONSTANT_GM_2_fL_1478254 /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.agf CONSTANT_GM_2_fL -lmap lmapy5iX97 -netmap /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.lnn -property_nqrc -gds_scale 1000 -vircolon 
+Executed on:     edatools (Linux x86_64 6.17.0-35-generic)
+Process Id:      948258
+Starting Time:   Tue Jul 28 08:45:51 2026 (Tue Jul 28 08:45:51 2026 GMT)
+With parameters: CONSTANT_GM_2_fL_948244 /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.agf CONSTANT_GM_2_fL -lmap lmapU165Dn -netmap /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.lnn -property_nqrc -gds_scale 1000 -vircolon 
 ********************************************************************************
 
-Library name: CONSTANT_GM_2_fL_1478254
+Library name: CONSTANT_GM_2_fL_948244
 GDSII file name: /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.agf
 Cells to be written out: CONSTANT_GM_2_fL
-Source Library: CONSTANT_GM_2_fL_1478254
-Layer mapping file(GDS <- DMC): lmapy5iX97
+Source Library: CONSTANT_GM_2_fL_948244
+Layer mapping file(GDS <- DMC): lmapU165Dn
     18 (dt:0 tt:0) <- 18
     28 (dt:0 tt:0) <- 28
     54 (dt:0 tt:0) <- 54
@@ -5301,43 +5301,43 @@ Option: output object property for new qrc flow
                 Object Statistics of Cells                            
 Cell Name         Box  Polygon     Path   Label Instance Array    Total
 ----------------------------------------------------------------------
-CONSTANT_GM_2_fL     1352       33        0       0    74      0      1459
-PG_M1_CDNS_781522578890        6        0        0       0     0      0         6
-M1_M2_CDNS_781522578891        4        0        0       0     0      0         4
-M1_M2_CDNS_781522578892        6        0        0       0     0      0         6
-M1_M2_CDNS_781522578893        6        0        0       0     0      0         6
-M1_M2_CDNS_781522578894        5        0        0       0     0      0         5
-M2_M3_CDNS_781522578898       26        0        0       0     0      0        26
-M2_M3_CDNS_7815225788910       62        0        0       0     0      0        62
-M2_M3_CDNS_7815225788911       42        0        0       0     0      0        42
-nmos1v2hvt_4_CDNS_781522578890       77        2        0       0     5      0        84
-nmos1v2hvt_4_CDNS_781522578895       23        0        0       0     2      0        25
-nmos1v2hvt_4_CDNS_781522578898      115        2        0       0     5      0       122
-pmos1v2hvt_4_CDNS_7815225788911       77        2        0       0     5      0        84
-pmos1v2hvt_4_CDNS_7815225788914       18        0        0       0     3      0        21
-nmos1v2hvt_4_CDNS_7815225788916       76        2        0       0     4      0        82
-pmos1v2hvt_4_CDNS_7815225788917       11        1        0       0     3      0        15
-nmos1v2hvt_4_CDNS_7815225788919       24        0        0       0     2      0        26
-pmos1v2hvt_4_CDNS_7815225788921       17        1        0       0     2      0        20
-ncap1v2hvt_CDNS_7815225788923        7        3        0       0     3      0        13
-rnpolym_CDNS_7815225788926      303        0        0       0    30      0       333
-pmos1v2hvt_4_CDNS_7815225788928       78        2        0       0     6      0        86
-pmos1v2hvt_4_CDNS_7815225788929      268        3        0       0    11      0       282
-Contact_CDNS_781522578891        2        0        0       0     0      0         2
-Contact_CDNS_781522578892       30        0        0       0     0      0        30
-Contact_CDNS_781522578893        5        0        0       0     0      0         5
-AbutContact_CDNS_781522578894       14        0        0       0     0      0        14
-Contact_CDNS_781522578897        1        0        0       0     0      0         1
-Contact_CDNS_781522578899       19        0        0       0     0      0        19
-Contact_CDNS_7815225788912       11        0        0       0     0      0        11
-AbutContact_CDNS_7815225788913       24        0        0       0     0      0        24
-AbutContact_CDNS_7815225788915        6        0        0       0     0      0         6
-Contact_CDNS_7815225788918        8        0        0       0     0      0         8
-Contact_CDNS_7815225788924       69        0        0       0     0      0        69
-Contact_CDNS_7815225788925       51        0        0       0     0      0        51
+CONSTANT_GM_2_fL     1899       33        0       0    74      0      2006
+PG_M1_CDNS_785228347470        6        0        0       0     0      0         6
+M1_M2_CDNS_785228347471        4        0        0       0     0      0         4
+M1_M2_CDNS_785228347472        6        0        0       0     0      0         6
+M1_M2_CDNS_785228347473        6        0        0       0     0      0         6
+M1_M2_CDNS_785228347474        5        0        0       0     0      0         5
+M2_M3_CDNS_785228347478       26        0        0       0     0      0        26
+M2_M3_CDNS_7852283474710       62        0        0       0     0      0        62
+M2_M3_CDNS_7852283474711       42        0        0       0     0      0        42
+nmos1v2hvt_4_CDNS_785228347470       77        2        0       0     5      0        84
+nmos1v2hvt_4_CDNS_785228347475       23        0        0       0     2      0        25
+nmos1v2hvt_4_CDNS_785228347478      115        2        0       0     5      0       122
+pmos1v2hvt_4_CDNS_7852283474711       77        2        0       0     5      0        84
+pmos1v2hvt_4_CDNS_7852283474714       18        0        0       0     3      0        21
+nmos1v2hvt_4_CDNS_7852283474716       76        2        0       0     4      0        82
+pmos1v2hvt_4_CDNS_7852283474717       11        1        0       0     3      0        15
+nmos1v2hvt_4_CDNS_7852283474719       24        0        0       0     2      0        26
+pmos1v2hvt_4_CDNS_7852283474721       17        1        0       0     2      0        20
+ncap1v2hvt_CDNS_7852283474723        7        3        0       0     3      0        13
+rnpolym_CDNS_7852283474726      303        0        0       0    30      0       333
+pmos1v2hvt_4_CDNS_7852283474728       78        2        0       0     6      0        86
+pmos1v2hvt_4_CDNS_7852283474729      268        3        0       0    11      0       282
+Contact_CDNS_785228347471        2        0        0       0     0      0         2
+Contact_CDNS_785228347472       30        0        0       0     0      0        30
+Contact_CDNS_785228347473        5        0        0       0     0      0         5
+AbutContact_CDNS_785228347474       14        0        0       0     0      0        14
+Contact_CDNS_785228347477        1        0        0       0     0      0         1
+Contact_CDNS_785228347479       19        0        0       0     0      0        19
+Contact_CDNS_7852283474712       11        0        0       0     0      0        11
+AbutContact_CDNS_7852283474713       24        0        0       0     0      0        24
+AbutContact_CDNS_7852283474715        6        0        0       0     0      0         6
+Contact_CDNS_7852283474718        8        0        0       0     0      0         8
+Contact_CDNS_7852283474724       69        0        0       0     0      0        69
+Contact_CDNS_7852283474725       51        0        0       0     0      0        51
 MASCO__Y1           5        0        0       0     5      0        10
-Contact_CDNS_7815225788930       39        0        0       0     0      0        39
-Contact_CDNS_7815225788927        4        0        0       0     0      0         4
+Contact_CDNS_7852283474730       39        0        0       0     0      0        39
+Contact_CDNS_7852283474727        4        0        0       0     0      0         4
 ----------------------------------------------------------------------
 
 Object Statistics of Layers
@@ -5362,29 +5362,29 @@ Layer   Objects
   58          40
   62           7
   97         911
-  98        1122
+  98        1669
  101          91
  102          20
 ----------------
 
 Object Summary
 ------------------
-     Box      2891
+     Box      3438
  Polygon        51
     Path         0
    Label         0
 Instance       160
    Array         0
 ------------------
-   Total      3102
+   Total      3649
 
 
-Output property: 3102
+Output property: 3649
 Total CPU Time          : 0(s)
 Total Real Time         : 0(s)
 Peak Memory Used        : 9(M)
 Creating extracted connectivity database ...
-CmdLine: /opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb -kf -edb CONSTANT_GM_2_fL_1478254.db -ecdb ./ -topcell CONSTANT_GM_2_fL -netlist /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.net -layermap /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ecdbmap -textmap /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ports -dependmap CONSTANT_GM_2_fL.lmap.perc -lvsfile /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.lvsfile -saveFloatingNets .CONSTANT_GM_2_fL.info.softchk 
+CmdLine: /opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb -kf -edb CONSTANT_GM_2_fL_948244.db -ecdb ./ -topcell CONSTANT_GM_2_fL -netlist /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.net -layermap /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ecdbmap -textmap /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ports -dependmap CONSTANT_GM_2_fL.lmap.perc -lvsfile /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.lvsfile -saveFloatingNets .CONSTANT_GM_2_fL.info.softchk 
 Legend for cell operations:
    C - Cells
    P - Pins
@@ -5393,7 +5393,7 @@ Legend for cell operations:
    I - Insts
    S - Shapes
    X - Delete cell memory
-Opening layer file 'CONSTANT_GM_2_fL_1478254.db/__layer'...
+Opening layer file 'CONSTANT_GM_2_fL_948244.db/__layer'...
 Loading layer map file '/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ecdbmap'...
 Loading text map file '/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL.ports'...
 Loading dependency map file 'CONSTANT_GM_2_fL.lmap.perc'...
@@ -5403,79 +5403,79 @@ Loading lvs file '/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/s
 Writing db header information...(0s)
 Transfering cdl structures to ecdb structures...
 Read Netlist (32 threads)...
-  DONE - (2s)
+  DONE - (3s)
 Process (32 threads)...
-Cell(       4):   2% Done...(2s), M1_M2_CDNS_781522578893                 
-Cell(      18):   5% Done...(2s), Contact_CDNS_7815225788912              
-Cell(      31):   7% Done...(2s), Contact_CDNS_7815225788927              
-Cell(       9):  10% Done...(2s), Contact_CDNS_781522578891               
-Cell(      14):  13% Done...(2s), Contact_CDNS_781522578897               
-Cell(      28):  15% Done...(2s), Contact_CDNS_7815225788924              
-Cell(       6):  18% Done...(2s), M2_M3_CDNS_781522578898                 
-Cell(      12):  21% Done...(2s), AbutContact_CDNS_781522578894           
-Cell(       1):  23% Done...(2s), PG_M1_CDNS_781522578890                 
-Cell(      24):  26% Done...(2s), Contact_CDNS_7815225788918              
-Cell(       3):  28% Done...(2s), M1_M2_CDNS_781522578892                 
-Cell(       5):  31% Done...(2s), M1_M2_CDNS_781522578894                 
-Cell(      32):  34% Done...(2s), MASCO__Y1                               
-Cell(      16):  36% Done...(2s), Contact_CDNS_781522578899               
-Cell(      11):  39% Done...(2s), Contact_CDNS_781522578893               
-Cell(      19):  42% Done...(2s), AbutContact_CDNS_7815225788913          
-Cell(      25):  44% Done...(2s), pmos1v2hvt_4_CDNS_7815225788917         
-Cell(      29):  47% Done...(2s), Contact_CDNS_7815225788925              
-Cell(      26):  50% Done...(2s), nmos1v2hvt_4_CDNS_7815225788919         
-Cell(      27):  52% Done...(2s), pmos1v2hvt_4_CDNS_7815225788921         
-Cell(      36):  55% Done...(2s), pmos1v2hvt_4_CDNS_7815225788929         
-Cell(      13):  57% Done...(2s), nmos1v2hvt_4_CDNS_781522578890          
-Cell(      17):  60% Done...(2s), nmos1v2hvt_4_CDNS_781522578898          
-Cell(      30):  63% Done...(2s), ncap1v2hvt_CDNS_7815225788923           
-Cell(      34):  65% Done...(2s), pmos1v2hvt_4_CDNS_7815225788928         
-Cell(      21):  68% Done...(2s), AbutContact_CDNS_7815225788915          
-Cell(      22):  71% Done...(2s), pmos1v2hvt_4_CDNS_7815225788914         
-Cell(      23):  73% Done...(2s), nmos1v2hvt_4_CDNS_7815225788916         
-Cell(      20):  76% Done...(2s), pmos1v2hvt_4_CDNS_7815225788911         
-Cell(      15):  78% Done...(2s), nmos1v2hvt_4_CDNS_781522578895          
-Cell(      33):  81% Done...(2s), rnpolym_CDNS_7815225788926              
-Cell(      37):  84% Done...(2s), CONSTANT_GM_2_fL                        
-Cell(       8):  86% Done...(3s), M2_M3_CDNS_7815225788911                
-Cell(       0):  89% Done...(3s), ncap1v2hvt                              
-Cell(      35):  92% Done...(3s), Contact_CDNS_7815225788930              
-Cell(       2):  94% Done...(3s), M1_M2_CDNS_781522578891                 
-Cell(       7):  97% Done...(3s), M2_M3_CDNS_7815225788910                
-Cell(      10): 100% Done...(3s), Contact_CDNS_781522578892               
-  DONE - (1s)
-Cells creation time: (3s)
-Write netlist items...(3s)
+Cell(      18):   2% Done...(3s), Contact_CDNS_7852283474712              
+Cell(      11):   5% Done...(3s), Contact_CDNS_785228347473               
+Cell(      24):   7% Done...(3s), Contact_CDNS_7852283474718              
+Cell(      31):  10% Done...(3s), Contact_CDNS_7852283474727              
+Cell(       4):  13% Done...(3s), M1_M2_CDNS_785228347473                 
+Cell(      28):  15% Done...(3s), Contact_CDNS_7852283474724              
+Cell(      16):  18% Done...(3s), Contact_CDNS_785228347479               
+Cell(      35):  21% Done...(3s), Contact_CDNS_7852283474730              
+Cell(      29):  23% Done...(3s), Contact_CDNS_7852283474725              
+Cell(       5):  26% Done...(3s), M1_M2_CDNS_785228347474                 
+Cell(       9):  28% Done...(3s), Contact_CDNS_785228347471               
+Cell(      23):  31% Done...(3s), nmos1v2hvt_4_CDNS_7852283474716         
+Cell(      25):  34% Done...(3s), pmos1v2hvt_4_CDNS_7852283474717         
+Cell(      34):  36% Done...(3s), pmos1v2hvt_4_CDNS_7852283474728         
+Cell(       3):  39% Done...(3s), M1_M2_CDNS_785228347472                 
+Cell(      14):  42% Done...(3s), Contact_CDNS_785228347477               
+Cell(      22):  44% Done...(3s), pmos1v2hvt_4_CDNS_7852283474714         
+Cell(       0):  47% Done...(3s), ncap1v2hvt                              
+Cell(       1):  50% Done...(3s), PG_M1_CDNS_785228347470                 
+Cell(      15):  52% Done...(3s), nmos1v2hvt_4_CDNS_785228347475          
+Cell(      27):  55% Done...(3s), pmos1v2hvt_4_CDNS_7852283474721         
+Cell(      30):  57% Done...(3s), ncap1v2hvt_CDNS_7852283474723           
+Cell(       7):  60% Done...(3s), M2_M3_CDNS_7852283474710                
+Cell(       8):  63% Done...(3s), M2_M3_CDNS_7852283474711                
+Cell(      33):  65% Done...(3s), rnpolym_CDNS_7852283474726              
+Cell(      17):  68% Done...(3s), nmos1v2hvt_4_CDNS_785228347478          
+Cell(      36):  71% Done...(3s), pmos1v2hvt_4_CDNS_7852283474729         
+Cell(      37):  73% Done...(3s), CONSTANT_GM_2_fL                        
+Cell(      32):  76% Done...(4s), MASCO__Y1                               
+Cell(      12):  78% Done...(4s), AbutContact_CDNS_785228347474           
+Cell(       6):  81% Done...(4s), M2_M3_CDNS_785228347478                 
+Cell(      13):  84% Done...(4s), nmos1v2hvt_4_CDNS_785228347470          
+Cell(      20):  86% Done...(4s), pmos1v2hvt_4_CDNS_7852283474711         
+Cell(       2):  89% Done...(4s), M1_M2_CDNS_785228347471                 
+Cell(      10):  92% Done...(4s), Contact_CDNS_785228347472               
+Cell(      19):  94% Done...(4s), AbutContact_CDNS_7852283474713          
+Cell(      26):  97% Done...(4s), nmos1v2hvt_4_CDNS_7852283474719         
+Cell(      21): 100% Done...(5s), AbutContact_CDNS_7852283474715          
+  DONE - (2s)
+Cells creation time: (5s)
+Write netlist items...(5s)
 Saving name table to db...
 Save device templates to the db...
 Save connect rules to the db...
 Write calculated header information to the top of file...
 Erasing cdl subckts... (0s)
-ecdb created...TOTAL TIME: (3s)
+ecdb created...TOTAL TIME: (5s)
 Total CPU Time      : 0(s)
-Total Real Time     : 3(s)
+Total Real Time     : 5(s)
    Read edb time    : 0(s)
    Write ecdb time  : 0(s)
-Peak Memory Used    : 1629.00(M)
+Peak Memory Used    : 1757.00(M)
 
 edbToEcdb Header Information:
   ECDB file version   : 38
-  DevTmpl offset      : 76327
-  Connect offset      : 76507
-  NameTable offset    : 73140
+  DevTmpl offset      : 82102
+  Connect offset      : 82282
+  NameTable offset    : 78915
   Layer Map offset    : 167
-  Cell Start offset   : 70480
-  Cell End offset     : 73140
-  Aux Data offset     : 77015
+  Cell Start offset   : 76255
+  Cell End offset     : 78915
+  Aux Data offset     : 82790
   Labels     offset   : 0
   Layer RW   offset   : 0
   NVP                 : 
   Scale               : 4000
   GDS Scale           : 1000
-  File size (static)  : 83208
+  File size (static)  : 88983
   File size (dynamic) : 0
   Cell count          : 38
-  ECDB create time    : 3
+  ECDB create time    : 5
   EDB info            : 10
   Top Cell            : CONSTANT_GM_2_fL
   EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
@@ -5483,8 +5483,8 @@ edbToEcdb Header Information:
 edbToEcdb Sizes written to disk (MB):
   NameTbl             :     0.003187
   Layers              :     0.007447
-  Shapes              :     0.027029
-  XYTree              :     0.022501
+  Shapes              :     0.030326
+  XYTree              :     0.024979
   LookUpTbls          :     0.002330
   Cells               :     0.003028
   Insts               :     0.004500
@@ -5498,7 +5498,7 @@ edbToEcdb Sizes written to disk (MB):
   AuxData             :     0.006191
   NvnLabels           :     0.000002
 ---------------------------------
-  Total               :     0.083208
+  Total               :     0.088983
 
 
 edbToEcdb Done
@@ -5513,9 +5513,9 @@ Copyright 2025 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
-Executed on:     edatools (Linux x86_64 6.17.0-29-generic)
-Process Id:      1478349
-Starting Time:   Mon Jun 15 11:23:06 2026 (Mon Jun 15 11:23:06 2026 GMT)
+Executed on:     edatools (Linux x86_64 6.17.0-35-generic)
+Process Id:      948340
+Starting Time:   Tue Jul 28 08:45:56 2026 (Tue Jul 28 08:45:56 2026 GMT)
 With parameters: -license_timeout 300 CONSTANT_GM_2_fL.rep REPORTDB 
 ********************************************************************************
 
@@ -5523,7 +5523,7 @@ Processing file CONSTANT_GM_2_fL.rep
 Completed creation of REPORTDB
 
 
-Netlist Extraction Finished Normally. Mon Jun 15 11:23:06 2026
+Netlist Extraction Finished Normally. Tue Jul 28 08:45:56 2026
 
 
 
@@ -5537,9 +5537,9 @@ Copyright 2025 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
-Executed on:     edatools (Linux x86_64 6.17.0-29-generic)
-Process Id:      1478363
-Starting Time:   Mon Jun 15 11:23:06 2026 (Mon Jun 15 11:23:06 2026 GMT)
+Executed on:     edatools (Linux x86_64 6.17.0-35-generic)
+Process Id:      948354
+Starting Time:   Tue Jul 28 08:45:56 2026 (Tue Jul 28 08:45:56 2026 GMT)
 With parameters: -ai /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul.rsf 
 ********************************************************************************
 
@@ -5654,13 +5654,13 @@ Peak Memory Used      : 26.00(M)
 
 NVN Run Summary
 Total CPU Time        : 0(s)
-Total Real Time       : 0(s)
+Total Real Time       : 1(s)
 Peak Memory Used      : 291.78(M)
 
 
 LVS Summary
 Total CPU Time        : 0(s)
-Total Real Time       : 0(s)
+Total Real Time       : 1(s)
 Peak Memory Used      : 291.78(M)
 
     ########################################################
@@ -5678,7 +5678,7 @@ Peak Memory Used      : 291.78(M)
 
 
 
-PVS Comparison Finished. Mon Jun 15 11:23:06 2026
+PVS Comparison Finished. Tue Jul 28 08:45:57 2026
 
 
 
@@ -5691,9 +5691,9 @@ Copyright 2025 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
-Executed on:     edatools (Linux x86_64 6.17.0-29-generic)
-Process Id:      1478372
-Starting Time:   Mon Jun 15 11:23:06 2026 (Mon Jun 15 11:23:06 2026 GMT)
+Executed on:     edatools (Linux x86_64 6.17.0-35-generic)
+Process Id:      948363
+Starting Time:   Tue Jul 28 08:45:57 2026 (Tue Jul 28 08:45:57 2026 GMT)
 With parameters: -format C -nxf -ixf /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/svdb/CONSTANT_GM_2_fL CONSTANT_GM_2_fL.rep 
 ********************************************************************************
 

@@ -3,7 +3,7 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : LS3_722523.db
+EDB Library dir : LS3_949196.db
 ECDB dir        : ./
 Top Cell        : LS3
 CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/svdb/LS3.net
@@ -14,4 +14,4 @@ Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/svdb/LS3.lvsfi
 Float net file  : .LS3.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : LS3_722523
+Source Library  : LS3_949196

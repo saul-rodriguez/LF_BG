@@ -3,7 +3,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.36 
-Started at: 15-Jun-2026  11:21:47
+Started at: 28-Jul-2026  08:45:30
 User Name : saul
 Host Name : edatools
 Directory : /home/saul/projects/LF_BG
@@ -41,54 +41,54 @@ convertDot                              node
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
 *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/layout' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
-INFO (XSTRM-223): 1. Translating stdVia lf11is/PG_M1/layout as STRUCTURE PG_M1_CDNS_781522507610.
-INFO (XSTRM-223): 2. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507611.
-INFO (XSTRM-223): 3. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507612.
-INFO (XSTRM-223): 4. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507613.
-INFO (XSTRM-223): 5. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507614.
-INFO (XSTRM-223): 6. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507615.
-INFO (XSTRM-223): 7. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507616.
-INFO (XSTRM-223): 8. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507617.
-INFO (XSTRM-223): 9. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_781522507618.
-INFO (XSTRM-223): 10. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_781522507619.
-INFO (XSTRM-223): 11. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7815225076110.
-INFO (XSTRM-223): 12. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7815225076111.
+INFO (XSTRM-223): 1. Translating stdVia lf11is/PG_M1/layout as STRUCTURE PG_M1_CDNS_785228330600.
+INFO (XSTRM-223): 2. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330601.
+INFO (XSTRM-223): 3. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330602.
+INFO (XSTRM-223): 4. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330603.
+INFO (XSTRM-223): 5. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330604.
+INFO (XSTRM-223): 6. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330605.
+INFO (XSTRM-223): 7. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330606.
+INFO (XSTRM-223): 8. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330607.
+INFO (XSTRM-223): 9. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_785228330608.
+INFO (XSTRM-223): 10. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228330609.
+INFO (XSTRM-223): 11. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7852283306010.
+INFO (XSTRM-223): 12. Translating stdVia lf11is/M2_M3/layout as STRUCTURE M2_M3_CDNS_7852283306011.
 *WARNING* (DB-220704): The Pcell super master 'lf11is/ncap1v2hvt/layout' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
 *WARNING* (DB-220704): The Pcell super master 'lf11is/Contact/layout' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
-INFO (XSTRM-223): 13. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522507611.
-INFO (XSTRM-223): 14. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522507612.
-INFO (XSTRM-223): 15. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522507613.
-INFO (XSTRM-223): 16. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_781522507614.
-INFO (XSTRM-223): 17. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781522507610.
-INFO (XSTRM-223): 18. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_781522507616.
-INFO (XSTRM-223): 19. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522507617.
-INFO (XSTRM-223): 20. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781522507615.
-INFO (XSTRM-223): 21. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_781522507619.
-INFO (XSTRM-223): 22. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225076110.
-INFO (XSTRM-223): 23. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_781522507618.
-INFO (XSTRM-223): 24. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225076112.
-INFO (XSTRM-223): 25. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225076113.
-INFO (XSTRM-223): 26. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225076111.
-INFO (XSTRM-223): 27. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225076115.
-INFO (XSTRM-223): 28. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225076114.
-INFO (XSTRM-223): 29. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7815225076116.
-INFO (XSTRM-223): 30. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225076118.
-INFO (XSTRM-223): 31. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225076117.
-INFO (XSTRM-223): 32. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225076120.
-INFO (XSTRM-223): 33. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7815225076119.
-INFO (XSTRM-223): 34. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225076122.
-INFO (XSTRM-223): 35. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225076121.
-INFO (XSTRM-223): 36. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225076124.
-INFO (XSTRM-223): 37. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225076125.
-INFO (XSTRM-223): 38. Translating cellView lf11is/ncap1v2hvt/layout as STRUCTURE ncap1v2hvt_CDNS_7815225076123.
-INFO (XSTRM-223): 39. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225076127.
-INFO (XSTRM-223): 40. Translating cellView lf11is/rnpolym/layout as STRUCTURE rnpolym_CDNS_7815225076126.
-INFO (XSTRM-223): 41. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225076128.
-INFO (XSTRM-223): 42. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7815225076130.
-INFO (XSTRM-223): 43. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7815225076131.
-INFO (XSTRM-223): 44. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7815225076129.
+INFO (XSTRM-223): 13. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228330601.
+INFO (XSTRM-223): 14. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228330602.
+INFO (XSTRM-223): 15. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228330603.
+INFO (XSTRM-223): 16. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_785228330604.
+INFO (XSTRM-223): 17. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_785228330600.
+INFO (XSTRM-223): 18. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_785228330606.
+INFO (XSTRM-223): 19. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228330607.
+INFO (XSTRM-223): 20. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_785228330605.
+INFO (XSTRM-223): 21. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_785228330609.
+INFO (XSTRM-223): 22. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283306010.
+INFO (XSTRM-223): 23. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_785228330608.
+INFO (XSTRM-223): 24. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283306012.
+INFO (XSTRM-223): 25. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283306013.
+INFO (XSTRM-223): 26. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283306011.
+INFO (XSTRM-223): 27. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283306015.
+INFO (XSTRM-223): 28. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283306014.
+INFO (XSTRM-223): 29. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7852283306016.
+INFO (XSTRM-223): 30. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283306018.
+INFO (XSTRM-223): 31. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283306017.
+INFO (XSTRM-223): 32. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283306020.
+INFO (XSTRM-223): 33. Translating cellView lf11is/nmos1v2hvt_4/layout as STRUCTURE nmos1v2hvt_4_CDNS_7852283306019.
+INFO (XSTRM-223): 34. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283306022.
+INFO (XSTRM-223): 35. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283306021.
+INFO (XSTRM-223): 36. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283306024.
+INFO (XSTRM-223): 37. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283306025.
+INFO (XSTRM-223): 38. Translating cellView lf11is/ncap1v2hvt/layout as STRUCTURE ncap1v2hvt_CDNS_7852283306023.
+INFO (XSTRM-223): 39. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283306027.
+INFO (XSTRM-223): 40. Translating cellView lf11is/rnpolym/layout as STRUCTURE rnpolym_CDNS_7852283306026.
+INFO (XSTRM-223): 41. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283306028.
+INFO (XSTRM-223): 42. Translating cellView lf11is/Contact/layout as STRUCTURE Contact_CDNS_7852283306030.
+INFO (XSTRM-223): 43. Translating cellView lf11is/AbutContact/layout as STRUCTURE AbutContact_CDNS_7852283306031.
+INFO (XSTRM-223): 44. Translating cellView lf11is/pmos1v2hvt_4/layout as STRUCTURE pmos1v2hvt_4_CDNS_7852283306029.
 INFO (XSTRM-223): 45. Translating cellView REF_GEN/CONSTANT_GM_2_fL/layout as STRUCTURE CONSTANT_GM_2_fL.
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
 
@@ -97,7 +97,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  8
-	Rectangles:                             2801
+	Rectangles:                             3350
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -117,5 +117,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  45
 
-Elapsed Time: 0.6s   User Time: 0.5s   CPU Time: 0.0s   Peak VM: 32228KB
+Elapsed Time: 0.6s   User Time: 0.5s   CPU Time: 0.0s   Peak VM: 32336KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

@@ -2,7 +2,7 @@
 * CDL Netlist:                                              *
 *                                                           *
 * Cell Name  : LS3                                          *
-* Netlisted  : Wed Jul  8 12:52:30 2026                     *
+* Netlisted  : Tue Jul 28 08:52:24 2026                     *
 * PVS Version: 24.11-s045 Mon Jan 27 22:18:54 PST 2025      *
 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
 *.LDD
@@ -10,18 +10,18 @@
 *.DEVTMPLT 1 MP(pmos1v2hvt) PMOS1V2HVT PDIFF(D) PGATE(G) PDIFF(S) NW1V2(B)
 
 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
-* Sub cell: M1_M2_CDNS_783515146590                         *
+* Sub cell: M1_M2_CDNS_785228740690                         *
 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
-.subckt M1_M2_CDNS_783515146590 1
+.subckt M1_M2_CDNS_785228740690 1
 ** N=1 EP=1 FDC=0
-.ends M1_M2_CDNS_783515146590
+.ends M1_M2_CDNS_785228740690
 
 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
-* Sub cell: M1_M2_CDNS_783515146591                         *
+* Sub cell: M1_M2_CDNS_785228740691                         *
 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
-.subckt M1_M2_CDNS_783515146591 1
+.subckt M1_M2_CDNS_785228740691 1
 ** N=1 EP=1 FDC=0
-.ends M1_M2_CDNS_783515146591
+.ends M1_M2_CDNS_785228740691
 
 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
 * Sub cell: LS                                              *
@@ -41,10 +41,10 @@ M5 VDD OUTN OUT VDD pmos1v2hvt L=1.97e-06 W=1.5e-07 AD=1.981e-13 AS=8.26e-14 PD=
 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
 .subckt LS3 GNDA GNDD IN0 IN1 IN2 OUT0 OUT1 OUT2 VDDA VDDD
 ** N=13 EP=10 FDC=18
-X0 VDDD M1_M2_CDNS_783515146590 $T=290 9605 1 180 $X=10 $Y=9295
-X1 VDDA M1_M2_CDNS_783515146590 $T=6145 9605 0 0 $X=5865 $Y=9295
-X2 VDDD M1_M2_CDNS_783515146591 $T=1230 3415 1 180 $X=775 $Y=3105
-X3 VDDA M1_M2_CDNS_783515146591 $T=5205 3415 0 0 $X=4750 $Y=3105
+X0 VDDD M1_M2_CDNS_785228740690 $T=290 9605 1 180 $X=10 $Y=9295
+X1 VDDA M1_M2_CDNS_785228740690 $T=6145 9605 0 0 $X=5865 $Y=9295
+X2 VDDD M1_M2_CDNS_785228740691 $T=1230 3415 1 180 $X=775 $Y=3105
+X3 VDDA M1_M2_CDNS_785228740691 $T=5205 3415 0 0 $X=4750 $Y=3105
 X4 IN2 4 OUT2 VDDD GNDD VDDA GNDA LS $T=860 415 0 0 $X=635 $Y=165
 X5 IN1 9 OUT1 VDDD GNDD VDDA GNDA LS $T=860 6415 1 0 $X=635 $Y=3365
 X6 IN0 12 OUT0 VDDD GNDD VDDA GNDA LS $T=860 6815 0 0 $X=635 $Y=6565

@@ -11,7 +11,7 @@ LVS Comparison Report    : LS3.rep.cls
 LVS Softchk Report       : LS3.softchk
 Layout Name              : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/LS3.gds ("LS3")
 User Name                : saul
-Creation Time            : Wed Jul  8 12:52:30 2026
+Creation Time            : Tue Jul 28 08:52:24 2026
 Current directory        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3
 PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 
@@ -34,5 +34,5 @@ PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Clean cell list (added by extraction report parser )
  for cell "LS"
  for cell "LS3"
- for cell "M1_M2_CDNS_783515146590"
- for cell "M1_M2_CDNS_783515146591"
+ for cell "M1_M2_CDNS_785228740690"
+ for cell "M1_M2_CDNS_785228740691"

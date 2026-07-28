@@ -3,7 +3,7 @@
 #####                                         PVS LVS COMPARISON
 #####  
 #####  Version                       :   24.11-s045
-#####  NVN Run Start                 :   Mon Jun 15 11:23:06 2026
+#####  NVN Run Start                 :   Tue Jul 28 08:45:56 2026
 #####  ERC Summary File              :   CONSTANT_GM_2_fL.sum
 #####  Extraction Report File        :   CONSTANT_GM_2_fL.rep
 #####  Comparison Report File        :   CONSTANT_GM_2_fL.rep.cls
@@ -24,10 +24,10 @@
 #####  Extraction Exec Time          :   0h 0m 0s - (0s)
 #####  Extraction Peak Memory Usage  :   26.00MB
 #####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
-#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
 #####  NVN Peak Memory Usage         :   291.78MB
 #####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
-#####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 1s - (1s)                 
 #####  LVS Total Peak Memory Usage   :   291.78MB
 #####  
 ##############################################################################################################

@@ -5,7 +5,7 @@
 "Run Directory" internal none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3
 "Current Directory" internal none /home/saul/projects/LF_BG
 "Cadence Directory" internal none /home/saul/projects/LF_BG/.cadence/
-"Job Signature" internal none IPVS_1783515144_714876
+"Job Signature" internal none IPVS_1785228738_930363
 "PVS Job Mode" internal none lvs
 "GUI Flow" internal none virtuoso6
 "GUI Preset" internal none /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/.preset.autosave
@@ -16,7 +16,7 @@
 "PVS Version" internal none 24.11-s045
 "Binary Name" internal none pvsgui
 "PVS Build Date" internal none "Mon Jan 27 22:18:54 PST 2025"
-"PVS Job Time" internal none 1783515146
+"PVS Job Time" internal none 1785228740
 "DFII version" internal none 6.1.8.0
 "Rule File" input text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/.config.rul
 "Rule File" input text /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/.technology.rul
@@ -75,7 +75,7 @@
 "ERC Result" internal none EMPTY
 "UI Data" internal none ENABLED
 "Lvs Replicate Devices" internal none ENABLED
-"PVS Mode Info" internal none MPHCBKKMOPCBEEDNDMBNMCCFBFNNIOPL
+"PVS Mode Info" internal none DHNGLLILPBMMJLFMONKPJGNPOHFHHDMG
 "Report MaxResults" internal none 1000
 "Binary Name" internal none pvs
 "Comparison Result" internal none MATCH
@@ -83,4 +83,4 @@
 "PVS Version" internal none 24.11-s045
 "Binary Name" internal none pvsnvn
 "PVS Build Date" internal none "Mon Jan 27 22:18:54 PST 2025"
-"PVS Job Time" internal none 1783515154
+"PVS Job Time" internal none 1785228747

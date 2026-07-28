@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.36 
-Started at: 08-Jul-2026  12:52:08
+Started at: 28-Jul-2026  08:51:55
 User Name : saul
 Host Name : edatools
 Directory : /home/saul/projects/LF_BG
@@ -30,8 +30,8 @@ labelDepth                              32
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_783515128750.
-INFO (XSTRM-223): 2. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_783515128751.
+INFO (XSTRM-223): 1. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228715700.
+INFO (XSTRM-223): 2. Translating stdVia lf11is/M1_M2/layout as STRUCTURE M1_M2_CDNS_785228715701.
 INFO (XSTRM-223): 3. Translating cellView AnaCommon/LS/layout as STRUCTURE LS.
 INFO (XSTRM-223): 4. Translating cellView REF_GEN/LS3/layout as STRUCTURE LS3.
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
@@ -41,7 +41,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               11
 	Paths:                                  0
-	Rectangles:                             128
+	Rectangles:                             129
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -61,5 +61,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  4
 
-Elapsed Time: 0.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 3684KB
+Elapsed Time: 0.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 3688KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

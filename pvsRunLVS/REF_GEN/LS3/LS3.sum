@@ -1,7 +1,7 @@
 ********************************************************************************
 *** PVS HERC SUMMARY
 ***
-Execute on Date/Time    : Wed Jul  8 12:52:29 2026
+Execute on Date/Time    : Tue Jul 28 08:52:24 2026
 PVS HERC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS3/.config.rul
 Rule Deck Title         : LF11IS
@@ -51,7 +51,7 @@ LAYER NEXT3V3 .................... Total Original Geometry:        0 (       0)
 LAYER PEXT3V3 .................... Total Original Geometry:        0 (       0)
 LAYER METALTfillCustom ........... Total Original Geometry:        0 (       0)
 LAYER NPLUS ...................... Total Original Geometry:        5 (      11)
-LAYER PPLUS ...................... Total Original Geometry:        6 (      14)
+LAYER PPLUS ...................... Total Original Geometry:        7 (      15)
 LAYER METAL1base ................. Total Original Geometry:       31 (      61)
 LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
@@ -244,6 +244,6 @@ RULECHECK FLOATING_PWELL2 ............ Not Executed!
 Total CPU Time                    : 0(s)
 Total Real Time                   : 0(s)
 Peak Memory Used                  : 26(M)
-Total Original Geometry           : 122 (306)
+Total Original Geometry           : 123 (307)
 Total ERC RuleChecks              : 5
 Total ERC Results                 : 0 (0)

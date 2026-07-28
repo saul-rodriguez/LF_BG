@@ -1,7 +1,7 @@
 ********************************************************************************
 *** PVS HDRC SUMMARY
 ***
-Execute on Date/Time    : Mon Jun 15 11:21:48 2026
+Execute on Date/Time    : Tue Jul 28 08:45:31 2026
 PVS HDRC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/CONSTANT_GM_2_fL/.config.rul
 Rule Deck Title         : LF11IS
@@ -81,7 +81,7 @@ LAYER NPLUS ...................... Total Original Geometry:       21 (      56)
 LAYER PPLUS ...................... Total Original Geometry:       20 (      45)
 LAYER HVNPLUS .................... Total Original Geometry:        0 (       0)
 LAYER HVPPLUS .................... Total Original Geometry:        0 (       0)
-LAYER METAL1base ................. Total Original Geometry:      441 (    1289)
+LAYER METAL1base ................. Total Original Geometry:      443 (    1291)
 LAYER METAL1pin .................. Total Original Geometry:        2 (       2)
 LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
@@ -108,7 +108,7 @@ LAYER METALFslot ................. Total Original Geometry:        0 (       0)
 LAYER METALTbase ................. Total Original Geometry:        0 (       0)
 LAYER METALTslot ................. Total Original Geometry:        0 (       0)
 LAYER METAL1noPlrc ............... Total Original Geometry:        0 (       0)
-LAYER CONT ....................... Total Original Geometry:     1647 (    6071)
+LAYER CONT ....................... Total Original Geometry:     2194 (    6618)
 LAYER METAL2noPlrc ............... Total Original Geometry:        0 (       0)
 LAYER VIA1 ....................... Total Original Geometry:       90 (    1549)
 LAYER METAL3noPlrc ............... Total Original Geometry:        0 (       0)
@@ -698,7 +698,7 @@ RULECHECK NWE.06.1V2 ................. Total Result      0 (       0)
 RULECHECK NWE.06.3V3 ................. Total Result      0 (       0)
 RULECHECK NWE.08.1V2 ................. Total Result      0 (       0)
 RULECHECK NWE.08.3V3 ................. Total Result      0 (       0)
-RULECHECK NWE.10 ..................... Total Result      1 (       1)
+RULECHECK NWE.10 ..................... Total Result      0 (       0)
 RULECHECK NWE.11 ..................... Total Result      0 (       0)
 RULECHECK NWE.13.a ................... Total Result      0 (       0)
 RULECHECK NWE.13.b ................... Total Result      0 (       0)
@@ -1084,6 +1084,6 @@ RULECHECK noDRC.10 ................... Total Result      0 (       0)
 Total CPU Time                    : 1(s)
 Total Real Time                   : 1(s)
 Peak Memory Used                  : 32(M)
-Total Original Geometry           : 2954 (11179)
+Total Original Geometry           : 3503 (11728)
 Total DRC RuleChecks              : 856
-Total DRC Results                 : 7 (7)
+Total DRC Results                 : 6 (6)

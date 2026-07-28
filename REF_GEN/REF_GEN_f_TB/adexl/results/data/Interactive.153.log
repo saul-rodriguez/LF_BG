@@ -1,10 +1,10 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Wed Jul  8 09:50:19 2026 
+Current time: Wed Jul  8 13:05:35 2026 
 Best design point: 1
 Design specs: 
 	OP	corner	Nominal - 
-	V1000		999.9m
+	V1000		999.8m
 	V550		550.1m
 	I32nA		32.15n
 	I128nA		128.5n
@@ -25,8 +25,8 @@ Design parameters:
 	PD		0
 	PD_PULSE		0
 
-Interactive.143
+Interactive.153
 Number of points completed: 1
 Number of simulation errors: 0
-Interactive.143 completed. 
-Current time: Wed Jul  8 09:50:22 2026 
+Interactive.153 completed. 
+Current time: Wed Jul  8 13:05:39 2026 

@@ -1,7 +1,7 @@
 ********************************************************************************
 *** PVS HERC SUMMARY
 ***
-Execute on Date/Time    : Mon Jun 15 11:23:02 2026
+Execute on Date/Time    : Tue Jul 28 08:45:51 2026
 PVS HERC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/CONSTANT_GM_2_fL/.config.rul
 Rule Deck Title         : LF11IS
@@ -52,7 +52,7 @@ LAYER PEXT3V3 .................... Total Original Geometry:        0 (       0)
 LAYER METALTfillCustom ........... Total Original Geometry:        0 (       0)
 LAYER NPLUS ...................... Total Original Geometry:       21 (      56)
 LAYER PPLUS ...................... Total Original Geometry:       20 (      45)
-LAYER METAL1base ................. Total Original Geometry:      441 (    1289)
+LAYER METAL1base ................. Total Original Geometry:      443 (    1291)
 LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
 LAYER METAL2base ................. Total Original Geometry:       97 (     207)
@@ -73,7 +73,7 @@ LAYER METALFslot ................. Total Original Geometry:        0 (       0)
 LAYER METALTbase ................. Total Original Geometry:        0 (       0)
 LAYER METALTfill ................. Total Original Geometry:        0 (       0)
 LAYER METALTslot ................. Total Original Geometry:        0 (       0)
-LAYER CONT ....................... Total Original Geometry:     1647 (    6071)
+LAYER CONT ....................... Total Original Geometry:     2194 (    6618)
 LAYER VIA1 ....................... Total Original Geometry:       90 (    1549)
 LAYER VIA2 ....................... Total Original Geometry:      124 (     296)
 LAYER VIA3 ....................... Total Original Geometry:        0 (       0)
@@ -134,18 +134,16 @@ Offgrid Vertex on layer DIFF at location (6.465,7.045) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer DIFF at location (6.960,7.045) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer DIFF at location (6.960,7.305) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer DIFF at location (6.465,7.305) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.815,53.980) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.815,7.715) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (90.975,7.715) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (90.975,100.240) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.815,100.240) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.815,53.980) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.995,53.980) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.995,100.060) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (90.795,100.060) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (90.795,7.895) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.995,7.895) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer DIFF at location (68.995,53.980) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (2.570,54.255) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (91.785,0.450) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (91.785,108.055) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (2.570,108.055) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (2.570,54.255) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (2.750,54.255) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (2.750,107.875) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (91.605,107.875) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (91.605,0.630) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer DIFF at location (2.750,54.255) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer DIFF at location (39.625,30.245) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer DIFF at location (10.895,30.245) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer DIFF at location (10.895,6.405) in cell CONSTANT_GM_2_fL.
@@ -182,52 +180,54 @@ Offgrid Vertex on layer POLYG at location (11.465,64.975) in cell CONSTANT_GM_2_
 Offgrid Vertex on layer POLYG at location (12.025,64.975) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer POLYG at location (12.025,65.640) in cell CONSTANT_GM_2_fL.
 Offgrid Vertex on layer POLYG at location (11.465,65.640) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,55.585) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,55.585) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,55.725) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,55.725) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,56.195) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,56.195) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,56.335) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,56.335) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,56.500) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,56.500) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,56.640) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,56.640) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,56.805) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,56.805) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,56.945) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,56.945) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,57.110) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,57.110) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,57.250) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,57.250) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,57.415) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,57.415) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,57.555) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,57.555) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,57.720) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,57.720) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,57.860) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,57.860) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,58.025) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,58.025) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,58.165) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,58.165) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,58.330) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,58.330) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,58.470) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,58.470) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,58.635) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,58.635) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,58.775) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,58.775) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,58.940) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,58.940) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,59.080) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,59.080) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.835,59.245) in cell CONSTANT_GM_2_fL.
-Offgrid Vertex on layer CONT at location (68.975,59.245) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,23.570) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,23.570) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,23.710) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,23.710) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,24.170) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,24.170) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,24.310) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,24.310) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,24.470) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,24.470) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,24.610) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,24.610) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,24.770) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,24.770) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,24.910) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,24.910) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,25.070) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,25.070) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,25.210) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,25.210) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,25.370) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,25.370) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,25.510) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,25.510) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,25.670) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,25.670) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,25.810) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,25.810) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,25.970) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,25.970) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,26.110) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,26.110) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,26.270) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,26.270) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,26.410) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,26.410) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,26.570) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,26.570) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,26.710) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,26.710) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,26.870) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,26.870) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,27.010) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,27.010) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,27.170) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,27.170) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.765,27.310) in cell CONSTANT_GM_2_fL.
+Offgrid Vertex on layer CONT at location (91.625,27.310) in cell CONSTANT_GM_2_fL.
 Maximum Offgrid Vertex warning count of 100 has been reached.
 --------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS
@@ -244,6 +244,6 @@ RULECHECK FLOATING_PWELL2 ............ Not Executed!
 Total CPU Time                    : 0(s)
 Total Real Time                   : 0(s)
 Peak Memory Used                  : 26(M)
-Total Original Geometry           : 2950 (11182)
+Total Original Geometry           : 3499 (11731)
 Total ERC RuleChecks              : 5
 Total ERC Results                 : 0 (0)
