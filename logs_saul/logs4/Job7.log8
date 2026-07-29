@@ -11,9 +11,9 @@
 	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.96
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP
+	State Name   = OP_none_Interactive.157
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.157.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.157/1/OP
 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
@@ -52,31 +52,28 @@ Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.157/1/OP/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.157/1/OP
 
 
 *Info*    Creating Netlist for Point ID (3 1)
 
 generate netlist...
-Begin Incremental Netlisting Jun 25 17:01:59 2026
-End netlisting Jun 25 17:01:59 2026
+Begin Incremental Netlisting Jul 29 10:30:39 2026
+End netlisting Jul 29 10:30:39 2026
 
-Netlisting Statistics:
-	Number of components:  108
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [ OP ] for Point ID (3 1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.157/1/OP/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -90,22 +87,8 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2708): Evaluation of output 'total_noise_V' failed for point:'1' test:'OP'
-	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
-	because of the following error(s)
-	*Error* expt: can't handle (nil**2).
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("out" ?result "noise"))'.
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.96/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.157/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.157/1/OP. Use results() for a list of available results.
 ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
 	Expression:'db(getData("/V0" ?result "xf"))'.
 Ensure that the definition of output is correct.

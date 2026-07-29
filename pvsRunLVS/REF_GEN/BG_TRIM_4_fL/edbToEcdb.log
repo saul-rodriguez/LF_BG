@@ -3,7 +3,7 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : BG_TRIM_4_fL_317261.db
+EDB Library dir : BG_TRIM_4_fL_984361.db
 ECDB dir        : ./
 Top Cell        : BG_TRIM_4_fL
 CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/BG_TRIM_4_fL.net
@@ -14,4 +14,4 @@ Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/svdb/
 Float net file  : .BG_TRIM_4_fL.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : BG_TRIM_4_fL_317261
+Source Library  : BG_TRIM_4_fL_984361

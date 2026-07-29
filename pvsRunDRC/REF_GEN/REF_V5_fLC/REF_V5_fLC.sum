@@ -1,7 +1,7 @@
 ********************************************************************************
 *** PVS HDRC SUMMARY
 ***
-Execute on Date/Time    : Mon Jul  6 14:14:44 2026
+Execute on Date/Time    : Tue Jul 28 12:25:52 2026
 PVS HDRC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/REF_V5_fLC/.config.rul
 Rule Deck Title         : LF11IS
@@ -85,7 +85,7 @@ LAYER METAL1base ................. Total Original Geometry:     1265 (    6277)
 LAYER METAL1pin .................. Total Original Geometry:       57 (     232)
 LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
-LAYER METAL2base ................. Total Original Geometry:      578 (    1979)
+LAYER METAL2base ................. Total Original Geometry:      580 (    1981)
 LAYER METAL2pin .................. Total Original Geometry:       52 (      61)
 LAYER METAL2fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL2slot ................. Total Original Geometry:        0 (       0)
@@ -1084,6 +1084,6 @@ RULECHECK noDRC.10 ................... Total Result      0 (       0)
 Total CPU Time                    : 1(s)
 Total Real Time                   : 1(s)
 Peak Memory Used                  : 33(M)
-Total Original Geometry           : 7810 (79165)
+Total Original Geometry           : 7812 (79167)
 Total DRC RuleChecks              : 856
 Total DRC Results                 : 7 (7)

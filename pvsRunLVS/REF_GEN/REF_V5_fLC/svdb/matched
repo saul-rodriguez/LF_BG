@@ -3,7 +3,7 @@
 #####                                         PVS LVS COMPARISON
 #####  
 #####  Version                       :   24.11-s045
-#####  NVN Run Start                 :   Mon Jul  6 14:16:03 2026
+#####  NVN Run Start                 :   Tue Jul 28 12:26:53 2026
 #####  ERC Summary File              :   REF_V5_fLC.sum
 #####  Extraction Report File        :   REF_V5_fLC.rep
 #####  Comparison Report File        :   REF_V5_fLC.rep.cls
@@ -26,10 +26,10 @@
 #####  Extraction Peak Memory Usage  :   26.00MB
 #####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
 #####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
-#####  NVN Peak Memory Usage         :   294.47MB
+#####  NVN Peak Memory Usage         :   294.46MB
 #####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
 #####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
-#####  LVS Total Peak Memory Usage   :   294.47MB
+#####  LVS Total Peak Memory Usage   :   294.46MB
 #####  
 ##############################################################################################################
 

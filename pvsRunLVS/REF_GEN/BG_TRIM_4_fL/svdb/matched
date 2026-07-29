@@ -3,7 +3,7 @@
 #####                                         PVS LVS COMPARISON
 #####  
 #####  Version                       :   24.11-s045
-#####  NVN Run Start                 :   Wed Jun 24 13:13:12 2026
+#####  NVN Run Start                 :   Tue Jul 28 13:52:09 2026
 #####  ERC Summary File              :   BG_TRIM_4_fL.sum
 #####  Extraction Report File        :   BG_TRIM_4_fL.rep
 #####  Comparison Report File        :   BG_TRIM_4_fL.rep.cls

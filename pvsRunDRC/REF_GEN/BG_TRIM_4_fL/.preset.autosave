@@ -5,7 +5,7 @@
 
 [ virtuoso6.RunDRC ]
 AbortOnLayoutError                           "TRUE"
-ActualRulesFile                              "../../../../opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/pvs/6metal/drc/pvs.drc"
+ActualRulesFile                              "/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/pvs/6metal/drc/pvs.drc"
 AdditionalLayoutFile                         ""
 AllowIncrementalConnectivity                 "Rules definition"
 ApplyIncrementalConnectivity                 "FALSE"

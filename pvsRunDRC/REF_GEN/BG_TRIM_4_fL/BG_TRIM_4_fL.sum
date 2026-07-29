@@ -1,7 +1,7 @@
 ********************************************************************************
 *** PVS HDRC SUMMARY
 ***
-Execute on Date/Time    : Wed Jun 24 13:47:01 2026
+Execute on Date/Time    : Tue Jul 28 13:52:25 2026
 PVS HDRC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunDRC/REF_GEN/BG_TRIM_4_fL/.config.rul
 Rule Deck Title         : LF11IS
@@ -92,12 +92,12 @@ LAYER METAL1base ................. Total Original Geometry:     1509 (   11027)
 LAYER METAL1pin .................. Total Original Geometry:       28 (      41)
 LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
-LAYER METAL2base ................. Total Original Geometry:      572 (    2314)
-LAYER METAL2pin .................. Total Original Geometry:       17 (      35)
+LAYER METAL2base ................. Total Original Geometry:      581 (    2330)
+LAYER METAL2pin .................. Total Original Geometry:       25 (      43)
 LAYER METAL2fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL2slot ................. Total Original Geometry:        0 (       0)
-LAYER METAL3base ................. Total Original Geometry:      177 (     444)
-LAYER METAL3pin .................. Total Original Geometry:       28 (      44)
+LAYER METAL3base ................. Total Original Geometry:      159 (     433)
+LAYER METAL3pin .................. Total Original Geometry:       20 (      36)
 LAYER METAL3fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL3slot ................. Total Original Geometry:        0 (       0)
 LAYER METAL4base ................. Total Original Geometry:        6 (       6)
@@ -119,7 +119,7 @@ LAYER CONT ....................... Total Original Geometry:     6801 (  103652)
 LAYER METAL2noPlrc ............... Total Original Geometry:        0 (       0)
 LAYER VIA1 ....................... Total Original Geometry:      531 (   23365)
 LAYER METAL3noPlrc ............... Total Original Geometry:        0 (       0)
-LAYER VIA2 ....................... Total Original Geometry:      323 (    2695)
+LAYER VIA2 ....................... Total Original Geometry:      325 (    2711)
 LAYER METAL4noPlrc ............... Total Original Geometry:        0 (       0)
 LAYER VIA3 ....................... Total Original Geometry:       41 (      41)
 LAYER METAL5noPlrc ............... Total Original Geometry:        0 (       0)
@@ -1091,6 +1091,6 @@ RULECHECK noDRC.10 ................... Total Result      0 (       0)
 Total CPU Time                    : 1(s)
 Total Real Time                   : 1(s)
 Peak Memory Used                  : 33(M)
-Total Original Geometry           : 11636 (162458)
+Total Original Geometry           : 11629 (162479)
 Total DRC RuleChecks              : 856
 Total DRC Results                 : 46 (46)

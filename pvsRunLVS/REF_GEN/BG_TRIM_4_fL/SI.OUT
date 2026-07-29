@@ -11,7 +11,7 @@ Running simulation in directory: "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
 Loading cdf.cxt 
-End netlisting Jun 24 13:13:02 2026
+End netlisting Jul 28 13:51:58 2026
 
 Running simin
 
@@ -19,8 +19,8 @@ Running runSim()...
 
 
 Running runsim with simulator: "auCdl"
-Begin simulation:    Jun 24 13:13:02 2026
+Begin simulation:    Jul 28 13:51:58 2026
 
 auCdl netlisting completed
-End simulation:      Jun 24 13:13:02 2026
+End simulation:      Jul 28 13:51:58 2026
 INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

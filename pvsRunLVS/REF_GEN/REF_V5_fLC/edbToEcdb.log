@@ -3,7 +3,7 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : REF_V5_fLC_653370.db
+EDB Library dir : REF_V5_fLC_973010.db
 ECDB dir        : ./
 Top Cell        : REF_V5_fLC
 CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/svdb/REF_V5_fLC.net
@@ -14,4 +14,4 @@ Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_V5_fLC/svdb/RE
 Float net file  : .REF_V5_fLC.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : REF_V5_fLC_653370
+Source Library  : REF_V5_fLC_973010

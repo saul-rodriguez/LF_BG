@@ -1,7 +1,7 @@
 ********************************************************************************
 *** PVS HERC SUMMARY
 ***
-Execute on Date/Time    : Wed Jun 24 13:13:05 2026
+Execute on Date/Time    : Tue Jul 28 13:52:01 2026
 PVS HERC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
 Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/BG_TRIM_4_fL/.config.rul
 Rule Deck Title         : LF11IS
@@ -55,10 +55,10 @@ LAYER PPLUS ...................... Total Original Geometry:       37 (    1590)
 LAYER METAL1base ................. Total Original Geometry:     1509 (   11027)
 LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
-LAYER METAL2base ................. Total Original Geometry:      572 (    2314)
+LAYER METAL2base ................. Total Original Geometry:      581 (    2330)
 LAYER METAL2fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL2slot ................. Total Original Geometry:        0 (       0)
-LAYER METAL3base ................. Total Original Geometry:      177 (     444)
+LAYER METAL3base ................. Total Original Geometry:      159 (     433)
 LAYER METAL3fill ................. Total Original Geometry:        0 (       0)
 LAYER METAL3slot ................. Total Original Geometry:        0 (       0)
 LAYER METAL4base ................. Total Original Geometry:        6 (       6)
@@ -75,7 +75,7 @@ LAYER METALTfill ................. Total Original Geometry:        0 (       0)
 LAYER METALTslot ................. Total Original Geometry:        0 (       0)
 LAYER CONT ....................... Total Original Geometry:     6801 (  103652)
 LAYER VIA1 ....................... Total Original Geometry:      531 (   23365)
-LAYER VIA2 ....................... Total Original Geometry:      323 (    2695)
+LAYER VIA2 ....................... Total Original Geometry:      325 (    2711)
 LAYER VIA3 ....................... Total Original Geometry:       41 (      41)
 LAYER VIA4 ....................... Total Original Geometry:       41 (      41)
 LAYER VIAF ....................... Total Original Geometry:      374 (    3560)
@@ -244,6 +244,6 @@ RULECHECK FLOATING_PWELL2 ............ Not Executed!
 Total CPU Time                    : 0(s)
 Total Real Time                   : 0(s)
 Peak Memory Used                  : 29(M)
-Total Original Geometry           : 11566 (162606)
+Total Original Geometry           : 11559 (162627)
 Total ERC RuleChecks              : 5
 Total ERC Results                 : 0 (0)
