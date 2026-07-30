@@ -1,0 +1,2053 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : REF_GEN_fL                                   *
+* Netlisted  : Thu Jul 30 11:39:49 2026                     *
+* PVS Version: 24.11-s045 Mon Jan 27 22:18:54 PST 2025      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 C(cmims2) CMIMS2 TOPMIMS2(POS) METAL5a(NEG)
+*.DEVTMPLT 1 MN(nmos1v2hvt) NMOS1V2HVT NDIFF(D) NGATE(G) NDIFF(S) PW1V2(B)
+*.DEVTMPLT 2 MP(pmos1v2hvt) PMOS1V2HVT PDIFF(D) PGATE(G) PDIFF(S) NW1V2(B)
+*.DEVTMPLT 3 ncap1v2hvt() NCAP1V2HVT NGATE(PLUS) NDIFF(MINUS) PW1V2(B)
+*.DEVTMPLT 4 R(rnpolym) RNPOLYMNW1V2 POLYG3(POS) POLYG3(NEG) NW1V2(SUB)
+*.DEVTMPLT 5 R(rnpolyh) RNPOLYHNW1V2 POLYG3(POS) POLYG3(NEG) NW1V2(SUB)
+*.DEVTMPLT 6 Q(pnp5ux5u) PNP5UX5U PW1V2(C) PNPBASE(B) PNPEMIT5UX5U(E)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: ncap1v2hvt                                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt ncap1v2hvt PLUS MINUS B
+.ends ncap1v2hvt
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_785411584070                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_785411584070 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 4 3 1 2 nmos1v2hvt L=2e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_785411584070
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_785411584075                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_785411584075 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 3 4 1 2 nmos1v2hvt L=5e-07 W=1e-06 AD=3e-13 AS=3e-13 PD=1.6e-06 PS=1.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_785411584075
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_785411584078                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_785411584078 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 4 3 1 2 nmos1v2hvt L=1e-05 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_785411584078
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840711                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840711 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=5e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840711
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840714                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840714 1 2 3
+** N=4 EP=3 FDC=1
+M0 3 3 1 2 pmos1v2hvt L=5e-07 W=1e-06 AD=3e-13 AS=3e-13 PD=1.6e-06 PS=1.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840714
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840716                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840716 1 2
+** N=2 EP=2 FDC=1
+M0 2 2 1 1 nmos1v2hvt L=2e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840716
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840717                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840717 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=5e-07 W=2e-06 AD=6e-13 AS=6e-13 PD=2.6e-06 PS=2.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840717
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840719                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840719 1 2 3
+** N=3 EP=3 FDC=1
+M0 2 3 1 1 nmos1v2hvt L=1e-06 W=1e-06 AD=3e-13 AS=3e-13 PD=1.6e-06 PS=1.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840719
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840721                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840721 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=1e-06 W=2e-06 AD=6e-13 AS=6e-13 PD=2.6e-06 PS=2.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840721
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: ncap1v2hvt_CDNS_7854115840723                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt ncap1v2hvt_CDNS_7854115840723 1 2
+** N=2 EP=2 FDC=1
+X3 2 1 1 ncap1v2hvt c=2.218e-24 w=2e-05 l=1e-05 as=6e-12 ad=6e-12 ps=4.06e-05 pd=4.06e-05 m=1 $X=0 $Y=0 $dt=3
+.ends ncap1v2hvt_CDNS_7854115840723
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_7854115840726                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_7854115840726 1 2 3
+** N=77 EP=3 FDC=75
+R0 2 8 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=0 $Y=0 $dt=4
+R1 5 8 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=750 $Y=0 $dt=4
+R2 5 7 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=1500 $Y=0 $dt=4
+R3 4 7 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=2250 $Y=0 $dt=4
+R4 4 6 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=3000 $Y=0 $dt=4
+R5 11 6 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=3750 $Y=0 $dt=4
+R6 11 13 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=4500 $Y=0 $dt=4
+R7 10 13 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=5250 $Y=0 $dt=4
+R8 10 12 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=6000 $Y=0 $dt=4
+R9 9 12 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=6750 $Y=0 $dt=4
+R10 9 18 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=7500 $Y=0 $dt=4
+R11 15 18 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=8250 $Y=0 $dt=4
+R12 15 17 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=9000 $Y=0 $dt=4
+R13 14 17 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=9750 $Y=0 $dt=4
+R14 14 16 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=10500 $Y=0 $dt=4
+R15 21 16 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=11250 $Y=0 $dt=4
+R16 21 23 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=12000 $Y=0 $dt=4
+R17 20 23 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=12750 $Y=0 $dt=4
+R18 20 22 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=13500 $Y=0 $dt=4
+R19 19 22 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=14250 $Y=0 $dt=4
+R20 19 28 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=15000 $Y=0 $dt=4
+R21 25 28 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=15750 $Y=0 $dt=4
+R22 25 27 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=16500 $Y=0 $dt=4
+R23 24 27 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=17250 $Y=0 $dt=4
+R24 24 26 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=18000 $Y=0 $dt=4
+R25 31 26 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=18750 $Y=0 $dt=4
+R26 31 33 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=19500 $Y=0 $dt=4
+R27 30 33 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=20250 $Y=0 $dt=4
+R28 30 32 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=21000 $Y=0 $dt=4
+R29 29 32 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=21750 $Y=0 $dt=4
+R30 29 38 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=22500 $Y=0 $dt=4
+R31 35 38 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=23250 $Y=0 $dt=4
+R32 35 37 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=24000 $Y=0 $dt=4
+R33 34 37 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=24750 $Y=0 $dt=4
+R34 34 36 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=25500 $Y=0 $dt=4
+R35 41 36 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=26250 $Y=0 $dt=4
+R36 41 43 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=27000 $Y=0 $dt=4
+R37 40 43 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=27750 $Y=0 $dt=4
+R38 40 42 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=28500 $Y=0 $dt=4
+R39 39 42 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=29250 $Y=0 $dt=4
+R40 39 48 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=30000 $Y=0 $dt=4
+R41 45 48 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=30750 $Y=0 $dt=4
+R42 45 47 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=31500 $Y=0 $dt=4
+R43 44 47 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=32250 $Y=0 $dt=4
+R44 44 46 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=33000 $Y=0 $dt=4
+R45 51 46 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=33750 $Y=0 $dt=4
+R46 51 53 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=34500 $Y=0 $dt=4
+R47 50 53 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=35250 $Y=0 $dt=4
+R48 50 52 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=36000 $Y=0 $dt=4
+R49 49 52 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=36750 $Y=0 $dt=4
+R50 49 58 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=37500 $Y=0 $dt=4
+R51 55 58 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=38250 $Y=0 $dt=4
+R52 55 57 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=39000 $Y=0 $dt=4
+R53 54 57 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=39750 $Y=0 $dt=4
+R54 54 56 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=40500 $Y=0 $dt=4
+R55 61 56 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=41250 $Y=0 $dt=4
+R56 61 63 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=42000 $Y=0 $dt=4
+R57 60 63 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=42750 $Y=0 $dt=4
+R58 60 62 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=43500 $Y=0 $dt=4
+R59 59 62 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=44250 $Y=0 $dt=4
+R60 59 68 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=45000 $Y=0 $dt=4
+R61 65 68 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=45750 $Y=0 $dt=4
+R62 65 67 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=46500 $Y=0 $dt=4
+R63 64 67 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=47250 $Y=0 $dt=4
+R64 64 66 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=48000 $Y=0 $dt=4
+R65 71 66 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=48750 $Y=0 $dt=4
+R66 71 73 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=49500 $Y=0 $dt=4
+R67 70 73 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=50250 $Y=0 $dt=4
+R68 70 72 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=51000 $Y=0 $dt=4
+R69 69 72 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=51750 $Y=0 $dt=4
+R70 69 77 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=52500 $Y=0 $dt=4
+R71 75 77 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=53250 $Y=0 $dt=4
+R72 75 76 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=54000 $Y=0 $dt=4
+R73 74 76 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=54750 $Y=0 $dt=4
+R74 74 1 4798.33 L=1e-05 W=5e-07 $[rnpolym] $SUB=3 $X=55500 $Y=0 $dt=4
+.ends rnpolym_CDNS_7854115840726
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840728                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840728 1 2 3 4
+** N=5 EP=4 FDC=1
+M0 2 3 1 4 pmos1v2hvt L=5e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840728
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840729                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840729 1 2 3 4
+** N=5 EP=4 FDC=4
+M0 3 4 2 1 pmos1v2hvt L=5e-06 W=1e-05 AD=3.4e-12 AS=3e-12 PD=1.068e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+M1 2 4 3 1 pmos1v2hvt L=5e-06 W=1e-05 AD=3.4e-12 AS=3.4e-12 PD=1.068e-05 PS=1.068e-05 m=1 $X=5340 $Y=0 $dt=2
+M2 3 4 2 1 pmos1v2hvt L=5e-06 W=1e-05 AD=3.4e-12 AS=3.4e-12 PD=1.068e-05 PS=1.068e-05 m=1 $X=10680 $Y=0 $dt=2
+M3 2 4 3 1 pmos1v2hvt L=5e-06 W=1e-05 AD=3e-12 AS=3.4e-12 PD=1.06e-05 PS=1.068e-05 m=1 $X=16020 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840729
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: CONSTANT_GM_2_fL                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt CONSTANT_GM_2_fL VDDA EN GNDA IOUT2 IOUT1
+** N=18 EP=5 FDC=199
+X31 7 GNDA 9 15 nmos1v2hvt_4_CDNS_785411584070 $T=15235 31755 0 0 $X=14615 $Y=31035
+X32 7 GNDA 9 15 nmos1v2hvt_4_CDNS_785411584070 $T=18475 31755 0 0 $X=17855 $Y=31035
+X33 7 GNDA 9 15 nmos1v2hvt_4_CDNS_785411584070 $T=24955 31755 0 0 $X=24335 $Y=31035
+X34 7 GNDA 9 15 nmos1v2hvt_4_CDNS_785411584070 $T=28195 31755 0 0 $X=27575 $Y=31035
+X35 GNDA GNDA 6 EN nmos1v2hvt_4_CDNS_785411584075 $T=3870 7605 0 0 $X=3250 $Y=6885
+X36 GNDA GNDA 12 6 nmos1v2hvt_4_CDNS_785411584075 $T=5610 7605 0 0 $X=4990 $Y=6885
+X37 9 GNDA 10 10 nmos1v2hvt_4_CDNS_785411584078 $T=11925 44235 0 0 $X=11305 $Y=43515
+X38 15 GNDA 10 11 nmos1v2hvt_4_CDNS_785411584078 $T=33165 44235 1 180 $X=22545 $Y=43515
+X39 VDDA 16 8 pmos1v2hvt_4_CDNS_7854115840711 $T=19335 92590 1 0 $X=18715 $Y=82190
+X40 VDDA 16 8 pmos1v2hvt_4_CDNS_7854115840711 $T=25575 92590 1 0 $X=24955 $Y=82190
+X41 VDDA 16 8 pmos1v2hvt_4_CDNS_7854115840711 $T=38055 92590 1 0 $X=37435 $Y=82190
+X42 VDDA 16 8 pmos1v2hvt_4_CDNS_7854115840711 $T=44295 92590 1 0 $X=43675 $Y=82190
+X43 13 VDDA 10 pmos1v2hvt_4_CDNS_7854115840714 $T=18585 61645 0 0 $X=17965 $Y=60925
+X44 11 VDDA 13 pmos1v2hvt_4_CDNS_7854115840714 $T=19085 65035 1 180 $X=17965 $Y=64315
+X45 GNDA GNDA nmos1v2hvt_4_CDNS_7854115840716 $T=11995 31755 0 0 $X=11375 $Y=31035
+X46 GNDA 9 nmos1v2hvt_4_CDNS_7854115840716 $T=21715 31755 0 0 $X=21095 $Y=31035
+X47 GNDA GNDA nmos1v2hvt_4_CDNS_7854115840716 $T=31435 31755 0 0 $X=30815 $Y=31035
+X48 VDDA 6 EN pmos1v2hvt_4_CDNS_7854115840717 $T=3870 11980 1 0 $X=3250 $Y=9580
+X49 VDDA 12 6 pmos1v2hvt_4_CDNS_7854115840717 $T=5610 11980 1 0 $X=4990 $Y=9580
+X50 GNDA 9 6 nmos1v2hvt_4_CDNS_7854115840719 $T=7350 7605 0 0 $X=6730 $Y=6885
+X51 VDDA 8 12 pmos1v2hvt_4_CDNS_7854115840721 $T=11245 67655 1 0 $X=10625 $Y=65255
+X52 GNDA IOUT2 ncap1v2hvt_CDNS_7854115840723 $T=89895 18995 1 270 $X=69495 $Y=8395
+X53 GNDA IOUT2 ncap1v2hvt_CDNS_7854115840723 $T=89895 30195 1 270 $X=69495 $Y=19595
+X54 GNDA IOUT2 ncap1v2hvt_CDNS_7854115840723 $T=89895 41395 1 270 $X=69495 $Y=30795
+X55 GNDA IOUT2 ncap1v2hvt_CDNS_7854115840723 $T=89895 52595 1 270 $X=69495 $Y=41995
+X56 GNDA IOUT1 ncap1v2hvt_CDNS_7854115840723 $T=89895 65360 1 270 $X=69495 $Y=54760
+X57 GNDA IOUT1 ncap1v2hvt_CDNS_7854115840723 $T=89895 76560 1 270 $X=69495 $Y=65960
+X58 GNDA IOUT1 ncap1v2hvt_CDNS_7854115840723 $T=89895 87760 1 270 $X=69495 $Y=77160
+X59 GNDA IOUT1 ncap1v2hvt_CDNS_7854115840723 $T=89895 98960 1 270 $X=69495 $Y=88360
+X60 GNDA 17 GNDA rnpolym_CDNS_7854115840726 $T=67625 17625 0 180 $X=11375 $Y=6885
+X61 17 7 GNDA rnpolym_CDNS_7854115840726 $T=11625 29025 1 0 $X=11375 $Y=18285
+X62 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=13095 70970 0 0 $X=12475 $Y=70250
+X63 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=13095 92590 1 0 $X=12475 $Y=82190
+X64 VDDA 18 8 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=19335 70970 0 0 $X=18715 $Y=70250
+X65 14 10 11 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=26920 66755 0 180 $X=21300 $Y=56355
+X66 VDDA 18 8 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=25575 70970 0 0 $X=24955 $Y=70250
+X67 8 11 11 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=28160 66755 1 0 $X=27540 $Y=56355
+X68 VDDA 8 8 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=31815 70970 0 0 $X=31195 $Y=70250
+X69 VDDA 14 8 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=31815 92590 1 0 $X=31195 $Y=82190
+X70 VDDA 18 8 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=38055 70970 0 0 $X=37435 $Y=70250
+X71 VDDA 18 8 VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=44295 70970 0 0 $X=43675 $Y=70250
+X72 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=50535 70970 0 0 $X=49915 $Y=70250
+X73 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840728 $T=50535 92590 1 0 $X=49915 $Y=82190
+X74 VDDA 18 IOUT2 11 pmos1v2hvt_4_CDNS_7854115840729 $T=36255 42185 1 0 $X=35635 $Y=31775
+X75 VDDA 16 IOUT1 11 pmos1v2hvt_4_CDNS_7854115840729 $T=36255 56500 1 0 $X=35635 $Y=46090
+.ends CONSTANT_GM_2_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: cmims_CDNS_7854115840732                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt cmims_CDNS_7854115840732 1 2
+** N=2 EP=2 FDC=1
+C0 2 1 6.3478e-13 L=7e-05 W=9e-06 m=1 $A=6.3e-10 $P=0.000158 $[cmims2] $X=0 $Y=0 $dt=0
+.ends cmims_CDNS_7854115840732
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840733                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840733 1
+** N=2 EP=1 FDC=1
+M0 1 1 1 1 pmos1v2hvt L=1e-05 W=1e-06 AD=3e-13 AS=3e-13 PD=1.6e-06 PS=1.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840733
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolyh_CDNS_7854115840735                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolyh_CDNS_7854115840735 1
+** N=2 EP=1 FDC=1
+R0 1 1 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=1 $X=0 $Y=0 $dt=5
+.ends rnpolyh_CDNS_7854115840735
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840736                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840736 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 3 2 1 4 nmos1v2hvt L=1e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840736
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: mux8_1_fL                                       *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt mux8_1_fL A0 A1 A2 GNDA A3 A4 A5 A6 A7 COM
++ IN0 IN1 IN2 IN3 IN4 IN5 IN6 IN7
+** N=18 EP=18 FDC=8
+X16 COM A0 IN0 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=1515 1315 0 0 $X=915 $Y=915
+X17 COM A1 IN1 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=3715 1315 0 0 $X=3115 $Y=915
+X18 COM A2 IN2 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=5915 1315 0 0 $X=5315 $Y=915
+X19 COM A3 IN3 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=8115 1315 0 0 $X=7515 $Y=915
+X20 COM A4 IN4 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=10315 1315 0 0 $X=9715 $Y=915
+X21 COM A5 IN5 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=12515 1315 0 0 $X=11915 $Y=915
+X22 COM A6 IN6 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=14715 1315 0 0 $X=14115 $Y=915
+X23 COM A7 IN7 GNDA nmos1v2hvt_4_CDNS_7854115840736 $T=16915 1315 0 0 $X=16315 $Y=915
+.ends mux8_1_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolyh_CDNS_7854115840738                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolyh_CDNS_7854115840738 1 2 3
+** N=27 EP=3 FDC=25
+R0 2 8 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=0 $Y=0 $dt=5
+R1 5 8 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=750 $Y=0 $dt=5
+R2 5 7 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=1500 $Y=0 $dt=5
+R3 4 7 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=2250 $Y=0 $dt=5
+R4 4 6 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=3000 $Y=0 $dt=5
+R5 11 6 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=3750 $Y=0 $dt=5
+R6 11 13 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=4500 $Y=0 $dt=5
+R7 10 13 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=5250 $Y=0 $dt=5
+R8 10 12 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=6000 $Y=0 $dt=5
+R9 9 12 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=6750 $Y=0 $dt=5
+R10 9 18 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=7500 $Y=0 $dt=5
+R11 15 18 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=8250 $Y=0 $dt=5
+R12 15 17 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=9000 $Y=0 $dt=5
+R13 14 17 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=9750 $Y=0 $dt=5
+R14 14 16 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=10500 $Y=0 $dt=5
+R15 21 16 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=11250 $Y=0 $dt=5
+R16 21 23 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=12000 $Y=0 $dt=5
+R17 20 23 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=12750 $Y=0 $dt=5
+R18 20 22 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=13500 $Y=0 $dt=5
+R19 19 22 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=14250 $Y=0 $dt=5
+R20 19 27 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=15000 $Y=0 $dt=5
+R21 25 27 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=15750 $Y=0 $dt=5
+R22 25 26 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=16500 $Y=0 $dt=5
+R23 24 26 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=17250 $Y=0 $dt=5
+R24 24 1 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=18000 $Y=0 $dt=5
+.ends rnpolyh_CDNS_7854115840738
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840749                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840749 1 2 3
+** N=3 EP=3 FDC=1
+M0 3 2 1 1 nmos1v2hvt L=4e-06 W=4e-06 AD=1.2e-12 AS=1.2e-12 PD=4.6e-06 PS=4.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840749
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840739                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840739 1 2 3
+** N=4 EP=3 FDC=1
+M0 3 2 1 1 pmos1v2hvt L=4e-06 W=8e-06 AD=2.4e-12 AS=2.4e-12 PD=8.6e-06 PS=8.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840739
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840744                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840744 1 2 3
+** N=3 EP=3 FDC=1
+M0 1 3 2 2 nmos1v2hvt L=2e-07 W=1e-06 AD=3e-13 AS=3e-13 PD=1.6e-06 PS=1.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840744
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840747                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840747 1 2 3
+** N=3 EP=3 FDC=1
+M0 2 2 1 3 nmos1v2hvt L=1e-05 W=1e-06 AD=3e-13 AS=3e-13 PD=1.6e-06 PS=1.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840747
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840753                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840753 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=5e-07 W=2e-06 AD=6e-13 AS=6e-13 PD=2.6e-06 PS=2.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840753
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840755                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840755 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=2e-07 W=2e-06 AD=6e-13 AS=6e-13 PD=2.6e-06 PS=2.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840755
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840757                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840757 1 2 3 4
+** N=5 EP=4 FDC=1
+M0 2 3 1 4 pmos1v2hvt L=2e-06 W=8e-06 AD=2.4e-12 AS=2.4e-12 PD=8.6e-06 PS=8.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840757
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840760                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840760 1
+** N=2 EP=1 FDC=1
+M0 1 1 1 1 pmos1v2hvt L=5e-07 W=8e-06 AD=2.4e-12 AS=2.4e-12 PD=8.6e-06 PS=8.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840760
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840761                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840761 1
+** N=2 EP=1 FDC=1
+M0 1 1 1 1 pmos1v2hvt L=1e-06 W=8e-06 AD=2.4e-12 AS=2.4e-12 PD=8.6e-06 PS=8.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840761
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840762                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840762 1 2 3
+** N=3 EP=3 FDC=2
+M0 1 3 2 2 nmos1v2hvt L=2e-07 W=2e-06 AD=6.8e-13 AS=6e-13 PD=2.68e-06 PS=2.6e-06 m=1 $X=0 $Y=0 $dt=1
+M1 2 3 1 2 nmos1v2hvt L=2e-07 W=2e-06 AD=6e-13 AS=6.8e-13 PD=2.6e-06 PS=2.68e-06 m=1 $X=540 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840762
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: BG_STARTUP_fL2                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt BG_STARTUP_fL2 PDN BIAS VDDA GNDA VREF PD PRN_TRIGGER PRN
+** N=14 EP=8 FDC=45
+X32 GNDA GNDA PRN_TRIGGER PD nmos1v2hvt_4_CDNS_785411584075 $T=16530 5805 0 0 $X=15910 $Y=5085
+X33 GNDA GNDA 12 PD nmos1v2hvt_4_CDNS_785411584075 $T=18270 5805 0 0 $X=17650 $Y=5085
+X34 VDDA BIAS PDN pmos1v2hvt_4_CDNS_7854115840717 $T=9520 51820 1 0 $X=8900 $Y=49420
+X95 VDDA BIAS 14 pmos1v2hvt_4_CDNS_7854115840739 $T=18720 51820 0 180 $X=14100 $Y=43420
+X96 VDDA BIAS BIAS pmos1v2hvt_4_CDNS_7854115840739 $T=23960 51820 0 180 $X=19340 $Y=43420
+X97 VDDA BIAS 11 pmos1v2hvt_4_CDNS_7854115840739 $T=29200 51820 0 180 $X=24580 $Y=43420
+X98 VDDA BIAS BIAS pmos1v2hvt_4_CDNS_7854115840739 $T=34440 51820 0 180 $X=29820 $Y=43420
+X99 VDDA BIAS 14 pmos1v2hvt_4_CDNS_7854115840739 $T=39680 51820 0 180 $X=35060 $Y=43420
+X100 13 GNDA 10 nmos1v2hvt_4_CDNS_7854115840744 $T=52370 5805 0 0 $X=51750 $Y=5085
+X101 PRN GNDA 13 nmos1v2hvt_4_CDNS_7854115840744 $T=53810 5805 0 0 $X=53190 $Y=5085
+X102 GNDA 9 GNDA nmos1v2hvt_4_CDNS_7854115840747 $T=35920 6615 0 0 $X=35300 $Y=5895
+X103 9 11 GNDA nmos1v2hvt_4_CDNS_7854115840747 $T=35920 9450 0 0 $X=35300 $Y=8730
+X104 GNDA 12 PRN_TRIGGER nmos1v2hvt_4_CDNS_7854115840749 $T=21640 6615 0 0 $X=21020 $Y=5895
+X105 GNDA 12 12 nmos1v2hvt_4_CDNS_7854115840749 $T=26880 6615 0 0 $X=26260 $Y=5895
+X106 VDDA 10 PRN_TRIGGER pmos1v2hvt_4_CDNS_7854115840753 $T=50390 11870 1 0 $X=49770 $Y=9470
+X107 VDDA 13 10 pmos1v2hvt_4_CDNS_7854115840755 $T=52130 11875 1 0 $X=51510 $Y=9465
+X108 VDDA PRN 13 pmos1v2hvt_4_CDNS_7854115840755 $T=53570 11875 1 0 $X=52950 $Y=9465
+X109 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=11670 17330 0 0 $X=11050 $Y=16610
+X110 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=11670 35130 1 0 $X=11050 $Y=26730
+X111 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=14910 17330 0 0 $X=14290 $Y=16610
+X112 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=14910 35130 1 0 $X=14290 $Y=26730
+X113 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=18150 17330 0 0 $X=17530 $Y=16610
+X114 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=18150 35130 1 0 $X=17530 $Y=26730
+X115 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=21390 17330 0 0 $X=20770 $Y=16610
+X116 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=21390 35130 1 0 $X=20770 $Y=26730
+X117 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=24630 17330 0 0 $X=24010 $Y=16610
+X118 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=24630 35130 1 0 $X=24010 $Y=26730
+X119 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=27870 17330 0 0 $X=27250 $Y=16610
+X120 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=27870 35130 1 0 $X=27250 $Y=26730
+X121 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=31110 17330 0 0 $X=30490 $Y=16610
+X122 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=31110 35130 1 0 $X=30490 $Y=26730
+X123 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=34350 17330 0 0 $X=33730 $Y=16610
+X124 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=34350 35130 1 0 $X=33730 $Y=26730
+X125 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=37590 17330 0 0 $X=36970 $Y=16610
+X126 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=37590 35130 1 0 $X=36970 $Y=26730
+X127 14 12 9 VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=40830 17330 0 0 $X=40210 $Y=16610
+X128 14 PRN_TRIGGER VREF VDDA pmos1v2hvt_4_CDNS_7854115840757 $T=40830 35130 1 0 $X=40210 $Y=26730
+X129 VDDA pmos1v2hvt_4_CDNS_7854115840760 $T=9930 17330 0 0 $X=9310 $Y=16610
+X130 VDDA pmos1v2hvt_4_CDNS_7854115840760 $T=9930 35130 1 0 $X=9310 $Y=26730
+X131 VDDA pmos1v2hvt_4_CDNS_7854115840760 $T=44070 17330 0 0 $X=43450 $Y=16610
+X132 VDDA pmos1v2hvt_4_CDNS_7854115840760 $T=44070 35130 1 0 $X=43450 $Y=26730
+X133 VDDA pmos1v2hvt_4_CDNS_7854115840761 $T=12480 51820 1 0 $X=11860 $Y=43420
+X134 VDDA pmos1v2hvt_4_CDNS_7854115840761 $T=40920 51820 1 0 $X=40300 $Y=43420
+X135 10 GNDA PRN_TRIGGER nmos1v2hvt_4_CDNS_7854115840762 $T=50390 5805 0 0 $X=49770 $Y=5085
+.ends BG_STARTUP_fL2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840766                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840766 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 1 4 2 3 nmos1v2hvt L=1.1e-07 W=2e-06 AD=6e-13 AS=6e-13 PD=2.6e-06 PS=2.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840766
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolyh_CDNS_7854115840768                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolyh_CDNS_7854115840768 1 2 3
+** N=4 EP=3 FDC=5
+R0 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=0 $Y=0 $dt=5
+R1 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=750 $Y=0 $dt=5
+R2 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=1500 $Y=0 $dt=5
+R3 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=2250 $Y=0 $dt=5
+R4 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=3000 $Y=0 $dt=5
+.ends rnpolyh_CDNS_7854115840768
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolyh_CDNS_7854115840769                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolyh_CDNS_7854115840769 1 2 3
+** N=4 EP=3 FDC=2
+R0 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=0 $Y=0 $dt=5
+R1 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=750 $Y=0 $dt=5
+.ends rnpolyh_CDNS_7854115840769
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolyh_CDNS_7854115840770                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolyh_CDNS_7854115840770 1 2 3
+** N=47 EP=3 FDC=44
+R0 2 15 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=0 $Y=0 $dt=5
+R1 9 15 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=750 $Y=0 $dt=5
+R2 9 14 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=1500 $Y=0 $dt=5
+R3 8 14 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=2250 $Y=0 $dt=5
+R4 8 13 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=3000 $Y=0 $dt=5
+R5 7 13 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=3750 $Y=0 $dt=5
+R6 7 12 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=4500 $Y=0 $dt=5
+R7 6 12 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=5250 $Y=0 $dt=5
+R8 6 11 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=6000 $Y=0 $dt=5
+R9 5 11 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=6750 $Y=0 $dt=5
+R10 5 10 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=7500 $Y=0 $dt=5
+R11 21 10 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=8250 $Y=0 $dt=5
+R12 21 26 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=9000 $Y=0 $dt=5
+R13 20 26 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=9750 $Y=0 $dt=5
+R14 20 25 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=10500 $Y=0 $dt=5
+R15 19 25 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=11250 $Y=0 $dt=5
+R16 19 24 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=12000 $Y=0 $dt=5
+R17 18 24 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=12750 $Y=0 $dt=5
+R18 18 23 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=13500 $Y=0 $dt=5
+R19 17 23 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=14250 $Y=0 $dt=5
+R20 17 22 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=15000 $Y=0 $dt=5
+R21 16 22 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=15750 $Y=0 $dt=5
+R22 16 37 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=16500 $Y=0 $dt=5
+R23 31 37 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=17250 $Y=0 $dt=5
+R24 31 36 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=18000 $Y=0 $dt=5
+R25 30 36 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=18750 $Y=0 $dt=5
+R26 30 35 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=19500 $Y=0 $dt=5
+R27 29 35 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=20250 $Y=0 $dt=5
+R28 29 34 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=21000 $Y=0 $dt=5
+R29 28 34 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=21750 $Y=0 $dt=5
+R30 28 33 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=22500 $Y=0 $dt=5
+R31 27 33 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=23250 $Y=0 $dt=5
+R32 27 32 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=24000 $Y=0 $dt=5
+R33 42 32 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=24750 $Y=0 $dt=5
+R34 42 47 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=25500 $Y=0 $dt=5
+R35 41 47 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=26250 $Y=0 $dt=5
+R36 41 46 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=27000 $Y=0 $dt=5
+R37 40 46 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=27750 $Y=0 $dt=5
+R38 40 45 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=28500 $Y=0 $dt=5
+R39 39 45 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=29250 $Y=0 $dt=5
+R40 39 44 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=30000 $Y=0 $dt=5
+R41 38 44 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=30750 $Y=0 $dt=5
+R42 38 43 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=31500 $Y=0 $dt=5
+R43 1 43 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=32250 $Y=0 $dt=5
+.ends rnpolyh_CDNS_7854115840770
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolyh_CDNS_7854115840771                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolyh_CDNS_7854115840771 1 2 3
+** N=4 EP=3 FDC=1
+R0 1 2 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=3 $X=0 $Y=0 $dt=5
+.ends rnpolyh_CDNS_7854115840771
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: trim_res_bg_2_fL                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt trim_res_bg_2_fL REF P1 S7 S6 P2 S5 S4 S3 S2 S1
++ S0
+** N=15 EP=11 FDC=100
+X0 S7 P2 REF rnpolyh_CDNS_7854115840768 $T=7665 11655 0 180 $X=3915 $Y=915
+X1 S6 S7 REF rnpolyh_CDNS_7854115840768 $T=11415 1655 1 180 $X=7665 $Y=915
+X2 S5 S6 REF rnpolyh_CDNS_7854115840768 $T=15165 11655 0 180 $X=11415 $Y=915
+X3 S4 S5 REF rnpolyh_CDNS_7854115840768 $T=18915 1655 1 180 $X=15165 $Y=915
+X4 S3 S4 REF rnpolyh_CDNS_7854115840768 $T=22665 11655 0 180 $X=18915 $Y=915
+X5 S2 S3 REF rnpolyh_CDNS_7854115840768 $T=26415 1655 1 180 $X=22665 $Y=915
+X6 S1 S2 REF rnpolyh_CDNS_7854115840768 $T=30165 11655 0 180 $X=26415 $Y=915
+X7 S0 S1 REF rnpolyh_CDNS_7854115840768 $T=33915 1655 1 180 $X=30165 $Y=915
+X8 13 S0 REF rnpolyh_CDNS_7854115840768 $T=37665 11655 0 180 $X=33915 $Y=915
+X9 14 15 REF rnpolyh_CDNS_7854115840769 $T=34915 13055 0 0 $X=34665 $Y=12315
+X10 15 13 REF rnpolyh_CDNS_7854115840769 $T=36415 23055 1 0 $X=36165 $Y=12315
+X11 14 P1 REF rnpolyh_CDNS_7854115840770 $T=1915 13055 0 0 $X=1665 $Y=12315
+X12 REF REF REF rnpolyh_CDNS_7854115840771 $T=1665 1655 1 180 $X=915 $Y=915
+X13 REF REF REF rnpolyh_CDNS_7854115840771 $T=1165 13055 0 0 $X=915 $Y=12315
+X14 REF REF REF rnpolyh_CDNS_7854115840771 $T=2415 1655 1 180 $X=1665 $Y=915
+X15 REF REF REF rnpolyh_CDNS_7854115840771 $T=3165 1655 1 180 $X=2415 $Y=915
+X16 REF REF REF rnpolyh_CDNS_7854115840771 $T=3915 1655 1 180 $X=3165 $Y=915
+X17 REF REF REF rnpolyh_CDNS_7854115840771 $T=38415 1655 1 180 $X=37665 $Y=915
+X18 REF REF REF rnpolyh_CDNS_7854115840771 $T=37915 13055 0 0 $X=37665 $Y=12315
+.ends trim_res_bg_2_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: trim_res_bg_sl_fL                               *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt trim_res_bg_sl_fL REF P1 S0 S1 S2 S3 S4 S5 S6 S7
++ P2
+** N=98 EP=11 FDC=97
+X4 REF rnpolyh_CDNS_7854115840735 $T=1170 1660 0 0 $X=920 $Y=920
+X5 REF rnpolyh_CDNS_7854115840735 $T=73170 1660 0 0 $X=72920 $Y=920
+X6 15 S0 REF rnpolyh_CDNS_7854115840771 $T=66420 1660 0 0 $X=66170 $Y=920
+X7 S0 S1 REF rnpolyh_CDNS_7854115840771 $T=67670 11660 0 180 $X=66920 $Y=920
+X8 S1 S2 REF rnpolyh_CDNS_7854115840771 $T=67920 1660 0 0 $X=67670 $Y=920
+X9 S2 S3 REF rnpolyh_CDNS_7854115840771 $T=68670 11660 1 0 $X=68420 $Y=920
+X10 S3 S4 REF rnpolyh_CDNS_7854115840771 $T=69420 1660 0 0 $X=69170 $Y=920
+X11 S4 S5 REF rnpolyh_CDNS_7854115840771 $T=70170 11660 1 0 $X=69920 $Y=920
+X12 S5 S6 REF rnpolyh_CDNS_7854115840771 $T=70920 1660 0 0 $X=70670 $Y=920
+X13 S6 S7 REF rnpolyh_CDNS_7854115840771 $T=71670 11660 1 0 $X=71420 $Y=920
+X14 S7 P2 REF rnpolyh_CDNS_7854115840771 $T=72420 1660 0 0 $X=72170 $Y=920
+R0 P1 27 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=1920 $Y=1660 $dt=5
+R1 21 27 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=2670 $Y=1660 $dt=5
+R2 21 26 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=3420 $Y=1660 $dt=5
+R3 20 26 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=4170 $Y=1660 $dt=5
+R4 20 25 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=4920 $Y=1660 $dt=5
+R5 19 25 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=5670 $Y=1660 $dt=5
+R6 19 24 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=6420 $Y=1660 $dt=5
+R7 18 24 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=7170 $Y=1660 $dt=5
+R8 18 23 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=7920 $Y=1660 $dt=5
+R9 17 23 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=8670 $Y=1660 $dt=5
+R10 17 22 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=9420 $Y=1660 $dt=5
+R11 16 22 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=10170 $Y=1660 $dt=5
+R12 16 39 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=10920 $Y=1660 $dt=5
+R13 33 39 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=11670 $Y=1660 $dt=5
+R14 33 38 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=12420 $Y=1660 $dt=5
+R15 32 38 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=13170 $Y=1660 $dt=5
+R16 32 37 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=13920 $Y=1660 $dt=5
+R17 31 37 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=14670 $Y=1660 $dt=5
+R18 31 36 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=15420 $Y=1660 $dt=5
+R19 30 36 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=16170 $Y=1660 $dt=5
+R20 30 35 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=16920 $Y=1660 $dt=5
+R21 29 35 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=17670 $Y=1660 $dt=5
+R22 29 34 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=18420 $Y=1660 $dt=5
+R23 28 34 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=19170 $Y=1660 $dt=5
+R24 28 51 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=19920 $Y=1660 $dt=5
+R25 45 51 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=20670 $Y=1660 $dt=5
+R26 45 50 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=21420 $Y=1660 $dt=5
+R27 44 50 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=22170 $Y=1660 $dt=5
+R28 44 49 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=22920 $Y=1660 $dt=5
+R29 43 49 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=23670 $Y=1660 $dt=5
+R30 43 48 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=24420 $Y=1660 $dt=5
+R31 42 48 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=25170 $Y=1660 $dt=5
+R32 42 47 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=25920 $Y=1660 $dt=5
+R33 41 47 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=26670 $Y=1660 $dt=5
+R34 41 46 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=27420 $Y=1660 $dt=5
+R35 40 46 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=28170 $Y=1660 $dt=5
+R36 40 63 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=28920 $Y=1660 $dt=5
+R37 57 63 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=29670 $Y=1660 $dt=5
+R38 57 62 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=30420 $Y=1660 $dt=5
+R39 56 62 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=31170 $Y=1660 $dt=5
+R40 56 61 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=31920 $Y=1660 $dt=5
+R41 55 61 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=32670 $Y=1660 $dt=5
+R42 55 60 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=33420 $Y=1660 $dt=5
+R43 54 60 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=34170 $Y=1660 $dt=5
+R44 54 59 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=34920 $Y=1660 $dt=5
+R45 53 59 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=35670 $Y=1660 $dt=5
+R46 53 58 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=36420 $Y=1660 $dt=5
+R47 52 58 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=37170 $Y=1660 $dt=5
+R48 52 75 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=37920 $Y=1660 $dt=5
+R49 69 75 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=38670 $Y=1660 $dt=5
+R50 69 74 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=39420 $Y=1660 $dt=5
+R51 68 74 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=40170 $Y=1660 $dt=5
+R52 68 73 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=40920 $Y=1660 $dt=5
+R53 67 73 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=41670 $Y=1660 $dt=5
+R54 67 72 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=42420 $Y=1660 $dt=5
+R55 66 72 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=43170 $Y=1660 $dt=5
+R56 66 71 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=43920 $Y=1660 $dt=5
+R57 65 71 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=44670 $Y=1660 $dt=5
+R58 65 70 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=45420 $Y=1660 $dt=5
+R59 64 70 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=46170 $Y=1660 $dt=5
+R60 64 87 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=46920 $Y=1660 $dt=5
+R61 81 87 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=47670 $Y=1660 $dt=5
+R62 81 86 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=48420 $Y=1660 $dt=5
+R63 80 86 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=49170 $Y=1660 $dt=5
+R64 80 85 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=49920 $Y=1660 $dt=5
+R65 79 85 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=50670 $Y=1660 $dt=5
+R66 79 84 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=51420 $Y=1660 $dt=5
+R67 78 84 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=52170 $Y=1660 $dt=5
+R68 78 83 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=52920 $Y=1660 $dt=5
+R69 77 83 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=53670 $Y=1660 $dt=5
+R70 77 82 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=54420 $Y=1660 $dt=5
+R71 76 82 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=55170 $Y=1660 $dt=5
+R72 76 98 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=55920 $Y=1660 $dt=5
+R73 92 98 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=56670 $Y=1660 $dt=5
+R74 92 97 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=57420 $Y=1660 $dt=5
+R75 91 97 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=58170 $Y=1660 $dt=5
+R76 91 96 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=58920 $Y=1660 $dt=5
+R77 90 96 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=59670 $Y=1660 $dt=5
+R78 90 95 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=60420 $Y=1660 $dt=5
+R79 89 95 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=61170 $Y=1660 $dt=5
+R80 89 94 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=61920 $Y=1660 $dt=5
+R81 88 94 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=62670 $Y=1660 $dt=5
+R82 88 93 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=63420 $Y=1660 $dt=5
+R83 13 93 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=64170 $Y=1660 $dt=5
+R84 13 14 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=64920 $Y=1660 $dt=5
+R85 15 14 37927.7 L=1e-05 W=5e-07 $[rnpolyh] $SUB=REF $X=65670 $Y=1660 $dt=5
+.ends trim_res_bg_sl_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840773                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840773 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=2e-06 W=5.6e-07 AD=1.68e-13 AS=1.68e-13 PD=1.16e-06 PS=1.16e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840773
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840775                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840775 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 2 1 3 pmos1v2hvt L=5e-07 W=5e-06 AD=1.5e-12 AS=1.5e-12 PD=5.6e-06 PS=5.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840775
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840777                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840777 1 2 3 4
+** N=5 EP=4 FDC=1
+M0 3 1 2 4 pmos1v2hvt L=1e-05 W=4e-05 AD=1.2e-11 AS=1.2e-11 PD=4.06e-05 PS=4.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840777
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840779                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840779 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=7.5e-06 W=4e-05 AD=1.2e-11 AS=1.2e-11 PD=4.06e-05 PS=4.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840779
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840783                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840783 1 2 3
+** N=3 EP=3 FDC=1
+M0 3 2 1 1 nmos1v2hvt L=4e-06 W=4e-06 AD=1.2e-12 AS=1.2e-12 PD=4.6e-06 PS=4.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840783
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_7854115840785                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_7854115840785 1 2 3 4
+** N=5 EP=4 FDC=10
+M0 3 4 2 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.2e-12 PD=4.68e-06 PS=4.6e-06 m=1 $X=0 $Y=0 $dt=2
+M1 2 4 3 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=840 $Y=0 $dt=2
+M2 3 4 2 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=1680 $Y=0 $dt=2
+M3 2 4 3 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=2520 $Y=0 $dt=2
+M4 3 4 2 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=3360 $Y=0 $dt=2
+M5 2 4 3 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=4200 $Y=0 $dt=2
+M6 3 4 2 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=5040 $Y=0 $dt=2
+M7 2 4 3 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=5880 $Y=0 $dt=2
+M8 3 4 2 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.36e-12 AS=1.36e-12 PD=4.68e-06 PS=4.68e-06 m=1 $X=6720 $Y=0 $dt=2
+M9 2 4 3 1 pmos1v2hvt L=5e-07 W=4e-06 AD=1.2e-12 AS=1.36e-12 PD=4.6e-06 PS=4.68e-06 m=1 $X=7560 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_7854115840785
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_7854115840788                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_7854115840788 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 4 2 1 3 nmos1v2hvt L=2e-06 W=2e-05 AD=6e-12 AS=6e-12 PD=2.06e-05 PS=2.06e-05 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_7854115840788
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pnp5ux5u_CDNS_78541158407100                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pnp5ux5u_CDNS_78541158407100 1 2
+*.DEVICECLIMB
+** N=2 EP=2 FDC=1
+Q0 1 1 2 pnp5ux5u ae=2.5e-11 m=1 $X=-860 $Y=-860 $dt=6
+.ends pnp5ux5u_CDNS_78541158407100
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: MASCO__A22                                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt MASCO__A22 1 3
+*.DEVICECLIMB
+** N=3 EP=2 FDC=2
+Q0 3 3 1 pnp5ux5u ae=2.5e-11 m=1 $X=7520 $Y=7520 $dt=6
+Q1 3 3 1 pnp5ux5u ae=2.5e-11 m=1 $X=14560 $Y=7520 $dt=6
+.ends MASCO__A22
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: MASCO__B23                                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt MASCO__B23 2 3
+*.DEVICECLIMB
+** N=3 EP=2 FDC=9
+X0 3 2 MASCO__A22 $T=0 0 0 0 $X=0 $Y=0
+X1 3 2 MASCO__A22 $T=0 14080 0 0 $X=0 $Y=14080
+Q0 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=7520 $Y=14560 $dt=6
+Q1 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=14560 $Y=14560 $dt=6
+Q2 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=21600 $Y=7520 $dt=6
+Q3 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=21600 $Y=14560 $dt=6
+Q4 2 2 3 pnp5ux5u ae=2.5e-11 m=1 $X=21600 $Y=21600 $dt=6
+.ends MASCO__B23
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: BG_PNP_array                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt BG_PNP_array B GNDA A
+** N=3 EP=3 FDC=266
+X1 GNDA A pnp5ux5u_CDNS_78541158407100 $T=66460 52275 0 0 $X=65120 $Y=50935
+X23 B GNDA MASCO__A22 $T=1760 86135 0 0 $X=1760 $Y=86135
+X24 B GNDA MASCO__A22 $T=29920 86135 0 0 $X=29920 $Y=86135
+X25 B GNDA MASCO__A22 $T=58080 29815 0 0 $X=58080 $Y=29815
+X26 B GNDA MASCO__A22 $T=58080 86135 0 0 $X=58080 $Y=86135
+X27 B GNDA MASCO__A22 $T=72160 43895 0 0 $X=72160 $Y=43895
+X28 B GNDA MASCO__A22 $T=86240 29815 0 0 $X=86240 $Y=29815
+X29 B GNDA MASCO__A22 $T=86240 86135 0 0 $X=86240 $Y=86135
+X30 B GNDA MASCO__A22 $T=100320 43895 0 0 $X=100320 $Y=43895
+X31 GNDA B MASCO__B23 $T=1760 1655 0 0 $X=1760 $Y=1655
+X32 GNDA B MASCO__B23 $T=1760 29815 0 0 $X=1760 $Y=29815
+X33 GNDA B MASCO__B23 $T=1760 57975 0 0 $X=1760 $Y=57975
+X34 GNDA B MASCO__B23 $T=29920 1655 0 0 $X=29920 $Y=1655
+X35 GNDA B MASCO__B23 $T=29920 29815 0 0 $X=29920 $Y=29815
+X36 GNDA B MASCO__B23 $T=29920 57975 0 0 $X=29920 $Y=57975
+X37 GNDA B MASCO__B23 $T=58080 1655 0 0 $X=58080 $Y=1655
+X38 GNDA B MASCO__B23 $T=58080 57975 0 0 $X=58080 $Y=57975
+X39 GNDA B MASCO__B23 $T=86240 1655 0 0 $X=86240 $Y=1655
+X40 GNDA B MASCO__B23 $T=86240 57975 0 0 $X=86240 $Y=57975
+Q0 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=2135 $dt=6
+Q1 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=9175 $dt=6
+Q2 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=16215 $dt=6
+Q3 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=23255 $dt=6
+Q4 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=30295 $dt=6
+Q5 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=37335 $dt=6
+Q6 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=44375 $dt=6
+Q7 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=51415 $dt=6
+Q8 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=58455 $dt=6
+Q9 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=65495 $dt=6
+Q10 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=72535 $dt=6
+Q11 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=79575 $dt=6
+Q12 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=86615 $dt=6
+Q13 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=2240 $Y=93655 $dt=6
+Q14 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=2135 $dt=6
+Q15 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=30295 $dt=6
+Q16 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=58455 $dt=6
+Q17 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=9280 $Y=86615 $dt=6
+Q18 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=2135 $dt=6
+Q19 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=30295 $dt=6
+Q20 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=58455 $dt=6
+Q21 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=16320 $Y=86615 $dt=6
+Q22 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=2135 $dt=6
+Q23 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=30295 $dt=6
+Q24 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=58455 $dt=6
+Q25 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=86615 $dt=6
+Q26 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=23360 $Y=93655 $dt=6
+Q27 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=2135 $dt=6
+Q28 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=9175 $dt=6
+Q29 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=16215 $dt=6
+Q30 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=23255 $dt=6
+Q31 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=30295 $dt=6
+Q32 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=37335 $dt=6
+Q33 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=44375 $dt=6
+Q34 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=51415 $dt=6
+Q35 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=58455 $dt=6
+Q36 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=65495 $dt=6
+Q37 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=72535 $dt=6
+Q38 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=79575 $dt=6
+Q39 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=86615 $dt=6
+Q40 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=30400 $Y=93655 $dt=6
+Q41 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=2135 $dt=6
+Q42 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=30295 $dt=6
+Q43 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=58455 $dt=6
+Q44 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=37440 $Y=86615 $dt=6
+Q45 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=2135 $dt=6
+Q46 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=30295 $dt=6
+Q47 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=58455 $dt=6
+Q48 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=44480 $Y=86615 $dt=6
+Q49 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=2135 $dt=6
+Q50 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=30295 $dt=6
+Q51 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=58455 $dt=6
+Q52 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=86615 $dt=6
+Q53 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=51520 $Y=93655 $dt=6
+Q54 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=2135 $dt=6
+Q55 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=9175 $dt=6
+Q56 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=16215 $dt=6
+Q57 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=23255 $dt=6
+Q58 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=30295 $dt=6
+Q59 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=37335 $dt=6
+Q60 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=44375 $dt=6
+Q61 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=51415 $dt=6
+Q62 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=58455 $dt=6
+Q63 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=65495 $dt=6
+Q64 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=72535 $dt=6
+Q65 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=79575 $dt=6
+Q66 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=86615 $dt=6
+Q67 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=58560 $Y=93655 $dt=6
+Q68 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=2135 $dt=6
+Q69 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=30295 $dt=6
+Q70 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=44375 $dt=6
+Q71 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=58455 $dt=6
+Q72 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=65600 $Y=86615 $dt=6
+Q73 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=2135 $dt=6
+Q74 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=30295 $dt=6
+Q75 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=44375 $dt=6
+Q76 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=51415 $dt=6
+Q77 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=58455 $dt=6
+Q78 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=72640 $Y=86615 $dt=6
+Q79 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=2135 $dt=6
+Q80 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=30295 $dt=6
+Q81 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=37335 $dt=6
+Q82 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=44375 $dt=6
+Q83 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=58455 $dt=6
+Q84 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=86615 $dt=6
+Q85 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=79680 $Y=93655 $dt=6
+Q86 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=2135 $dt=6
+Q87 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=9175 $dt=6
+Q88 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=16215 $dt=6
+Q89 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=23255 $dt=6
+Q90 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=30295 $dt=6
+Q91 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=37335 $dt=6
+Q92 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=44375 $dt=6
+Q93 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=58455 $dt=6
+Q94 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=65495 $dt=6
+Q95 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=72535 $dt=6
+Q96 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=79575 $dt=6
+Q97 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=86615 $dt=6
+Q98 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=86720 $Y=93655 $dt=6
+Q99 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=2135 $dt=6
+Q100 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=30295 $dt=6
+Q101 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=44375 $dt=6
+Q102 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=51415 $dt=6
+Q103 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=58455 $dt=6
+Q104 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=93760 $Y=86615 $dt=6
+Q105 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=2135 $dt=6
+Q106 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=30295 $dt=6
+Q107 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=44375 $dt=6
+Q108 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=51415 $dt=6
+Q109 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=58455 $dt=6
+Q110 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=100800 $Y=86615 $dt=6
+Q111 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=2135 $dt=6
+Q112 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=30295 $dt=6
+Q113 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=37335 $dt=6
+Q114 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=44375 $dt=6
+Q115 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=58455 $dt=6
+Q116 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=86615 $dt=6
+Q117 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=107840 $Y=93655 $dt=6
+Q118 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=2135 $dt=6
+Q119 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=9175 $dt=6
+Q120 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=16215 $dt=6
+Q121 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=23255 $dt=6
+Q122 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=30295 $dt=6
+Q123 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=37335 $dt=6
+Q124 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=44375 $dt=6
+Q125 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=58455 $dt=6
+Q126 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=65495 $dt=6
+Q127 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=72535 $dt=6
+Q128 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=79575 $dt=6
+Q129 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=86615 $dt=6
+Q130 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=114880 $Y=93655 $dt=6
+Q131 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=2135 $dt=6
+Q132 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=9175 $dt=6
+Q133 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=16215 $dt=6
+Q134 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=23255 $dt=6
+Q135 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=30295 $dt=6
+Q136 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=37335 $dt=6
+Q137 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=44375 $dt=6
+Q138 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=51415 $dt=6
+Q139 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=58455 $dt=6
+Q140 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=65495 $dt=6
+Q141 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=72535 $dt=6
+Q142 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=79575 $dt=6
+Q143 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=86615 $dt=6
+Q144 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=121920 $Y=93655 $dt=6
+Q145 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=2135 $dt=6
+Q146 GNDA GNDA GNDA pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=9175 $dt=6
+Q147 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=16215 $dt=6
+Q148 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=23255 $dt=6
+Q149 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=30295 $dt=6
+Q150 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=37335 $dt=6
+Q151 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=44375 $dt=6
+Q152 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=51415 $dt=6
+Q153 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=58455 $dt=6
+Q154 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=65495 $dt=6
+Q155 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=72535 $dt=6
+Q156 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=79575 $dt=6
+Q157 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=86615 $dt=6
+Q158 GNDA GNDA B pnp5ux5u ae=2.5e-11 m=1 $X=128960 $Y=93655 $dt=6
+.ends BG_PNP_array
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407102                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407102 1
+** N=2 EP=1 FDC=1
+M0 1 1 1 1 pmos1v2hvt L=1e-06 W=4e-05 AD=1.2e-11 AS=1.2e-11 PD=4.06e-05 PS=4.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407102
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: BG_TRIM_4_fL                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt BG_TRIM_4_fL VDDA GNDA EN BIAS VREF TRIM_SL<7> TRIM_SL<6> TRIM_SL<5> TRIM_SL<4> TRIM_SL<0>
++ TRIM_SL<1> TRIM_SL<2> TRIM_SL<3> TRIM_OUT<7> TRIM_OUT<6> TRIM_OUT<5> TRIM_OUT<4> TRIM_OUT<3> TRIM_OUT<2> TRIM_OUT<1>
++ TRIM_OUT<0> PRN
+** N=100 EP=22 FDC=886
+X216 GNDA GNDA 23 EN nmos1v2hvt_4_CDNS_785411584075 $T=23230 4315 0 0 $X=22610 $Y=3595
+X217 GNDA GNDA 24 23 nmos1v2hvt_4_CDNS_785411584075 $T=26445 4315 0 0 $X=25825 $Y=3595
+X218 GNDA GNDA 58 23 nmos1v2hvt_4_CDNS_785411584075 $T=29415 4315 0 0 $X=28795 $Y=3595
+X219 58 GNDA BIAS 24 nmos1v2hvt_4_CDNS_785411584075 $T=31340 11030 0 90 $X=29940 $Y=10410
+X220 VDDA 23 EN pmos1v2hvt_4_CDNS_7854115840717 $T=23230 8885 1 0 $X=22610 $Y=6485
+X221 VDDA 24 23 pmos1v2hvt_4_CDNS_7854115840717 $T=26445 8885 1 0 $X=25825 $Y=6485
+X407 GNDA VREF cmims_CDNS_7854115840732 $T=96300 64190 0 90 $X=25800 $Y=63690
+X408 GNDA VREF cmims_CDNS_7854115840732 $T=169300 64190 0 90 $X=98800 $Y=63690
+X409 GNDA VREF cmims_CDNS_7854115840732 $T=242300 64190 0 90 $X=171800 $Y=63690
+X410 GNDA VREF cmims_CDNS_7854115840732 $T=315300 64190 0 90 $X=244800 $Y=63690
+X411 GNDA VREF cmims_CDNS_7854115840732 $T=388300 64190 0 90 $X=317800 $Y=63690
+X412 GNDA VREF cmims_CDNS_7854115840732 $T=461300 64190 0 90 $X=390800 $Y=63690
+X413 GNDA VREF cmims_CDNS_7854115840732 $T=534300 64190 0 90 $X=463800 $Y=63690
+X414 GNDA VREF cmims_CDNS_7854115840732 $T=607300 64190 0 90 $X=536800 $Y=63690
+X415 GNDA VREF cmims_CDNS_7854115840732 $T=680300 64190 0 90 $X=609800 $Y=63690
+X416 GNDA VREF cmims_CDNS_7854115840732 $T=753300 64190 0 90 $X=682800 $Y=63690
+X417 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 35985 0 270 $X=184930 $Y=25365
+X418 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 47225 0 270 $X=184930 $Y=36605
+X419 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 58465 0 270 $X=184930 $Y=47845
+X420 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 69705 0 270 $X=184930 $Y=59085
+X421 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 80945 0 270 $X=184930 $Y=70325
+X422 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 92185 0 270 $X=184930 $Y=81565
+X423 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 103425 0 270 $X=184930 $Y=92805
+X424 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=185650 114665 0 270 $X=184930 $Y=104045
+X425 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 35985 0 270 $X=561010 $Y=25365
+X426 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 47225 0 270 $X=561010 $Y=36605
+X427 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 58465 0 270 $X=561010 $Y=47845
+X428 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 69705 0 270 $X=561010 $Y=59085
+X429 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 80945 0 270 $X=561010 $Y=70325
+X430 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 92185 0 270 $X=561010 $Y=81565
+X431 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 103425 0 270 $X=561010 $Y=92805
+X432 VDDA pmos1v2hvt_4_CDNS_7854115840733 $T=561730 114665 0 270 $X=561010 $Y=104045
+X433 GNDA rnpolyh_CDNS_7854115840735 $T=597160 94560 0 0 $X=596910 $Y=93820
+X434 GNDA rnpolyh_CDNS_7854115840735 $T=616660 94560 0 0 $X=616410 $Y=93820
+X435 TRIM_SL<0> TRIM_SL<1> TRIM_SL<2> GNDA TRIM_SL<3> TRIM_SL<4> TRIM_SL<5> TRIM_SL<6> TRIM_SL<7> GNDA
++ 42 36 40 35 39 38 41 37 mux8_1_fL $T=153320 17600 1 180 $X=133890 $Y=17600
+X436 TRIM_SL<0> TRIM_SL<1> TRIM_SL<2> GNDA TRIM_SL<3> TRIM_SL<4> TRIM_SL<5> TRIM_SL<6> TRIM_SL<7> GNDA
++ 49 45 33 43 47 46 48 44 mux8_1_fL $T=157605 17600 0 0 $X=157605 $Y=17600
+X437 TRIM_OUT<0> TRIM_OUT<1> TRIM_OUT<2> GNDA TRIM_OUT<3> TRIM_OUT<4> TRIM_OUT<5> TRIM_OUT<6> TRIM_OUT<7> GNDA
++ 56 52 55 51 53 50 54 34 mux8_1_fL $T=182115 52440 1 180 $X=162685 $Y=52440
+X438 63 30 GNDA rnpolyh_CDNS_7854115840738 $T=597910 104560 1 0 $X=597660 $Y=93820
+X439 GNDA 58 57 nmos1v2hvt_4_CDNS_7854115840749 $T=49605 6220 0 0 $X=48985 $Y=5500
+X440 GNDA 58 61 nmos1v2hvt_4_CDNS_7854115840749 $T=49605 15440 1 0 $X=48985 $Y=11040
+X441 GNDA 58 62 nmos1v2hvt_4_CDNS_7854115840749 $T=65325 15440 1 0 $X=64705 $Y=11040
+X442 24 62 VDDA GNDA VREF 23 25 PRN BG_STARTUP_fL2 $T=560405 3770 0 0 $X=563405 $Y=4015
+X443 26 61 GNDA 25 nmos1v2hvt_4_CDNS_7854115840766 $T=562835 9315 0 0 $X=562215 $Y=8595
+X444 GNDA VREF 34 54 GNDA 50 53 51 55 52
++ 56 trim_res_bg_2_fL $T=184240 66870 0 90 $X=159530 $Y=66870
+X445 GNDA 30 42 36 40 35 39 38 41 37
++ GNDA trim_res_bg_sl_fL $T=131760 116170 0 270 $X=131765 $Y=41335
+X446 GNDA 32 49 45 33 43 47 46 48 44
++ GNDA trim_res_bg_sl_fL $T=145070 116170 0 270 $X=145075 $Y=41335
+X447 VDDA 26 24 pmos1v2hvt_4_CDNS_7854115840773 $T=24945 25160 1 0 $X=24325 $Y=24200
+X448 VDDA 59 VDDA pmos1v2hvt_4_CDNS_7854115840775 $T=170695 114690 1 0 $X=170075 $Y=109290
+X449 59 57 VDDA pmos1v2hvt_4_CDNS_7854115840775 $T=172435 114690 1 0 $X=171815 $Y=109290
+X450 26 64 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 35985 0 270 $X=192050 $Y=25365
+X451 26 VDDA 64 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 47225 0 270 $X=192050 $Y=36605
+X452 26 65 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 58465 0 270 $X=192050 $Y=47845
+X453 26 VDDA 65 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 69705 0 270 $X=192050 $Y=59085
+X454 26 66 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 80945 0 270 $X=192050 $Y=70325
+X455 26 VDDA 66 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 92185 0 270 $X=192050 $Y=81565
+X456 26 67 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 103425 0 270 $X=192050 $Y=92805
+X457 26 VDDA 67 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=192770 114665 0 270 $X=192050 $Y=104045
+X458 26 68 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 35985 0 270 $X=238170 $Y=25365
+X459 26 VDDA 68 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 47225 0 270 $X=238170 $Y=36605
+X460 26 69 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 58465 0 270 $X=238170 $Y=47845
+X461 26 VDDA 69 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 69705 0 270 $X=238170 $Y=59085
+X462 26 70 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 80945 0 270 $X=238170 $Y=70325
+X463 26 VDDA 70 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 92185 0 270 $X=238170 $Y=81565
+X464 26 71 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 103425 0 270 $X=238170 $Y=92805
+X465 26 VDDA 71 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=238890 114665 0 270 $X=238170 $Y=104045
+X466 26 72 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 35985 0 270 $X=284290 $Y=25365
+X467 26 VDDA 72 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 47225 0 270 $X=284290 $Y=36605
+X468 26 73 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 58465 0 270 $X=284290 $Y=47845
+X469 26 VDDA 73 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 69705 0 270 $X=284290 $Y=59085
+X470 26 74 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 80945 0 270 $X=284290 $Y=70325
+X471 26 VDDA 74 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 92185 0 270 $X=284290 $Y=81565
+X472 26 75 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 103425 0 270 $X=284290 $Y=92805
+X473 26 VDDA 75 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=285010 114665 0 270 $X=284290 $Y=104045
+X474 26 76 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 35985 0 270 $X=330410 $Y=25365
+X475 26 VDDA 76 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 47225 0 270 $X=330410 $Y=36605
+X476 26 77 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 58465 0 270 $X=330410 $Y=47845
+X477 26 VDDA 77 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 69705 0 270 $X=330410 $Y=59085
+X478 26 78 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 80945 0 270 $X=330410 $Y=70325
+X479 26 VDDA 78 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 92185 0 270 $X=330410 $Y=81565
+X480 26 79 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 103425 0 270 $X=330410 $Y=92805
+X481 26 VDDA 79 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=331130 114665 0 270 $X=330410 $Y=104045
+X482 26 80 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 35985 0 270 $X=376530 $Y=25365
+X483 26 VDDA 80 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 47225 0 270 $X=376530 $Y=36605
+X484 26 81 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 58465 0 270 $X=376530 $Y=47845
+X485 26 VDDA 81 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 69705 0 270 $X=376530 $Y=59085
+X486 26 82 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 80945 0 270 $X=376530 $Y=70325
+X487 26 VDDA 82 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 92185 0 270 $X=376530 $Y=81565
+X488 26 83 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 103425 0 270 $X=376530 $Y=92805
+X489 26 VDDA 83 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=377250 114665 0 270 $X=376530 $Y=104045
+X490 26 84 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 35985 0 270 $X=422650 $Y=25365
+X491 26 VDDA 84 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 47225 0 270 $X=422650 $Y=36605
+X492 26 85 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 58465 0 270 $X=422650 $Y=47845
+X493 26 VDDA 85 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 69705 0 270 $X=422650 $Y=59085
+X494 26 86 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 80945 0 270 $X=422650 $Y=70325
+X495 26 VDDA 86 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 92185 0 270 $X=422650 $Y=81565
+X496 26 87 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 103425 0 270 $X=422650 $Y=92805
+X497 26 VDDA 87 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=423370 114665 0 270 $X=422650 $Y=104045
+X498 26 88 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 35985 0 270 $X=468770 $Y=25365
+X499 26 VDDA 88 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 47225 0 270 $X=468770 $Y=36605
+X500 26 89 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 58465 0 270 $X=468770 $Y=47845
+X501 26 VDDA 89 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 69705 0 270 $X=468770 $Y=59085
+X502 26 90 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 80945 0 270 $X=468770 $Y=70325
+X503 26 VDDA 90 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 92185 0 270 $X=468770 $Y=81565
+X504 26 91 31 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 103425 0 270 $X=468770 $Y=92805
+X505 26 VDDA 91 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=469490 114665 0 270 $X=468770 $Y=104045
+X506 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 35985 0 270 $X=514890 $Y=25365
+X507 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 47225 0 270 $X=514890 $Y=36605
+X508 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 58465 0 270 $X=514890 $Y=47845
+X509 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 69705 0 270 $X=514890 $Y=59085
+X510 26 92 60 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 80945 0 270 $X=514890 $Y=70325
+X511 26 VDDA 92 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 92185 0 270 $X=514890 $Y=81565
+X512 26 93 29 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 103425 0 270 $X=514890 $Y=92805
+X513 26 VDDA 93 VDDA pmos1v2hvt_4_CDNS_7854115840777 $T=515610 114665 0 270 $X=514890 $Y=104045
+X514 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=5090 28105 0 0 $X=4470 $Y=27385
+X515 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=5090 109425 1 0 $X=4470 $Y=69025
+X516 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=13830 28105 0 0 $X=13210 $Y=27385
+X517 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=13830 109425 1 0 $X=13210 $Y=69025
+X518 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=22570 28105 0 0 $X=21950 $Y=27385
+X519 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=22570 109425 1 0 $X=21950 $Y=69025
+X520 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=31310 28105 0 0 $X=30690 $Y=27385
+X521 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=31310 109425 1 0 $X=30690 $Y=69025
+X522 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=40050 28105 0 0 $X=39430 $Y=27385
+X523 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=40050 109425 1 0 $X=39430 $Y=69025
+X524 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=48790 28105 0 0 $X=48170 $Y=27385
+X525 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=48790 109425 1 0 $X=48170 $Y=69025
+X526 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=57530 28105 0 0 $X=56910 $Y=27385
+X527 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=57530 109425 1 0 $X=56910 $Y=69025
+X528 VDDA 28 28 pmos1v2hvt_4_CDNS_7854115840779 $T=66270 28105 0 0 $X=65650 $Y=27385
+X529 VDDA 26 28 pmos1v2hvt_4_CDNS_7854115840779 $T=66270 109425 1 0 $X=65650 $Y=69025
+X530 GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840783 $T=33885 6220 0 0 $X=33265 $Y=5500
+X531 GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840783 $T=33885 15440 1 0 $X=33265 $Y=11040
+X532 GNDA 58 27 nmos1v2hvt_4_CDNS_7854115840783 $T=39125 6220 0 0 $X=38505 $Y=5500
+X533 GNDA 58 58 nmos1v2hvt_4_CDNS_7854115840783 $T=39125 15440 1 0 $X=38505 $Y=11040
+X534 GNDA 58 58 nmos1v2hvt_4_CDNS_7854115840783 $T=44365 6220 0 0 $X=43745 $Y=5500
+X535 GNDA 58 27 nmos1v2hvt_4_CDNS_7854115840783 $T=44365 15440 1 0 $X=43745 $Y=11040
+X536 GNDA 58 27 nmos1v2hvt_4_CDNS_7854115840783 $T=54845 6220 0 0 $X=54225 $Y=5500
+X537 GNDA 58 58 nmos1v2hvt_4_CDNS_7854115840783 $T=54845 15440 1 0 $X=54225 $Y=11040
+X538 GNDA 58 58 nmos1v2hvt_4_CDNS_7854115840783 $T=60085 6220 0 0 $X=59465 $Y=5500
+X539 GNDA 58 27 nmos1v2hvt_4_CDNS_7854115840783 $T=60085 15440 1 0 $X=59465 $Y=11040
+X540 GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840783 $T=65325 6220 0 0 $X=64705 $Y=5500
+X541 GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840783 $T=70565 6220 0 0 $X=69945 $Y=5500
+X542 GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840783 $T=70565 15440 1 0 $X=69945 $Y=11040
+X543 VDDA 60 VREF 57 pmos1v2hvt_4_CDNS_7854115840785 $T=174175 114690 1 0 $X=173555 $Y=110280
+X544 VDDA 29 30 57 pmos1v2hvt_4_CDNS_7854115840785 $T=573735 116200 0 180 $X=565055 $Y=111790
+X545 VDDA 31 32 57 pmos1v2hvt_4_CDNS_7854115840785 $T=586715 116200 0 180 $X=578035 $Y=111790
+X546 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840788 $T=84655 11265 1 90 $X=83935 $Y=10645
+X547 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 14505 1 90 $X=83935 $Y=13885
+X548 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 17745 1 90 $X=83935 $Y=17125
+X549 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 20985 1 90 $X=83935 $Y=20365
+X550 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 24225 1 90 $X=83935 $Y=23605
+X551 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 27465 1 90 $X=83935 $Y=26845
+X552 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 30705 1 90 $X=83935 $Y=30085
+X553 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 33945 1 90 $X=83935 $Y=33325
+X554 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 37185 1 90 $X=83935 $Y=36565
+X555 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 40425 1 90 $X=83935 $Y=39805
+X556 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 43665 1 90 $X=83935 $Y=43045
+X557 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 46905 1 90 $X=83935 $Y=46285
+X558 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 50145 1 90 $X=83935 $Y=49525
+X559 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 53385 1 90 $X=83935 $Y=52765
+X560 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 56625 1 90 $X=83935 $Y=56005
+X561 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 59865 1 90 $X=83935 $Y=59245
+X562 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 63105 1 90 $X=83935 $Y=62485
+X563 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 66345 1 90 $X=83935 $Y=65725
+X564 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 69585 1 90 $X=83935 $Y=68965
+X565 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 72825 1 90 $X=83935 $Y=72205
+X566 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 76065 1 90 $X=83935 $Y=75445
+X567 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 79305 1 90 $X=83935 $Y=78685
+X568 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 82545 1 90 $X=83935 $Y=81925
+X569 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 85785 1 90 $X=83935 $Y=85165
+X570 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 89025 1 90 $X=83935 $Y=88405
+X571 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 92265 1 90 $X=83935 $Y=91645
+X572 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 95505 1 90 $X=83935 $Y=94885
+X573 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 98745 1 90 $X=83935 $Y=98125
+X574 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 101985 1 90 $X=83935 $Y=101365
+X575 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 105225 1 90 $X=83935 $Y=104605
+X576 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=84655 108465 1 90 $X=83935 $Y=107845
+X577 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840788 $T=84655 111705 1 90 $X=83935 $Y=111085
+X578 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840788 $T=126875 11265 0 90 $X=106475 $Y=10645
+X579 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 14505 0 90 $X=106475 $Y=13885
+X580 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 17745 0 90 $X=106475 $Y=17125
+X581 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 20985 0 90 $X=106475 $Y=20365
+X582 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 24225 0 90 $X=106475 $Y=23605
+X583 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 27465 0 90 $X=106475 $Y=26845
+X584 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 30705 0 90 $X=106475 $Y=30085
+X585 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 33945 0 90 $X=106475 $Y=33325
+X586 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 37185 0 90 $X=106475 $Y=36565
+X587 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 40425 0 90 $X=106475 $Y=39805
+X588 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 43665 0 90 $X=106475 $Y=43045
+X589 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 46905 0 90 $X=106475 $Y=46285
+X590 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 50145 0 90 $X=106475 $Y=49525
+X591 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 53385 0 90 $X=106475 $Y=52765
+X592 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 56625 0 90 $X=106475 $Y=56005
+X593 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 59865 0 90 $X=106475 $Y=59245
+X594 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 63105 0 90 $X=106475 $Y=62485
+X595 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 66345 0 90 $X=106475 $Y=65725
+X596 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 69585 0 90 $X=106475 $Y=68965
+X597 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 72825 0 90 $X=106475 $Y=72205
+X598 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 76065 0 90 $X=106475 $Y=75445
+X599 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 79305 0 90 $X=106475 $Y=78685
+X600 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 82545 0 90 $X=106475 $Y=81925
+X601 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 85785 0 90 $X=106475 $Y=85165
+X602 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 89025 0 90 $X=106475 $Y=88405
+X603 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 92265 0 90 $X=106475 $Y=91645
+X604 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 95505 0 90 $X=106475 $Y=94885
+X605 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 98745 0 90 $X=106475 $Y=98125
+X606 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 101985 0 90 $X=106475 $Y=101365
+X607 27 32 GNDA 26 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 105225 0 90 $X=106475 $Y=104605
+X608 27 30 GNDA 28 nmos1v2hvt_4_CDNS_7854115840788 $T=126875 108465 0 90 $X=106475 $Y=107845
+X609 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_7854115840788 $T=126875 111705 0 90 $X=106475 $Y=111085
+X610 63 GNDA 32 BG_PNP_array $T=616950 5640 0 0 $X=618710 $Y=7295
+X611 VDDA pmos1v2hvt_4_CDNS_78541158407102 $T=2850 28105 0 0 $X=2230 $Y=27385
+X612 VDDA pmos1v2hvt_4_CDNS_78541158407102 $T=2850 109425 1 0 $X=2230 $Y=69025
+X613 VDDA pmos1v2hvt_4_CDNS_78541158407102 $T=75010 28105 0 0 $X=74390 $Y=27385
+X614 VDDA pmos1v2hvt_4_CDNS_78541158407102 $T=75010 109425 1 0 $X=74390 $Y=69025
+.ends BG_TRIM_4_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: LS                                              *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt LS OUTN VDDD VSSD IN VDD OUT VSS
+** N=8 EP=7 FDC=6
+M0 VSSD IN 8 VSSD nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=7.8e-14 PD=8.6e-07 PS=8.6e-07 m=1 $X=375 $Y=730 $dt=1
+M1 VSS IN OUTN VSS nmos1v2hvt L=1.1e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=1595 $Y=390 $dt=1
+M2 OUT 8 VSS VSS nmos1v2hvt L=1.1e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=2045 $Y=390 $dt=1
+M3 VDDD IN 8 VDDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=7.8e-14 PD=8.6e-07 PS=8.6e-07 m=1 $X=410 $Y=1910 $dt=2
+M4 VDD OUT OUTN VDD pmos1v2hvt L=1.97e-06 W=1.5e-07 AD=1.981e-13 AS=1.216e-13 PD=2.63e-06 PS=1.61e-06 m=1 $X=2225 $Y=1480 $dt=2
+M5 VDD OUTN OUT VDD pmos1v2hvt L=1.97e-06 W=1.5e-07 AD=1.981e-13 AS=8.26e-14 PD=2.63e-06 PS=1.09e-06 m=1 $X=2225 $Y=2260 $dt=2
+.ends LS
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: LS2                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt LS2 IN0 VDDD GNDD IN1 GNDA VDDA OUT0 OUT1
+** N=10 EP=8 FDC=12
+X0 9 VDDD GNDD IN0 VDDA OUT0 GNDA LS $T=225 250 0 0 $X=0 $Y=0
+X1 10 VDDD GNDD IN1 VDDA OUT1 GNDA LS $T=225 6250 1 0 $X=0 $Y=3200
+.ends LS2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: LS3                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt LS3 VDDD IN2 GNDD IN1 IN0 GNDA VDDA OUT2 OUT1 OUT0
+** N=13 EP=10 FDC=18
+X4 11 VDDD GNDD IN2 VDDA OUT2 GNDA LS $T=860 415 0 0 $X=635 $Y=165
+X5 12 VDDD GNDD IN1 VDDA OUT1 GNDA LS $T=860 6415 1 0 $X=635 $Y=3365
+X6 13 VDDD GNDD IN0 VDDA OUT0 GNDA LS $T=860 6815 0 0 $X=635 $Y=6565
+.ends LS3
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: Tsw                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt Tsw VDD VSS S Out In
+** N=8 EP=5 FDC=8
+M0 VSS S 7 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=1.5825e-13 AS=7.8e-14 PD=1.93e-06 PS=8.6e-07 m=1 $X=375 $Y=400 $dt=1
+M1 8 7 VSS VSS nmos1v2hvt L=1.265e-06 W=1.5e-07 AD=9.75e-14 AS=1.5825e-13 PD=1.45e-06 PS=2.04e-06 m=1 $X=1135 $Y=655 $dt=1
+M2 8 7 6 VSS nmos1v2hvt L=1.265e-06 W=1.5e-07 AD=9.75e-14 AS=3.727e-13 PD=1.45e-06 PS=4.43e-06 m=1 $X=1435 $Y=655 $dt=1
+M3 6 S In VSS nmos1v2hvt L=2e-07 W=2.6e-07 AD=3.727e-13 AS=1.092e-13 PD=4.32e-06 PS=1.1e-06 m=1 $X=2225 $Y=830 $dt=1
+M4 Out S 6 VSS nmos1v2hvt L=2e-07 W=2.6e-07 AD=7.8e-14 AS=3.727e-13 PD=8.6e-07 PS=4.32e-06 m=1 $X=2830 $Y=730 $dt=1
+M5 VDD S 7 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=7.8e-14 PD=8.6e-07 PS=8.6e-07 m=1 $X=285 $Y=1930 $dt=2
+M6 6 7 In VDD pmos1v2hvt L=2e-07 W=7.7e-07 AD=2.618e-13 AS=2.31e-13 PD=1.45e-06 PS=1.37e-06 m=1 $X=2365 $Y=1630 $dt=2
+M7 Out 7 6 VDD pmos1v2hvt L=2e-07 W=7.7e-07 AD=2.31e-13 AS=2.618e-13 PD=1.37e-06 PS=1.45e-06 m=1 $X=2905 $Y=1630 $dt=2
+.ends Tsw
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: NO2                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt NO2 Out VDD VSS B A
+** N=6 EP=5 FDC=4
+M0 Out A VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=375 $Y=730 $dt=1
+M1 VSS B Out VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=895 $Y=730 $dt=1
+M2 6 A VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=375 $Y=1595 $dt=2
+M3 Out B 6 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=705 $Y=1595 $dt=2
+.ends NO2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_78541158407106                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_78541158407106 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 2 3 1 4 nmos1v2hvt L=1.1e-07 W=1.5e-07 AD=2.25e-14 AS=8.26e-14 PD=4.5e-07 PS=1.09e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_78541158407106
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407107                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407107 1 2 3
+** N=4 EP=3 FDC=1
+M0 1 3 2 2 pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=9.3e-14 AS=1.22e-13 PD=1.06e-06 PS=1.24e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407107
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_78541158407108                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_78541158407108 1 2 3
+** N=3 EP=3 FDC=1
+M0 2 3 1 1 nmos1v2hvt L=1.8e-07 W=1.5e-07 AD=2.25e-14 AS=1.03e-13 PD=4.5e-07 PS=1.27e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_78541158407108
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: NA3                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt NA3 VDD VSS A B Out C
+*.DEVICECLIMB
+** N=8 EP=6 FDC=5
+M0 7 A VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=375 $Y=730 $dt=1
+M1 8 B 7 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.06e-14 AS=3.9e-14 PD=8.8e-07 PS=5.6e-07 m=1 $X=705 $Y=730 $dt=1
+M2 Out C 8 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.06e-14 PD=8.6e-07 PS=8.8e-07 m=1 $X=1195 $Y=730 $dt=1
+M3 VDD B Out VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=8.84e-14 PD=9.4e-07 PS=9.4e-07 m=1 $X=895 $Y=1470 $dt=2
+M4 Out C VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=1415 $Y=1470 $dt=2
+.ends NA3
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407109                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407109 1 2 3
+** N=4 EP=3 FDC=1
+M0 1 3 2 2 pmos1v2hvt L=1.1e-07 W=1.5e-07 AD=9.3e-14 AS=2.294e-13 PD=1.17e-06 PS=2.3e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407109
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407110                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407110 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=1.1e-07 W=1.5e-07 AD=9.3e-14 AS=8.26e-14 PD=1.17e-06 PS=1.09e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407110
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_78541158407111                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_78541158407111 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 1 3 2 4 nmos1v2hvt L=1.1e-07 W=1.5e-07 AD=8.26e-14 AS=2.25e-14 PD=1.09e-06 PS=4.5e-07 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_78541158407111
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: 3to8DeMuxSel                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt 3to8DeMuxSel S VDD D0 VSS A0 D1 D2 A1 D3 A2
++ D4 D5 D6 D7
+** N=50 EP=14 FDC=100
+X52 D0 VDD VSS 16 22 NO2 $T=2800 0 1 180 $X=975 $Y=-250
+X53 D7 VDD VSS 16 23 NO2 $T=35600 0 0 0 $X=35375 $Y=-250
+X58 20 24 A0 VSS nmos1v2hvt_4_CDNS_78541158407106 $T=5535 830 1 0 $X=4875 $Y=280
+X59 20 VDD S pmos1v2hvt_4_CDNS_78541158407107 $T=5975 1630 1 180 $X=5195 $Y=1230
+X60 15 VDD S pmos1v2hvt_4_CDNS_78541158407107 $T=21575 1630 1 180 $X=20795 $Y=1230
+X61 VSS 24 S nmos1v2hvt_4_CDNS_78541158407108 $T=5975 830 0 180 $X=5345 $Y=280
+X62 VSS 25 S nmos1v2hvt_4_CDNS_78541158407108 $T=15625 680 0 0 $X=15175 $Y=280
+X63 VSS 26 S nmos1v2hvt_4_CDNS_78541158407108 $T=21575 680 1 180 $X=20945 $Y=280
+X64 VDD VSS 15 20 22 19 NA3 $T=4800 0 1 180 $X=2575 $Y=-250
+X65 VDD VSS 17 20 27 19 NA3 $T=22800 0 0 0 $X=22575 $Y=-250
+X66 20 VDD A0 pmos1v2hvt_4_CDNS_78541158407109 $T=5285 1685 0 0 $X=4835 $Y=1285
+X67 15 VDD A2 pmos1v2hvt_4_CDNS_78541158407109 $T=20885 1685 0 0 $X=20435 $Y=1285
+X68 VDD 19 A1 pmos1v2hvt_4_CDNS_78541158407110 $T=16315 1690 1 180 $X=15755 $Y=1290
+X69 19 25 A1 VSS nmos1v2hvt_4_CDNS_78541158407111 $T=15955 680 0 0 $X=15505 $Y=280
+X70 15 26 A2 VSS nmos1v2hvt_4_CDNS_78541158407111 $T=21245 680 1 180 $X=20475 $Y=280
+M0 16 S VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=7.8e-14 PD=8.6e-07 PS=8.6e-07 m=1 $X=375 $Y=730 $dt=1
+M1 18 20 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=1.03e-13 PD=8.6e-07 PS=1.16e-06 m=1 $X=6375 $Y=730 $dt=1
+M2 33 19 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=7575 $Y=730 $dt=1
+M3 39 18 33 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.06e-14 AS=3.9e-14 PD=8.8e-07 PS=5.6e-07 m=1 $X=7905 $Y=730 $dt=1
+M4 32 15 39 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.06e-14 PD=8.6e-07 PS=8.8e-07 m=1 $X=8395 $Y=730 $dt=1
+M5 D1 32 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=9575 $Y=730 $dt=1
+M6 VSS 16 D1 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=10095 $Y=730 $dt=1
+M7 D2 16 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=11325 $Y=730 $dt=1
+M8 VSS 31 D2 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=11845 $Y=730 $dt=1
+M9 40 15 31 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.06e-14 AS=7.8e-14 PD=8.8e-07 PS=8.6e-07 m=1 $X=13025 $Y=730 $dt=1
+M10 34 20 40 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=8.06e-14 PD=5.6e-07 PS=8.8e-07 m=1 $X=13515 $Y=730 $dt=1
+M11 VSS 21 34 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=13845 $Y=730 $dt=1
+M12 VSS 19 21 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=1.03e-13 AS=7.8e-14 PD=1.16e-06 PS=8.6e-07 m=1 $X=15045 $Y=730 $dt=1
+M13 D3 16 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=17475 $Y=730 $dt=1
+M14 VSS 30 D3 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=17995 $Y=730 $dt=1
+M15 41 18 30 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.06e-14 AS=7.8e-14 PD=8.8e-07 PS=8.6e-07 m=1 $X=19025 $Y=730 $dt=1
+M16 35 21 41 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=8.06e-14 PD=5.6e-07 PS=8.8e-07 m=1 $X=19515 $Y=730 $dt=1
+M17 VSS 15 35 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=19845 $Y=730 $dt=1
+M18 17 15 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=1.03e-13 PD=8.6e-07 PS=1.16e-06 m=1 $X=21975 $Y=730 $dt=1
+M19 D4 27 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=25175 $Y=730 $dt=1
+M20 VSS 16 D4 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=25695 $Y=730 $dt=1
+M21 36 18 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=26775 $Y=730 $dt=1
+M22 42 19 36 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.06e-14 AS=3.9e-14 PD=8.8e-07 PS=5.6e-07 m=1 $X=27105 $Y=730 $dt=1
+M23 29 17 42 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.06e-14 PD=8.6e-07 PS=8.8e-07 m=1 $X=27595 $Y=730 $dt=1
+M24 D5 29 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=28775 $Y=730 $dt=1
+M25 VSS 16 D5 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=29295 $Y=730 $dt=1
+M26 37 20 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=30375 $Y=730 $dt=1
+M27 43 21 37 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.06e-14 AS=3.9e-14 PD=8.8e-07 PS=5.6e-07 m=1 $X=30705 $Y=730 $dt=1
+M28 28 17 43 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.06e-14 PD=8.6e-07 PS=8.8e-07 m=1 $X=31195 $Y=730 $dt=1
+M29 D6 28 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=32375 $Y=730 $dt=1
+M30 VSS 16 D6 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=32895 $Y=730 $dt=1
+M31 38 17 VSS VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=33975 $Y=730 $dt=1
+M32 44 21 38 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.06e-14 AS=3.9e-14 PD=8.8e-07 PS=5.6e-07 m=1 $X=34305 $Y=730 $dt=1
+M33 23 18 44 VSS nmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.06e-14 PD=8.6e-07 PS=8.8e-07 m=1 $X=34795 $Y=730 $dt=1
+M34 16 S VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=7.8e-14 PD=8.6e-07 PS=8.6e-07 m=1 $X=375 $Y=1540 $dt=2
+M35 VDD 15 22 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=2.294e-13 AS=8.84e-14 PD=2.19e-06 PS=9.4e-07 m=1 $X=4245 $Y=1470 $dt=2
+M36 18 20 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=1.22e-13 PD=8.6e-07 PS=1.24e-06 m=1 $X=6375 $Y=1540 $dt=2
+M37 32 19 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=7575 $Y=1470 $dt=2
+M38 VDD 18 32 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=8.84e-14 PD=9.4e-07 PS=9.4e-07 m=1 $X=8095 $Y=1470 $dt=2
+M39 32 15 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=8615 $Y=1470 $dt=2
+M40 45 32 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=9575 $Y=1595 $dt=2
+M41 D1 16 45 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=9905 $Y=1595 $dt=2
+M42 46 16 D2 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=11515 $Y=1595 $dt=2
+M43 VDD 31 46 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=11845 $Y=1595 $dt=2
+M44 VDD 15 31 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=12805 $Y=1470 $dt=2
+M45 31 20 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=8.84e-14 PD=9.4e-07 PS=9.4e-07 m=1 $X=13325 $Y=1470 $dt=2
+M46 VDD 21 31 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=13845 $Y=1470 $dt=2
+M47 VDD 19 21 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=1.22e-13 AS=7.8e-14 PD=1.24e-06 PS=8.6e-07 m=1 $X=15045 $Y=1540 $dt=2
+M48 19 S VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=9.3e-14 AS=1.22e-13 PD=1.06e-06 PS=1.24e-06 m=1 $X=15625 $Y=1630 $dt=2
+M49 47 16 D3 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=17515 $Y=1595 $dt=2
+M50 VDD 30 47 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=17845 $Y=1595 $dt=2
+M51 VDD 18 30 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=18805 $Y=1470 $dt=2
+M52 30 21 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=8.84e-14 PD=9.4e-07 PS=9.4e-07 m=1 $X=19325 $Y=1470 $dt=2
+M53 VDD 15 30 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=2.294e-13 AS=8.84e-14 PD=2.19e-06 PS=9.4e-07 m=1 $X=19845 $Y=1470 $dt=2
+M54 17 15 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=1.22e-13 PD=8.6e-07 PS=1.24e-06 m=1 $X=21975 $Y=1540 $dt=2
+M55 27 17 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=23175 $Y=1470 $dt=2
+M56 48 27 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=25175 $Y=1595 $dt=2
+M57 D4 16 48 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=25505 $Y=1595 $dt=2
+M58 29 18 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=26775 $Y=1470 $dt=2
+M59 VDD 19 29 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=8.84e-14 PD=9.4e-07 PS=9.4e-07 m=1 $X=27295 $Y=1470 $dt=2
+M60 29 17 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=27815 $Y=1470 $dt=2
+M61 49 29 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=28775 $Y=1595 $dt=2
+M62 D5 16 49 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=29105 $Y=1595 $dt=2
+M63 28 20 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=30375 $Y=1470 $dt=2
+M64 VDD 21 28 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=8.84e-14 PD=9.4e-07 PS=9.4e-07 m=1 $X=30895 $Y=1470 $dt=2
+M65 28 17 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=31415 $Y=1470 $dt=2
+M66 50 28 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=3.9e-14 AS=7.8e-14 PD=5.6e-07 PS=8.6e-07 m=1 $X=32375 $Y=1595 $dt=2
+M67 D6 16 50 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=3.9e-14 PD=8.6e-07 PS=5.6e-07 m=1 $X=32705 $Y=1595 $dt=2
+M68 23 17 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=7.8e-14 PD=9.4e-07 PS=8.6e-07 m=1 $X=33975 $Y=1470 $dt=2
+M69 VDD 21 23 VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=8.84e-14 AS=8.84e-14 PD=9.4e-07 PS=9.4e-07 m=1 $X=34495 $Y=1470 $dt=2
+M70 23 18 VDD VDD pmos1v2hvt L=1.8e-07 W=2.6e-07 AD=7.8e-14 AS=8.84e-14 PD=8.6e-07 PS=9.4e-07 m=1 $X=35015 $Y=1470 $dt=2
+.ends 3to8DeMuxSel
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407112                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407112 1 2 3 4
+** N=5 EP=4 FDC=1
+M0 4 1 3 2 pmos1v2hvt L=1e-06 W=4e-06 AD=1.2e-12 AS=1.2e-12 PD=4.6e-06 PS=4.6e-06 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407112
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_78541158407115                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_78541158407115 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 4 2 1 3 nmos1v2hvt L=1e-06 W=2e-06 AD=6e-13 AS=6e-13 PD=2.6e-06 PS=2.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_78541158407115
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407116                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407116 1 2 3 4
+** N=5 EP=4 FDC=1
+M0 2 3 1 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407116
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407117                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407117 1 2
+** N=3 EP=2 FDC=1
+M0 2 2 1 1 pmos1v2hvt L=5e-07 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407117
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_78541158407118                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_78541158407118 1 2 3
+** N=4 EP=3 FDC=2
+R0 2 4 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=0 $Y=0 $dt=4
+R1 1 4 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=750 $Y=0 $dt=4
+.ends rnpolym_CDNS_78541158407118
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_78541158407119                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_78541158407119 1 2
+** N=23 EP=2 FDC=22
+R0 2 3 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=0 $Y=0 $dt=4
+R1 4 3 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=750 $Y=0 $dt=4
+R2 4 5 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=1500 $Y=0 $dt=4
+R3 6 5 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=2250 $Y=0 $dt=4
+R4 6 7 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=3000 $Y=0 $dt=4
+R5 8 7 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=3750 $Y=0 $dt=4
+R6 8 9 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=4500 $Y=0 $dt=4
+R7 10 9 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=5250 $Y=0 $dt=4
+R8 10 11 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=6000 $Y=0 $dt=4
+R9 12 11 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=6750 $Y=0 $dt=4
+R10 12 13 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=7500 $Y=0 $dt=4
+R11 14 13 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=8250 $Y=0 $dt=4
+R12 14 15 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=9000 $Y=0 $dt=4
+R13 16 15 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=9750 $Y=0 $dt=4
+R14 16 17 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=10500 $Y=0 $dt=4
+R15 18 17 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=11250 $Y=0 $dt=4
+R16 18 19 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=12000 $Y=0 $dt=4
+R17 20 19 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=12750 $Y=0 $dt=4
+R18 20 21 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=13500 $Y=0 $dt=4
+R19 22 21 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=14250 $Y=0 $dt=4
+R20 22 23 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=15000 $Y=0 $dt=4
+R21 1 23 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=15750 $Y=0 $dt=4
+.ends rnpolym_CDNS_78541158407119
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_78541158407120                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_78541158407120 1 2 3
+** N=3 EP=3 FDC=1
+R0 1 2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=0 $Y=0 $dt=4
+.ends rnpolym_CDNS_78541158407120
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_78541158407121                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_78541158407121 1 2 3
+** N=6 EP=3 FDC=4
+R0 2 4 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=0 $Y=0 $dt=4
+R1 5 4 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=750 $Y=0 $dt=4
+R2 5 6 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=1500 $Y=0 $dt=4
+R3 1 6 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=2250 $Y=0 $dt=4
+.ends rnpolym_CDNS_78541158407121
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_78541158407122                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_78541158407122 1 2 3
+** N=3 EP=3 FDC=1
+R0 1 2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=3 $X=0 $Y=0 $dt=4
+.ends rnpolym_CDNS_78541158407122
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407123                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407123 1 2 3 4
+** N=5 EP=4 FDC=1
+M0 2 3 1 4 pmos1v2hvt L=1e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407123
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: mux8_1p_fL                                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt mux8_1p_fL A0 VDDA A1 A2 A3 A4 A5 A6 A7 IN0
++ IN1 IN2 COM IN3 IN4 IN5 IN6 IN7
+** N=19 EP=18 FDC=8
+X0 IN0 COM A0 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=825 940 0 0 $X=205 $Y=220
+X1 IN1 COM A1 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=3065 940 0 0 $X=2445 $Y=220
+X2 IN2 COM A2 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=5305 940 0 0 $X=4685 $Y=220
+X3 IN3 COM A3 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=7545 940 0 0 $X=6925 $Y=220
+X4 IN4 COM A4 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=9785 940 0 0 $X=9165 $Y=220
+X5 IN5 COM A5 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=12025 940 0 0 $X=11405 $Y=220
+X6 IN6 COM A6 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=14265 940 0 0 $X=13645 $Y=220
+X7 IN7 COM A7 VDDA pmos1v2hvt_4_CDNS_78541158407123 $T=16505 940 0 0 $X=15885 $Y=220
+.ends mux8_1p_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: trim_res_rnpolyn_2_fL                           *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt trim_res_rnpolyn_2_fL GNDA P1 P2
+** N=4 EP=3 FDC=14
+X24 P1 4 GNDA rnpolym_CDNS_78541158407120 $T=9255 745 0 0 $X=9005 $Y=5
+X25 4 P2 GNDA rnpolym_CDNS_78541158407120 $T=10005 35745 1 0 $X=9755 $Y=5
+R0 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=255 $Y=745 $dt=4
+R1 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=1005 $Y=745 $dt=4
+R2 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=1755 $Y=745 $dt=4
+R3 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=2505 $Y=745 $dt=4
+R4 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=3255 $Y=745 $dt=4
+R5 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=4005 $Y=745 $dt=4
+R6 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=4755 $Y=745 $dt=4
+R7 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=5505 $Y=745 $dt=4
+R8 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=6255 $Y=745 $dt=4
+R9 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=7005 $Y=745 $dt=4
+R10 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=7755 $Y=745 $dt=4
+R11 P1 P2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=GNDA $X=8505 $Y=745 $dt=4
+.ends trim_res_rnpolyn_2_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: trim_res_array_rn_2_fL                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt trim_res_array_rn_2_fL GNDA SEL1 P1 SEL2 SEL3 SEL4 P2
+** N=15 EP=7 FDC=196
+X2 GNDA P1 SEL1 trim_res_rnpolyn_2_fL $T=5445 6855 0 0 $X=5450 $Y=6145
+X3 GNDA SEL1 SEL2 trim_res_rnpolyn_2_fL $T=15945 6855 0 0 $X=15950 $Y=6145
+X4 GNDA SEL2 SEL3 trim_res_rnpolyn_2_fL $T=26445 6855 0 0 $X=26450 $Y=6145
+X5 GNDA SEL3 SEL4 trim_res_rnpolyn_2_fL $T=36945 6855 0 0 $X=36950 $Y=6145
+X6 GNDA SEL4 9 trim_res_rnpolyn_2_fL $T=47445 6855 0 0 $X=47450 $Y=6145
+X7 GNDA 9 10 trim_res_rnpolyn_2_fL $T=57945 6855 0 0 $X=57950 $Y=6145
+X8 GNDA 10 11 trim_res_rnpolyn_2_fL $T=68445 6855 0 0 $X=68450 $Y=6145
+X9 GNDA 11 12 trim_res_rnpolyn_2_fL $T=78945 6855 0 0 $X=78950 $Y=6145
+X10 GNDA 12 13 trim_res_rnpolyn_2_fL $T=89445 6855 0 0 $X=89450 $Y=6145
+X11 GNDA 13 14 trim_res_rnpolyn_2_fL $T=99945 6855 0 0 $X=99950 $Y=6145
+X12 GNDA 14 15 trim_res_rnpolyn_2_fL $T=110445 6855 0 0 $X=110450 $Y=6145
+X13 GNDA 15 8 trim_res_rnpolyn_2_fL $T=120945 6855 0 0 $X=120950 $Y=6145
+X14 GNDA P2 8 trim_res_rnpolyn_2_fL $T=142350 6855 1 180 $X=131595 $Y=6145
+X15 GNDA P2 8 trim_res_rnpolyn_2_fL $T=142105 6855 0 0 $X=142110 $Y=6145
+.ends trim_res_array_rn_2_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407125                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407125 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 2 1 3 pmos1v2hvt L=1e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407125
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: IN2                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt IN2 VDD VSS Out A
+** N=4 EP=4 FDC=2
+M0 Out A VSS VSS nmos1v2hvt L=1.8e-07 W=6e-07 AD=1.8e-13 AS=1.8e-13 PD=1.2e-06 PS=1.2e-06 m=1 $X=375 $Y=390 $dt=1
+M1 Out A VDD VDD pmos1v2hvt L=1.8e-07 W=9.4e-07 AD=2.82e-13 AS=2.82e-13 PD=1.54e-06 PS=1.54e-06 m=1 $X=375 $Y=1470 $dt=2
+.ends IN2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: inv8_fL                                         *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt inv8_fL OUT0 VDDA GNDA IN0 IN2 OUT1 IN1 IN3 OUT2 OUT4
++ IN4 OUT3 OUT5 IN5 OUT6 IN6 OUT7 IN7
+** N=18 EP=18 FDC=16
+X0 VDDA GNDA OUT0 IN0 IN2 $T=280 335 0 0 $X=55 $Y=85
+X1 VDDA GNDA OUT1 IN1 IN2 $T=1480 335 0 0 $X=1255 $Y=85
+X2 VDDA GNDA OUT2 IN2 IN2 $T=2680 335 0 0 $X=2455 $Y=85
+X3 VDDA GNDA OUT3 IN3 IN2 $T=3880 335 0 0 $X=3655 $Y=85
+X4 VDDA GNDA OUT4 IN4 IN2 $T=5080 335 0 0 $X=4855 $Y=85
+X5 VDDA GNDA OUT5 IN5 IN2 $T=6280 335 0 0 $X=6055 $Y=85
+X6 VDDA GNDA OUT6 IN6 IN2 $T=7480 335 0 0 $X=7255 $Y=85
+X7 VDDA GNDA OUT7 IN7 IN2 $T=8680 335 0 0 $X=8455 $Y=85
+.ends inv8_fL
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407126                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407126 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 pmos1v2hvt L=1e-05 W=2.5e-05 AD=7.5e-12 AS=7.5e-12 PD=2.56e-05 PS=2.56e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407126
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_78541158407129                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_78541158407129 1
+** N=8 EP=1 FDC=8
+R0 1 2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=0 $Y=0 $dt=4
+R1 3 2 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=750 $Y=0 $dt=4
+R2 3 4 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=1500 $Y=0 $dt=4
+R3 5 4 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=2250 $Y=0 $dt=4
+R4 5 6 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=3000 $Y=0 $dt=4
+R5 7 6 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=3750 $Y=0 $dt=4
+R6 7 8 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=4500 $Y=0 $dt=4
+R7 1 8 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=5250 $Y=0 $dt=4
+.ends rnpolym_CDNS_78541158407129
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_78541158407130                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_78541158407130 1 2 3
+** N=3 EP=3 FDC=1
+M0 3 2 1 1 nmos1v2hvt L=4e-06 W=8e-06 AD=2.4e-12 AS=2.4e-12 PD=8.6e-06 PS=8.6e-06 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_78541158407130
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_78541158407131                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_78541158407131 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 4 2 1 3 nmos1v2hvt L=2e-06 W=1.875e-05 AD=5.625e-12 AS=5.625e-12 PD=1.935e-05 PS=1.935e-05 m=1 $X=0 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_78541158407131
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407134                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407134 1
+** N=2 EP=1 FDC=1
+M0 1 1 1 1 pmos1v2hvt L=2e-06 W=2.5e-05 AD=7.5e-12 AS=7.5e-12 PD=2.56e-05 PS=2.56e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407134
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v2hvt_4_CDNS_78541158407135                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v2hvt_4_CDNS_78541158407135 1 2 3 4
+** N=4 EP=4 FDC=2
+M0 4 2 1 3 nmos1v2hvt L=4e-06 W=8e-06 AD=2.72e-12 AS=2.4e-12 PD=8.68e-06 PS=8.6e-06 m=1 $X=0 $Y=0 $dt=1
+M1 1 2 4 3 nmos1v2hvt L=4e-06 W=8e-06 AD=2.4e-12 AS=2.72e-12 PD=8.6e-06 PS=8.68e-06 m=1 $X=4340 $Y=0 $dt=1
+.ends nmos1v2hvt_4_CDNS_78541158407135
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rnpolym_CDNS_78541158407138                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rnpolym_CDNS_78541158407138 1
+** N=1 EP=1 FDC=1
+R0 1 1 16727.1 L=3.5e-05 W=5e-07 $[rnpolym] $SUB=1 $X=0 $Y=0 $dt=4
+.ends rnpolym_CDNS_78541158407138
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407139                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407139 1 2 3 4
+** N=5 EP=4 FDC=4
+M0 2 3 1 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3.4e-12 AS=3e-12 PD=1.068e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+M1 1 3 2 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3.4e-12 AS=3.4e-12 PD=1.068e-05 PS=1.068e-05 m=1 $X=2340 $Y=0 $dt=2
+M2 2 3 1 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3.4e-12 AS=3.4e-12 PD=1.068e-05 PS=1.068e-05 m=1 $X=4680 $Y=0 $dt=2
+M3 1 3 2 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3e-12 AS=3.4e-12 PD=1.06e-05 PS=1.068e-05 m=1 $X=7020 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407139
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407142                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407142 1 2 3 4
+** N=5 EP=4 FDC=1
+M0 2 3 1 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3e-12 AS=3e-12 PD=1.06e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407142
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v2hvt_4_CDNS_78541158407144                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v2hvt_4_CDNS_78541158407144 1 2 3 4
+** N=5 EP=4 FDC=4
+M0 2 3 1 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3.4e-12 AS=3e-12 PD=1.068e-05 PS=1.06e-05 m=1 $X=0 $Y=0 $dt=2
+M1 1 3 2 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3.4e-12 AS=3.4e-12 PD=1.068e-05 PS=1.068e-05 m=1 $X=2340 $Y=0 $dt=2
+M2 2 3 1 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3.4e-12 AS=3.4e-12 PD=1.068e-05 PS=1.068e-05 m=1 $X=4680 $Y=0 $dt=2
+M3 1 3 2 4 pmos1v2hvt L=2e-06 W=1e-05 AD=3e-12 AS=3.4e-12 PD=1.06e-05 PS=1.068e-05 m=1 $X=7020 $Y=0 $dt=2
+.ends pmos1v2hvt_4_CDNS_78541158407144
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: REF_V5_fLC                                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt REF_V5_fLC EN GNDA BIAS VDDA BG_REF V1000 V550 LDO_SEL<2> LDO_SEL<1> LDO_SEL<0>
++ LVDS_SEL<7> LDO_SEL<3> LVDS_SEL<6> LVDS_SEL<5> LVDS_SEL<4> LVDS_SEL<3> LVDS_SEL<2> LVDS_SEL<1> LVDS_SEL<0> CL1X_1
++ CL4X_1 CL4X_2 CJ_G1<1> CJ_G1<0> A7 A6 A5 A4 A3 A2
++ A1 A0 CJ_G1<2> CJ_G1<3> CJ_G1<4> CJ_G1<5> CJ_G2<0> CJ_G2<1> CJ_G2<2> CJ_G2<3>
++ CJ_G2<4> CJ_G2<5> CJ_G3<0> CJ_G3<1> CJ_G3<2> CJ_G3<3> CJ_G3<4> CJ_G3<5> CJ_G4<1> CJ_G4<2>
++ CJ_G4<0> CJ_G4<3> CJ_G4<4> LDO_REF LVDS_REF CJ_G4<5> Ib128nAT
+** N=135 EP=57 FDC=768
+X317 GNDA GNDA 73 EN nmos1v2hvt_4_CDNS_785411584075 $T=5090 25775 0 0 $X=4470 $Y=25055
+X318 GNDA GNDA 74 73 nmos1v2hvt_4_CDNS_785411584075 $T=6830 25775 0 0 $X=6210 $Y=25055
+X319 GNDA GNDA 72 73 nmos1v2hvt_4_CDNS_785411584075 $T=9600 25775 0 0 $X=8980 $Y=25055
+X320 72 GNDA BIAS 74 nmos1v2hvt_4_CDNS_785411584075 $T=12075 25775 0 0 $X=11455 $Y=25055
+X321 GNDA GNDA 75 73 nmos1v2hvt_4_CDNS_785411584075 $T=129135 6395 0 0 $X=128515 $Y=5675
+X322 VDDA 73 EN pmos1v2hvt_4_CDNS_7854115840717 $T=5090 30735 1 0 $X=4470 $Y=28335
+X323 VDDA 98 74 pmos1v2hvt_4_CDNS_7854115840717 $T=6135 60650 0 270 $X=5415 $Y=59530
+X324 VDDA 96 74 pmos1v2hvt_4_CDNS_7854115840717 $T=6135 62390 0 270 $X=5415 $Y=61270
+X325 VDDA 74 73 pmos1v2hvt_4_CDNS_7854115840717 $T=6830 30735 1 0 $X=6210 $Y=28335
+X329 A0 A1 A2 GNDA A3 A4 A5 A6 A7 58
++ 82 80 78 76 77 79 81 83 mux8_1_fL $T=154225 54940 0 270 $X=154225 $Y=35510
+X335 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=107545 118460 1 0 $X=106925 $Y=108060
+X336 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=110785 118460 1 0 $X=110165 $Y=108060
+X337 VDDA 60 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=114025 118460 1 0 $X=113405 $Y=108060
+X338 100 CL1X_1 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=119265 106340 0 180 $X=116645 $Y=95940
+X339 VDDA 100 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=117265 118460 1 0 $X=116645 $Y=108060
+X340 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=120505 118460 1 0 $X=119885 $Y=108060
+X341 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=123745 118460 1 0 $X=123125 $Y=108060
+X342 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=126985 118460 1 0 $X=126365 $Y=108060
+X343 VDDA 101 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=130225 118460 1 0 $X=129605 $Y=108060
+X344 VDDA 101 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=133465 118460 1 0 $X=132845 $Y=108060
+X345 VDDA 101 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=136705 118460 1 0 $X=136085 $Y=108060
+X346 VDDA 101 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=139945 118460 1 0 $X=139325 $Y=108060
+X347 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=143185 118460 1 0 $X=142565 $Y=108060
+X348 VDDA 102 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=146425 118460 1 0 $X=145805 $Y=108060
+X349 VDDA 102 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=149665 118460 1 0 $X=149045 $Y=108060
+X350 VDDA 102 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=152905 118460 1 0 $X=152285 $Y=108060
+X351 VDDA 102 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=156145 118460 1 0 $X=155525 $Y=108060
+X352 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=159385 118460 1 0 $X=158765 $Y=108060
+X353 VDDA 103 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=162625 118460 1 0 $X=162005 $Y=108060
+X354 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=165865 118460 1 0 $X=165245 $Y=108060
+X355 104 CJ_G1<1> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=171105 106340 0 180 $X=168485 $Y=95940
+X356 VDDA 104 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=169105 118460 1 0 $X=168485 $Y=108060
+X357 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=172345 118460 1 0 $X=171725 $Y=108060
+X358 105 CJ_G1<2> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=177585 106340 0 180 $X=174965 $Y=95940
+X359 VDDA 105 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=175585 118460 1 0 $X=174965 $Y=108060
+X360 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=178825 118460 1 0 $X=178205 $Y=108060
+X361 106 CJ_G1<3> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=184065 106340 0 180 $X=181445 $Y=95940
+X362 VDDA 106 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=182065 118460 1 0 $X=181445 $Y=108060
+X363 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=185305 118460 1 0 $X=184685 $Y=108060
+X364 107 CJ_G1<4> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=190545 106340 0 180 $X=187925 $Y=95940
+X365 VDDA 107 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=188545 118460 1 0 $X=187925 $Y=108060
+X366 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=191785 118460 1 0 $X=191165 $Y=108060
+X367 VDDA 108 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=195025 118460 1 0 $X=194405 $Y=108060
+X368 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=198265 118460 1 0 $X=197645 $Y=108060
+X369 VDDA 108 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=201505 118460 1 0 $X=200885 $Y=108060
+X370 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=204745 118460 1 0 $X=204125 $Y=108060
+X371 VDDA 108 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=207985 118460 1 0 $X=207365 $Y=108060
+X372 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=211225 118460 1 0 $X=210605 $Y=108060
+X373 VDDA 108 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=214465 118460 1 0 $X=213845 $Y=108060
+X374 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=217705 118460 1 0 $X=217085 $Y=108060
+X375 109 CJ_G2<0> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=222945 106340 0 180 $X=220325 $Y=95940
+X376 VDDA 109 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=220945 118460 1 0 $X=220325 $Y=108060
+X377 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=224185 118460 1 0 $X=223565 $Y=108060
+X378 110 CJ_G2<1> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=229425 106340 0 180 $X=226805 $Y=95940
+X379 VDDA 110 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=227425 118460 1 0 $X=226805 $Y=108060
+X380 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=230665 118460 1 0 $X=230045 $Y=108060
+X381 111 CJ_G2<2> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=235905 106340 0 180 $X=233285 $Y=95940
+X382 VDDA 111 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=233905 118460 1 0 $X=233285 $Y=108060
+X383 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=237145 118460 1 0 $X=236525 $Y=108060
+X384 112 CJ_G2<3> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=242385 106340 0 180 $X=239765 $Y=95940
+X385 VDDA 112 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=240385 118460 1 0 $X=239765 $Y=108060
+X386 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=243625 118460 1 0 $X=243005 $Y=108060
+X387 113 CJ_G2<4> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=248865 106340 0 180 $X=246245 $Y=95940
+X388 VDDA 113 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=246865 118460 1 0 $X=246245 $Y=108060
+X389 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=250105 118460 1 0 $X=249485 $Y=108060
+X390 VDDA 114 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=253345 118460 1 0 $X=252725 $Y=108060
+X391 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=256585 118460 1 0 $X=255965 $Y=108060
+X392 VDDA 114 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=259825 118460 1 0 $X=259205 $Y=108060
+X393 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=263065 118460 1 0 $X=262445 $Y=108060
+X394 VDDA 114 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=266305 118460 1 0 $X=265685 $Y=108060
+X395 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=269545 118460 1 0 $X=268925 $Y=108060
+X396 VDDA 114 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=272785 118460 1 0 $X=272165 $Y=108060
+X397 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=276025 118460 1 0 $X=275405 $Y=108060
+X398 115 CJ_G3<0> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=281265 106340 0 180 $X=278645 $Y=95940
+X399 VDDA 115 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=279265 118460 1 0 $X=278645 $Y=108060
+X400 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=282505 118460 1 0 $X=281885 $Y=108060
+X401 116 CJ_G3<1> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=287745 106340 0 180 $X=285125 $Y=95940
+X402 VDDA 116 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=285745 118460 1 0 $X=285125 $Y=108060
+X403 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=288985 118460 1 0 $X=288365 $Y=108060
+X404 117 CJ_G3<2> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=294225 106340 0 180 $X=291605 $Y=95940
+X405 VDDA 117 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=292225 118460 1 0 $X=291605 $Y=108060
+X406 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=295465 118460 1 0 $X=294845 $Y=108060
+X407 118 CJ_G3<3> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=300705 106340 0 180 $X=298085 $Y=95940
+X408 VDDA 118 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=298705 118460 1 0 $X=298085 $Y=108060
+X409 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=301945 118460 1 0 $X=301325 $Y=108060
+X410 119 CJ_G3<4> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=307185 106340 0 180 $X=304565 $Y=95940
+X411 VDDA 119 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=305185 118460 1 0 $X=304565 $Y=108060
+X412 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=308425 118460 1 0 $X=307805 $Y=108060
+X413 VDDA 120 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=311665 118460 1 0 $X=311045 $Y=108060
+X414 VDDA 120 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=314905 118460 1 0 $X=314285 $Y=108060
+X415 VDDA 120 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=318145 118460 1 0 $X=317525 $Y=108060
+X416 VDDA 120 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=321385 118460 1 0 $X=320765 $Y=108060
+X417 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=324625 118460 1 0 $X=324005 $Y=108060
+X418 121 CJ_G4<0> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=329865 106340 0 180 $X=327245 $Y=95940
+X419 VDDA 121 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=327865 118460 1 0 $X=327245 $Y=108060
+X420 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=331105 118460 1 0 $X=330485 $Y=108060
+X421 122 CJ_G4<1> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=336345 106340 0 180 $X=333725 $Y=95940
+X422 VDDA 122 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=334345 118460 1 0 $X=333725 $Y=108060
+X423 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=337585 118460 1 0 $X=336965 $Y=108060
+X424 123 CJ_G4<2> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=342825 106340 0 180 $X=340205 $Y=95940
+X425 VDDA 123 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=340825 118460 1 0 $X=340205 $Y=108060
+X426 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=344065 118460 1 0 $X=343445 $Y=108060
+X427 124 CJ_G4<3> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=349305 106340 0 180 $X=346685 $Y=95940
+X428 VDDA 124 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=347305 118460 1 0 $X=346685 $Y=108060
+X429 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=350545 118460 1 0 $X=349925 $Y=108060
+X430 125 CJ_G4<4> 99 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=355785 106340 0 180 $X=353165 $Y=95940
+X431 VDDA 125 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=353785 118460 1 0 $X=353165 $Y=108060
+X432 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=357025 118460 1 0 $X=356405 $Y=108060
+X433 VDDA 126 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=360265 118460 1 0 $X=359645 $Y=108060
+X434 VDDA 126 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=363505 118460 1 0 $X=362885 $Y=108060
+X435 VDDA 126 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=366745 118460 1 0 $X=366125 $Y=108060
+X436 VDDA 126 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=369985 118460 1 0 $X=369365 $Y=108060
+X437 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=373225 118460 1 0 $X=372605 $Y=108060
+X438 VDDA 127 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=376465 118460 1 0 $X=375845 $Y=108060
+X439 VDDA 127 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=379705 118460 1 0 $X=379085 $Y=108060
+X440 VDDA 127 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=382945 118460 1 0 $X=382325 $Y=108060
+X441 VDDA 127 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=386185 118460 1 0 $X=385565 $Y=108060
+X442 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=389425 118460 1 0 $X=388805 $Y=108060
+X443 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=392665 118460 1 0 $X=392045 $Y=108060
+X444 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=395905 118460 1 0 $X=395285 $Y=108060
+X445 VDDA V1000 96 VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=399145 118460 1 0 $X=398525 $Y=108060
+X446 VDDA VDDA VDDA VDDA pmos1v2hvt_4_CDNS_78541158407116 $T=402385 118460 1 0 $X=401765 $Y=108060
+X447 VDDA 128 pmos1v2hvt_4_CDNS_78541158407117 $T=103985 118460 1 0 $X=103365 $Y=108060
+X448 86 87 GNDA rnpolym_CDNS_78541158407118 $T=318935 44825 0 180 $X=317435 $Y=9085
+X449 GNDA V550 rnpolym_CDNS_78541158407119 $T=317685 46225 0 0 $X=317435 $Y=45485
+X450 86 85 GNDA rnpolym_CDNS_78541158407120 $T=316935 44825 1 0 $X=316685 $Y=9085
+X451 84 V550 GNDA rnpolym_CDNS_78541158407120 $T=316935 81225 1 0 $X=316685 $Y=45485
+X452 87 88 GNDA rnpolym_CDNS_78541158407121 $T=321935 44825 0 180 $X=318935 $Y=9085
+X453 89 88 GNDA rnpolym_CDNS_78541158407122 $T=322185 9825 0 0 $X=321935 $Y=9085
+X454 90 89 GNDA rnpolym_CDNS_78541158407122 $T=322935 44825 1 0 $X=322685 $Y=9085
+X455 91 90 GNDA rnpolym_CDNS_78541158407122 $T=323685 9825 0 0 $X=323435 $Y=9085
+X456 92 91 GNDA rnpolym_CDNS_78541158407122 $T=324435 44825 1 0 $X=324185 $Y=9085
+X457 94 92 GNDA rnpolym_CDNS_78541158407122 $T=325185 9825 0 0 $X=324935 $Y=9085
+X458 93 94 GNDA rnpolym_CDNS_78541158407122 $T=325935 44825 1 0 $X=325685 $Y=9085
+X459 95 93 GNDA rnpolym_CDNS_78541158407122 $T=326685 9825 0 0 $X=326435 $Y=9085
+X460 V1000 95 GNDA rnpolym_CDNS_78541158407122 $T=327435 44825 1 0 $X=327185 $Y=9085
+X461 61 VDDA 62 63 65 VDDA VDDA VDDA VDDA 87
++ 88 92 LDO_REF V1000 VDDA VDDA VDDA VDDA mux8_1p_fL $T=349200 25815 0 90 $X=337860 $Y=26020
+X462 71 VDDA 70 69 68 67 66 64 129 89
++ 90 91 LVDS_REF 92 94 93 95 86 mux8_1p_fL $T=350670 58240 0 90 $X=339330 $Y=58445
+X463 GNDA 77 76 79 81 83 85 trim_res_array_rn_2_fL $T=164075 2225 0 0 $X=169525 $Y=8370
+X464 GNDA 78 76 80 82 130 84 trim_res_array_rn_2_fL $T=164075 88825 1 0 $X=169525 $Y=45485
+X465 128 99 VDDA pmos1v2hvt_4_CDNS_78541158407125 $T=107545 106340 1 0 $X=106925 $Y=95940
+X466 61 VDDA GNDA LDO_SEL<0> LDO_SEL<2> 62 LDO_SEL<1> LDO_SEL<3> 63 131
++ GNDA 65 132 GNDA 133 GNDA 134 GNDA inv8_fL $T=337805 19035 0 0 $X=337860 $Y=19120
+X467 71 VDDA GNDA LVDS_SEL<0> LVDS_SEL<2> 70 LVDS_SEL<1> LVDS_SEL<3> 69 67
++ LVDS_SEL<4> 68 66 LVDS_SEL<5> 64 LVDS_SEL<6> 129 LVDS_SEL<7> inv8_fL $T=349595 50170 1 180 $X=339490 $Y=50255
+X468 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=8900 66955 0 0 $X=8280 $Y=66235
+X469 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=8900 118460 1 0 $X=8280 $Y=93060
+X470 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=20140 66955 0 0 $X=19520 $Y=66235
+X471 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=20140 118460 1 0 $X=19520 $Y=93060
+X472 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=31380 66955 0 0 $X=30760 $Y=66235
+X473 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=31380 118460 1 0 $X=30760 $Y=93060
+X474 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=42620 66955 0 0 $X=42000 $Y=66235
+X475 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=42620 118460 1 0 $X=42000 $Y=93060
+X476 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=63860 66955 1 180 $X=53240 $Y=66235
+X477 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=63860 118460 0 180 $X=53240 $Y=93060
+X478 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=75100 66955 1 180 $X=64480 $Y=66235
+X479 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=75100 118460 0 180 $X=64480 $Y=93060
+X480 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=86340 66955 1 180 $X=75720 $Y=66235
+X481 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=86340 118460 0 180 $X=75720 $Y=93060
+X482 VDDA 96 98 pmos1v2hvt_4_CDNS_78541158407126 $T=97580 66955 1 180 $X=86960 $Y=66235
+X483 VDDA 98 98 pmos1v2hvt_4_CDNS_78541158407126 $T=97580 118460 0 180 $X=86960 $Y=93060
+X484 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=120470 66660 0 0 $X=119850 $Y=65940
+X485 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=131710 66660 0 0 $X=131090 $Y=65940
+X486 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=142950 66660 0 0 $X=142330 $Y=65940
+X487 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=154190 66660 0 0 $X=153570 $Y=65940
+X488 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=360735 11260 0 0 $X=360115 $Y=10540
+X489 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=360735 37380 0 0 $X=360115 $Y=36660
+X490 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=360735 63500 0 0 $X=360115 $Y=62780
+X491 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=371975 11260 0 0 $X=371355 $Y=10540
+X492 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=371975 37380 0 0 $X=371355 $Y=36660
+X493 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=371975 63500 0 0 $X=371355 $Y=62780
+X494 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=383215 37380 0 0 $X=382595 $Y=36660
+X495 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=383215 63500 0 0 $X=382595 $Y=62780
+X496 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=394455 37380 0 0 $X=393835 $Y=36660
+X497 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=394455 63500 0 0 $X=393835 $Y=62780
+X498 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=405695 37380 0 0 $X=405075 $Y=36660
+X499 V1000 V1000 96 pmos1v2hvt_4_CDNS_78541158407126 $T=405695 63500 0 0 $X=405075 $Y=62780
+X500 GNDA rnpolym_CDNS_78541158407129 $T=328185 9825 0 0 $X=327935 $Y=9085
+X501 GNDA 72 97 nmos1v2hvt_4_CDNS_78541158407130 $T=5090 6635 0 0 $X=4470 $Y=5915
+X502 GNDA 72 72 nmos1v2hvt_4_CDNS_78541158407130 $T=5090 23885 1 0 $X=4470 $Y=15485
+X503 GNDA 72 72 nmos1v2hvt_4_CDNS_78541158407130 $T=10330 6635 0 0 $X=9710 $Y=5915
+X504 GNDA 72 97 nmos1v2hvt_4_CDNS_78541158407130 $T=10330 23885 1 0 $X=9710 $Y=15485
+X505 GNDA 75 135 nmos1v2hvt_4_CDNS_78541158407130 $T=134790 6635 0 0 $X=134170 $Y=5915
+X506 GNDA 75 75 nmos1v2hvt_4_CDNS_78541158407130 $T=134790 23885 1 0 $X=134170 $Y=15485
+X507 GNDA 75 75 nmos1v2hvt_4_CDNS_78541158407130 $T=140030 6635 0 0 $X=139410 $Y=5915
+X508 GNDA 75 135 nmos1v2hvt_4_CDNS_78541158407130 $T=140030 23885 1 0 $X=139410 $Y=15485
+X509 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_78541158407131 $T=19685 15440 0 0 $X=19065 $Y=14720
+X510 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_78541158407131 $T=19685 55390 1 0 $X=19065 $Y=36240
+X511 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=22925 15440 0 0 $X=22305 $Y=14720
+X512 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=22925 55390 1 0 $X=22305 $Y=36240
+X513 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=26165 15440 0 0 $X=25545 $Y=14720
+X514 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=26165 55390 1 0 $X=25545 $Y=36240
+X515 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=29405 15440 0 0 $X=28785 $Y=14720
+X516 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=29405 55390 1 0 $X=28785 $Y=36240
+X517 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=32645 15440 0 0 $X=32025 $Y=14720
+X518 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=32645 55390 1 0 $X=32025 $Y=36240
+X519 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=35885 15440 0 0 $X=35265 $Y=14720
+X520 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=35885 55390 1 0 $X=35265 $Y=36240
+X521 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=39125 15440 0 0 $X=38505 $Y=14720
+X522 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=39125 55390 1 0 $X=38505 $Y=36240
+X523 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=42365 15440 0 0 $X=41745 $Y=14720
+X524 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=42365 55390 1 0 $X=41745 $Y=36240
+X525 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=45605 15440 0 0 $X=44985 $Y=14720
+X526 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=45605 55390 1 0 $X=44985 $Y=36240
+X527 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=48845 15440 0 0 $X=48225 $Y=14720
+X528 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=48845 55390 1 0 $X=48225 $Y=36240
+X529 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=52085 15440 0 0 $X=51465 $Y=14720
+X530 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=52085 55390 1 0 $X=51465 $Y=36240
+X531 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=55325 15440 0 0 $X=54705 $Y=14720
+X532 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=55325 55390 1 0 $X=54705 $Y=36240
+X533 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=58565 15440 0 0 $X=57945 $Y=14720
+X534 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=58565 55390 1 0 $X=57945 $Y=36240
+X535 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=61805 15440 0 0 $X=61185 $Y=14720
+X536 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=61805 55390 1 0 $X=61185 $Y=36240
+X537 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=65045 15440 0 0 $X=64425 $Y=14720
+X538 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=65045 55390 1 0 $X=64425 $Y=36240
+X539 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=68285 15440 0 0 $X=67665 $Y=14720
+X540 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=68285 55390 1 0 $X=67665 $Y=36240
+X541 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=71525 15440 0 0 $X=70905 $Y=14720
+X542 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=71525 55390 1 0 $X=70905 $Y=36240
+X543 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=74765 15440 0 0 $X=74145 $Y=14720
+X544 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=74765 55390 1 0 $X=74145 $Y=36240
+X545 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=78005 15440 0 0 $X=77385 $Y=14720
+X546 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=78005 55390 1 0 $X=77385 $Y=36240
+X547 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=81245 15440 0 0 $X=80625 $Y=14720
+X548 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=81245 55390 1 0 $X=80625 $Y=36240
+X549 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=84485 15440 0 0 $X=83865 $Y=14720
+X550 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=84485 55390 1 0 $X=83865 $Y=36240
+X551 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=87725 15440 0 0 $X=87105 $Y=14720
+X552 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=87725 55390 1 0 $X=87105 $Y=36240
+X553 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=90965 15440 0 0 $X=90345 $Y=14720
+X554 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=90965 55390 1 0 $X=90345 $Y=36240
+X555 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=94205 15440 0 0 $X=93585 $Y=14720
+X556 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=94205 55390 1 0 $X=93585 $Y=36240
+X557 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=97445 15440 0 0 $X=96825 $Y=14720
+X558 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=97445 55390 1 0 $X=96825 $Y=36240
+X559 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=100685 15440 0 0 $X=100065 $Y=14720
+X560 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=100685 55390 1 0 $X=100065 $Y=36240
+X561 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=103925 15440 0 0 $X=103305 $Y=14720
+X562 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=103925 55390 1 0 $X=103305 $Y=36240
+X563 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=107165 15440 0 0 $X=106545 $Y=14720
+X564 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=107165 55390 1 0 $X=106545 $Y=36240
+X565 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=110405 15440 0 0 $X=109785 $Y=14720
+X566 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=110405 55390 1 0 $X=109785 $Y=36240
+X567 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=113645 15440 0 0 $X=113025 $Y=14720
+X568 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=113645 55390 1 0 $X=113025 $Y=36240
+X569 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=116885 15440 0 0 $X=116265 $Y=14720
+X570 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=116885 55390 1 0 $X=116265 $Y=36240
+X571 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=120125 15440 0 0 $X=119505 $Y=14720
+X572 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=120125 55390 1 0 $X=119505 $Y=36240
+X573 97 BG_REF GNDA 96 nmos1v2hvt_4_CDNS_78541158407131 $T=123365 15440 0 0 $X=122745 $Y=14720
+X574 97 58 GNDA 98 nmos1v2hvt_4_CDNS_78541158407131 $T=123365 55390 1 0 $X=122745 $Y=36240
+X575 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_78541158407131 $T=126605 15440 0 0 $X=125985 $Y=14720
+X576 GNDA GNDA GNDA GNDA nmos1v2hvt_4_CDNS_78541158407131 $T=126605 55390 1 0 $X=125985 $Y=36240
+X577 VDDA pmos1v2hvt_4_CDNS_78541158407134 $T=5660 66955 0 0 $X=5040 $Y=66235
+X578 VDDA pmos1v2hvt_4_CDNS_78541158407134 $T=5660 118460 1 0 $X=5040 $Y=93060
+X579 VDDA pmos1v2hvt_4_CDNS_78541158407134 $T=98820 66955 0 0 $X=98200 $Y=66235
+X580 VDDA pmos1v2hvt_4_CDNS_78541158407134 $T=98820 118460 1 0 $X=98200 $Y=93060
+X581 75 59 GNDA 59 nmos1v2hvt_4_CDNS_78541158407135 $T=134790 26320 0 0 $X=134170 $Y=25600
+X582 59 60 GNDA 60 nmos1v2hvt_4_CDNS_78541158407135 $T=134790 36805 0 0 $X=134170 $Y=36085
+X583 135 59 GNDA 99 nmos1v2hvt_4_CDNS_78541158407135 $T=144370 26320 0 0 $X=143750 $Y=25600
+X584 GNDA rnpolym_CDNS_78541158407138 $T=169025 9825 0 0 $X=168775 $Y=9085
+X585 GNDA rnpolym_CDNS_78541158407138 $T=169025 46225 0 0 $X=168775 $Y=45485
+X586 GNDA rnpolym_CDNS_78541158407138 $T=334185 9825 0 0 $X=333935 $Y=9085
+X587 GNDA rnpolym_CDNS_78541158407138 $T=334185 46225 0 0 $X=333935 $Y=45485
+X588 101 CL4X_1 99 VDDA pmos1v2hvt_4_CDNS_78541158407139 $T=132565 106340 1 0 $X=131945 $Y=95930
+X589 102 CL4X_2 99 VDDA pmos1v2hvt_4_CDNS_78541158407139 $T=148765 106340 1 0 $X=148145 $Y=95930
+X590 103 CJ_G1<0> 99 VDDA pmos1v2hvt_4_CDNS_78541158407142 $T=164625 106340 0 180 $X=162005 $Y=95940
+X591 108 CJ_G1<5> 99 VDDA pmos1v2hvt_4_CDNS_78541158407144 $T=197365 106340 1 0 $X=196745 $Y=95930
+X592 114 CJ_G2<5> 99 VDDA pmos1v2hvt_4_CDNS_78541158407144 $T=260010 106340 1 0 $X=259390 $Y=95930
+X593 120 CJ_G3<5> 99 VDDA pmos1v2hvt_4_CDNS_78541158407144 $T=314365 106340 1 0 $X=313745 $Y=95930
+X594 126 CJ_G4<5> 99 VDDA pmos1v2hvt_4_CDNS_78541158407144 $T=362605 106340 1 0 $X=361985 $Y=95930
+X595 127 Ib128nAT 99 VDDA pmos1v2hvt_4_CDNS_78541158407144 $T=378805 106340 1 0 $X=378185 $Y=95930
+.ends REF_V5_fLC
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: LS1                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt LS1 GNDA VDDA IN0 VDDD GNDD OUT0
+** N=7 EP=6 FDC=6
+X0 7 VDDD GNDD IN0 VDDA OUT0 GNDA LS $T=225 250 0 0 $X=0 $Y=0
+.ends LS1
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: REF_GEN_fL                                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt REF_GEN_fL 128nASrcT BG_SL_TRIM<0> BG_SL_TRIM<1> BG_SL_TRIM<2> BG_TRIM<0> BG_TRIM<1> BG_TRIM<2> CJ_G1<0> CJ_G1<1> CJ_G1<2>
++ CJ_G1<3> CJ_G1<4> CJ_G1<5> CJ_G2<0> CJ_G2<1> CJ_G2<2> CJ_G2<3> CJ_G2<4> CJ_G2<5> CJ_G3<0>
++ CJ_G3<1> CJ_G3<2> CJ_G3<3> CJ_G3<4> CJ_G3<5> CJ_G4<0> CJ_G4<1> CJ_G4<2> CJ_G4<3> CJ_G4<4>
++ CJ_G4<5> CL1X_1 CL4X_1 CL4X_2 EN GNDA GNDD LDO_REF LDO_SEL<0> LDO_SEL<1>
++ LVDS_REF LVDS_SEL<0> LVDS_SEL<1> LVDS_SEL<2> PRN REF_TRIM<0> REF_TRIM<1> REF_TRIM<2> Test128nASrc TestVbg
++ V1000 V550 VBREF_EXT VBREF_SEL VDDA VDDD VbgT
+** N=125 EP=57 FDC=2477
+X310 VDDA EN GNDA 91 108 CONSTANT_GM_2_fL $T=500 320 0 0 $X=2835 $Y=535
+X312 VDDA GNDA EN 108 32 109 110 111 112 113
++ 114 115 3 68 69 70 71 6 72 73
++ 74 PRN BG_TRIM_4_fL $T=99365 345 0 0 $X=99420 $Y=535
+X313 LDO_SEL<0> VDDD GNDD LDO_SEL<1> GNDA VDDA 19 20 LS2 $T=1286665 54570 1 180 $X=1280950 $Y=54570
+X314 TestVbg VDDD GNDD Test128nASrc GNDA VDDA 83 84 LS2 $T=1286665 107550 1 180 $X=1280950 $Y=107550
+X315 VDDD REF_TRIM<2> GNDD REF_TRIM<1> REF_TRIM<0> GNDA VDDA 14 12 35 LS3 $T=1287400 62315 1 180 $X=1280950 $Y=62480
+X316 VDDD BG_TRIM<2> GNDD BG_TRIM<1> BG_TRIM<0> GNDA VDDA 5 7 8 LS3 $T=1287730 22940 1 180 $X=1281280 $Y=23105
+X317 VDDD BG_SL_TRIM<2> GNDD BG_SL_TRIM<1> BG_SL_TRIM<0> GNDA VDDA 4 2 1 LS3 $T=1287745 6725 1 180 $X=1281295 $Y=6890
+X318 VDDD LVDS_SEL<2> GNDD LVDS_SEL<1> LVDS_SEL<0> GNDA VDDA 27 28 29 LS3 $T=1287745 40295 1 180 $X=1281295 $Y=40460
+X319 VDDA GNDA 83 VbgT 32 Tsw $T=844435 108425 1 180 $X=840610 $Y=108175
+X320 VDDA GNDA 84 128nASrcT 104 Tsw $T=851565 108425 1 180 $X=847740 $Y=108175
+X321 VDDA VDDA 113 GNDA 1 114 115 2 3 4
++ 112 111 110 109 3to8DeMuxSel $T=242465 6085 0 0 $X=242240 $Y=5835
+X322 VDDA VDDA 74 GNDA 8 73 72 7 6 5
++ 71 70 69 68 3to8DeMuxSel $T=324015 6085 1 180 $X=286590 $Y=5835
+X323 VDDA VDDA 9 GNDA 35 10 11 12 13 14
++ 15 16 17 18 3to8DeMuxSel $T=1025365 85290 0 0 $X=1025140 $Y=85040
+X324 VDDA VDDA 76 GNDA 19 77 78 20 21 GNDA
++ 117 118 119 120 3to8DeMuxSel $T=1194185 6600 0 0 $X=1193960 $Y=6350
+X325 VDDA VDDA 26 GNDA 29 25 23 28 24 27
++ 22 81 80 79 3to8DeMuxSel $T=1271060 6600 1 180 $X=1233635 $Y=6350
+X333 82 VDDA 32 100 pmos1v2hvt_4_CDNS_78541158407112 $T=828000 116720 1 0 $X=827380 $Y=112320
+X334 105 VDDA VBREF_EXT 100 pmos1v2hvt_4_CDNS_78541158407112 $T=831240 116720 0 180 $X=829620 $Y=112320
+X335 100 82 GNDA VBREF_EXT nmos1v2hvt_4_CDNS_78541158407115 $T=829000 108785 1 180 $X=827380 $Y=108065
+X336 100 105 GNDA 32 nmos1v2hvt_4_CDNS_78541158407115 $T=830240 108785 0 0 $X=829620 $Y=108065
+X337 EN GNDA 91 VDDA 100 V1000 V550 78 77 76
++ 79 21 80 81 22 24 23 25 26 CL1X_1
++ CL4X_1 CL4X_2 CJ_G1<1> CJ_G1<0> 18 17 16 15 13 11
++ 10 9 CJ_G1<2> CJ_G1<3> CJ_G1<4> CJ_G1<5> CJ_G2<0> CJ_G2<1> CJ_G2<2> CJ_G2<3>
++ CJ_G2<4> CJ_G2<5> CJ_G3<0> CJ_G3<1> CJ_G3<2> CJ_G3<3> CJ_G3<4> CJ_G3<5> CJ_G4<1> CJ_G4<2>
++ CJ_G4<0> CJ_G4<3> CJ_G4<4> LDO_REF LVDS_REF CJ_G4<5> 104 REF_V5_fLC $T=856825 35 0 0 $X=858115 $Y=480
+X338 GNDA VDDA VBREF_SEL VDDD GNDD 82 LS1 $T=1286665 101395 1 180 $X=1281415 $Y=101395
+M0 GNDA 82 105 GNDA nmos1v2hvt L=1e-06 W=1e-06 AD=3e-13 AS=3e-13 PD=1.6e-06 PS=1.6e-06 m=1 $X=825220 $Y=108785 $dt=1
+M1 VDDA 82 105 VDDA pmos1v2hvt L=1e-06 W=2e-06 AD=6e-13 AS=6e-13 PD=2.6e-06 PS=2.6e-06 m=1 $X=825220 $Y=114720 $dt=2
+.ends REF_GEN_fL

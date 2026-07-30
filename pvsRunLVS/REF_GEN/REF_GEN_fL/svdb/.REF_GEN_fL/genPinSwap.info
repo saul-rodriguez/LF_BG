@@ -1,0 +1,12 @@
+model nmos1v2hvt
+netlist_model nmos1v2hvt
+S D
+model pmos1v2hvt
+netlist_model pmos1v2hvt
+S D
+model rnpolym
+netlist_model rnpolym
+POS NEG
+model rnpolyh
+netlist_model rnpolyh
+POS NEG

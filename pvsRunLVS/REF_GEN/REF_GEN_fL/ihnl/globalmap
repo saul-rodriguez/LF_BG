@@ -1,0 +1,47 @@
+CADENCE IHNL11140
+$model
+lf11is/rnpolyh_pcell_5/schematic rnpolyh_pcell_5
+lf11is/rnpolyh_pcell_2/schematic rnpolyh_pcell_2
+lf11is/rnpolym_pcell_14/schematic rnpolym_pcell_14
+REF_GEN/3to8DeMuxSel/schematic 3to8DeMuxSel
+lf11is/rnpolym_pcell_15/schematic rnpolym_pcell_15
+lf11is/rnpolym_pcell_12/schematic rnpolym_pcell_12
+REF_GEN/inv8_fL/schematic inv8_fL
+lf11is/rnpolyh_pcell_6/schematic rnpolyh_pcell_6
+REF_GEN/mux2_1_fL/schematic mux2_1_fL
+REF_GEN/REF_V5_fLC/schematic REF_V5_fLC
+lf11is/rnpolyh_pcell_3/schematic rnpolyh_pcell_3
+REF_GEN/BG_TRIM_4_fL/schematic BG_TRIM_4_fL
+AnaCommon/LS/schematic LS
+REF_GEN/REF_GEN_fL/schematic REF_GEN_fL
+lf11is/rnpolym_pcell_13/schematic rnpolym_pcell_13
+REF_GEN/LS1/schematic LS1
+REF_GEN/LS2/schematic LS2
+REF_GEN/BG_PNP_array/schematic BG_PNP_array
+lf11is/rnpolym_pcell_7/schematic rnpolym_pcell_7
+lf11is/rnpolym_pcell_9/schematic rnpolym_pcell_9
+lf11is/rnpolym_pcell_8/schematic rnpolym_pcell_8
+Si3/NA3/schematic NA3
+REF_GEN/trim_res_array_rn_2_fL/schematic trim_res_array_rn_2_fL
+lf11is/rnpolym_pcell_11/schematic rnpolym_pcell_11
+REF_GEN/mux8_1_fL/schematic mux8_1_fL
+Si3/IN2/schematic IN2
+REF_GEN/mux8_1p_fL/schematic mux8_1p_fL
+REF_GEN/trim_res_bg_sl_fL/schematic trim_res_bg_sl_fL
+REF_GEN/LS3/schematic LS3
+REF_GEN/BG_STARTUP_fL2/schematic BG_STARTUP_fL2
+REF_GEN/trim_res_rnpolyn_2_fL/schematic trim_res_rnpolyn_2_fL
+REF_GEN/CONSTANT_GM_2_fL/schematic CONSTANT_GM_2_fL
+REF_GEN/trim_res_bg_2_fL/schematic trim_res_bg_2_fL
+AnaCommon/Tsw/schematic Tsw
+lf11is/rnpolyh_pcell_1/schematic rnpolyh_pcell_1
+lf11is/rnpolyh_pcell_0/schematic rnpolyh_pcell_0
+lf11is/rnpolym_pcell_10/schematic rnpolym_pcell_10
+Si3/NO2/schematic NO2
+Si3/IN/schematic IN
+lf11is/rnpolyh_pcell_4/schematic rnpolyh_pcell_4
+$endmodel
+$net
+$endnet
+$param
+$endparam

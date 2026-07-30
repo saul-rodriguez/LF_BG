@@ -11,9 +11,9 @@
 	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.156
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.156.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.156/1/OP
+	State Name   = OP_none_Interactive.161
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.161.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.161/1/OP
 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
@@ -40,7 +40,7 @@ Setting var CONF_BG_SL_TRIM = "3"
 Setting var CONF_BG_TRIM = "3"
 Setting var CONF_LDO_SEL = "0"
 Setting var CONF_LVDS_SEL = "0"
-Setting var CONF_REF_TRIM = "0"
+Setting var CONF_REF_TRIM = "3"
 Setting var EN = "1.2"
 Setting var EN_PULSE = "0"
 Setting var PD = "0"
@@ -52,28 +52,99 @@ Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.156/1/OP/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.161/1/OP/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.156/1/OP
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.161/1/OP
 
 
 *Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Jul 29 10:30:25 2026
-End netlisting Jul 29 10:30:25 2026
+Begin Incremental Netlisting Jul 30 11:42:31 2026
+WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+directory. Netlist(s) from last session cannot be reused for incremental
+netlisting. Therefore, re-netlisting the design.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+WARNING (OSSHNL-155): Unable to delete the directory 'cds99', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds98', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds97', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds95', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds91', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds90', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds89', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds117', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds115', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds114', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds113', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds112', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds111', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds110', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds107', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds106', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+End netlisting Jul 30 11:42:52 2026
+
+Netlisting Statistics:
+	Number of components: 161625
+
+	Elapsed time:         21.0s (7696.43/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [ OP ] for Point ID (2 1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.156/1/OP/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.161/1/OP/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -87,8 +158,8 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.156/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.156/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.161/1/OP. Use results() for a list of available results.
+WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.161/1/OP. Use results() for a list of available results.
 ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
 	Expression:'db(getData("/V0" ?result "xf"))'.
 Ensure that the definition of output is correct.

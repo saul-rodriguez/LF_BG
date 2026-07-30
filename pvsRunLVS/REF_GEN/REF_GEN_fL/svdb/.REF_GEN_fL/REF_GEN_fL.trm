@@ -1,0 +1,8 @@
+;| version 1
+element cap[cmims2] CMIMS2 TOPMIMS2[POS] METAL5a[NEG]
+element mos[nmos1v2hvt] NMOS1V2HVT NDIFF[D] NGATE[G] NDIFF[S] PW1V2[B]
+element mos[pmos1v2hvt] PMOS1V2HVT PDIFF[D] PGATE[G] PDIFF[S] NW1V2[B]
+element generic[ncap1v2hvt] NCAP1V2HVT NGATE[PLUS] NDIFF[MINUS] PW1V2[B]
+element res[rnpolym] RNPOLYMNW1V2 POLYG3[POS] POLYG3[NEG] NW1V2[SUB]
+element res[rnpolyh] RNPOLYHNW1V2 POLYG3[POS] POLYG3[NEG] NW1V2[SUB]
+element bjt[pnp5ux5u] PNP5UX5U PW1V2[C] PNPBASE[B] PNPEMIT5UX5U[E]

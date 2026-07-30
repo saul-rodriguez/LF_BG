@@ -1,0 +1,52 @@
+avParameters(
+	?cellName "REF_GEN_fL"
+	?viewName "layout"
+	?inputLayout ( "DFII" "REF_GEN" )
+	?cdslib "/home/saul/projects/LF_BG/cds.lib"
+	?workingDirectory "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb"
+	?techRuleSet ( "default" )
+	?techLib "/home/saul/projects/LF_BG/pvtech.lib"
+	?technology "lf11is"
+
+)
+rcxParameters(
+	?capCouplingFactor 1.0
+	?capGround "GNDA, GNDD"
+	?arrayViasSpacing "auto"
+	?maxFractureLength "infinite"
+	?fractureLengthUnits "MICRONS"
+	?netNameSpace "layout"
+	?minC 1e-17
+	?minCByPercentage 0.1
+	?mergeParallelR nil
+	?minR 0.001
+	?pvsRunDir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb"
+	?pvsPrimary "REF_GEN_fL"
+	?lvsSource "pvs"
+	?capacitor "pcapacitor"
+	?capPropName "c"
+	?cdloutRunDir ( "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL" )
+	?deviceFingerDelimiter "@"
+	?checkCellView nil
+	?capModels "yes"
+	?parasiticCapModels "comment"
+	?parasiticResModels "comment"
+	?resModels "yes"
+	?resistor "presistor"
+	?resPropName "r"
+	?transferNetExpression t
+	?outputFormat "dfii"
+	?lvsExtractedCellView nil
+	?extractedView "av_extracted"
+	?runName "REF_GEN_fL"
+	?tempdir "/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb/REF_GEN_fL/rcx_temp"
+	?rcxSetupDir ( "/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/pv/qrc/6metal/pvs/typ/" )
+	?temperature ( 25.0 )
+	?type "full"
+	?extract "both"
+	?capExtractMode "coupled"
+
+)
+(avRCX)
+
+

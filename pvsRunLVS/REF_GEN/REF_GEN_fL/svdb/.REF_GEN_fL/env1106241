@@ -1,0 +1,5 @@
+CASE_SENSITIVE=TRUE
+QRC_MOS_LW_PRECISION=y
+TEMPDIR=/home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb/REF_GEN_fL/rcx_temp
+QRC=Y
+SAVEDIR=flattenInputs/

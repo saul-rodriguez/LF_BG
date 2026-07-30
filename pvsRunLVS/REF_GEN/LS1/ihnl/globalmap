@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+AnaCommon/LS/schematic LS
+REF_GEN/LS1/schematic LS1
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : REF_GEN_fL_1105807.db
+ECDB dir        : ./
+Top Cell        : REF_GEN_fL
+CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb/REF_GEN_fL.net
+Layer map file  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb/REF_GEN_fL.ecdbmap
+Text map file   : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb/REF_GEN_fL.ports
+Dependency map  : REF_GEN_fL.lmap.perc
+Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL/svdb/REF_GEN_fL.lvsfile
+Float net file  : .REF_GEN_fL.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : REF_GEN_fL_1105807

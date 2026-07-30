@@ -1,0 +1,57 @@
+;| version 1
+text text_METAL1a attach METAL1a
+text text_METAL2a attach METAL2a
+text text_METAL3a attach METAL3a
+connect METAL1a METAL2a by VIA1
+connect METAL2a METAL3a by VIA2
+connect METAL3a METAL4a by VIA3
+connect METAL4a METAL5a by VIA4
+connect METAL5a METALFa by VIAF2
+connect MIMSa METALFa by VIAM
+connect TOPMIM METALFa by VIAM
+connect TOPMIMS2 METALFa by VIAM
+connect TOPMIMS7 METALFa by VIAM
+connect METALFa METALTa by VIAT
+connect BSMET METAL1a by SLOTOX
+connect POLYG3 METAL1a by POLYCONT
+connect NDIFF METAL1a PNPBASE by NDIFFCONT
+connect PDIFF METAL1a PNPEMIT5UX5U PNPEMIT10UX2U5 by PDIFFCONT
+connect NDIFFTX METAL1a by NDIFFCONTTX
+connect PNPBASE METAL1a by NDIFFCONT
+connect PNPEMIT5UX5U METAL1a by PDIFFCONT
+connect PNPEMIT10UX2U5 METAL1a by PDIFFCONT
+connect NGATE POLYG3
+connect PGATE POLYG3
+connect NGATE3V3TX POLYG3
+sconnect PNPBASE NTAP by NDIFFCONT
+sconnect PNPEMIT5UX5U PTAP by PDIFFCONT
+sconnect PNPEMIT5UX5U PTAPISO by PDIFFCONT
+sconnect NDIFF NTAP by NDIFFCONT
+sconnect PDIFF PTAP by PDIFFCONT
+sconnect PDIFF PTAPISO by PDIFFCONT
+stamp NW1V2 by NTAP
+stamp PW1V2 by PTAP
+stamp PW1V2 by PTAPISO
+stamp NW3V3 by NTAP
+stamp PW3V3 by PTAP
+stamp PW3V3 by PTAPISO
+stamp ARRAYPW by PTAP
+stamp PSUB by PTAP
+stamp PSUBISO by PTAPISO
+stamp DNW by NW1V2
+stamp DNW by NW3V3
+stamp METAL3cf by METAL3a
+model = cap[cmims2],cmims2
+element cap[cmims2] CMIMS2 TOPMIMS2 METAL5a
+model = mos[nmos1v2hvt],nmos1v2hvt
+element mos[nmos1v2hvt] NMOS1V2HVT NGATE NDIFF PW1V2
+model = mos[pmos1v2hvt],pmos1v2hvt
+element mos[pmos1v2hvt] PMOS1V2HVT PGATE PDIFF NW1V2
+model = generic[ncap1v2hvt],ncap1v2hvt
+element generic[ncap1v2hvt] NCAP1V2HVT NGATE[PLUS] NDIFF[MINUS] PW1V2[B]
+model = res[rnpolym],rnpolym
+element res[rnpolym] RNPOLYMNW1V2 POLYG3 NW1V2
+model = res[rnpolyh],rnpolyh
+element res[rnpolyh] RNPOLYHNW1V2 POLYG3 NW1V2
+model = bjt[pnp5ux5u],pnp5ux5u
+element bjt[pnp5ux5u] PNP5UX5U PW1V2 PNPBASE PNPEMIT5UX5U

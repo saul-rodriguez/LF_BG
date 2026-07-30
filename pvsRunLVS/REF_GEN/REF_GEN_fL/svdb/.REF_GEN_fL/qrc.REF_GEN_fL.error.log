@@ -1,0 +1,6 @@
+ERROR (LBMISC-215051): cannot open GNDD: No such file or directory. Please contact Cadence customer support for assistance. Note that providing a testcase to reproduce the problem will assist in troubleshooting.
+
+ERROR (ASSREXT-88016): cap ground signal 'GNDA,' cannot be found.
+Check if net 'GNDA,' exists in design and has the correct ?netNameSpace (schematic, layout) specified in RSF.
+If the ground signal name cannot be identified, use 'capgen -cap_ground_layer' option.
+

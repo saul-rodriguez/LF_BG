@@ -1,0 +1,50 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  REF_GEN
+* Top Cell Name: LS1
+* View Name:     schematic
+* Netlisted on:  Jul 30 10:51:04 2026
+************************************************************************
+
+.INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: AnaCommon
+* Cell Name:    LS
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT LS IN OUT VDD VDDD VSS VSSD OUTN
+*.PININFO IN:I OUT:O OUTN:O VDD:B VDDD:B VSS:B VSSD:B
+MM1 OUT net5 VSS VSS nmos1v2hvt W=260n L=110n m=1 nf=1
+MM0 OUTN IN VSS VSS nmos1v2hvt W=260n L=110n m=1 nf=1
+MM34 net5 IN VSSD VSSD nmos1v2hvt W=260n L=180n m=1 nf=1
+MM3 OUTN OUT VDD VDD pmos1v2hvt W=150n L=1.97u m=1 nf=1
+MM2 OUT OUTN VDD VDD pmos1v2hvt W=150n L=1.97u m=1 nf=1
+MM36 net5 IN VDDD VDDD pmos1v2hvt W=260n L=180n m=1 nf=1
+.ENDS
+
+************************************************************************
+* Library Name: REF_GEN
+* Cell Name:    LS1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT LS1 GNDA GNDD IN0 OUT0 VDDA VDDD
+*.PININFO GNDA:B GNDD:B IN0:B OUT0:B VDDA:B VDDD:B
+XI0 IN0 OUT0 VDDA VDDD GNDA GNDD net6 / LS
+.ENDS
+

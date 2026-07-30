@@ -1,0 +1,249 @@
+********************************************************************************
+*** PVS HERC SUMMARY
+***
+Execute on Date/Time    : Thu Jul 30 10:51:07 2026
+PVS HERC VERSION        : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+Rule Deck Path          : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS1/.config.rul
+Rule Deck Title         : LF11IS
+Layout System           : GDSII
+Layout Path             : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS1/LS1.gds
+Current Directory       : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS1
+User Name:              : saul
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : LS1.sum
+Geometry Flagging       : ACUTE = YES  ANGLED = NO  SKEW = YES  OFFGRID = YES
+                          NONSIMPLE POLYGON = YES  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : LS1
+LVS Softchk Report      : LS1.softchk
+ASCII ERC Error Report  : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/LS1/LS1.erc_errors.ascii
+ERC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER DIFF ....................... Total Original Geometry:       11 (      11)
+LAYER POLYG ...................... Total Original Geometry:       11 (      11)
+LAYER METAL1fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER METAL2fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER METAL3fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER POLYDOPE ................... Total Original Geometry:        1 (       1)
+LAYER SALBLK ..................... Total Original Geometry:        0 (       0)
+LAYER DNW ........................ Total Original Geometry:        0 (       0)
+LAYER METAL4fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NW3V3 ...................... Total Original Geometry:        0 (       0)
+LAYER PW3V3orig .................. Total Original Geometry:        0 (       0)
+LAYER NW1V2 ...................... Total Original Geometry:        2 (       2)
+LAYER PW1V2orig .................. Total Original Geometry:        1 (       1)
+LAYER METAL5fillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NLVT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER GOX1V2 ..................... Total Original Geometry:        1 (       1)
+LAYER NEXT1V2 .................... Total Original Geometry:        1 (       1)
+LAYER PEXT1V2 .................... Total Original Geometry:        2 (       2)
+LAYER METALFfillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NEXT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER PEXT3V3 .................... Total Original Geometry:        0 (       0)
+LAYER METALTfillCustom ........... Total Original Geometry:        0 (       0)
+LAYER NPLUS ...................... Total Original Geometry:        5 (       5)
+LAYER PPLUS ...................... Total Original Geometry:        4 (       4)
+LAYER METAL1base ................. Total Original Geometry:       17 (      17)
+LAYER METAL1fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL1slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL2base ................. Total Original Geometry:        0 (       0)
+LAYER METAL2fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL2slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL3base ................. Total Original Geometry:        0 (       0)
+LAYER METAL3fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL3slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL4base ................. Total Original Geometry:        0 (       0)
+LAYER METAL4fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL4slot ................. Total Original Geometry:        0 (       0)
+LAYER METAL5base ................. Total Original Geometry:        0 (       0)
+LAYER METAL5fill ................. Total Original Geometry:        0 (       0)
+LAYER METAL5slot ................. Total Original Geometry:        0 (       0)
+LAYER METALFbase ................. Total Original Geometry:        0 (       0)
+LAYER METALFfill ................. Total Original Geometry:        0 (       0)
+LAYER METALFslot ................. Total Original Geometry:        0 (       0)
+LAYER METALTbase ................. Total Original Geometry:        0 (       0)
+LAYER METALTfill ................. Total Original Geometry:        0 (       0)
+LAYER METALTslot ................. Total Original Geometry:        0 (       0)
+LAYER CONT ....................... Total Original Geometry:       33 (      33)
+LAYER VIA1 ....................... Total Original Geometry:        0 (       0)
+LAYER VIA2 ....................... Total Original Geometry:        0 (       0)
+LAYER VIA3 ....................... Total Original Geometry:        0 (       0)
+LAYER VIA4 ....................... Total Original Geometry:        0 (       0)
+LAYER VIAF ....................... Total Original Geometry:        0 (       0)
+LAYER VIAT ....................... Total Original Geometry:        0 (       0)
+LAYER MIMS ....................... Total Original Geometry:        0 (       0)
+LAYER MIMS2 ...................... Total Original Geometry:        0 (       0)
+LAYER MIMS7 ...................... Total Original Geometry:        0 (       0)
+LAYER PSN ........................ Total Original Geometry:        0 (       0)
+LAYER PSP ........................ Total Original Geometry:        0 (       0)
+LAYER PSUB2 ...................... Total Original Geometry:        1 (       1)
+LAYER BJTmark .................... Total Original Geometry:        0 (       0)
+LAYER DIOmark .................... Total Original Geometry:        0 (       0)
+LAYER MIMmark .................... Total Original Geometry:        0 (       0)
+LAYER CAPmark .................... Total Original Geometry:        0 (       0)
+LAYER RESmark .................... Total Original Geometry:        0 (       0)
+LAYER RMET1mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET2mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET3mark .................. Total Original Geometry:        0 (       0)
+LAYER PW3V3blockGen .............. Total Original Geometry:        0 (       0)
+LAYER PW3V3makeGen ............... Total Original Geometry:        0 (       0)
+LAYER RMET4mark .................. Total Original Geometry:        0 (       0)
+LAYER RMET5mark .................. Total Original Geometry:        0 (       0)
+LAYER RMETFmark .................. Total Original Geometry:        0 (       0)
+LAYER CAPFlabel .................. Total Original Geometry:        0 (       0)
+LAYER RMETTmark .................. Total Original Geometry:        0 (       0)
+LAYER CAPFmark ................... Total Original Geometry:        0 (       0)
+LAYER VARmark .................... Total Original Geometry:        0 (       0)
+LAYER SEALRINGmark ............... Total Original Geometry:        0 (       0)
+LAYER ESDDIOmark ................. Total Original Geometry:        0 (       0)
+LAYER PROBEmark .................. Total Original Geometry:        0 (       0)
+LAYER TXFETmark .................. Total Original Geometry:        0 (       0)
+LAYER SLOTOX ..................... Total Original Geometry:        0 (       0)
+LAYER BSMET ...................... Total Original Geometry:        0 (       0)
+LAYER BSMET_pin_txt .............. Total Original Geometry:        0 (       0)
+LAYER SNN ........................ Total Original Geometry:        0 (       0)
+LAYER PW1V2blockGen .............. Total Original Geometry:        0 (       0)
+LAYER PW1V2makeGen ............... Total Original Geometry:        0 (       0)
+LAYER ARRAYPW .................... Total Original Geometry:        0 (       0)
+LAYER PXL ........................ Total Original Geometry:        0 (       0)
+LAYER MCEL ....................... Total Original Geometry:        0 (       0)
+LAYER DIFF_pin_txt ............... Total Original Geometry:        0 (       0)
+LAYER POLYG_pin_txt .............. Total Original Geometry:        0 (       0)
+LAYER METAL1_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL2_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL3_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL4_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METAL5_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METALF_pin_txt ............. Total Original Geometry:        0 (       0)
+LAYER METALT_pin_txt ............. Total Original Geometry:        0 (       0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+Offgrid Vertex on layer NPLUS at location (0.140,3.065) in cell LS1.
+Offgrid Vertex on layer NPLUS at location (1.220,3.065) in cell LS1.
+Offgrid Vertex on layer NPLUS at location (1.220,3.425) in cell LS1.
+Offgrid Vertex on layer NPLUS at location (0.140,3.425) in cell LS1.
+Offgrid Vertex on layer NPLUS at location (5.085,3.070) in cell LS1.
+Offgrid Vertex on layer NPLUS at location (5.085,3.400) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (0.755,2.910) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (0.755,3.205) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (0.270,3.205) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (3.745,2.910) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (4.410,3.235) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (3.745,3.235) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (1.035,0.100) in cell LS1.
+Offgrid Vertex on layer METAL1base at location (1.035,0.400) in cell LS1.
+Offgrid Vertex on layer DIFF at location (2.350,2.085) in cell LS1.
+Offgrid Vertex on layer DIFF at location (2.200,2.085) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.225,2.960) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.225,3.140) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.225,0.160) in cell LS1.
+Offgrid Vertex on layer DIFF at location (1.145,0.160) in cell LS1.
+Offgrid Vertex on layer DIFF at location (1.145,0.340) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.225,0.340) in cell LS1.
+Offgrid Vertex on layer DIFF at location (2.025,0.160) in cell LS1.
+Offgrid Vertex on layer DIFF at location (5.025,0.160) in cell LS1.
+Offgrid Vertex on layer DIFF at location (5.025,0.340) in cell LS1.
+Offgrid Vertex on layer DIFF at location (2.025,0.340) in cell LS1.
+Offgrid Vertex on layer DIFF at location (5.025,2.960) in cell LS1.
+Offgrid Vertex on layer DIFF at location (5.025,3.140) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.635,1.860) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.895,1.860) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.895,2.640) in cell LS1.
+Offgrid Vertex on layer DIFF at location (0.635,2.640) in cell LS1.
+Offgrid Vertex on layer POLYG at location (2.380,1.015) in cell LS1.
+Offgrid Vertex on layer POLYG at location (2.270,1.015) in cell LS1.
+Offgrid Vertex on layer POLYG at location (2.190,1.435) in cell LS1.
+Offgrid Vertex on layer POLYG at location (1.840,1.435) in cell LS1.
+Offgrid Vertex on layer POLYG at location (1.840,1.595) in cell LS1.
+Offgrid Vertex on layer POLYG at location (1.580,1.595) in cell LS1.
+Offgrid Vertex on layer POLYG at location (1.580,1.325) in cell LS1.
+Offgrid Vertex on layer POLYG at location (2.080,1.325) in cell LS1.
+Offgrid Vertex on layer POLYG at location (2.080,1.065) in cell LS1.
+Offgrid Vertex on layer POLYG at location (2.190,1.065) in cell LS1.
+Offgrid Vertex on layer POLYG at location (1.075,2.270) in cell LS1.
+Offgrid Vertex on layer POLYG at location (1.075,2.340) in cell LS1.
+Offgrid Vertex on layer POLYG at location (0.455,2.340) in cell LS1.
+Offgrid Vertex on layer POLYG at location (0.455,2.160) in cell LS1.
+Offgrid Vertex on layer PEXT1V2 at location (1.135,1.480) in cell LS1.
+Offgrid Vertex on layer PEXT1V2 at location (1.135,2.900) in cell LS1.
+Offgrid Vertex on layer CONT at location (1.640,1.395) in cell LS1.
+Offgrid Vertex on layer CONT at location (1.780,1.395) in cell LS1.
+Offgrid Vertex on layer CONT at location (1.780,1.535) in cell LS1.
+Offgrid Vertex on layer CONT at location (1.640,1.535) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.695,1.920) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.835,1.920) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.835,2.060) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.695,2.060) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.755,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.895,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.895,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.755,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.355,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.495,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.495,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.355,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.155,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.295,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.295,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.155,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.755,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.895,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.895,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (2.755,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.555,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.695,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.695,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.555,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.355,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.495,2.980) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.495,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.355,3.120) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.695,2.440) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.835,2.440) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.835,2.580) in cell LS1.
+Offgrid Vertex on layer CONT at location (0.695,2.580) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.355,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.495,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.495,0.320) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.355,0.320) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.955,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.095,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (4.095,0.320) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.955,0.320) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.555,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.695,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.695,0.320) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.555,0.320) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.155,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.295,0.180) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.295,0.320) in cell LS1.
+Offgrid Vertex on layer CONT at location (3.155,0.320) in cell LS1.
+Maximum Offgrid Vertex warning count of 100 has been reached.
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK FLOATING_DNW ............... Total Result      0 (       0)
+RULECHECK FLOATING_NWELL ............. Total Result      0 (       0)
+RULECHECK FLOATING_PSUB .............. Total Result      0 (       0)
+RULECHECK FLOATING_PSUBISO ........... Total Result      0 (       0)
+RULECHECK FLOATING_PWELL ............. Total Result      0 (       0)
+RULECHECK FLOATING_PWELL2 ............ Not Executed!
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 0(s)
+Total Real Time                   : 0(s)
+Peak Memory Used                  : 26(M)
+Total Original Geometry           : 90 (90)
+Total ERC RuleChecks              : 5
+Total ERC Results                 : 0 (0)
