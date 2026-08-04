@@ -1,106 +1,172 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 04/25/2024 14:34 (csvcm36c-7) $
 \o Sub version:		sub-version  s364 
-\o Arguments:		-mpssession virtuosoE8NGFh-RUhluKE7zZtGS3K_1103616 -mpshost 44785@edatools 
+\o Arguments:		-mpssession virtuosoEQ7Rpg9ZtUELGXtPrIS0PK_13107 -mpshost 36237@edatools 
 \o Working Directory:	edatools:/home/saul/projects/LF_BG
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/saul/projects/LF_BG/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(452 27 812 948))
 \o MPS virtuoso types registered: 65
+\a nrResizeWindow(cdsLibManager list(248 116 812 948))
 \o changeWorkingDir("/home/saul/projects/LF_BG") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
+\o Library Manager customization server connected.
 \w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
-\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "REF_GEN"
 \a cdsLibManager->libLineEdit->value = "REF_GEN"
+\a cdsLibManager->cellListBox->value = "REF_GEN_fL"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_fL"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 4 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "REF_GEN"
+\a cdsLibManager->libLineEdit->value = "REF_GEN"
+\a cdsLibManager->cellListBox->value = "REF_GEN_fL"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_fL"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "REF_GEN_fL_2"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_fL_2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 4 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "REF_GEN"
+\a cdsLibManager->libLineEdit->value = "REF_GEN"
+\a cdsLibManager->cellListBox->value = "REF_GEN_fL_2"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_fL_2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Si3Top_rev2"
+\a cdsLibManager->libLineEdit->value = "Si3Top_rev2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "REF_GEN"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN"
+\a cdsLibManager->viewListBox->value = "layout_pin"
+\a cdsLibManager->viewLineEdit->value = "layout_pin"
+\a lmgrLogShowPopup("mainListPopup2" 57 7 2 "layout_pin")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "REF_GEN"
+\a cdsLibManager->libLineEdit->value = "REF_GEN"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "REF_GEN_fL"
+\a cdsLibManager->cellLineEdit->value = "REF_GEN_fL"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 69 27 2 "layout")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(15 40 812 948))
+\a cdsLibManager->libListBox->value = "Si3Top_rev2"
+\a cdsLibManager->libLineEdit->value = "Si3Top_rev2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "lf11isdhvt7s"
+\a cdsLibManager->libLineEdit->value = "lf11isdhvt7s"
+\a cdsLibManager->cellListBox->value = "ANTENNA"
+\a cdsLibManager->cellLineEdit->value = "ANTENNA"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup2" 61 63 2 "schematic")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\a cdsLibManager->libListBox->value = "lf11isdhvt7s"
+\a cdsLibManager->libLineEdit->value = "lf11isdhvt7s"
+\a cdsLibManager->cellListBox->value = "ANTENNA"
+\a cdsLibManager->cellLineEdit->value = "ANTENNA"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "REF_GEN"
+\a cdsLibManager->libLineEdit->value = "REF_GEN"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellListBox->value = "REF_GEN_f_TB"
 \a cdsLibManager->cellLineEdit->value = "REF_GEN_f_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = "config"
 \a cdsLibManager->viewLineEdit->value = "config"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
-\a cdsLibManager->libListBox->value = "REF_GEN"
-\a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "REF_GEN_f_TB"
-\a cdsLibManager->cellLineEdit->value = "REF_GEN_f_TB"
-\a cdsLibManager->viewListBox->value = "config"
-\a cdsLibManager->viewLineEdit->value = "config"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "config"
-\a cdsLibManager->viewLineEdit->value = "config"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
-\a cdsLibManager->libListBox->value = "REF_GEN"
-\a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "REF_GEN_f_TB"
-\a cdsLibManager->cellLineEdit->value = "REF_GEN_f_TB"
-\a cdsLibManager->viewListBox->value = "config"
-\a cdsLibManager->viewLineEdit->value = "config"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "config"
-\a cdsLibManager->viewLineEdit->value = "config"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "REF_GEN_fL"
-\a cdsLibManager->cellLineEdit->value = "REF_GEN_fL"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 3 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
-\a cdsLibManager->libListBox->value = "REF_GEN"
-\a cdsLibManager->libLineEdit->value = "REF_GEN"
-\a cdsLibManager->cellListBox->value = "REF_GEN_fL"
-\a cdsLibManager->cellLineEdit->value = "REF_GEN_fL"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1059 69 812 948))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)

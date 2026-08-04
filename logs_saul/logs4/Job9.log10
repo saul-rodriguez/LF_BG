@@ -11,9 +11,9 @@
 	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.163
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.163.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.163/1/TRAN
+	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.177
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.177.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.177/1/TRAN
 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
@@ -52,28 +52,35 @@ Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.163/1/TRAN/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.177/1/TRAN/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.163/1/TRAN
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.177/1/TRAN
 
 
 *Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Begin Incremental Netlisting Jul 30 11:47:29 2026
-End netlisting Jul 30 11:47:30 2026
+Begin Incremental Netlisting Aug  4 05:16:42 2026
+WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+directory. Netlist(s) from last session cannot be reused for incremental
+netlisting. Therefore, re-netlisting the design.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   2.0s
+End netlisting Aug  4 05:17:05 2026
+
+Netlisting Statistics:
+	Number of components: 161658
+
+	Elapsed time:         23.0s (7028.61/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [ TRAN ] for Point ID (4 1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.163/1/TRAN/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.177/1/TRAN/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...

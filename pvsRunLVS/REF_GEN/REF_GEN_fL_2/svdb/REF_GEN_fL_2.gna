@@ -1,0 +1,25 @@
+* Net aliases by cell for run: REF_GEN_fL_2.rep
+* THIS FILE IS GENERATED. DO NOT EDIT.
+* ==== Bound cells ==============
+* ==== Unbound cells ==============
+3to8DeMuxSel { 
+  VDD ( S )
+}
+rnpolyh_pcell_0 { 
+  PLUS ( MINUS B )
+}
+rnpolym_pcell_10 { 
+  PLUS ( MINUS B )
+}
+rnpolym_pcell_11 { 
+  PLUS ( MINUS B )
+}
+rnpolym_pcell_14 { 
+  MINUS ( B )
+}
+trim_res_bg_2_fL { 
+  REF ( P2 )
+}
+trim_res_bg_sl_fL { 
+  REF ( P2 )
+}
