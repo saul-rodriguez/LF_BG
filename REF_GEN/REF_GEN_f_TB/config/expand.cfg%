@@ -1,4 +1,4 @@
-//Revision 14
+//Revision 18
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -21,6 +21,7 @@ cell REF_GEN.CONSTANT_GM_2_fL binding :schematic;
 cell REF_GEN.BG_TRIM_4_fL binding :schematic;
 cell REF_GEN.REF_V5_fLC binding :schematic;
 cell REF_GEN.REF_GEN_fL binding :schematic;
+cell REF_GEN.REF_GEN_fL_2 binding :schematic;
 
 
 endconfig

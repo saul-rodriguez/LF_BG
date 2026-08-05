@@ -34,13 +34,13 @@ setting dbunit 1e-09 1 1e-09
     instance count totals:
     
         lib              cell             view                    total
-        analogLib        pcapacitor       symbol                 105560
-        analogLib        presistor        symbol                  53569
+        analogLib        pcapacitor       symbol                 106662
+        analogLib        presistor        symbol                  53603
         lf11is           cmims            auCdl                      10
         lf11is           dnppw1v2         auCdl                       1
         lf11is           ncap1v2hvt       auCdl                       8
-        lf11is           nmos1v2hvt_4     auCdl                     556
-        lf11is           pmos1v2hvt_4     auCdl                     724
+        lf11is           nmos1v2hvt_4     auCdl                     559
+        lf11is           pmos1v2hvt_4     auCdl                     727
         lf11is           pnp5ux5u         auCdl                     266
         lf11is           rnpolyh_i        auCdl                     321
         lf11is           rnpolym_i        auCdl                     592

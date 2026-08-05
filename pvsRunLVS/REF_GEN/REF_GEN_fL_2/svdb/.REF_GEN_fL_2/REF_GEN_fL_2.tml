@@ -1,0 +1,9 @@
+8
+cmims2 0 -2 CMIMS2
+nmos1v2hvt 1 -2 NMOS1V2HVT
+pmos1v2hvt 2 -2 PMOS1V2HVT
+ncap1v2hvt 3 -2 NCAP1V2HVT
+rnpolym 4 -2 RNPOLYMNW1V2
+rnpolyh 5 -2 RNPOLYHNW1V2
+dnppw1v2 6 -2 DNPPW1V2
+pnp5ux5u 7 -2 PNP5UX5U

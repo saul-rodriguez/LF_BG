@@ -4,7 +4,7 @@
 * Library Name:  REF_GEN
 * Top Cell Name: REF_GEN_fL_2
 * View Name:     schematic
-* Netlisted on:  Aug  4 05:08:34 2026
+* Netlisted on:  Aug  4 13:22:32 2026
 ************************************************************************
 
 .INCLUDE  /opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/subckt.cdl
@@ -1114,6 +1114,7 @@ XI0 IN0 OUT0 VDDA VDDD GNDA GNDD net6 / LS
 *.PININFO LVDS_SEL<2>:B LVDS_SEL<1>:B LVDS_SEL<0>:B PRN:B REF_TRIM<2>:B 
 *.PININFO REF_TRIM<1>:B REF_TRIM<0>:B Test128nASrc:B TestVbg:B V550:B V1000:B 
 *.PININFO VBREF_SEL:B VDDA:B VDDD:B VbgT:B
+XI28 GNDA GNDD EN EN_LS VDDA VDDD / LS1
 XI27 GNDA GNDD VBREF_SEL net59 VDDA VDDD / LS1
 XI10 net49 net50 net51 net18 net17 net16 net15 net14 net13 net12 net3 VDDA 
 + VDDA GNDA / 3to8DeMuxSel
@@ -1125,17 +1126,17 @@ XI13 net53 net54 net55 net30 net29 net28 net27 net31 net32 net33 net34 VDDA
 + VDDA GNDA / 3to8DeMuxSel
 XI14 net35 net52 GNDA net40 net39 net38 net37 net41 net42 net43 net44 VDDA 
 + VDDA GNDA / 3to8DeMuxSel
-XI0 BIAS EN GNDA PRN net18 net17 net16 net15 net14 net13 net12 net3 net4 net7 
-+ net11 net5 net9 net2 net8 net6 VDDA VREF / BG_TRIM_4_fL
+XI0 BIAS EN_LS GNDA PRN net18 net17 net16 net15 net14 net13 net12 net3 net4 
++ net7 net11 net5 net9 net2 net8 net6 VDDA VREF / BG_TRIM_4_fL
 XI15 VREF VbgT net47 VDDA GNDA / Tsw
 XI18 IT128nA N0 net36 VDDA GNDA / Tsw
 XI7 net24 net25 net19 net21 net23 net22 net20 net26 net1 net10 CJ_G1<0> 
 + CJ_G1<1> CJ_G1<2> CJ_G1<3> CJ_G1<4> CJ_G1<5> CJ_G2<0> CJ_G2<1> CJ_G2<2> 
 + CJ_G2<3> CJ_G2<4> CJ_G2<5> CJ_G3<0> CJ_G3<1> CJ_G3<2> CJ_G3<3> CJ_G3<4> 
 + CJ_G3<5> CJ_G4<0> CJ_G4<1> CJ_G4<2> CJ_G4<3> CJ_G4<4> CJ_G4<5> CL1X_1 CL4X_1 
-+ CL4X_2 EN GNDA IT128nA LDO_REF net40 net39 net38 net37 LVDS_REF net30 net29 
-+ net28 net27 net31 net32 net33 net34 V1000 V550 VDDA / REF_V5_fLC
-XI3 EN GNDA BIAS net10 VDDA / CONSTANT_GM_2_fL
++ CL4X_2 EN_LS GNDA IT128nA LDO_REF net40 net39 net38 net37 LVDS_REF net30 
++ net29 net28 net27 net31 net32 net33 net34 V1000 V550 VDDA / REF_V5_fLC
+XI3 EN_LS GNDA BIAS net10 VDDA / CONSTANT_GM_2_fL
 XI9 net1 GNDA VREF VbgT net59 VDDA / mux2_1_fL
 XI23 GNDA GNDD LVDS_SEL<0> LVDS_SEL<1> LVDS_SEL<2> net53 net54 net55 VDDA VDDD 
 + / LS3

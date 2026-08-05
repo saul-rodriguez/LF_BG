@@ -1,0 +1,1145 @@
+\# Program start time:     UTC 2026.08.05 06:32:45.816
+\# Local time: UTC (UTC+00:00) 2026.08.05 06:32:45.816
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEjQH6mmxYJsSVC4fD9i9EL_80269 -mpshost 53391@edatools -davinciService DaVinciService_80466_1785911562 -log /home/saul/projects/LF_BG/logs_saul/logs5/Job0.log1 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_80466 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 7.0.0-28-generic #28~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jul  1 15:50:57 UTC 2
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:2203 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        762 MB
+\# Available memory:	     55,702 MB
+\# System memory:	     72,235 MB
+\# Maximum memory size:	     71,593 MB
+\# Max mem available:	     55,822 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,680 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	edatools:/home/saul/projects/LF_BG
+\# Process Id:		81503
+\# Container Id:	EjQH6mmxYJsSVC4fD9i9EL
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         233 MB, process size 1,919 MB at UTC 2026.08.05 06:32:47.039
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEjQH6mmxYJsSVC4fD9i9EL_80269, host=53391@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 81503 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [06:32:45.445346] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o 
+\o ----------------          LFoundry            ----------------
+\o ----------------    Initializing LF11IS PDK    ----------------
+\o ----------------        Version 1.3.2         ----------------
+\o ----------------        Option 6metal         ----------------
+\o *LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+\o *LF-INFO* lf11is libInit.il loaded successfully. 
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting HSpice models                 done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: PDF reader "evince" found: /bin/evince.
+\o *LF-INFO* .cdsinit: Creating LF11IS PDK menus              done
+\o *LF-INFO* .cdsinit: Loading LF11IS display.drf             done
+\o *LF-INFO* .cdsinit: Setting PVS setup trigger      done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
+\o *LF-INFO* .cdsinit: Loading Layout Utilities              done
+\o *LF-INFO* .cdsinit: Opening library manager 				  done
+\e *Error* load: can't access file - "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl"
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 81503' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\# Available memory:         55,318 MB at UTC 2026.08.05 06:32:56.552
+\# Memory report: Maximum memory size now 55,612 MB at UTC 2026.08.05 06:32:56.552
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.08.05 06:32:56.552
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = REF_GEN
+\o 	Cell         = REF_GEN_f_TB
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = OP_none_MonteCarlo.0
+\o 	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.0/1/OP
+\o 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         371 MB, process size 2,064 MB at UTC 2026.08.05 06:33:14.043
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "1.2"
+\o Setting var EN_PULSE = "0"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
+\o Setting var VDD = "1.2"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.0/1/OP/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.0/1/OP/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\# Memory report: using         524 MB, process size 2,217 MB at UTC 2026.08.05 06:33:15.187
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'REF_GEN REF_GEN_fL_2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [06:33:15.209088] Periodic Lic check successful
+\# [06:33:15.209088] Feature usage summary:
+\o Begin Incremental Netlisting Aug  5 06:33:15 2026
+\o End netlisting Aug  5 06:33:16 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (0 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.0/1/OP/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  5 06:33:17 2026
+\o End netlisting Aug  5 06:33:18 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Memory report: using         635 MB, process size 2,442 MB at UTC 2026.08.05 06:33:26.553
+\o *Info*    Current simulation for points ((0 1) (0 2) (0 3) (0 4) (0
+\o           5) (0 6) (0 7) (0 8) (0 9) (0 10) (0 11) (0 12) (0 13) (0
+\o           14) (0 15) (0 16) (0 17) (0 18) (0 19) (0 20) (0 21) (0 22)
+\o           (0 23) (0 24) (0 25) (0 26) (0 27) (0 28) (0 29) (0 30) (0
+\o           31) (0 32) (0 33) (0 34) (0 35) (0 36) (0 37) (0 38) (0 39)
+\o           (0 40) (0 41) (0 42) (0 43) (0 44) (0 45) (0 46) (0 47) (0
+\o           48) (0 49) (0 50) (0 51) (0 52) (0 53) (0 54) (0 55) (0 56)
+\o           (0 57) (0 58) (0 59) (0 60) (0 61) (0 62) (0 63) (0 64) (0
+\o           65) (0 66) (0 67) (0 68) (0 69) (0 70) (0 71) (0 72) (0 73)
+\o           (0 74) (0 75) (0 76) (0 77) (0 78) (0 79) (0 80) (0 81) (0
+\o           82) (0 83) (0 84) (0 85) (0 86) (0 87) (0 88) (0 89) (0 90)
+\o           (0 91) (0 92) (0 93) (0 94) (0 95) (0 96) (0 97) (0 98) (0
+\o           99) (0 100)).
+\o *Info*    (ADE-3072): Simulation stopped because you selected the
+\o           'Stop Simulation' command in ADE.
+\o 
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o reading simulation data...
+\o       ...successful.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = REF_GEN
+\o 	Cell         = REF_GEN_f_TB
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = OP_none_MonteCarlo.1
+\o 	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP
+\o 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "1.2"
+\o Setting var EN_PULSE = "0"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
+\o Setting var VDD = "1.2"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'REF_GEN REF_GEN_fL_2 av_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  5 06:34:30 2026
+\o End netlisting Aug  5 06:34:31 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (1 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  5 06:34:32 2026
+\o End netlisting Aug  5 06:34:33 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 53,282 MB at UTC 2026.08.05 06:34:36.552
+\# Available memory:         49,420 MB at UTC 2026.08.05 06:34:46.552
+\# Memory report: Maximum memory size now 50,122 MB at UTC 2026.08.05 06:34:46.552
+\# Memory report: Maximum memory size now 46,157 MB at UTC 2026.08.05 06:35:06.603
+\# Available memory:         44,597 MB at UTC 2026.08.05 06:35:46.600
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/001/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/001/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'1' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/001/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/001/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'1' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\# Memory report: using         737 MB, process size 2,544 MB at UTC 2026.08.05 06:36:03.142
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/001/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/001/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 1) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/002/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/002/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'2' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/002/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/002/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'2' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\# Memory report: Maximum memory size now 44,957 MB at UTC 2026.08.05 06:37:16.423
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/002/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/002/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'2' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 2) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/003/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/003/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'3' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/003/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/003/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'3' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/003/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/003/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'3' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 3) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/004/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/004/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'4' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/004/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/004/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'4' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/004/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/004/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'4' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 4) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/005/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/005/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'5' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/005/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/005/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'5' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/005/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/005/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'5' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\# Memory report: using         841 MB, process size 2,648 MB at UTC 2026.08.05 06:41:11.043
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 5) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/006/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/006/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'6' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/006/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/006/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'6' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/006/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/006/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'6' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 6) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/007/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/007/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'7' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/007/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/007/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'7' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/007/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/007/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'7' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 7) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/008/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/008/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'8' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/008/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/008/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'8' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/008/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/008/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'8' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 8) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/009/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/009/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'9' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/009/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/009/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'9' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/009/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/009/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'9' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 9) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/010/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/010/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'10' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/010/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/010/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'10' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/010/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/010/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'10' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 10) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/011/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/011/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'11' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/011/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/011/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'11' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/011/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/011/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'11' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 11) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/012/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/012/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'12' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/012/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/012/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'12' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/012/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/012/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'12' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 12) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/013/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/013/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'13' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/013/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/013/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'13' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/013/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/013/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'13' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\# Memory report: Maximum memory size now 43,533 MB at UTC 2026.08.05 06:49:52.329
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 13) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/014/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/014/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'14' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/014/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/014/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'14' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/014/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/014/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'14' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 14) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 44,659 MB at UTC 2026.08.05 06:50:22.552
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/015/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/015/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'15' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/015/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/015/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'15' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/015/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/015/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'15' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 15) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/016/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/016/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'16' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/016/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/016/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'16' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/016/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/016/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'16' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 16) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 43,729 MB at UTC 2026.08.05 06:52:42.553
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/017/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/017/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'17' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/017/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/017/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'17' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\# Memory report: using         944 MB, process size 2,751 MB at UTC 2026.08.05 06:52:55.134
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/017/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/017/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'17' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 17) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/018/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/018/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'18' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/018/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/018/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'18' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/018/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/018/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'18' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 18) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/019/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/019/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'19' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/019/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/019/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'19' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/019/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/019/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'19' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 19) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 46,086 MB at UTC 2026.08.05 06:55:52.311
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/020/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/020/. Use results() for a list of available results.
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output 'total_noise_V' failed for point:'20' test:'OP'
+\o 	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+\o 	because of the following error(s)
+\o 	*Error* expt: can't handle (nil**2).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/020/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/020/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'20' test:'OP'
+\o 	Expression:'db(getData("out" ?result "noise"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/020/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/MonteCarlo.1/1/OP/groupRunDataDir/psf/mc1_separate/020/. Use results() for a list of available results.
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'20' test:'OP'
+\o 	Expression:'db(getData("/V0" ?result "xf"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 20) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         50,973 MB at UTC 2026.08.05 06:56:02.119
+\# Memory report: Maximum memory size now 51,942 MB at UTC 2026.08.05 06:56:02.119
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 

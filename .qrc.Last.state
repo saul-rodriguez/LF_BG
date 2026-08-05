@@ -285,7 +285,7 @@ vuiRcxRunFormOptions = '(
         (vuiRcMachineNameTB      "")
         (vuiQrcLicQueueTimeoutValue      "1800")
         (vuiRcxRunName      "REF_GEN_fL_2")
-        (vuiRcxRunMode      "Multi Processing")
+        (vuiRcxRunMode      "Multi Machine")
         (vuiQueueResource      "")
         (queues      "")
         (vuiNCQueueOptions      "")

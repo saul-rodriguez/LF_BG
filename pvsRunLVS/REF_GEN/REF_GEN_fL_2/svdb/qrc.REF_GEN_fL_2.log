@@ -9,7 +9,7 @@ Inc.
 
 
 INFO (EXTQRCXLOG-128) : Quantus command line:
- Started at: 2026-Aug-04 05:11:18 (2026-Aug-04 05:11:18 GMT)
+ Started at: 2026-Aug-04 13:23:55 (2026-Aug-04 13:23:55 GMT)
  Executable:
 /opt/tools/cadence/installs/QUANTUS241/tools/extraction/bin/64bit/quantus
  Options:     -log_file
@@ -74,10 +74,10 @@ process_technology \
 		"25.0"
 
 -------------------------------------------------------------------------------------
-Tue Aug  4 05:11:19 2026: BEGIN INPUT stage
+Tue Aug  4 13:23:55 2026: BEGIN INPUT stage
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-Tue Aug  4 05:11:20 2026: DONE INPUT stage
+Tue Aug  4 13:23:56 2026: DONE INPUT stage
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
 INPUT stage summary:
@@ -106,7 +106,7 @@ INPUT stage summary:
  Design data:
     global nets:                  0
 
- Peak memory:	199 MB
+ Peak memory:	176 MB
 
  Messages:
     *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
@@ -133,45 +133,45 @@ INPUT stage summary:
     setting dbunit 1e-09 1 1e-09
     
 -------------------------------------------------------------------------------------
-Tue Aug  4 05:11:20 2026: BEGIN EXTRACTION stage
+Tue Aug  4 13:23:56 2026: BEGIN EXTRACTION stage
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-Tue Aug  4 05:11:42 2026: DONE EXTRACTION stage
+Tue Aug  4 13:24:18 2026: DONE EXTRACTION stage
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
 EXTRACTION stage summary:
 -------------------------------------------------------------------------------------
  Design data:
-    LVS nets:                     1015
-    signal nets:                  1003
-    floating nets:                12
+    LVS nets:                     1013
+    signal nets:                  1006
+    floating nets:                7
     ground net name:              GNDA
 
- Peak memory:	456 MB
+ Peak memory:	176 MB
 
 -------------------------------------------------------------------------------------
-Tue Aug  4 05:11:42 2026: BEGIN OUTPUT stage
+Tue Aug  4 13:24:18 2026: BEGIN OUTPUT stage
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-Tue Aug  4 05:11:54 2026: DONE OUTPUT stage
+Tue Aug  4 13:24:32 2026: DONE OUTPUT stage
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
 OUTPUT stage summary:
 -------------------------------------------------------------------------------------
  Reduction statistics:
-    Dangling Rs removed:          528
+    Dangling Rs removed:          531
     Merged Parallel Rs:           0
     Mfactor Merged devices:       0
-    Rs shorted by min_res option: 9365
+    Rs shorted by min_res option: 9381
     Merged Parallel Self Caps:    0
-    CCs filtered by minC option:  25241
+    CCs filtered by minC option:  25361
     Shorted Incomplete Nets:      0
  Output statistics:
-    R: 53569
-    C: 105560
+    R: 53603
+    C: 106662
     L: 0
 
- Peak memory:	456 MB
+ Peak memory:	234 MB
 
     *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
 
@@ -186,13 +186,13 @@ OUTPUT stage summary:
     instance count totals:
     
         lib              cell             view                    total
-        analogLib        pcapacitor       symbol                 105560
-        analogLib        presistor        symbol                  53569
+        analogLib        pcapacitor       symbol                 106662
+        analogLib        presistor        symbol                  53603
         lf11is           cmims            auCdl                      10
         lf11is           dnppw1v2         auCdl                       1
         lf11is           ncap1v2hvt       auCdl                       8
-        lf11is           nmos1v2hvt_4     auCdl                     556
-        lf11is           pmos1v2hvt_4     auCdl                     724
+        lf11is           nmos1v2hvt_4     auCdl                     559
+        lf11is           pmos1v2hvt_4     auCdl                     727
         lf11is           pnp5ux5u         auCdl                     266
         lf11is           rnpolyh_i        auCdl                     321
         lf11is           rnpolym_i        auCdl                     592
@@ -202,12 +202,12 @@ OUTPUT stage summary:
 
 INFO (LBRCXM-920): Host name and peak memory report
  Host Name:                    edatools
- Peak memory used:             456 MB (sampled at 15s intervals)
+ Peak memory used:             234 MB (sampled at 15s intervals)
 
-INFO (LBRCXM-702): Run ended: Tue Aug  4 05:11:58 2026
+INFO (LBRCXM-702): Run ended: Tue Aug  4 13:24:37 2026
 
 
-INFO (LBRCXM-805): Quantus run took:  20s user, 17s sys, 40s elapsed
+INFO (LBRCXM-805): Quantus run took:  20s user, 19s sys, 42s elapsed
 
 
 INFO (LBRCXM-708): *****  Quantus terminated normally  *****

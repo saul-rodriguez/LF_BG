@@ -1,0 +1,581 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Aug  4 13:50:54 2026 
+Best design point: 1
+Design specs: 
+	OP	corner	C0_0 - 
+	V1000		999.9m
+	V550		549.8m
+	I32nA		32.08n
+	I128nA		128.2n
+	BangapRef		600.2m
+	PRN_TRIGGER		76.76u
+	REF5_dc_current		3.174u
+	total_noise_V		162.6u
+	LDO		700.3m
+	LVDS		825.1m
+	OP	corner	C0_1 - 
+	V1000		1
+	V550		550m
+	I32nA		29.49n
+	I128nA		117.9n
+	BangapRef		600.3m
+	PRN_TRIGGER		99.53u
+	REF5_dc_current		3.046u
+	total_noise_V		162u
+	LDO		700.6m
+	LVDS		825.4m
+	OP	corner	C1_0 - 
+	V1000		1.003
+	V550		551.6m
+	I32nA		39.2n
+	I128nA		156.7n
+	BangapRef		602.3m
+	PRN_TRIGGER		63.71u
+	REF5_dc_current		3.658u
+	total_noise_V		165.1u
+	LDO		702.7m
+	LVDS		828m
+	OP	corner	C1_1 - 
+	V1000		1.004
+	V550		552.3m
+	I32nA		36.24n
+	I128nA		144.7n
+	BangapRef		602.8m
+	PRN_TRIGGER		315.6u
+	REF5_dc_current		3.66u
+	total_noise_V		169.2u
+	LDO		703.5m
+	LVDS		828.7m
+	OP	corner	C1_2 - 
+	V1000		1.004
+	V550		553.3m
+	I32nA		33.34n
+	I128nA		132.7n
+	BangapRef		603.8m
+	PRN_TRIGGER		895.8u
+	REF5_dc_current		3.612u
+	total_noise_V		171.1u
+	LDO		704.9m
+	LVDS		829.3m
+	OP	corner	C1_3 - 
+	V1000		1.004
+	V550		551.9m
+	I32nA		35.9n
+	I128nA		143.5n
+	BangapRef		602.5m
+	PRN_TRIGGER		92.8u
+	REF5_dc_current		3.496u
+	total_noise_V		164.4u
+	LDO		703m
+	LVDS		828.3m
+	OP	corner	C1_4 - 
+	V1000		1.005
+	V550		553m
+	I32nA		33.47n
+	I128nA		133.5n
+	BangapRef		603.2m
+	PRN_TRIGGER		629.7u
+	REF5_dc_current		3.524u
+	total_noise_V		168.5u
+	LDO		704.4m
+	LVDS		829.7m
+	OP	corner	C1_5 - 
+	V1000		1.006
+	V550		554.5m
+	I32nA		31.1n
+	I128nA		123.4n
+	BangapRef		604.8m
+	PRN_TRIGGER		1.665m
+	REF5_dc_current		3.534u
+	total_noise_V		170.9u
+	LDO		706.4m
+	LVDS		831m
+	OP	corner	C2_0 - 
+	V1000		1.002
+	V550		550.6m
+	I32nA		31.14n
+	I128nA		124.5n
+	BangapRef		601.2m
+	PRN_TRIGGER		58.3u
+	REF5_dc_current		2.819u
+	total_noise_V		149.8u
+	LDO		701.3m
+	LVDS		826.4m
+	OP	corner	C2_1 - 
+	V1000		1.001
+	V550		550.1m
+	I32nA		29.26n
+	I128nA		117n
+	BangapRef		600.5m
+	PRN_TRIGGER		111.1u
+	REF5_dc_current		2.84u
+	total_noise_V		156.3u
+	LDO		700.6m
+	LVDS		825.5m
+	OP	corner	C2_2 - 
+	V1000		1
+	V550		550.2m
+	I32nA		28.1n
+	I128nA		112.3n
+	BangapRef		600.5m
+	PRN_TRIGGER		137.8u
+	REF5_dc_current		2.82u
+	total_noise_V		157.8u
+	LDO		700.8m
+	LVDS		825.5m
+	OP	corner	C2_3 - 
+	V1000		1.002
+	V550		550.7m
+	I32nA		28.5n
+	I128nA		113.9n
+	BangapRef		601.2m
+	PRN_TRIGGER		64.93u
+	REF5_dc_current		2.7u
+	total_noise_V		150.1u
+	LDO		701.3m
+	LVDS		826.5m
+	OP	corner	C2_4 - 
+	V1000		1.001
+	V550		550.3m
+	I32nA		26.83n
+	I128nA		107.3n
+	BangapRef		600.6m
+	PRN_TRIGGER		118.8u
+	REF5_dc_current		2.72u
+	total_noise_V		155.8u
+	LDO		700.8m
+	LVDS		825.8m
+	OP	corner	C2_5 - 
+	V1000		1.001
+	V550		550.4m
+	I32nA		25.82n
+	I128nA		103.2n
+	BangapRef		600.7m
+	PRN_TRIGGER		146.5u
+	REF5_dc_current		2.708u
+	total_noise_V		157.3u
+	LDO		701.1m
+	LVDS		825.9m
+	OP	corner	C3_0 - 
+	V1000		1.002
+	V550		550.6m
+	I32nA		31.14n
+	I128nA		124.5n
+	BangapRef		601.2m
+	PRN_TRIGGER		58.3u
+	REF5_dc_current		2.819u
+	total_noise_V		167u
+	LDO		701.3m
+	LVDS		826.4m
+	OP	corner	C3_1 - 
+	V1000		1.001
+	V550		550.1m
+	I32nA		29.26n
+	I128nA		117n
+	BangapRef		600.5m
+	PRN_TRIGGER		111.1u
+	REF5_dc_current		2.84u
+	total_noise_V		172.8u
+	LDO		700.6m
+	LVDS		825.5m
+	OP	corner	C3_2 - 
+	V1000		1
+	V550		550.2m
+	I32nA		28.1n
+	I128nA		112.3n
+	BangapRef		600.5m
+	PRN_TRIGGER		137.8u
+	REF5_dc_current		2.82u
+	total_noise_V		173.8u
+	LDO		700.8m
+	LVDS		825.5m
+	OP	corner	C3_3 - 
+	V1000		1.002
+	V550		550.7m
+	I32nA		28.5n
+	I128nA		113.9n
+	BangapRef		601.2m
+	PRN_TRIGGER		64.93u
+	REF5_dc_current		2.7u
+	total_noise_V		167.5u
+	LDO		701.3m
+	LVDS		826.5m
+	OP	corner	C3_4 - 
+	V1000		1.001
+	V550		550.3m
+	I32nA		26.83n
+	I128nA		107.3n
+	BangapRef		600.6m
+	PRN_TRIGGER		118.8u
+	REF5_dc_current		2.72u
+	total_noise_V		172.1u
+	LDO		700.8m
+	LVDS		825.8m
+	OP	corner	C3_5 - 
+	V1000		1.001
+	V550		550.4m
+	I32nA		25.82n
+	I128nA		103.2n
+	BangapRef		600.7m
+	PRN_TRIGGER		146.5u
+	REF5_dc_current		2.708u
+	total_noise_V		173.1u
+	LDO		701.1m
+	LVDS		825.9m
+	OP	corner	C4_0 - 
+	V1000		1.003
+	V550		551.6m
+	I32nA		39.2n
+	I128nA		156.7n
+	BangapRef		602.3m
+	PRN_TRIGGER		63.71u
+	REF5_dc_current		3.658u
+	total_noise_V		148.6u
+	LDO		702.7m
+	LVDS		828m
+	OP	corner	C4_1 - 
+	V1000		1.004
+	V550		552.3m
+	I32nA		36.24n
+	I128nA		144.7n
+	BangapRef		602.8m
+	PRN_TRIGGER		315.6u
+	REF5_dc_current		3.66u
+	total_noise_V		153.9u
+	LDO		703.5m
+	LVDS		828.7m
+	OP	corner	C4_2 - 
+	V1000		1.004
+	V550		553.3m
+	I32nA		33.34n
+	I128nA		132.7n
+	BangapRef		603.8m
+	PRN_TRIGGER		895.8u
+	REF5_dc_current		3.612u
+	total_noise_V		156u
+	LDO		704.9m
+	LVDS		829.3m
+	OP	corner	C4_3 - 
+	V1000		1.004
+	V550		551.9m
+	I32nA		35.9n
+	I128nA		143.5n
+	BangapRef		602.5m
+	PRN_TRIGGER		92.8u
+	REF5_dc_current		3.496u
+	total_noise_V		148u
+	LDO		703m
+	LVDS		828.3m
+	OP	corner	C4_4 - 
+	V1000		1.005
+	V550		553m
+	I32nA		33.47n
+	I128nA		133.5n
+	BangapRef		603.2m
+	PRN_TRIGGER		629.7u
+	REF5_dc_current		3.524u
+	total_noise_V		153.3u
+	LDO		704.4m
+	LVDS		829.7m
+	OP	corner	C4_5 - 
+	V1000		1.006
+	V550		554.5m
+	I32nA		31.1n
+	I128nA		123.4n
+	BangapRef		604.8m
+	PRN_TRIGGER		1.665m
+	REF5_dc_current		3.534u
+	total_noise_V		155.5u
+	LDO		706.4m
+	LVDS		831m
+	OP	corner	C5_0 - 
+	V1000		1.002
+	V550		550.9m
+	I32nA		31.46n
+	I128nA		125.8n
+	BangapRef		601.4m
+	PRN_TRIGGER		36.49u
+	REF5_dc_current		2.859u
+	total_noise_V		150.8u
+	LDO		701.6m
+	LVDS		826.7m
+	OP	corner	C5_1 - 
+	V1000		1.004
+	V550		552.3m
+	I32nA		29.56n
+	I128nA		118.2n
+	BangapRef		602.8m
+	PRN_TRIGGER		43.02u
+	REF5_dc_current		2.878u
+	total_noise_V		156.8u
+	LDO		703.3m
+	LVDS		828.7m
+	OP	corner	C5_2 - 
+	V1000		1.01
+	V550		555.7m
+	I32nA		28.67n
+	I128nA		114.6n
+	BangapRef		606.5m
+	PRN_TRIGGER		48.92u
+	REF5_dc_current		2.892u
+	total_noise_V		158.5u
+	LDO		707.7m
+	LVDS		833.7m
+	OP	corner	C5_3 - 
+	V1000		1.002
+	V550		551.2m
+	I32nA		28.62n
+	I128nA		114.4n
+	BangapRef		601.7m
+	PRN_TRIGGER		41.67u
+	REF5_dc_current		2.72u
+	total_noise_V		150.8u
+	LDO		701.9m
+	LVDS		827.1m
+	OP	corner	C5_4 - 
+	V1000		1.005
+	V550		552.7m
+	I32nA		27.05n
+	I128nA		108.1n
+	BangapRef		603.3m
+	PRN_TRIGGER		48.9u
+	REF5_dc_current		2.753u
+	total_noise_V		156.3u
+	LDO		703.9m
+	LVDS		829.4m
+	OP	corner	C5_5 - 
+	V1000		1.011
+	V550		556.3m
+	I32nA		26.26n
+	I128nA		104.9n
+	BangapRef		607.1m
+	PRN_TRIGGER		56.2u
+	REF5_dc_current		2.774u
+	total_noise_V		158.1u
+	LDO		708.5m
+	LVDS		834.5m
+	OP	corner	C6_0 - 
+	V1000		1.003
+	V550		551.4m
+	I32nA		38.66n
+	I128nA		154.5n
+	BangapRef		602.1m
+	PRN_TRIGGER		86.85u
+	REF5_dc_current		3.601u
+	total_noise_V		164.5u
+	LDO		702.4m
+	LVDS		827.8m
+	OP	corner	C6_1 - 
+	V1000		1.001
+	V550		550.3m
+	I32nA		35.86n
+	I128nA		143.2n
+	BangapRef		600.7m
+	PRN_TRIGGER		352.3u
+	REF5_dc_current		3.611u
+	total_noise_V		168.4u
+	LDO		701m
+	LVDS		825.8m
+	OP	corner	C6_2 - 
+	V1000		994.7m
+	V550		548.2m
+	I32nA		32.61n
+	I128nA		129.9n
+	BangapRef		598.3m
+	PRN_TRIGGER		894.4u
+	REF5_dc_current		3.502u
+	total_noise_V		170.5u
+	LDO		698.4m
+	LVDS		821.8m
+	OP	corner	C6_3 - 
+	V1000		1.003
+	V550		551.5m
+	I32nA		35.73n
+	I128nA		142.8n
+	BangapRef		602.1m
+	PRN_TRIGGER		113.5u
+	REF5_dc_current		3.471u
+	total_noise_V		163.8u
+	LDO		702.5m
+	LVDS		827.9m
+	OP	corner	C6_4 - 
+	V1000		1.001
+	V550		550.4m
+	I32nA		33.16n
+	I128nA		132.3n
+	BangapRef		600.8m
+	PRN_TRIGGER		616u
+	REF5_dc_current		3.478u
+	total_noise_V		167.6u
+	LDO		701.2m
+	LVDS		826m
+	OP	corner	C6_5 - 
+	V1000		995.6m
+	V550		548.7m
+	I32nA		30.49n
+	I128nA		121.2n
+	BangapRef		598.7m
+	PRN_TRIGGER		1.669m
+	REF5_dc_current		3.405u
+	total_noise_V		168.9u
+	LDO		699.1m
+	LVDS		822.6m
+	OP	corner	C7_0 - 
+	V1000		1.001
+	V550		550.5m
+	I32nA		29.24n
+	I128nA		116.9n
+	BangapRef		601m
+	PRN_TRIGGER		88.92u
+	REF5_dc_current		2.731u
+	total_noise_V		150.6u
+	LDO		701.1m
+	LVDS		826.2m
+	OP	corner	C7_1 - 
+	V1000		998.8m
+	V550		549.5m
+	I32nA		26.83n
+	I128nA		107.2n
+	BangapRef		599.7m
+	PRN_TRIGGER		382u
+	REF5_dc_current		2.723u
+	total_noise_V		155.9u
+	LDO		699.8m
+	LVDS		824.4m
+	OP	corner	C7_2 - 
+	V1000		990.8m
+	V550		546.6m
+	I32nA		23.89n
+	I128nA		95.14n
+	BangapRef		596.4m
+	PRN_TRIGGER		1.035m
+	REF5_dc_current		2.621u
+	total_noise_V		157.3u
+	LDO		696.3m
+	LVDS		818.9m
+	OP	corner	C7_3 - 
+	V1000		1.002
+	V550		550.6m
+	I32nA		26.91n
+	I128nA		107.6n
+	BangapRef		601m
+	PRN_TRIGGER		121.2u
+	REF5_dc_current		2.624u
+	total_noise_V		149.9u
+	LDO		701.2m
+	LVDS		826.3m
+	OP	corner	C7_4 - 
+	V1000		999.1m
+	V550		549.6m
+	I32nA		24.83n
+	I128nA		99.06n
+	BangapRef		599.8m
+	PRN_TRIGGER		711.3u
+	REF5_dc_current		2.624u
+	total_noise_V		155.2u
+	LDO		700m
+	LVDS		824.6m
+	OP	corner	C7_5 - 
+	V1000		992.4m
+	V550		547.6m
+	I32nA		22.44n
+	I128nA		89.14n
+	BangapRef		597.2m
+	PRN_TRIGGER		1.945m
+	REF5_dc_current		2.563u
+	total_noise_V		156.1u
+	LDO		697.5m
+	LVDS		820.3m
+	OP	corner	C8_0 - 
+	V1000		1.004
+	V550		551.8m
+	I32nA		41.67n
+	I128nA		166.6n
+	BangapRef		602.4m
+	PRN_TRIGGER		32.78u
+	REF5_dc_current		3.777u
+	total_noise_V		164.1u
+	LDO		702.8m
+	LVDS		828.2m
+	OP	corner	C8_1 - 
+	V1000		1.005
+	V550		552.5m
+	I32nA		39.28n
+	I128nA		157n
+	BangapRef		603.2m
+	PRN_TRIGGER		43.46u
+	REF5_dc_current		3.804u
+	total_noise_V		169.2u
+	LDO		703.8m
+	LVDS		829.3m
+	OP	corner	C8_2 - 
+	V1000		1.009
+	V550		555.1m
+	I32nA		38.12n
+	I128nA		152.3n
+	BangapRef		605.9m
+	PRN_TRIGGER		51.61u
+	REF5_dc_current		3.817u
+	total_noise_V		170u
+	LDO		707.1m
+	LVDS		833m
+	OP	corner	C8_3 - 
+	V1000		1.004
+	V550		552m
+	I32nA		37.95n
+	I128nA		151.7n
+	BangapRef		602.6m
+	PRN_TRIGGER		36.8u
+	REF5_dc_current		3.596u
+	total_noise_V		164.8u
+	LDO		703.1m
+	LVDS		828.4m
+	OP	corner	C8_4 - 
+	V1000		1.006
+	V550		552.9m
+	I32nA		35.97n
+	I128nA		143.8n
+	BangapRef		603.6m
+	PRN_TRIGGER		48.1u
+	REF5_dc_current		3.639u
+	total_noise_V		168.7u
+	LDO		704.3m
+	LVDS		829.8m
+	OP	corner	C8_5 - 
+	V1000		1.01
+	V550		555.6m
+	I32nA		34.95n
+	I128nA		139.7n
+	BangapRef		606.4m
+	PRN_TRIGGER		57.31u
+	REF5_dc_current		3.66u
+	total_noise_V		169.6u
+	LDO		707.8m
+	LVDS		833.7m
+	OP	corner	Nominal - 
+	V1000		999.9m
+	V550		549.8m
+	I32nA		32.08n
+	I128nA		128.2n
+	BangapRef		600.2m
+	PRN_TRIGGER		76.76u
+	REF5_dc_current		3.174u
+	total_noise_V		162.6u
+	LDO		700.3m
+	LVDS		825.1m
+Design parameters: 
+	CL		150f
+	CONF_BG_SL_TRIM		3
+	CONF_BG_TRIM		3
+	CONF_REF_TRIM		3
+	CONF_LVDS_SEL		0
+	CONF_LDO_SEL		0
+	PD		0
+	PD_PULSE		0
+
+Interactive.188
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.188 completed. 
+Current time: Tue Aug  4 14:39:24 2026 

@@ -37,7 +37,7 @@ is either invalid or duplicated. CDF termOrder for this component will be ignore
 Ensure that termOrder matches actual terminals in cellview and re-netlist to reflect any change in termOrder.
 Nets will be printed in default terminal order for this component.
 
-End netlisting Aug  4 05:08:34 2026
+End netlisting Aug  4 13:22:32 2026
 
 Running simin
 
@@ -45,8 +45,8 @@ Running runSim()...
 
 
 Running runsim with simulator: "auCdl"
-Begin simulation:    Aug  4 05:08:34 2026
+Begin simulation:    Aug  4 13:22:32 2026
 
 auCdl netlisting completed
-End simulation:      Aug  4 05:08:34 2026
+End simulation:      Aug  4 13:22:32 2026
 INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

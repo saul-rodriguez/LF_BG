@@ -1,0 +1,2 @@
+RNPOLYMNW1V2,1,rnpolym
+RNPOLYHNW1V2,1,rnpolyh

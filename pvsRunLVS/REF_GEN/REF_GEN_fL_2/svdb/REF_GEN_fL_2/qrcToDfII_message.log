@@ -76,54 +76,54 @@ Loading CDLOUT map files for /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN
 
 Creating extracted view for REF_GEN_fL_2
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X312/X45/M0" in subckt REF_GEN_fL_2 renamed "X312/X45/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X320/X46/M0" in subckt REF_GEN_fL_2 renamed "X320/X46/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X312/X47/M0" in subckt REF_GEN_fL_2 renamed "X312/X47/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X320/X48/M0" in subckt REF_GEN_fL_2 renamed "X320/X48/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X530/M0" in subckt REF_GEN_fL_2 renamed "X314/X530/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X530/M0" in subckt REF_GEN_fL_2 renamed "X322/X530/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X531/M0" in subckt REF_GEN_fL_2 renamed "X314/X531/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X531/M0" in subckt REF_GEN_fL_2 renamed "X322/X531/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X540/M0" in subckt REF_GEN_fL_2 renamed "X314/X540/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X540/M0" in subckt REF_GEN_fL_2 renamed "X322/X540/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X541/M0" in subckt REF_GEN_fL_2 renamed "X314/X541/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X541/M0" in subckt REF_GEN_fL_2 renamed "X322/X541/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X542/M0" in subckt REF_GEN_fL_2 renamed "X314/X542/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X542/M0" in subckt REF_GEN_fL_2 renamed "X322/X542/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X546/M0" in subckt REF_GEN_fL_2 renamed "X314/X546/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X546/M0" in subckt REF_GEN_fL_2 renamed "X322/X546/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X577/M0" in subckt REF_GEN_fL_2 renamed "X314/X577/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X577/M0" in subckt REF_GEN_fL_2 renamed "X322/X577/M0_unmatched"
 
-INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X578/M0" in subckt REF_GEN_fL_2 renamed "X314/X578/M0_unmatched"
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X322/X578/M0" in subckt REF_GEN_fL_2 renamed "X322/X578/M0_unmatched"
 
 *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
 Copying layer METAL1a
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/64" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/64" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/65" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/65" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/66" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/66" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/67" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/67" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/68" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/68" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/69" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/69" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/70" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/70" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/71" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/71" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/72" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/72" in subckt REF_GEN_fL_2.
 
-INFO (LBCLV-5365): spice2db warning: No reference for net "X314/73" in subckt REF_GEN_fL_2.
+INFO (LBCLV-5365): spice2db warning: No reference for net "X322/73" in subckt REF_GEN_fL_2.
 
-Layer METAL1a has 14395 shapes.
+Layer METAL1a has 14445 shapes.
 Copying layer METAL2a
-Layer METAL2a has 4680 shapes.
+Layer METAL2a has 4686 shapes.
 Copying layer METAL3a
-Layer METAL3a has 697 shapes.
+Layer METAL3a has 701 shapes.
 Copying layer METAL4a
 Layer METAL4a has 4 shapes.
 Copying layer METAL5a
@@ -132,7 +132,7 @@ Copying layer METALFa
 Warning: There is no layer METAL_F defined in the library' techfile
 No shapes for layer METALFa will be processed
 Copying layer POLYG3
-Layer POLYG3 has 11565 shapes.
+Layer POLYG3 has 11594 shapes.
 *WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
                        The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
 
@@ -142,13 +142,13 @@ Summary for REF_GEN/REF_GEN_fL_2/av_extracted
 instance count totals:
 
     lib              cell             view                    total
-    analogLib        pcapacitor       symbol                 105560
-    analogLib        presistor        symbol                  53569
+    analogLib        pcapacitor       symbol                 106662
+    analogLib        presistor        symbol                  53603
     lf11is           cmims            auCdl                      10
     lf11is           dnppw1v2         auCdl                       1
     lf11is           ncap1v2hvt       auCdl                       8
-    lf11is           nmos1v2hvt_4     auCdl                     556
-    lf11is           pmos1v2hvt_4     auCdl                     724
+    lf11is           nmos1v2hvt_4     auCdl                     559
+    lf11is           pmos1v2hvt_4     auCdl                     727
     lf11is           pnp5ux5u         auCdl                     266
     lf11is           rnpolyh_i        auCdl                     321
     lf11is           rnpolym_i        auCdl                     592

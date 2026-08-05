@@ -11,9 +11,9 @@
 	View         = config
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.148
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.148.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.148/1/OP
+	State Name   = TRAN_BANDGAP:REF_GEN_TB:1:1_state_Interactive.185
+	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.185.rdb
+	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.185/1/TRAN
 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
 	Project Dir  = /home/saul/simulation
 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
@@ -28,7 +28,7 @@
 
 
 
-*Info*    Run start for Point ID (8 1) on testbench [ OP ].
+*Info*    Run start for Point ID (3 1) on testbench [ TRAN ].
 
 Resetting statistical vars
 
@@ -40,40 +40,111 @@ Setting var CONF_BG_SL_TRIM = "3"
 Setting var CONF_BG_TRIM = "3"
 Setting var CONF_LDO_SEL = "0"
 Setting var CONF_LVDS_SEL = "0"
-Setting var CONF_REF_TRIM = "0"
-Setting var EN = "1.2"
-Setting var EN_PULSE = "0"
+Setting var CONF_REF_TRIM = "3"
+Setting var EN = "0"
+Setting var EN_PULSE = "1.2"
 Setting var PD = "0"
 Setting var PD_PULSE = "0"
 Setting var TT = "1u"
-Setting var VDD = "1.2"
-Setting var VDD_PULSE = "0"
+Setting var VDD = "0"
+Setting var VDD_PULSE = "1.2"
 Setting var temperature = "50.0"
 Setting temp(T) = 50.0
 
 *Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.148/1/OP/netlist
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.185/1/TRAN/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.148/1/OP
+          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.185/1/TRAN
 
 
-*Info*    Creating Netlist for Point ID (8 1)
+*Info*    Creating Netlist for Point ID (3 1)
 
 generate netlist...
-Begin Incremental Netlisting Jul  8 09:56:47 2026
-End netlisting Jul  8 09:56:47 2026
+Begin Incremental Netlisting Aug  4 13:30:12 2026
+WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+directory. Netlist(s) from last session cannot be reused for incremental
+netlisting. Therefore, re-netlisting the design.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+WARNING (OSSHNL-155): Unable to delete the directory 'cds102', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds101', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds100', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds98', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds94', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds93', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds92', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds120', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds118', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds117', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds116', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds115', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds114', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds113', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds110', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+WARNING (OSSHNL-155): Unable to delete the directory 'cds109', either because of incorrect permission or
+because files from this directory are being used by another application.
+Netlisting will continue.
+
+End netlisting Aug  4 13:30:35 2026
+
+Netlisting Statistics:
+	Number of components: 162800
+
+	Elapsed time:         23.0s (7078.26/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ OP ] for Point ID (8 1).
+*Info*    Running simulation on testbench [ TRAN ] for Point ID (3 1).
 
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.148/1/OP/psf.
+Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.185/1/TRAN/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -87,14 +158,13 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.148/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.148/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("/V0" ?result "xf"))'.
-Ensure that the definition of output is correct.
+ERROR (WIA-1006): Unable to plot expression <VT("/I8/I0/PRN")>
+           because it does not evaluate to an object that can be plotted, like a waveform or
+           parametric wave. See the Visualization & Analysis Tool documentation for information
+           about the types of objects that can be plotted in Visualization & Analysis Tool. Only
+           the expressions that evaluate to those objects can be plotted.
 
-
-*Info*    Run complete for Point ID (8 1) on testbench [ OP ].
+*Info*    Run complete for Point ID (3 1) on testbench [ TRAN ].
 
 
 

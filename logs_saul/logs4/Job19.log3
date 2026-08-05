@@ -1,119 +1,937 @@
-*Info*    Exporting services from client ... 
-
-*Info*    Client has finished starting ... 
-
-
-
-*Info*    Configuring the session ...
-
-	Library      = REF_GEN
-	Cell         = REF_GEN_f_TB
-	View         = config
-	Simulator    = spectre
-	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.102
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP
-	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
-	Project Dir  = /home/saul/simulation
-	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
-	File Encoding = 0
-
-
-
-*Info*    The auto suspension is disabled.
-
-
-
-
-
-
-*Info*    Run start for Point ID (9 1) on testbench [ OP ].
-
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting var CL = "150f"
-Setting var CL2 = "3p"
-Setting var CONF_BG_SL_TRIM = "3"
-Setting var CONF_BG_TRIM = "3"
-Setting var CONF_LDO_SEL = "0"
-Setting var CONF_LVDS_SEL = "0"
-Setting var CONF_REF_TRIM = "3"
-Setting var EN = "1.2"
-Setting var EN_PULSE = "0"
-Setting var PD = "0"
-Setting var PD_PULSE = "0"
-Setting var TT = "1u"
-Setting var VDD = "1.2"
-Setting var VDD_PULSE = "0"
-Setting var temperature = "50.0"
-Setting temp(T) = 50.0
-
-*Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP/netlist
-
-
-*Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP
-
-
-*Info*    Creating Netlist for Point ID (9 1)
-
-generate netlist...
-Begin Incremental Netlisting Jun 25 18:10:48 2026
-End netlisting Jun 25 18:10:48 2026
-
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
-      ...successful.
-compose simulator input file...
-      ...successful.
-
-*Info*    Running simulation on testbench [ OP ] for Point ID (9 1).
-
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP/psf.
-compose simulator input file...
-      ...successful.
-start simulator if needed...
-      ...successful.
-simulate...
-To view the simulator output, right-click on the test name, result 
-name, or any value in the "Results" tab of the Outputs section and 
-choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
-
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2708): Evaluation of output 'total_noise_V' failed for point:'1' test:'OP'
-	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
-	because of the following error(s)
-	*Error* expt: can't handle (nil**2).
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results noise are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'output noise; V / sqrt(Hz)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("out" ?result "noise"))'.
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.102/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("/V0" ?result "xf"))'.
-Ensure that the definition of output is correct.
-
-
-*Info*    Run complete for Point ID (9 1) on testbench [ OP ].
-
-
-
-
-
-Simulation design variables differ from those on the cellView,
-they have been saved in the file "/tmp/saved-design-variables".
-To save future changes, copy variables to cellView before exiting.
+\# Program start time:     UTC 2026.08.04 13:50:55.473
+\# Local time: UTC (UTC+00:00) 2026.08.04 13:50:55.473
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEeVN2q5x3HWLpBmEAacWuI_26335 -mpshost 57465@edatools -davinciService DaVinciService_26531_1785822224 -log /home/saul/projects/LF_BG/logs_saul/logs4/Job19.log3 -licenseLockFileName /home/saul/projects/LF_BG/.tmp_saul/.edatools_26531 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 19
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 7.0.0-28-generic #28~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jul  1 15:50:57 UTC 2
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5577 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,451 MB
+\# Available memory:	     60,334 MB
+\# System memory:	     72,235 MB
+\# Maximum memory size:	     70,903 MB
+\# Max mem available:	     60,454 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,680 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	edatools:/home/saul/projects/LF_BG
+\# Process Id:		45462
+\# Container Id:	EeVN2q5x3HWLpBmEAacWuI
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEeVN2q5x3HWLpBmEAacWuI_26335, host=57465@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 45462 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [13:50:55.445338] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o 
+\o ----------------          LFoundry            ----------------
+\o ----------------    Initializing LF11IS PDK    ----------------
+\o ----------------        Version 1.3.2         ----------------
+\o ----------------        Option 6metal         ----------------
+\o *LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+\o *LF-INFO* lf11is libInit.il loaded successfully. 
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\w *WARNING* Cannot find /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/tools/wavescan directory to load environment variables
+\w *WARNING* envSetVal: could not find tool[.partition] 'wavescan.trace'
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting HSpice models                 done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: PDF reader "evince" found: /bin/evince.
+\o *LF-INFO* .cdsinit: Creating LF11IS PDK menus              done
+\o *LF-INFO* .cdsinit: Loading LF11IS display.drf             done
+\o *LF-INFO* .cdsinit: Setting PVS setup trigger      done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *LF-INFO* .cdsinit: Loading ISO Ring utility              done
+\o *LF-INFO* .cdsinit: Loading Layout Utilities              done
+\o *LF-INFO* .cdsinit: Opening library manager 				  done
+\e *Error* load: can't access file - "/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/lib/calibre.skl"
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Memory report: using         278 MB, process size 1,971 MB at UTC 2026.08.04 13:50:57.107
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 45462' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = REF_GEN
+\o 	Cell         = REF_GEN_f_TB
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = OP_none_Interactive.188
+\o 	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188.rdb
+\o 	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/1/OP
+\o 	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/simulation
+\o 	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Memory report: using         429 MB, process size 2,122 MB at UTC 2026.08.04 13:50:58.258
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 1) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "150f"
+\o Setting var CL2 = "3p"
+\o Setting var CONF_BG_SL_TRIM = "3"
+\o Setting var CONF_BG_TRIM = "3"
+\o Setting var CONF_LDO_SEL = "0"
+\o Setting var CONF_LVDS_SEL = "0"
+\o Setting var CONF_REF_TRIM = "3"
+\o Setting var EN = "1.2"
+\o Setting var EN_PULSE = "0"
+\o Setting var PD = "0"
+\o Setting var PD_PULSE = "0"
+\o Setting var TT = "1u"
+\o Setting var VDD = "1.2"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "50.0"
+\o Setting temp(T) = 50.0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/1/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/1/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [13:50:58.345697] Periodic Lic check successful
+\# [13:50:58.345698] Feature usage summary:
+\o Begin Incremental Netlisting Aug  4 13:50:58 2026
+\o WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+\o directory. Netlist(s) from last session cannot be reused for incremental
+\o netlisting. Therefore, re-netlisting the design.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds217', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds218', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds219', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds223', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds225', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds226', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds227', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds234', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds235', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds238', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds239', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds240', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds241', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds242', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds243', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\o WARNING (OSSHNL-155): Unable to delete the directory 'cds245', either because of incorrect permission or
+\o because files from this directory are being used by another application.
+\o Netlisting will continue.
+\o 
+\# Memory report: using         691 MB, process size 2,448 MB at UTC 2026.08.04 13:51:00.804
+\# Available memory:         59,771 MB at UTC 2026.08.04 13:51:05.265
+\# Memory report: Maximum memory size now 60,462 MB at UTC 2026.08.04 13:51:05.265
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.08.04 13:51:05.265
+\o Loading json.cxt 
+\o End netlisting Aug  4 13:51:19 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components: 162800
+\o 
+\o 	Elapsed time:         21.0s (7752.38/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 1).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/1/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 1) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 2) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/2/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/2/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 13:52:23 2026
+\o End netlisting Aug  4 13:52:25 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   2.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 2).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/2/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 55,847 MB at UTC 2026.08.04 13:52:35.552
+\# Available memory:         53,817 MB at UTC 2026.08.04 13:52:55.604
+\# Memory report: Maximum memory size now 54,594 MB at UTC 2026.08.04 13:52:55.604
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using         818 MB, process size 2,625 MB at UTC 2026.08.04 13:57:03.521
+\o 
+\o *Info*    Run complete for Point ID (6 2) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 7) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "1.32"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/7/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/7/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 13:57:16 2026
+\o End netlisting Aug  4 13:57:21 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   5.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 7).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/7/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 56,932 MB at UTC 2026.08.04 13:57:29.552
+\# Memory report: Maximum memory size now 54,629 MB at UTC 2026.08.04 13:57:39.552
+\# Memory report: Maximum memory size now 53,355 MB at UTC 2026.08.04 13:58:09.100
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using         923 MB, process size 2,730 MB at UTC 2026.08.04 14:01:46.260
+\o 
+\o *Info*    Run complete for Point ID (6 7) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 12) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "1.2"
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/12/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/12/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:01:49 2026
+\o End netlisting Aug  4 14:01:51 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   2.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 12).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/12/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 55,174 MB at UTC 2026.08.04 14:01:59.553
+\# Memory report: Maximum memory size now 53,968 MB at UTC 2026.08.04 14:02:09.123
+\# Memory report: Maximum memory size now 52,828 MB at UTC 2026.08.04 14:02:49.552
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using       1,028 MB, process size 2,835 MB at UTC 2026.08.04 14:06:19.826
+\o 
+\o *Info*    Run complete for Point ID (6 12) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 17) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "50"
+\o Setting temp(T) = 50
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/17/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/17/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:06:26 2026
+\o End netlisting Aug  4 14:06:30 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   4.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 17).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/17/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 55,374 MB at UTC 2026.08.04 14:06:39.552
+\# Memory report: Maximum memory size now 53,507 MB at UTC 2026.08.04 14:06:49.553
+\# Memory report: Maximum memory size now 52,399 MB at UTC 2026.08.04 14:07:19.553
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using       1,133 MB, process size 2,940 MB at UTC 2026.08.04 14:10:33.020
+\o 
+\o *Info*    Run complete for Point ID (6 17) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 22) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/22/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/22/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:10:46 2026
+\o End netlisting Aug  4 14:10:55 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   9.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 22).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/22/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 54,320 MB at UTC 2026.08.04 14:11:04.552
+\# Memory report: Maximum memory size now 52,873 MB at UTC 2026.08.04 14:11:24.553
+\# Memory report: Maximum memory size now 51,648 MB at UTC 2026.08.04 14:12:04.553
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 22) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 27) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "1.32"
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/27/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/27/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 27)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:15:29 2026
+\o End netlisting Aug  4 14:15:34 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   5.0s
+\o       ...successful.
+\o compose simulator input file...
+\# Memory report: Maximum memory size now 54,301 MB at UTC 2026.08.04 14:15:36.062
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 27).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/27/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 52,550 MB at UTC 2026.08.04 14:15:56.553
+\# Memory report: Maximum memory size now 51,386 MB at UTC 2026.08.04 14:16:36.041
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using       1,237 MB, process size 3,044 MB at UTC 2026.08.04 14:19:55.307
+\o 
+\o *Info*    Run complete for Point ID (6 27) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 32) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "50"
+\o Setting temp(T) = 50
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/32/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/32/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 32)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:20:03 2026
+\o End netlisting Aug  4 14:20:15 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:  12.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 32).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/32/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 53,339 MB at UTC 2026.08.04 14:20:26.552
+\# Memory report: Maximum memory size now 52,104 MB at UTC 2026.08.04 14:20:46.552
+\# Memory report: Maximum memory size now 50,992 MB at UTC 2026.08.04 14:22:45.604
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 32) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 37) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/37/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/37/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 37)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:24:48 2026
+\o End netlisting Aug  4 14:24:54 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   6.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 37).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/37/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 53,708 MB at UTC 2026.08.04 14:24:58.552
+\# Memory report: Maximum memory size now 52,108 MB at UTC 2026.08.04 14:25:17.632
+\# Memory report: Maximum memory size now 51,069 MB at UTC 2026.08.04 14:26:17.714
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using       1,345 MB, process size 3,152 MB at UTC 2026.08.04 14:29:37.904
+\o 
+\o *Info*    Run complete for Point ID (6 37) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 42) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "1.2"
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/42/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/42/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 42)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:29:39 2026
+\o End netlisting Aug  4 14:29:44 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   5.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 42).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/42/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 53,502 MB at UTC 2026.08.04 14:29:50.552
+\# Memory report: Maximum memory size now 51,853 MB at UTC 2026.08.04 14:30:10.553
+\# Memory report: Maximum memory size now 50,713 MB at UTC 2026.08.04 14:30:59.600
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 42) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 47) on testbench [ OP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "50"
+\o Setting temp(T) = 50
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/47/OP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/47/OP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 47)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug  4 14:34:24 2026
+\o End netlisting Aug  4 14:34:31 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   7.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ OP ] for Point ID (6 47).
+\o 
+\o Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.188/47/OP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 53,937 MB at UTC 2026.08.04 14:34:42.552
+\# Memory report: Maximum memory size now 51,729 MB at UTC 2026.08.04 14:34:52.553
+\# Memory report: Maximum memory size now 50,449 MB at UTC 2026.08.04 14:36:42.531
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: Maximum memory size now 51,440 MB at UTC 2026.08.04 14:38:38.958
+\o 
+\o *Info*    Run complete for Point ID (6 47) on testbench [ OP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 55,060 MB at UTC 2026.08.04 14:39:28.553
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [14:44:25.146321] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [14:44:25.146330] Feature usage summary:
+\# Memory report: on exit          1,426 MB, process size 3,233 MB at UTC 2026.08.04 14:44:25.670
+\# Memory report: peak usage       1,426 MB, process size 3,233 MB

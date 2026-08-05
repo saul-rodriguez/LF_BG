@@ -3,7 +3,7 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : REF_GEN_fL_2_21165.db
+EDB Library dir : REF_GEN_fL_2_39258.db
 ECDB dir        : ./
 Top Cell        : REF_GEN_fL_2
 CDL netlist     : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL_2/svdb/REF_GEN_fL_2.net
@@ -14,4 +14,4 @@ Lvs file        : /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL_2/svdb/
 Float net file  : .REF_GEN_fL_2.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : REF_GEN_fL_2_21165
+Source Library  : REF_GEN_fL_2_39258

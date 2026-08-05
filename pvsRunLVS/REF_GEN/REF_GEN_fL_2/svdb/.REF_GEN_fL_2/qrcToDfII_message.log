@@ -1,0 +1,156 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+INFO (LBCLV-5346): spice2db warning: Duplicate net "GNDA" in cell "REF_GEN_fL_2" renamed "GNDA@1"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "GNDA" in cell "REF_GEN_fL_2" renamed "GNDA@2"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@1"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@2"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@3"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@4"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@5"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@6"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@7"
+
+INFO (LBCLV-5346): spice2db warning: Duplicate net "VDDA" in cell "REF_GEN_fL_2" renamed "VDDA@8"
+
+device cmims C CMIMS cmims auCdl lf11is  PLUS MINUS
+*LF-INFO* Loading lf11is:/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/analog/callbacks/lf11is_cdfCbks.il   done
+*LF-INFO* lf11is libInit.il loaded successfully. 
+*WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+*WARNING* The directory: '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/$ASSURAHOME/tools/assura/etc/avtech/avTech' does not exist
+	but was defined in libFile '/opt/pdk/lf11/PDK_LF11ISi_V1_3_2/tools/setup/cds.lib' for Lib 'avTech'.
+device cmims2 C CMIMS2 cmims auCdl lf11is   PLUS MINUS
+device cmims7 C CMIMS7 cmims auCdl lf11is   PLUS MINUS
+device cvnm2m3 C FRCAPM2M3 cvnm2m3 auCdl lf11is   PLUS MINUS
+device ncap1v2hvt X NCAP1V2HVT ncap1v2hvt auCdl lf11is PLUS MINUS B
+device ncap3v3rvt X NCAP3V3RVT ncap3v3rvt auCdl lf11is PLUS MINUS B
+device pcap1v2hvt X PCAP1V2HVT pcap1v2hvt auCdl lf11is PLUS MINUS B
+device pcap3v3rvt X PCAP3V3RVT pcap3v3rvt auCdl lf11is PLUS MINUS B
+device dnppw1v2 D    DNPPW1V2 dnppw1v2 auCdl lf11is PLUS MINUS
+device dnppw1v2esd D DNPPW1V2ESD dnppw1v2esd auCdl lf11is PLUS MINUS
+device dnppw3v3 D    DNPPW3V3 dnppw3v3 auCdl lf11is PLUS MINUS
+device dnppw3v3esd D DNPPW3V3ESD  dnppw3v3esd auCdl lf11is PLUS MINUS
+device dppnw1v2 D    DPPNW1V2  dppnw1v2 auCdl lf11is PLUS MINUS
+device dppnw1v2esd D DPPNW1V2ESD  dppnw1v2esd auCdl lf11is PLUS MINUS
+device dppnw3v3 D    DPPNW3V3  dppnw3v3 auCdl lf11is PLUS MINUS
+device dppnw3v3esd D DPPNW3V3ESD  dppnw3v3esd auCdl lf11is PLUS MINUS
+device ddnwsub D     DDNWSUB  ddnwsub auCdl lf11is PLUS MINUS
+device dpw1v2dnw D   DPW1V2DNW  dpw1v2dnw auCdl lf11is PLUS MINUS
+device dpw3v3dnw D   DPW3V3DNW  dpw3v3dnw auCdl lf11is PLUS MINUS
+device nmos1v2hvt M NMOS1V2HVT  nmos1v2hvt_4 auCdl lf11is D G S B
+device nmos3v3rvt M NMOS3V3RVT  nmos3v3rvt_4 auCdl lf11is D G S B
+device pmos1v2hvt M PMOS1V2HVT  pmos1v2hvt_4 auCdl lf11is D G S B
+device pmos3v3rvt M PMOS3V3RVT  pmos3v3rvt_4 auCdl lf11is D G S B
+device rmet1 R  RMET1a rmet1 auCdl lf11is PLUS MINUS
+device rmet2 R  RMET2a rmet2 auCdl lf11is PLUS MINUS
+device rmet3 R  RMET3a rmet3 auCdl lf11is PLUS MINUS
+device rmet4 R  RMET4a rmet4 auCdl lf11is PLUS MINUS
+device rmet5 R  RMET5a rmet5 auCdl lf11is PLUS MINUS
+device rmetf R  RMETFa rmetf auCdl lf11is PLUS MINUS
+device rnpolym R RNPOLYMNW1V2 rnpolym_i auCdl lf11is PLUS MINUS B
+device rnpolym R RNPOLYMPW1V2 rnpolym_i auCdl lf11is PLUS MINUS B
+device rnpolym R RNPOLYMNW3V3 rnpolym_i auCdl lf11is PLUS MINUS B
+device rnpolym R RNPOLYMPW3V3 rnpolym_i auCdl lf11is PLUS MINUS B
+device rnpolyh R RNPOLYHNW1V2 rnpolyh_i auCdl lf11is PLUS MINUS B
+device rnpolyh R RNPOLYHPW1V2 rnpolyh_i auCdl lf11is PLUS MINUS B
+device rnpolyh R RNPOLYHNW3V3 rnpolyh_i auCdl lf11is PLUS MINUS B
+device rnpolyh R RNPOLYHPW3V3 rnpolyh_i auCdl lf11is PLUS MINUS B
+device rppolym R RPPOLYMNW1V2 rppolym_i auCdl lf11is PLUS MINUS B
+device rppolym R RPPOLYMPW1V2 rppolym_i auCdl lf11is PLUS MINUS B
+device rppolym R RPPOLYMNW3V3 rppolym_i auCdl lf11is PLUS MINUS B
+device rppolym R RPPOLYMPW3V3 rppolym_i auCdl lf11is PLUS MINUS B
+device pnp5ux5u   Q  PNP5UX5U   pnp5ux5u auCdl lf11is C B E
+device nvar1v2hvt X NVAR1V2HVTNOISO nvar1v2hvt auCdl lf11is PLUS MINUS B
+device nvar1v2hvt X NVAR1V2HVTISO   nvar1v2hvt auCdl lf11is PLUS MINUS B
+device nvar1v2rvt X NVAR1V2RVT      nvar1v2hvt auCdl lf11is PLUS MINUS B
+device nvar3v3rvt X NVAR3V3RVTNOISO nvar3v3rvt auCdl lf11is PLUS MINUS B
+device nvar3v3rvt X NVAR3V3RVTISO   nvar3v3rvt auCdl lf11is PLUS MINUS B
+Loading CDLOUT map files for /home/saul/projects/LF_BG/pvsRunLVS/REF_GEN/REF_GEN_fL_2
+
+Creating extracted view for REF_GEN_fL_2
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X312/X45/M0" in subckt REF_GEN_fL_2 renamed "X312/X45/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X312/X47/M0" in subckt REF_GEN_fL_2 renamed "X312/X47/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X530/M0" in subckt REF_GEN_fL_2 renamed "X314/X530/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X531/M0" in subckt REF_GEN_fL_2 renamed "X314/X531/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X540/M0" in subckt REF_GEN_fL_2 renamed "X314/X540/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X541/M0" in subckt REF_GEN_fL_2 renamed "X314/X541/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X542/M0" in subckt REF_GEN_fL_2 renamed "X314/X542/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X546/M0" in subckt REF_GEN_fL_2 renamed "X314/X546/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X577/M0" in subckt REF_GEN_fL_2 renamed "X314/X577/M0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X314/X578/M0" in subckt REF_GEN_fL_2 renamed "X314/X578/M0_unmatched"
+
+*WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolym/schematic' is not a SKILL super master.
+                       The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+Copying layer METAL1a
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/64" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/65" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/66" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/67" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/68" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/69" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/70" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/71" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/72" in subckt REF_GEN_fL_2.
+
+INFO (LBCLV-5365): spice2db warning: No reference for net "X314/73" in subckt REF_GEN_fL_2.
+
+Layer METAL1a has 14412 shapes.
+Copying layer METAL2a
+Layer METAL2a has 4680 shapes.
+Copying layer METAL3a
+Layer METAL3a has 697 shapes.
+Copying layer METAL4a
+Layer METAL4a has 4 shapes.
+Copying layer METAL5a
+Layer METAL5a has 42 shapes.
+Copying layer METALFa
+Warning: There is no layer METAL_F defined in the library' techfile
+No shapes for layer METALFa will be processed
+Copying layer POLYG3
+Layer POLYG3 has 11565 shapes.
+*WARNING* (DB-220704): The Pcell super master 'lf11is/rnpolyh/schematic' is not a SKILL super master.
+                       The usage of non-SKILL Pcells in Virtuoso is not a supported feature.
+
+
+Summary for REF_GEN/REF_GEN_fL_2/av_extracted
+
+instance count totals:
+
+    lib              cell             view                    total
+    analogLib        pcapacitor       symbol                 106426
+    analogLib        presistor        symbol                  53551
+    lf11is           cmims            auCdl                      10
+    lf11is           dnppw1v2         auCdl                       1
+    lf11is           ncap1v2hvt       auCdl                       8
+    lf11is           nmos1v2hvt_4     auCdl                     556
+    lf11is           pmos1v2hvt_4     auCdl                     724
+    lf11is           pnp5ux5u         auCdl                     266
+    lf11is           rnpolyh_i        auCdl                     321
+    lf11is           rnpolym_i        auCdl                     592
+
+Extracted view creation has completed.
