@@ -1,0 +1,34 @@
+// VerilogA for REF_GEN, CONSTANT_GM_2_fL, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module CONSTANT_GM_2_fL(EN, GNDA, IOUT1, IOUT2, VDDA);
+inout EN;
+electrical EN;
+inout GNDA;
+electrical GNDA;
+inout IOUT1;
+electrical IOUT1;
+inout IOUT2;
+electrical IOUT2;
+inout VDDA;
+electrical VDDA;
+
+real value;
+
+analog begin
+
+	@(cross(V(EN) - V(VDDA)/2))
+        ;
+
+	 if (V(EN) < V(VDDA)/2)
+     	    value = 0;
+ 	 else
+ 		    value = 200e-9; //Nominal value of reference currents
+
+	I(GNDA,IOUT1) <+ transition(value, 0, 100n);
+	I(GNDA,IOUT2) <+ transition(value, 0, 100n);
+end
+
+endmodule

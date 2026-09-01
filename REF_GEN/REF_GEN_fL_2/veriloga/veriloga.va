@@ -1,0 +1,310 @@
+// VerilogA for REF_GEN, REF_GEN_fL_2, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module REF_GEN_fL_2(\128nASrcT , BG_SL_TRIM, BG_TRIM, CJ_G1, CJ_G2, CJ_G3, CJ_G4, CL1X_1, CL4X_1, CL4X_2, EN, GNDA, GNDD, LDO_REF, LDO_SEL, LVDS_REF, LVDS_SEL, PRN, REF_TRIM, Test128nASrc, TestVbg, V550, V1000, VBREF_SEL, VDDA, VDDD, VbgT);
+inout \128nASrcT ;
+electrical \128nASrcT ;
+inout [2:0] BG_SL_TRIM;
+electrical [2:0] BG_SL_TRIM;
+inout [2:0] BG_TRIM;
+electrical [2:0] BG_TRIM;
+inout [0:5] CJ_G1;
+electrical [0:5] CJ_G1;
+inout [0:5] CJ_G2;
+electrical [0:5] CJ_G2;
+inout [0:5] CJ_G3;
+electrical [0:5] CJ_G3;
+inout [0:5] CJ_G4;
+electrical [0:5] CJ_G4;
+inout CL1X_1;
+electrical CL1X_1;
+inout CL4X_1;
+electrical CL4X_1;
+inout CL4X_2;
+electrical CL4X_2;
+inout EN;
+electrical EN;
+inout GNDA;
+electrical GNDA;
+inout GNDD;
+electrical GNDD;
+inout LDO_REF;
+electrical LDO_REF;
+inout [1:0] LDO_SEL;
+electrical [1:0] LDO_SEL;
+inout LVDS_REF;
+electrical LVDS_REF;
+inout [2:0] LVDS_SEL;
+electrical [2:0] LVDS_SEL;
+inout PRN;
+electrical PRN;
+inout [2:0] REF_TRIM;
+electrical [2:0] REF_TRIM;
+inout Test128nASrc;
+electrical Test128nASrc;
+inout TestVbg;
+electrical TestVbg;
+inout V550;
+electrical V550;
+inout V1000;
+electrical V1000;
+inout VBREF_SEL;
+electrical VBREF_SEL;
+inout VDDA;
+electrical VDDA;
+inout VDDD;
+electrical VDDD;
+inout VbgT;
+electrical VbgT;
+
+real enable = 0;
+real testvbg = 0;
+real test128nASrc = 0;
+
+real cur128 = 128e-9;
+real cur32 = 32e-9;
+
+real prn = 1.2;
+real prn_next = 0;
+integer prn_state = 0;
+
+
+integer ldo_sel = 0;
+integer lvds_sel = 0;
+integer bg_trim = 0;
+integer bg_sl_trim = 0;
+integer ref_trim = 0;
+real gain_trim = 1;
+
+parameter real vbg_int = 0.6;
+real vbg_ext = 0;
+real vbg = 0;
+
+real vbref_sel;
+
+real r_on = 10;       // Output resistance when enabled (Ohms)
+real r_off = 1e9;     // High impedance output resistance (Ohms)
+real target_v;
+real current_r;
+
+genvar i;
+
+analog begin
+
+
+	vbg_ext = V(VbgT);
+
+	//LDO_SEL
+	ldo_sel = 0;
+	for (i = 0; i < 2; i = i + 1) begin
+        @(cross(V(LDO_SEL[i]) - V(VDDD)/2))
+            ;
+        if (V(LDO_SEL[i]) > V(VDDD)/2) begin
+           ldo_sel  =  ldo_sel + (1 << i);
+	       $strobe("ldo changed to %d", ldo_sel);		
+		end
+	end
+
+	//LVDS_SEL
+	lvds_sel = 0;
+	for (i = 0; i < 3; i = i + 1) begin
+        @(cross(V(LVDS_SEL[i]) - V(VDDD)/2))
+            ;
+        if (V(LVDS_SEL[i]) > V(VDDD)/2) begin
+           lvds_sel  =  lvds_sel + (1 << i);
+	       $strobe("lvds changed to %d", lvds_sel);		
+		end
+	end
+
+	//BG_TRIM
+	bg_trim = 0;
+	for (i = 0; i < 3; i = i + 1) begin
+        @(cross(V(BG_TRIM[i]) - V(VDDD)/2))
+            ;
+        if (V(BG_TRIM[i]) > V(VDDD)/2) begin
+           bg_trim  =  bg_trim + (1 << i);
+	       $strobe("bgtrim changed to %d", bg_trim);		
+		end
+	end
+
+	//BG_SL_TRIM
+	bg_sl_trim = 0;
+	for (i = 0; i < 3; i = i + 1) begin
+        @(cross(V(BG_SL_TRIM[i]) - V(VDDD)/2))
+            ;
+        if (V(BG_SL_TRIM[i]) > V(VDDD)/2) begin
+           bg_sl_trim  =  bg_sl_trim + (1 << i);
+	       $strobe("bg_sl_trim changed to %d", bg_sl_trim);		
+		end
+	end
+
+	//REF_TRIM
+	ref_trim = 0;
+	gain_trim = 1 + 10e-3; // Initial value for REF_TRIM[] = 0
+	for (i = 0; i < 3; i = i + 1) begin
+        @(cross(V(REF_TRIM[i]) - V(VDDD)/2))
+            ;
+        if (V(REF_TRIM[i]) > V(VDDD)/2) begin
+           ref_trim  =  ref_trim + (1 << i);
+		   gain_trim = 1.0 - 2.5e-3*(ref_trim - 3);	
+	       $strobe("ref_trim changed to %d", ref_trim);		
+		end
+	end
+
+
+	//Test128nASrc
+	@(cross(V(Test128nASrc) - V(VDDD)/2))
+		;
+
+	 if (V(Test128nASrc) < V(VDDD)/2)
+     	    test128nASrc = 0;
+ 	 else
+ 		    test128nASrc = 1;
+
+
+	//vbref_sel
+	@(cross(V(VBREF_SEL) - V(VDDD)/2))
+		;
+
+	 if (V(VBREF_SEL) < V(VDDD)/2) begin
+    	    vbref_sel = 0;
+		vbg = vbg_int + (2e-3*(bg_trim-3)) - (3e-3*(bg_sl_trim-3)) ;	
+	 end	 else begin
+ 	    vbref_sel = 1;
+		vbg = vbg_ext;
+	 end
+
+
+	//Enable
+	@(cross(V(EN)-V(VDDD)/2))
+		;
+	 if (V(EN) < V(VDDD)/2) begin
+     	   enable = 0;
+		   $strobe("enable changed to %e", enable);
+	 end	 else begin
+ 		   enable = 1;
+		   $strobe("enable changed to %e", enable);
+	end
+
+
+	//PRN 
+	// prn_state 0 -> EN = 0V, prn = 1.2V
+	// prn_state 1 -> EN = 1.2V, prn = 0V
+	// prn_state 2 -> EN = 1.2V, prn = 1.2V 
+	@(timer(0,prn_next)) begin
+	    //$strobe("Timer detected at %e", $abstime);
+		if ((V(EN)-V(VDDD)/2) > 0) begin
+			if (prn_state == 0) begin 
+				prn = 0;
+				prn_state = 1;
+			end else begin
+				prn = 1.2;
+				prn_state = 2;					
+			end
+		end else begin
+			prn = 1.2;
+			prn_state = 0;
+		end
+	end
+
+
+	//TestVbg
+	// TRI-STATE-BUFFER
+	@(cross(V(TestVbg) - V(VDDD)/2))
+		;
+
+	 if (V(TestVbg) < V(VDDD)/2) begin
+     	    testvbg = 0;
+			current_r = r_off;
+			target_v = V(VbgT,GNDA);
+	 end else begin
+ 		    testvbg = 1;
+			current_r = r_on;
+		    target_v = vbg;
+	 end
+
+	//Initial values
+	 @(initial_step) begin
+	    $strobe("Starting simulation for module at %e", $abstime);
+        prn = 1.2;
+		prn_next = 200e-6; 	
+		prn_state = 0;
+	
+
+      end
+
+	// Voltage Assignments
+
+	I(VbgT) <+ (V(VbgT) - target_v) / current_r; //Assignment for 3-state buffer
+
+	V(PRN,GNDA) <+  transition(prn, 0, 10n);
+
+	V(V1000,GNDA) <+ transition(enable*gain_trim*vbg*1.6666, 0, 100n);
+	V(V550,GNDA) <+ transition(enable*gain_trim*vbg*0.91666, 0, 100n);
+
+	
+	 case (ldo_sel)
+            0: 	V(LDO_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.16666), 0, 100n); //700mV
+            1:   V(LDO_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.3333), 0, 100n); //800mV
+            2:   V(LDO_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.5), 0, 100n); //900mV
+            3:   V(LDO_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.6666), 0, 100n); //1000mV
+            default:  V(LDO_REF,GNDA) <+ 0;
+     endcase
+
+	 case (lvds_sel)
+            0: 	V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.375), 0, 100n); //825mV
+            1:   V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.41666), 0, 100n); //850mV
+            2:   V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.45833), 0, 100n); //875mV
+            3:   V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.5), 0, 100n); //900mV
+            4:   V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.54166), 0, 100n); //925mV
+            5:   V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.58333), 0, 100n); //950mV
+            6:   V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.625), 0, 100n); //975mV
+            7:   V(LVDS_REF,GNDA) <+ transition((enable*gain_trim*vbg*1.08333), 0, 100n); //650mV
+            default:  V(LVDS_REF,GNDA) <+ 0;
+     endcase
+	
+	
+	// Current Assigmemts
+
+	I(GNDA,\128nASrcT ) <+ transition(enable*cur128*test128nASrc, 0, 100n);
+
+	I(GNDA,CL1X_1) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CL4X_1) <+ transition(enable*cur128, 0, 100n);
+	I(GNDA,CL4X_2) <+ transition(enable*cur128, 0, 100n);
+
+	I(GNDA,CJ_G1[0]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G1[1]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G1[2]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G1[3]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G1[4]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G1[5]) <+ transition(enable*cur128, 0, 100n);
+
+	I(GNDA,CJ_G2[0]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G2[1]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G2[2]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G2[3]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G2[4]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G2[5]) <+ transition(enable*cur128, 0, 100n);
+
+	I(GNDA,CJ_G3[0]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G3[1]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G3[2]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G3[3]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G3[4]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G3[5]) <+ transition(enable*cur128, 0, 100n);
+
+	I(GNDA,CJ_G4[0]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G4[1]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G4[2]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G4[3]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G4[4]) <+ transition(enable*cur32, 0, 100n);
+	I(GNDA,CJ_G4[5]) <+ transition(enable*cur128, 0, 100n);
+
+
+
+end
+
+
+endmodule

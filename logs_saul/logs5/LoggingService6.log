@@ -1,0 +1,6 @@
+[Logging Service: 6]
+[2026-08-31 21:17:36.818 Z] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/maestro/results/maestro"}
+[2026-08-31 21:17:36.818 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "edatools", "processid": 61570, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/LoggingService6.log"}
+[2026-08-31 22:17:37.603 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 60.9141 MBytes, peak memory used: 60.9141 MBytes {"hostname": "edatools", "processid": 61570, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/LoggingService6.log"}
+[2026-08-31 22:17:37.603 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "edatools", "processid": 61570, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/LoggingService6.log"}
+[2026-08-31 22:17:37.603 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "edatools", "processid": 61570, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/LoggingService6.log"}

@@ -1,109 +1,108 @@
-*Info*    Exporting services from client ... 
-
-*Info*    Client has finished starting ... 
-
-
-
-*Info*    Configuring the session ...
-
-	Library      = REF_GEN
-	Cell         = REF_GEN_f_TB
-	View         = config
-	Simulator    = spectre
-	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = OP_none_Interactive.190
-	Results DB   = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.190.rdb
-	Results Dir  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.190/1/OP
-	Results Loc  = /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data
-	Project Dir  = /home/saul/simulation
-	Setup DB loc = /home/saul/projects/LF_BG/REF_GEN/REF_GEN_f_TB/adexl
-	File Encoding = 0
-
-
-WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
-
-*Info*    The auto suspension is disabled.
-
-
-
-
-
-
-*Info*    Run start for Point ID (2 1) on testbench [ OP ].
-
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting var CL = "150f"
-Setting var CL2 = "3p"
-Setting var CONF_BG_SL_TRIM = "3"
-Setting var CONF_BG_TRIM = "3"
-Setting var CONF_LDO_SEL = "0"
-Setting var CONF_LVDS_SEL = "0"
-Setting var CONF_REF_TRIM = "3"
-Setting var EN = "1.2"
-Setting var EN_PULSE = "0"
-Setting var PD = "0"
-Setting var PD_PULSE = "0"
-Setting var TT = "1u"
-Setting var VDD = "1.2"
-Setting var VDD_PULSE = "0"
-Setting var temperature = "85.0"
-Setting temp(T) = 85.0
-
-*Info*    Netlist Directory =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.190/1/OP/netlist
-
-
-*Info*    Data Directory    =
-          /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.190/1/OP
-
-
-*Info*    Creating Netlist for Point ID (2 1)
-
-generate netlist...
-Loading hnlInit.cxt 
-Loading seCore.cxt 
-Begin Incremental Netlisting Aug  5 08:33:31 2026
-End netlisting Aug  5 08:33:32 2026
-
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   1.0s
-      ...successful.
-compose simulator input file...
-      ...successful.
-
-*Info*    Running simulation on testbench [ OP ] for Point ID (2 1).
-
-Delete psf data in /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.190/1/OP/psf.
-compose simulator input file...
-      ...successful.
-start simulator if needed...
-      ...successful.
-simulate...
-To view the simulator output, right-click on the test name, result 
-name, or any value in the "Results" tab of the Outputs section and 
-choose "Output Log" menu option.
-Loading paraplot.cxt 
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
-
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.190/1/OP. Use results() for a list of available results.
-WARNING (OCN-6038): Results xf are not available for /home/saul/simulation/REF_GEN/REF_GEN_f_TB/adexl/results/data/Interactive.190/1/OP. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'V/V /V0; xf dB20(V/V)' returned 'nil' for point:'1' test:'OP'
-	Expression:'db(getData("/V0" ?result "xf"))'.
-Ensure that the definition of output is correct.
-
-
-*Info*    Run complete for Point ID (2 1) on testbench [ OP ].
-
-
-
-
-
-Simulation design variables differ from those on the cellView,
-they have been saved in the file "/tmp/saved-design-variables".
-To save future changes, copy variables to cellView before exiting.
+[Simulation Monitor: 5]
+[2026-08-31 08:28:30.705 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor has successfully started up. Trying to set up communication channels to other components ... {"hostname": "edatools", "processid": 28120, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:28:30.705 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Communication channels have been successfully set up. Start processing events ... {"hostname": "edatools", "processid": 28120, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:28:30.705 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Considering to start history {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:28:30.707 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	edatools (x86_64)
+Operating system:	Linux 7.0.0-30-generic #30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2 {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "nodename": "edatools", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "7.0.0-30-generic", "version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2"}
+[2026-08-31 08:28:30.707 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=28120
+totalPhysicalMemory=62.541851GB,Used=16.890324GB,totalVirtualMemory=70.541847GB,Used=16.890324GB
+Cpu: Cores=16, Load average:0.380000,0.320000,0.180000 {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "pid": "28120", "totalPhysicalMemory": "62.541851", "physicalMemoryUsed": "16.890324", "totalVirtualMemory": "70.541847", "virtualMemoryUsed": "16.890324", "cpuCores": "16", "processes": "1643", "loadAverage1": "0.380000", "loadAverage5": "0.320000", "loadAverage15": "0.180000", "loadAverage1Percent": "0.023750"}
+[2026-08-31 08:28:30.707 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "Interactive.9", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "logFileSize": "2125"}
+[2026-08-31 08:28:30.808 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "Interactive.9", "logFile": "/home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.9/1/REF_GEN_CONSTANT_GM_f_TB_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-08-31 08:28:30.883 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "simid": "1"}
+[2026-08-31 08:28:30.884 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:28:30.914 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "event": "started", "task": "simulation"}
+[2026-08-31 08:28:31.414 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.415 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 173 Mbytes. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.415 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 182 Mbytes. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.415 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.415 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16718): inlinesubcktcurrent option is set as `subckt', all the inline subckts will be treated as normal subckts when you access the current of their terminals. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.415 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 184 Mbytes. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.416 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.416 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 7 {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.416 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    1 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    Spectre X preset=mx enabled. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.416 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 187 Mbytes. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.416 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.416 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.917 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 7.74 ms, elapsed = 11.272 ms, util. = 68.7%. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.918 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 191 Mbytes. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.919 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 780 us, elapsed = 4.47106 ms, util. = 17.4%. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.919 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 191 Mbytes. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.920 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 209 ms, elapsed = 386 ms, util. = 54%. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.920 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 263 ms, percentage of total = 68.1%. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.921 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 192 Mbytes. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.921 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 8:28:31 AM, Mon Aug 31, 2026, ended at: 8:28:31 AM, Mon Aug 31, 2026, with elapsed time (wall clock): 386 ms. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.922 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 0 errors, 1 warning, and 9 notices. {"history": "Interactive.9", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:28:31.922 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "simid": "1"}
+[2026-08-31 08:28:31.923 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator exited {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "exitStatus": "0"}
+[2026-08-31 08:28:31.923 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "simid": "1"}
+[2026-08-31 08:28:33.440 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "edatools", "processid": 28120, "history": "Interactive.9", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:29:13.230 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started History {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:29:13.231 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	edatools (x86_64)
+Operating system:	Linux 7.0.0-30-generic #30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2 {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "nodename": "edatools", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "7.0.0-30-generic", "version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2"}
+[2026-08-31 08:29:13.231 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=28120
+totalPhysicalMemory=62.541851GB,Used=16.918751GB,totalVirtualMemory=70.541847GB,Used=16.918751GB
+Cpu: Cores=16, Load average:0.350000,0.320000,0.190000 {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "pid": "28120", "totalPhysicalMemory": "62.541851", "physicalMemoryUsed": "16.918751", "totalVirtualMemory": "70.541847", "virtualMemoryUsed": "16.918751", "cpuCores": "16", "processes": "1669", "loadAverage1": "0.350000", "loadAverage5": "0.320000", "loadAverage15": "0.190000", "loadAverage1Percent": "0.021875"}
+[2026-08-31 08:29:13.232 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "Interactive.10", "logFile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "logFileSize": "12985"}
+[2026-08-31 08:29:13.334 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "Interactive.10", "logFile": "/home/saul/simulation/REF_GEN/CONSTANT_GM_f_TB/maestro/results/maestro/Interactive.10/1/REF_GEN_CONSTANT_GM_f_TB_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-08-31 08:29:13.418 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "simid": "2"}
+[2026-08-31 08:29:13.419 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:29:13.444 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "event": "started", "task": "simulation"}
+[2026-08-31 08:29:13.944 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 168 Mbytes. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-2649): Terminals of top-level instance `M14', in file`input.scs', at line 112, are connected. Remove the instance and rerun the simulation. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-2649): Terminals of top-level instance `M15', in file`input.scs', at line 152, are connected. Remove the instance and rerun the simulation. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3031): The floating capacitor I0.R1.R_0_74.cn is removed. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 184 Mbytes. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16718): inlinesubcktcurrent option is set as `subckt', all the inline subckts will be treated as normal subckts when you access the current of their terminals. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 186 Mbytes. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 168 {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    1 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    Spectre X preset=mx enabled. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 190 Mbytes. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(net5) = 1.84088 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 104.876 ms, elapsed = 115.675 ms, util. = 90.7%. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:13.945 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 201 Mbytes. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.446 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(net5) = 1.84088 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.447 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 6.408 ms, elapsed = 11.7929 ms, util. = 54.3%. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.448 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 201 Mbytes. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.448 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 311 ms, elapsed = 402 ms, util. = 77.4%. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.448 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 32.9 ms, percentage of total = 8.19%. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.449 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 202 Mbytes. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.449 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 8:29:13 AM, Mon Aug 31, 2026, ended at: 8:29:13 AM, Mon Aug 31, 2026, with elapsed time (wall clock): 402 ms. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.450 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 0 errors, 4 warnings, and 11 notices. {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:14.450 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "simid": "2"}
+[2026-08-31 08:29:14.450 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator exited {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "exitStatus": "0"}
+[2026-08-31 08:29:14.450 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "simid": "2"}
+[2026-08-31 08:29:15.964 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:29:54.336 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - get signal Terminated<15> from user:saul, which pid:28118:/opt/tools/cadence/installs/IC618/tools/bin/64bit/cdsServIpc {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log", "signal": "15", "signalName": "Terminated", "which": "/opt/tools/cadence/installs/IC618/tools/bin/64bit/cdsServIpc", "pid": "28118", "user": "saul", "uid": "1000"}
+[2026-08-31 08:29:54.336 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - SimulationMonitor has terminated the  process '28660', reason: 'simulationMonitor is handling signal 15' {"history": "Interactive.10", "point": 1, "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal"}
+[2026-08-31 08:29:54.837 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Current memory used: 53.5547 MBytes, peak memory used: 53.5547 MBytes {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
+[2026-08-31 08:29:54.837 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor process exit. {"hostname": "edatools", "processid": 28120, "history": "Interactive.10", "testname": "REF_GEN_CONSTANT_GM_f_TB_1", "cornername": "Nominal", "point": 1, "logfile": "/home/saul/projects/LF_BG/logs_saul/logs5/Job5.log"}
